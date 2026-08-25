@@ -1,0 +1,343 @@
+PhoneME CoreBridge full diagnostic log
+exportedAt=2026-08-25 12:15:09.725
+package=com.phoneme.corebridge
+
+--- Java/UI persistent log ---
+2026-08-25 12:14:51.527 --- CoreBridge Java log started ---
+2026-08-25 12:14:51.540 Ứng dụng khởi động; chờ chọn JAR/JAD.
+2026-08-25 12:14:51.540 Core C API: 0x10200
+2026-08-25 12:14:51.540 nativeConfigure=0 home=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime
+2026-08-25 12:14:51.540 Java log file=/data/user/0/com.phoneme.corebridge/files/corebridge-session.log
+2026-08-25 12:14:51.540 Native log file=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/corebridge-native.log
+2026-08-25 12:14:57.021 Mở game từ quản lý ứng dụng: haitac_x2.jar
+2026-08-25 12:14:57.022 Canvas launch size=360x640
+2026-08-25 12:14:57.022 LCDUI clone records reset for new JAR
+2026-08-25 12:14:57.023 --- Bắt đầu CoreBridge ---
+2026-08-25 12:14:57.023 gamePath=/data/user/0/com.phoneme.corebridge/files/game-library/1787634881821_haitac_x2.jar
+2026-08-25 12:14:57.023 mainClass=quyetdaik/quyetdaik
+2026-08-25 12:14:57.066 nativeStartJarScoped scope=1787634881821 0
+2026-08-25 12:14:57.067 Host presentation switched to game session
+2026-08-25 12:14:57.067 FRAME: render loop started
+2026-08-25 12:14:57.067 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=37 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0 
+2026-08-25 12:14:57.068 LCDUI MIDlet lifecycle kind=1 id=1 destroyed=false paused=false detail= programKey=
+2026-08-25 12:14:57.069 LCDUI raw screen event kind=3 id=100007 componentType=23 arg0=1 arg1=0 arg2=0 arg3=-1006 title=Danh sách chương trình
+2026-08-25 12:14:57.069 LCDUI command owner screen=100007 count=0
+2026-08-25 12:14:57.069 LCDUI hide/suspend arrived without active programKey
+2026-08-25 12:14:57.069 LCDUI Program List arrived after terminalized game Exit; clone remains stopped programKey= runningKeys=[]
+2026-08-25 12:14:57.070 FRAME: frame delivery suspended; VM pump retained
+2026-08-25 12:14:57.070 LCDUI screen kind=List id=100007
+2026-08-25 12:14:57.071 LCDUI item event kind=7 item=100017 parent=100001 index=0 type=15 arg0=10 arg1=2 arg2=2 arg3=-1001 labelLength=12 valueLength=2
+2026-08-25 12:14:57.072 LCDUI stale labeled Form item cached while List active item=100017 parent=100001 type=15 index=0
+2026-08-25 12:14:57.072 LCDUI item event kind=7 item=100017 parent=100001 index=0 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005 labelLength=12 valueLength=0
+2026-08-25 12:14:57.072 LCDUI item style event ignored item=100017 parent=100001 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005
+2026-08-25 12:14:57.072 LCDUI item event kind=9 item=100017 parent=100001 index=0 type=15 arg0=10 arg1=2 arg2=2 arg3=-1001 labelLength=12 valueLength=2
+2026-08-25 12:14:57.072 LCDUI stale labeled Form item cached while List active item=100017 parent=100001 type=15 index=0
+2026-08-25 12:14:57.072 LCDUI item event kind=9 item=100017 parent=100001 index=0 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005 labelLength=12 valueLength=0
+2026-08-25 12:14:57.072 LCDUI item style event ignored item=100017 parent=100001 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005
+2026-08-25 12:14:57.072 LCDUI item event kind=7 item=100018 parent=100001 index=1 type=15 arg0=10 arg1=2 arg2=3 arg3=-1001 labelLength=26 valueLength=3
+2026-08-25 12:14:57.073 LCDUI stale labeled Form item cached while List active item=100018 parent=100001 type=15 index=1
+2026-08-25 12:14:57.073 LCDUI item event kind=7 item=100018 parent=100001 index=1 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005 labelLength=26 valueLength=0
+2026-08-25 12:14:57.073 LCDUI item style event ignored item=100018 parent=100001 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005
+2026-08-25 12:14:57.073 LCDUI item event kind=9 item=100018 parent=100001 index=1 type=15 arg0=10 arg1=2 arg2=3 arg3=-1001 labelLength=26 valueLength=3
+2026-08-25 12:14:57.073 LCDUI stale labeled Form item cached while List active item=100018 parent=100001 type=15 index=1
+2026-08-25 12:14:57.073 LCDUI item event kind=9 item=100018 parent=100001 index=1 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005 labelLength=26 valueLength=0
+2026-08-25 12:14:57.073 LCDUI item style event ignored item=100018 parent=100001 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005
+2026-08-25 12:14:57.073 LCDUI item event kind=7 item=100005 parent=100001 index=2 type=15 arg0=20 arg1=65536 arg2=0 arg3=-1001 labelLength=12 valueLength=0
+2026-08-25 12:14:57.073 LCDUI stale labeled Form item cached while List active item=100005 parent=100001 type=15 index=2
+2026-08-25 12:14:57.073 LCDUI item event kind=7 item=100005 parent=100001 index=2 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005 labelLength=12 valueLength=0
+2026-08-25 12:14:57.073 LCDUI item style event ignored item=100005 parent=100001 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005
+2026-08-25 12:14:57.073 LCDUI item event kind=9 item=100005 parent=100001 index=2 type=15 arg0=20 arg1=65536 arg2=0 arg3=-1001 labelLength=12 valueLength=0
+2026-08-25 12:14:57.074 LCDUI stale labeled Form item cached while List active item=100005 parent=100001 type=15 index=2
+2026-08-25 12:14:57.074 LCDUI item event kind=9 item=100005 parent=100001 index=2 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005 labelLength=12 valueLength=0
+2026-08-25 12:14:57.074 FRAME: copied generation=1 checksum=a9df1d5340c2c325 changed=true copyCount=1
+2026-08-25 12:14:57.074 LCDUI item style event ignored item=100005 parent=100001 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005
+2026-08-25 12:14:57.074 LCDUI item event kind=7 item=100019 parent=100001 index=3 type=15 arg0=200 arg1=0 arg2=11 arg3=-1001 labelLength=18 valueLength=11
+2026-08-25 12:14:57.074 LCDUI stale labeled Form item cached while List active item=100019 parent=100001 type=15 index=3
+2026-08-25 12:14:57.074 LCDUI item event kind=7 item=100019 parent=100001 index=3 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005 labelLength=18 valueLength=0
+2026-08-25 12:14:57.074 LCDUI item style event ignored item=100019 parent=100001 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005
+2026-08-25 12:14:57.074 LCDUI item event kind=9 item=100019 parent=100001 index=3 type=15 arg0=200 arg1=0 arg2=11 arg3=-1001 labelLength=18 valueLength=11
+2026-08-25 12:14:57.074 LCDUI stale labeled Form item cached while List active item=100019 parent=100001 type=15 index=3
+2026-08-25 12:14:57.074 LCDUI item event kind=9 item=100019 parent=100001 index=3 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005 labelLength=18 valueLength=0
+2026-08-25 12:14:57.074 LCDUI item style event ignored item=100019 parent=100001 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005
+2026-08-25 12:14:57.074 LCDUI raw screen event kind=4 id=100007 componentType=23 arg0=0 arg1=0 arg2=0 arg3=0 title=Danh sách chương trình
+2026-08-25 12:14:57.075 LCDUI command owner screen=100007 count=0
+2026-08-25 12:14:57.075 LCDUI List update finalizing arrival before render id=100007 hostNavigationArmed=false canvasPresented=false pending=
+2026-08-25 12:14:57.075 LCDUI hide/suspend arrived without active programKey
+2026-08-25 12:14:57.075 LCDUI Program List arrived after terminalized game Exit; clone remains stopped programKey= runningKeys=[]
+2026-08-25 12:14:57.075 LCDUI screen shown kind=List update id=100007
+2026-08-25 12:14:57.076 LCDUI command owner screen=100007 count=0
+2026-08-25 12:14:57.076 LCDUI command reset owner=100007 activeAlert=-1 activeCommand=100007 form=100007 list=true
+2026-08-25 12:14:57.076 LCDUI command add owner=100007 id=100009 type=1 label=Chạy activeAlert=-1
+2026-08-25 12:14:57.077 LCDUI command add owner=100007 id=100010 type=1 label=Dừng activeAlert=-1
+2026-08-25 12:14:57.077 LCDUI command add owner=100007 id=100014 type=1 label=Cài đặt activeAlert=-1
+2026-08-25 12:14:57.119 LCDUI command add owner=100007 id=100013 type=1 label=Thông tin activeAlert=-1
+2026-08-25 12:14:57.120 LCDUI command add owner=100007 id=100011 type=1 label=Chạy ẩn activeAlert=-1
+2026-08-25 12:14:57.120 LCDUI command add owner=100007 id=100012 type=1 label=Ánh sáng nền activeAlert=-1
+2026-08-25 12:14:57.121 LCDUI command add owner=100007 id=100015 type=7 label=Thoát activeAlert=-1
+2026-08-25 12:14:58.068 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0 
+2026-08-25 12:14:58.503 LCDUI Program List focus key=100008:0; second tap required to open
+2026-08-25 12:14:58.882 LCDUI Program List open focused key=100008:0
+2026-08-25 12:14:58.883 LCDUI clone selected programKey=100008:0; lifecycle app mapping will be captured from kind=1
+2026-08-25 12:14:58.885 LCDUI destination clone events accepted selected=100008:0 hasTextBoxRecord=false staleId=-1
+2026-08-25 12:14:58.885 FRAME: canvas switch prepared; old framebuffer dropped
+2026-08-25 12:14:59.068 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0 
+2026-08-25 12:15:00.069 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0 
+2026-08-25 12:15:01.069 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0 
+2026-08-25 12:15:02.070 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0 
+2026-08-25 12:15:03.070 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0 
+2026-08-25 12:15:04.071 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0 
+2026-08-25 12:15:05.071 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0 
+2026-08-25 12:15:06.072 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0 
+2026-08-25 12:15:07.072 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0 
+2026-08-25 12:15:08.072 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0 
+2026-08-25 12:15:09.073 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0 
+
+--- Recovered previous Java/UI log: corebridge-session-recovered-20260825-121451-526.log ---
+2026-08-25 12:14:33.242 --- CoreBridge Java log started ---
+2026-08-25 12:14:33.260 Ứng dụng khởi động; chờ chọn JAR/JAD.
+2026-08-25 12:14:33.260 Core C API: 0x10200
+2026-08-25 12:14:33.260 nativeConfigure=0 home=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime
+2026-08-25 12:14:33.260 Java log file=/data/user/0/com.phoneme.corebridge/files/corebridge-session.log
+2026-08-25 12:14:33.260 Native log file=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/corebridge-native.log
+2026-08-25 12:14:34.885 Đã cấp quyền truy cập bộ nhớ.
+2026-08-25 12:14:41.829 Đã lưu game vào thư viện: /data/user/0/com.phoneme.corebridge/files/game-library/1787634881821_haitac_x2.jar
+2026-08-25 12:14:41.835 Đã chọn và lưu game: /data/user/0/com.phoneme.corebridge/files/game-library/1787634881821_haitac_x2.jar
+2026-08-25 12:14:41.835 MIDlet class: quyetdaik.quyetdaik
+2026-08-25 12:14:42.866 Đã lưu thiết lập app: haitac_x2.jar canvas=360x640 aspect=true scale=100 position=1 mode=0
+2026-08-25 12:14:42.867 Canvas launch size=360x640
+2026-08-25 12:14:42.868 LCDUI clone records reset for new JAR
+2026-08-25 12:14:42.868 --- Bắt đầu CoreBridge ---
+2026-08-25 12:14:42.868 gamePath=/data/user/0/com.phoneme.corebridge/files/game-library/1787634881821_haitac_x2.jar
+2026-08-25 12:14:42.868 mainClass=quyetdaik/quyetdaik
+2026-08-25 12:14:42.925 nativeStartJarScoped scope=1787634881821 0
+2026-08-25 12:14:42.926 Host presentation switched to game session
+2026-08-25 12:14:42.927 FRAME: render loop started
+2026-08-25 12:14:42.927 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=37 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0 
+2026-08-25 12:14:42.933 LCDUI MIDlet lifecycle kind=1 id=1 destroyed=false paused=false detail= programKey=
+2026-08-25 12:14:42.935 LCDUI raw screen event kind=3 id=100007 componentType=23 arg0=1 arg1=0 arg2=0 arg3=-1006 title=Danh sách chương trình
+2026-08-25 12:14:42.936 LCDUI command owner screen=100007 count=0
+2026-08-25 12:14:42.936 LCDUI hide/suspend arrived without active programKey
+2026-08-25 12:14:42.937 LCDUI Program List arrived after terminalized game Exit; clone remains stopped programKey= runningKeys=[]
+2026-08-25 12:14:42.939 FRAME: frame delivery suspended; VM pump retained
+2026-08-25 12:14:42.939 LCDUI screen kind=List id=100007
+2026-08-25 12:14:42.941 LCDUI item event kind=7 item=100017 parent=100001 index=0 type=15 arg0=10 arg1=2 arg2=2 arg3=-1001 labelLength=12 valueLength=2
+2026-08-25 12:14:42.942 LCDUI stale labeled Form item cached while List active item=100017 parent=100001 type=15 index=0
+2026-08-25 12:14:42.942 LCDUI item event kind=7 item=100017 parent=100001 index=0 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005 labelLength=12 valueLength=0
+2026-08-25 12:14:42.943 LCDUI item style event ignored item=100017 parent=100001 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005
+2026-08-25 12:14:42.943 LCDUI item event kind=9 item=100017 parent=100001 index=0 type=15 arg0=10 arg1=2 arg2=2 arg3=-1001 labelLength=12 valueLength=2
+2026-08-25 12:14:42.943 LCDUI stale labeled Form item cached while List active item=100017 parent=100001 type=15 index=0
+2026-08-25 12:14:42.943 LCDUI item event kind=9 item=100017 parent=100001 index=0 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005 labelLength=12 valueLength=0
+2026-08-25 12:14:42.943 LCDUI item style event ignored item=100017 parent=100001 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005
+2026-08-25 12:14:42.944 FRAME: copied generation=1 checksum=a9df1d5340c2c325 changed=true copyCount=1
+2026-08-25 12:14:42.944 LCDUI item event kind=7 item=100018 parent=100001 index=1 type=15 arg0=10 arg1=2 arg2=3 arg3=-1001 labelLength=26 valueLength=3
+2026-08-25 12:14:42.944 LCDUI stale labeled Form item cached while List active item=100018 parent=100001 type=15 index=1
+2026-08-25 12:14:42.944 LCDUI item event kind=7 item=100018 parent=100001 index=1 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005 labelLength=26 valueLength=0
+2026-08-25 12:14:42.944 LCDUI item style event ignored item=100018 parent=100001 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005
+2026-08-25 12:14:42.944 LCDUI item event kind=9 item=100018 parent=100001 index=1 type=15 arg0=10 arg1=2 arg2=3 arg3=-1001 labelLength=26 valueLength=3
+2026-08-25 12:14:42.944 LCDUI stale labeled Form item cached while List active item=100018 parent=100001 type=15 index=1
+2026-08-25 12:14:42.945 LCDUI item event kind=9 item=100018 parent=100001 index=1 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005 labelLength=26 valueLength=0
+2026-08-25 12:14:42.945 LCDUI item style event ignored item=100018 parent=100001 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005
+2026-08-25 12:14:42.945 LCDUI item event kind=7 item=100005 parent=100001 index=2 type=15 arg0=20 arg1=65536 arg2=0 arg3=-1001 labelLength=12 valueLength=0
+2026-08-25 12:14:42.945 LCDUI stale labeled Form item cached while List active item=100005 parent=100001 type=15 index=2
+2026-08-25 12:14:42.945 LCDUI item event kind=7 item=100005 parent=100001 index=2 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005 labelLength=12 valueLength=0
+2026-08-25 12:14:42.945 LCDUI item style event ignored item=100005 parent=100001 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005
+2026-08-25 12:14:42.945 LCDUI item event kind=9 item=100005 parent=100001 index=2 type=15 arg0=20 arg1=65536 arg2=0 arg3=-1001 labelLength=12 valueLength=0
+2026-08-25 12:14:42.946 LCDUI stale labeled Form item cached while List active item=100005 parent=100001 type=15 index=2
+2026-08-25 12:14:42.946 LCDUI item event kind=9 item=100005 parent=100001 index=2 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005 labelLength=12 valueLength=0
+2026-08-25 12:14:42.946 LCDUI item style event ignored item=100005 parent=100001 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005
+2026-08-25 12:14:42.946 LCDUI item event kind=7 item=100019 parent=100001 index=3 type=15 arg0=200 arg1=0 arg2=11 arg3=-1001 labelLength=18 valueLength=11
+2026-08-25 12:14:42.946 LCDUI stale labeled Form item cached while List active item=100019 parent=100001 type=15 index=3
+2026-08-25 12:14:42.946 LCDUI item event kind=7 item=100019 parent=100001 index=3 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005 labelLength=18 valueLength=0
+2026-08-25 12:14:42.946 LCDUI item style event ignored item=100019 parent=100001 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005
+2026-08-25 12:14:42.946 LCDUI item event kind=9 item=100019 parent=100001 index=3 type=15 arg0=200 arg1=0 arg2=11 arg3=-1001 labelLength=18 valueLength=11
+2026-08-25 12:14:42.946 LCDUI stale labeled Form item cached while List active item=100019 parent=100001 type=15 index=3
+2026-08-25 12:14:42.947 LCDUI item event kind=9 item=100019 parent=100001 index=3 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005 labelLength=18 valueLength=0
+2026-08-25 12:14:42.947 LCDUI item style event ignored item=100019 parent=100001 type=15 arg0=0 arg1=0 arg2=0 arg3=-1005
+2026-08-25 12:14:42.947 LCDUI raw screen event kind=4 id=100007 componentType=23 arg0=0 arg1=0 arg2=0 arg3=0 title=Danh sách chương trình
+2026-08-25 12:14:42.947 LCDUI command owner screen=100007 count=0
+2026-08-25 12:14:42.947 LCDUI List update finalizing arrival before render id=100007 hostNavigationArmed=false canvasPresented=false pending=
+2026-08-25 12:14:42.947 LCDUI hide/suspend arrived without active programKey
+2026-08-25 12:14:42.947 LCDUI Program List arrived after terminalized game Exit; clone remains stopped programKey= runningKeys=[]
+2026-08-25 12:14:42.948 LCDUI screen shown kind=List update id=100007
+2026-08-25 12:14:42.949 LCDUI command owner screen=100007 count=0
+2026-08-25 12:14:42.949 LCDUI command reset owner=100007 activeAlert=-1 activeCommand=100007 form=100007 list=true
+2026-08-25 12:14:42.949 LCDUI command add owner=100007 id=100009 type=1 label=Chạy activeAlert=-1
+2026-08-25 12:14:42.949 LCDUI command add owner=100007 id=100010 type=1 label=Dừng activeAlert=-1
+2026-08-25 12:14:42.950 LCDUI command add owner=100007 id=100014 type=1 label=Cài đặt activeAlert=-1
+2026-08-25 12:14:42.990 LCDUI command add owner=100007 id=100013 type=1 label=Thông tin activeAlert=-1
+2026-08-25 12:14:42.991 LCDUI command add owner=100007 id=100011 type=1 label=Chạy ẩn activeAlert=-1
+2026-08-25 12:14:42.991 LCDUI command add owner=100007 id=100012 type=1 label=Ánh sáng nền activeAlert=-1
+2026-08-25 12:14:42.992 LCDUI command add owner=100007 id=100015 type=7 label=Thoát activeAlert=-1
+2026-08-25 12:14:43.889 LCDUI Program List focus key=100008:0; second tap required to open
+2026-08-25 12:14:43.927 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0 
+2026-08-25 12:14:44.234 LCDUI Program List open focused key=100008:0
+2026-08-25 12:14:44.234 LCDUI clone selected programKey=100008:0; lifecycle app mapping will be captured from kind=1
+2026-08-25 12:14:44.235 LCDUI destination clone events accepted selected=100008:0 hasTextBoxRecord=false staleId=-1
+2026-08-25 12:14:44.235 FRAME: canvas switch prepared; old framebuffer dropped
+2026-08-25 12:14:44.928 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0 
+2026-08-25 12:14:45.929 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0 
+2026-08-25 12:14:46.929 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0 
+2026-08-25 12:14:47.930 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0 
+2026-08-25 12:14:48.594 LCDUI Form command click id=100015 label=Thoát owner=100007 alert=-1
+2026-08-25 12:14:48.595 LCDUI terminal identity armed programKey=100008:0 commandId=100015 type=7 screen=100007
+2026-08-25 12:14:48.596 LCDUI Form command request id=100015
+2026-08-25 12:14:48.596 LCDUI game Exit dispatched; waiting for MIDlet destruction identity=100008:0 commandId=100015
+2026-08-25 12:14:48.597 LCDUI command scheduler before id=100015 SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0
+2026-08-25 12:14:48.598 LCDUI command scheduler after id=100015 SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=1 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0
+2026-08-25 12:14:48.612 LCDUI action error kind=100 target=100015 parent=0 index=0 arg0=0 arg1=0 arg2=0 arg3=0 text= detail=LCDUI component ID is not registered
+2026-08-25 12:14:48.930 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0 
+2026-08-25 12:14:49.257 LCDUI Form command click id=100015 label=Thoát owner=100007 alert=-1
+2026-08-25 12:14:49.258 LCDUI Form command request id=100015
+2026-08-25 12:14:49.258 LCDUI game Exit dispatched; waiting for MIDlet destruction identity=100008:0 commandId=100015
+2026-08-25 12:14:49.259 LCDUI command scheduler before id=100015 SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0
+2026-08-25 12:14:49.259 LCDUI command scheduler after id=100015 SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=1 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0
+2026-08-25 12:14:49.294 LCDUI action error kind=100 target=100015 parent=0 index=0 arg0=0 arg1=0 arg2=0 arg3=0 text= detail=LCDUI component ID is not registered
+2026-08-25 12:14:49.661 LCDUI Form command click id=100015 label=Thoát owner=100007 alert=-1
+2026-08-25 12:14:49.662 LCDUI Form command request id=100015
+2026-08-25 12:14:49.662 LCDUI game Exit dispatched; waiting for MIDlet destruction identity=100008:0 commandId=100015
+2026-08-25 12:14:49.662 LCDUI action error kind=100 target=100015 parent=0 index=0 arg0=0 arg1=0 arg2=0 arg3=0 text= detail=LCDUI component ID is not registered
+2026-08-25 12:14:49.668 LCDUI command scheduler before id=100015 SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0
+2026-08-25 12:14:49.668 LCDUI command scheduler after id=100015 SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=1 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0
+2026-08-25 12:14:49.930 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0 
+2026-08-25 12:14:50.936 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0 
+2026-08-25 12:14:51.081 Activity destroying; preparing final diagnostics.
+
+--- Native persistent log ---
+2026-08-25 12:14:33 --- CoreBridge native log session started ---
+2026-08-25 12:14:33 RMS trace sink enabled; logMode=append
+2026-08-25 12:14:33 phoneme_configure result=0 home=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime
+2026-08-25 12:14:42 starting scoped jar=/data/user/0/com.phoneme.corebridge/files/game-library/1787634881821_haitac_x2.jar scope=1787634881821 main=quyetdaik/quyetdaik size=360x640
+2026-08-25 12:14:42 [phoneMETrace][rms] op=configure root=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/games/2014407529/rms/2014407529 quota=33554432 status=ok
+2026-08-25 12:14:42 [phoneMETrace][rms-error] op=open store=quyetdaik_rms_urlmap code=11 error=RMS store does not exist
+2026-08-25 12:14:42 [phoneMETrace][rms-error] op=open store=quyetdaik_rms_setting code=11 error=RMS store does not exist
+2026-08-25 12:14:42 phoneme_start_jar_scoped succeeded scope=1787634881821
+2026-08-25 12:14:42 lcd-ui poll kind=1 id=1 parent=0 type=0 index=0 args=0,0,0,0 gen=1 textLen=0 detailLen=0
+2026-08-25 12:14:42 lcd-ui poll kind=2 id=100001 parent=0 type=23 index=0 args=0,0,0,0 gen=1 textLen=11 detailLen=0
+2026-08-25 12:14:42 lcd-ui poll kind=2 id=100004 parent=0 type=17 index=1 args=2000,0,3,-1009 gen=2 textLen=17 detailLen=0
+2026-08-25 12:14:42 lcd-ui poll kind=2 id=100007 parent=0 type=23 index=0 args=0,0,0,0 gen=3 textLen=26 detailLen=0
+2026-08-25 12:14:42 lcd-ui poll kind=3 id=100007 parent=0 type=23 index=0 args=1,0,0,-1006 gen=4 textLen=26 detailLen=0
+2026-08-25 12:14:42 lcd-ui poll kind=7 id=100008 parent=100007 type=2 index=0 args=0,0,0,0 gen=5 textLen=0 detailLen=0
+2026-08-25 12:14:42 lcd-ui poll kind=9 id=100008 parent=100007 type=2 index=0 args=0,0,0,0 gen=6 textLen=0 detailLen=0
+2026-08-25 12:14:42 lcd-ui poll kind=12 id=100008 parent=0 type=2 index=0 args=1,0,0,-25602048 gen=7 textLen=13 detailLen=0
+2026-08-25 12:14:42 lcd-ui poll kind=12 id=100008 parent=0 type=2 index=1 args=0,0,0,-25602049 gen=8 textLen=13 detailLen=0
+2026-08-25 12:14:42 lcd-ui poll kind=7 id=100017 parent=100001 type=15 index=0 args=10,2,2,-1001 gen=9 textLen=15 detailLen=2
+2026-08-25 12:14:42 lcd-ui poll kind=7 id=100017 parent=100001 type=15 index=0 args=0,0,0,-1005 gen=10 textLen=15 detailLen=0
+2026-08-25 12:14:42 lcd-ui poll kind=9 id=100017 parent=100001 type=15 index=0 args=10,2,2,-1001 gen=11 textLen=15 detailLen=2
+2026-08-25 12:14:42 lcd-ui poll kind=9 id=100017 parent=100001 type=15 index=0 args=0,0,0,-1005 gen=12 textLen=15 detailLen=0
+2026-08-25 12:14:42 lcd-ui poll kind=7 id=100018 parent=100001 type=15 index=1 args=10,2,3,-1001 gen=13 textLen=34 detailLen=3
+2026-08-25 12:14:42 lcd-ui poll kind=7 id=100018 parent=100001 type=15 index=1 args=0,0,0,-1005 gen=14 textLen=34 detailLen=0
+2026-08-25 12:14:42 lcd-ui poll kind=9 id=100018 parent=100001 type=15 index=1 args=10,2,3,-1001 gen=15 textLen=34 detailLen=3
+2026-08-25 12:14:42 lcd-ui poll kind=9 id=100018 parent=100001 type=15 index=1 args=0,0,0,-1005 gen=16 textLen=34 detailLen=0
+2026-08-25 12:14:42 lcd-ui poll kind=7 id=100005 parent=100001 type=15 index=2 args=20,65536,0,-1001 gen=17 textLen=15 detailLen=0
+2026-08-25 12:14:42 lcd-ui poll kind=7 id=100005 parent=100001 type=15 index=2 args=0,0,0,-1005 gen=18 textLen=15 detailLen=0
+2026-08-25 12:14:42 lcd-ui poll kind=9 id=100005 parent=100001 type=15 index=2 args=20,65536,0,-1001 gen=19 textLen=15 detailLen=0
+2026-08-25 12:14:42 lcd-ui poll kind=9 id=100005 parent=100001 type=15 index=2 args=0,0,0,-1005 gen=20 textLen=15 detailLen=0
+2026-08-25 12:14:42 lcd-ui poll kind=7 id=100019 parent=100001 type=15 index=3 args=200,0,11,-1001 gen=21 textLen=27 detailLen=11
+2026-08-25 12:14:42 lcd-ui poll kind=7 id=100019 parent=100001 type=15 index=3 args=0,0,0,-1005 gen=22 textLen=27 detailLen=0
+2026-08-25 12:14:42 lcd-ui poll kind=9 id=100019 parent=100001 type=15 index=3 args=200,0,11,-1001 gen=23 textLen=27 detailLen=11
+2026-08-25 12:14:42 lcd-ui poll kind=9 id=100019 parent=100001 type=15 index=3 args=0,0,0,-1005 gen=24 textLen=27 detailLen=0
+2026-08-25 12:14:42 lcd-ui poll kind=4 id=100007 parent=0 type=23 index=0 args=0,0,0,0 gen=25 textLen=26 detailLen=0
+2026-08-25 12:14:42 lcd-ui poll kind=12 id=100008 parent=0 type=2 index=0 args=1,0,0,-25602048 gen=26 textLen=13 detailLen=0
+2026-08-25 12:14:42 lcd-ui poll kind=12 id=100008 parent=0 type=2 index=1 args=0,0,0,-25602049 gen=27 textLen=13 detailLen=0
+2026-08-25 12:14:42 lcd-ui poll kind=14 id=0 parent=0 type=0 index=0 args=0,0,0,0 gen=28 textLen=0 detailLen=0
+2026-08-25 12:14:42 lcd-ui poll kind=15 id=100009 parent=0 type=0 index=0 args=1,0,0,0 gen=29 textLen=6 detailLen=6
+2026-08-25 12:14:42 lcd-ui poll kind=15 id=100010 parent=0 type=0 index=1 args=1,1,0,0 gen=30 textLen=6 detailLen=6
+2026-08-25 12:14:42 lcd-ui poll kind=15 id=100014 parent=0 type=0 index=2 args=1,3,0,0 gen=31 textLen=11 detailLen=11
+2026-08-25 12:14:42 lcd-ui poll kind=15 id=100013 parent=0 type=0 index=3 args=1,4,0,0 gen=32 textLen=10 detailLen=10
+2026-08-25 12:14:42 lcd-ui poll kind=15 id=100011 parent=0 type=0 index=4 args=1,5,0,0 gen=33 textLen=11 detailLen=11
+2026-08-25 12:14:42 lcd-ui poll kind=15 id=100012 parent=0 type=0 index=5 args=1,8,0,0 gen=34 textLen=16 detailLen=16
+2026-08-25 12:14:42 lcd-ui poll kind=15 id=100015 parent=0 type=0 index=6 args=7,2,0,0 gen=35 textLen=6 detailLen=6
+2026-08-25 12:14:42 lcd-ui poll kind=0 id=1 parent=0 type=0 index=0 args=0,0,0,0 gen=2 textLen=0 detailLen=55
+2026-08-25 12:14:44 lcd-ui poll kind=101 id=100008 parent=0 type=0 index=0 args=0,0,0,0 gen=3 textLen=0 detailLen=36
+2026-08-25 12:14:44 lcd-ui poll kind=104 id=100008 parent=0 type=0 index=0 args=0,0,0,0 gen=4 textLen=0 detailLen=36
+2026-08-25 12:14:45 WATCHDOG no frame progress ageMs=2334 lastGeneration=1 lastResult=921600
+2026-08-25 12:14:45 SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0
+2026-08-25 12:14:45 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0
+2026-08-25 12:14:45 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0
+2026-08-25 12:14:47 WATCHDOG no frame progress ageMs=4335 lastGeneration=1 lastResult=921600
+2026-08-25 12:14:47 SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0
+2026-08-25 12:14:47 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0
+2026-08-25 12:14:47 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0
+2026-08-25 12:14:48 lcd-ui poll kind=100 id=100015 parent=0 type=0 index=0 args=0,0,0,0 gen=5 textLen=0 detailLen=36
+2026-08-25 12:14:49 WATCHDOG no frame progress ageMs=6336 lastGeneration=1 lastResult=921600
+2026-08-25 12:14:49 SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=1 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0
+2026-08-25 12:14:49 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0
+2026-08-25 12:14:49 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0
+2026-08-25 12:14:49 lcd-ui poll kind=100 id=100015 parent=0 type=0 index=0 args=0,0,0,0 gen=6 textLen=0 detailLen=36
+2026-08-25 12:14:49 lcd-ui poll kind=100 id=100015 parent=0 type=0 index=0 args=0,0,0,0 gen=7 textLen=0 detailLen=36
+2026-08-25 12:14:51 --- CoreBridge native log session started ---
+2026-08-25 12:14:51 RMS trace sink enabled; logMode=append
+2026-08-25 12:14:51 phoneme_configure result=0 home=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime
+2026-08-25 12:14:57 starting scoped jar=/data/user/0/com.phoneme.corebridge/files/game-library/1787634881821_haitac_x2.jar scope=1787634881821 main=quyetdaik/quyetdaik size=360x640
+2026-08-25 12:14:57 [phoneMETrace][rms] op=configure root=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/games/2014407529/rms/2014407529 quota=33554432 status=ok
+2026-08-25 12:14:57 [phoneMETrace][rms-error] op=open store=quyetdaik_rms_urlmap code=11 error=RMS store does not exist
+2026-08-25 12:14:57 [phoneMETrace][rms-error] op=open store=quyetdaik_rms_setting code=11 error=RMS store does not exist
+2026-08-25 12:14:57 phoneme_start_jar_scoped succeeded scope=1787634881821
+2026-08-25 12:14:57 lcd-ui poll kind=1 id=1 parent=0 type=0 index=0 args=0,0,0,0 gen=1 textLen=0 detailLen=0
+2026-08-25 12:14:57 lcd-ui poll kind=2 id=100001 parent=0 type=23 index=0 args=0,0,0,0 gen=1 textLen=11 detailLen=0
+2026-08-25 12:14:57 lcd-ui poll kind=2 id=100004 parent=0 type=17 index=1 args=2000,0,3,-1009 gen=2 textLen=17 detailLen=0
+2026-08-25 12:14:57 lcd-ui poll kind=2 id=100007 parent=0 type=23 index=0 args=0,0,0,0 gen=3 textLen=26 detailLen=0
+2026-08-25 12:14:57 lcd-ui poll kind=3 id=100007 parent=0 type=23 index=0 args=1,0,0,-1006 gen=4 textLen=26 detailLen=0
+2026-08-25 12:14:57 lcd-ui poll kind=7 id=100008 parent=100007 type=2 index=0 args=0,0,0,0 gen=5 textLen=0 detailLen=0
+2026-08-25 12:14:57 lcd-ui poll kind=9 id=100008 parent=100007 type=2 index=0 args=0,0,0,0 gen=6 textLen=0 detailLen=0
+2026-08-25 12:14:57 lcd-ui poll kind=12 id=100008 parent=0 type=2 index=0 args=1,0,0,-25602048 gen=7 textLen=13 detailLen=0
+2026-08-25 12:14:57 lcd-ui poll kind=12 id=100008 parent=0 type=2 index=1 args=0,0,0,-25602049 gen=8 textLen=13 detailLen=0
+2026-08-25 12:14:57 lcd-ui poll kind=7 id=100017 parent=100001 type=15 index=0 args=10,2,2,-1001 gen=9 textLen=15 detailLen=2
+2026-08-25 12:14:57 lcd-ui poll kind=7 id=100017 parent=100001 type=15 index=0 args=0,0,0,-1005 gen=10 textLen=15 detailLen=0
+2026-08-25 12:14:57 lcd-ui poll kind=9 id=100017 parent=100001 type=15 index=0 args=10,2,2,-1001 gen=11 textLen=15 detailLen=2
+2026-08-25 12:14:57 lcd-ui poll kind=9 id=100017 parent=100001 type=15 index=0 args=0,0,0,-1005 gen=12 textLen=15 detailLen=0
+2026-08-25 12:14:57 lcd-ui poll kind=7 id=100018 parent=100001 type=15 index=1 args=10,2,3,-1001 gen=13 textLen=34 detailLen=3
+2026-08-25 12:14:57 lcd-ui poll kind=7 id=100018 parent=100001 type=15 index=1 args=0,0,0,-1005 gen=14 textLen=34 detailLen=0
+2026-08-25 12:14:57 lcd-ui poll kind=9 id=100018 parent=100001 type=15 index=1 args=10,2,3,-1001 gen=15 textLen=34 detailLen=3
+2026-08-25 12:14:57 lcd-ui poll kind=9 id=100018 parent=100001 type=15 index=1 args=0,0,0,-1005 gen=16 textLen=34 detailLen=0
+2026-08-25 12:14:57 lcd-ui poll kind=7 id=100005 parent=100001 type=15 index=2 args=20,65536,0,-1001 gen=17 textLen=15 detailLen=0
+2026-08-25 12:14:57 lcd-ui poll kind=7 id=100005 parent=100001 type=15 index=2 args=0,0,0,-1005 gen=18 textLen=15 detailLen=0
+2026-08-25 12:14:57 lcd-ui poll kind=9 id=100005 parent=100001 type=15 index=2 args=20,65536,0,-1001 gen=19 textLen=15 detailLen=0
+2026-08-25 12:14:57 lcd-ui poll kind=9 id=100005 parent=100001 type=15 index=2 args=0,0,0,-1005 gen=20 textLen=15 detailLen=0
+2026-08-25 12:14:57 lcd-ui poll kind=7 id=100019 parent=100001 type=15 index=3 args=200,0,11,-1001 gen=21 textLen=27 detailLen=11
+2026-08-25 12:14:57 lcd-ui poll kind=7 id=100019 parent=100001 type=15 index=3 args=0,0,0,-1005 gen=22 textLen=27 detailLen=0
+2026-08-25 12:14:57 lcd-ui poll kind=9 id=100019 parent=100001 type=15 index=3 args=200,0,11,-1001 gen=23 textLen=27 detailLen=11
+2026-08-25 12:14:57 lcd-ui poll kind=9 id=100019 parent=100001 type=15 index=3 args=0,0,0,-1005 gen=24 textLen=27 detailLen=0
+2026-08-25 12:14:57 lcd-ui poll kind=4 id=100007 parent=0 type=23 index=0 args=0,0,0,0 gen=25 textLen=26 detailLen=0
+2026-08-25 12:14:57 lcd-ui poll kind=12 id=100008 parent=0 type=2 index=0 args=1,0,0,-25602048 gen=26 textLen=13 detailLen=0
+2026-08-25 12:14:57 lcd-ui poll kind=12 id=100008 parent=0 type=2 index=1 args=0,0,0,-25602049 gen=27 textLen=13 detailLen=0
+2026-08-25 12:14:57 lcd-ui poll kind=14 id=0 parent=0 type=0 index=0 args=0,0,0,0 gen=28 textLen=0 detailLen=0
+2026-08-25 12:14:57 lcd-ui poll kind=15 id=100009 parent=0 type=0 index=0 args=1,0,0,0 gen=29 textLen=6 detailLen=6
+2026-08-25 12:14:57 lcd-ui poll kind=15 id=100010 parent=0 type=0 index=1 args=1,1,0,0 gen=30 textLen=6 detailLen=6
+2026-08-25 12:14:57 lcd-ui poll kind=15 id=100014 parent=0 type=0 index=2 args=1,3,0,0 gen=31 textLen=11 detailLen=11
+2026-08-25 12:14:57 lcd-ui poll kind=15 id=100013 parent=0 type=0 index=3 args=1,4,0,0 gen=32 textLen=10 detailLen=10
+2026-08-25 12:14:57 lcd-ui poll kind=15 id=100011 parent=0 type=0 index=4 args=1,5,0,0 gen=33 textLen=11 detailLen=11
+2026-08-25 12:14:57 lcd-ui poll kind=15 id=100012 parent=0 type=0 index=5 args=1,8,0,0 gen=34 textLen=16 detailLen=16
+2026-08-25 12:14:57 lcd-ui poll kind=15 id=100015 parent=0 type=0 index=6 args=7,2,0,0 gen=35 textLen=6 detailLen=6
+2026-08-25 12:14:57 lcd-ui poll kind=0 id=1 parent=0 type=0 index=0 args=0,0,0,0 gen=2 textLen=0 detailLen=55
+2026-08-25 12:14:58 lcd-ui poll kind=101 id=100008 parent=0 type=0 index=0 args=0,0,0,0 gen=3 textLen=0 detailLen=36
+2026-08-25 12:14:58 lcd-ui poll kind=104 id=100008 parent=0 type=0 index=0 args=0,0,0,0 gen=4 textLen=0 detailLen=36
+2026-08-25 12:14:59 WATCHDOG no frame progress ageMs=2474 lastGeneration=1 lastResult=921600
+2026-08-25 12:14:59 SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0
+2026-08-25 12:14:59 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0
+2026-08-25 12:14:59 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0
+2026-08-25 12:15:01 WATCHDOG no frame progress ageMs=4476 lastGeneration=1 lastResult=921600
+2026-08-25 12:15:01 SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0
+2026-08-25 12:15:01 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0
+2026-08-25 12:15:01 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0
+2026-08-25 12:15:03 WATCHDOG no frame progress ageMs=6476 lastGeneration=1 lastResult=921600
+2026-08-25 12:15:03 SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0
+2026-08-25 12:15:03 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0
+2026-08-25 12:15:03 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0
+2026-08-25 12:15:05 WATCHDOG no frame progress ageMs=8477 lastGeneration=1 lastResult=921600
+2026-08-25 12:15:05 SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0
+2026-08-25 12:15:05 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0
+2026-08-25 12:15:05 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0
+2026-08-25 12:15:07 WATCHDOG no frame progress ageMs=10482 lastGeneration=1 lastResult=921600
+2026-08-25 12:15:07 SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0
+2026-08-25 12:15:07 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0
+2026-08-25 12:15:07 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0
+2026-08-25 12:15:09 WATCHDOG no frame progress ageMs=12509 lastGeneration=1 lastResult=921600
+2026-08-25 12:15:09 SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=1 canvasGateBusy=0 canvasEntries=1 inputProcessed=0 repaintPasses=2 repaintCandidates=0 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=2 runnable=1 blocked=0 sleeping=0
+2026-08-25 12:15:09 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0
+2026-08-25 12:15:09 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967433 target=0
+
+--- Runtime snapshot ---
+nativeLogFilePath=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/corebridge-native.log
+nativeIsRunning=true
+nativeLastExitCode=0

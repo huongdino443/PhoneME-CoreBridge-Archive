@@ -1,0 +1,9 @@
+STATUS=experimental guard + cleanup + image-to-png artifact
+SOURCE_JAVA=guard + cleanup DEX, with exact ResilientImageJar classes/hooks recovered from PhoneME-CoreBridge-0.1majestypass.apk
+SOURCE_NATIVE=clean checkpoint candidate 0.1(23), SHA-256 5b525c654cd265cb1fdd6185dbdd7a87e11a341e8d60885475fa60a0bd140668
+IMAGE_FIX=ResilientImageJar.normalize(File) runs immediately before launch thread; converts valid JPEG/GIF payloads decoded by Android BitmapFactory to PNG bytes while retaining resource entry names; skips signature files; cached output marker .corebridge-image-normalized.jar; failures fall back to original JAR
+LIFECYCLE=guard + cleanup Java/native behavior retained; no overlay/native preemption
+NETWORK=unchanged
+LOGGING=unchanged; cbDebug/fprintf/native trace retained
+PERFORMANCE=not modified
+DEVICE_STATUS=not tested in sandbox; user device test required

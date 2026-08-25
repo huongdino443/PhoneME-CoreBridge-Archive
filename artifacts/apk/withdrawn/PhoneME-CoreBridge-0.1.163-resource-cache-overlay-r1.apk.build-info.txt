@@ -1,0 +1,7 @@
+BASE=/home/ubuntu/upload/PhoneME-CoreBridge-0.1.163-launch-recovery.apk
+PATCH=decoded-image persistent cache + bounded prewarm/decode overlay
+JAVA_AND_MANIFEST=unchanged from clean 0.1.163 checkpoint
+NATIVE=overlay Core cache + legacy JNI/logging dependency + libc++_shared.so provider
+NETWORK=unchanged; deprecated network experiments excluded
+LOGGING=unchanged; cbDebug/fprintf/trace retained
+DEVICE_STATUS=not yet tested on device

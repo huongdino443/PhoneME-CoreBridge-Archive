@@ -1,0 +1,309 @@
+readelf=/usr/bin/readelf
+=== libphoneMECoreBridge.so FILE ===
+  Class:                             ELF64
+  Type:                              DYN (Shared object file)
+  Machine:                           AArch64
+  Entry point address:               0x0
+  Flags:                             0x0
+=== libphoneMECoreBridge.so DYNAMIC ===
+ 0x0000000000000001 (NEEDED)             Shared library: [libphoneMECoreBridgeLegacy.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [liblog.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libandroid.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libz.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libm.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libc.so]
+ 0x000000000000000e (SONAME)             Library soname: [libphoneMECoreBridge.so]
+ 0x000000000000001e (FLAGS)              BIND_NOW
+ 0x000000006ffffffb (FLAGS_1)            Flags: NOW
+=== libphoneMECoreBridge.so UNDEFINED SUMMARY ===
+
+_ZNKSt6__ndk110error_code7messageEv
+_ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4findEcm
+_ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5rfindEcm
+_ZNKSt6__ndk119__shared_weak_count13__get_deleterERKSt9type_info
+_ZNKSt6__ndk14__fs10filesystem18directory_iterator13__dereferenceEv
+_ZNKSt6__ndk14__fs10filesystem4path10__filenameEv
+_ZNKSt6__ndk14__fs10filesystem4path11__extensionEv
+_ZNKSt6__ndk14__fs10filesystem4path13__parent_pathEv
+_ZNKSt6__ndk14__fs10filesystem4path16__root_directoryEv
+_ZNKSt6__ndk14__fs10filesystem4path16lexically_normalEv
+_ZNKSt6__ndk14__fs10filesystem4path3endEv
+_ZNKSt6__ndk14__fs10filesystem4path5beginEv
+_ZNKSt6__ndk14__fs10filesystem4path6__stemEv
+_ZNKSt6__ndk14__fs10filesystem4path9__compareENS_17basic_string_viewIcNS_11char_traitsIcEEEE
+_ZNKSt6__ndk16locale9use_facetERNS0_2idE
+_ZNKSt6__ndk18ios_base6getlocEv
+_ZNSt11logic_errorC2EPKc
+_ZNSt12length_errorD1Ev
+_ZNSt12out_of_rangeD1Ev
+_ZNSt20bad_array_new_lengthC1Ev
+_ZNSt20bad_array_new_lengthD1Ev
+_ZNSt6__ndk111this_thread9sleep_forERKNS_6chrono8durationIxNS_5ratioILl1ELl1000000000EEEEE
+_ZNSt6__ndk111timed_mutex6unlockEv
+_ZNSt6__ndk111timed_mutexC1Ev
+_ZNSt6__ndk111timed_mutexD1Ev
+_ZNSt6__ndk112__next_primeEm
+_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5eraseEmm
+_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEmc
+_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEmc
+_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertENS_11__wrap_iterIPKcEEc
+_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKcm
+_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmmc
+_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7reserveEm
+_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc
+_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_
+_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEE4openEPKcj
+_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEE5closeEv
+_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEEC1Ev
+_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEED1Ev
+_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEE4peekEv
+_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEE4readEPcl
+_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEE5seekgExNS_8ios_base7seekdirE
+_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEE5tellgEv
+_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEE6sentryC1ERS3_b
+_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEED2Ev
+_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE5flushEv
+_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE5writeEPKcl
+_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE6sentryC1ERS3_
+_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE6sentryD1Ev
+_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED2Ev
+_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEm
+_ZNSt6__ndk115__thread_structC1Ev
+_ZNSt6__ndk115__thread_structD1Ev
+_ZNSt6__ndk115recursive_mutex4lockEv
+_ZNSt6__ndk115recursive_mutex6unlockEv
+_ZNSt6__ndk115recursive_mutex8try_lockEv
+_ZNSt6__ndk115recursive_mutexC1Ev
+_ZNSt6__ndk115recursive_mutexD1Ev
+_ZNSt6__ndk115system_categoryEv
+_ZNSt6__ndk116generic_categoryEv
+_ZNSt6__ndk118condition_variable10notify_allEv
+_ZNSt6__ndk118condition_variable10notify_oneEv
+_ZNSt6__ndk118condition_variable15__do_timed_waitERNS_11unique_lockINS_5mutexEEENS_6chrono10time_pointINS5_12system_clockENS5_8durationIxNS_5ratioILl1ELl1000000000EEEEEEE
+_ZNSt6__ndk118condition_variable4waitERNS_11unique_lockINS_5mutexEEE
+_ZNSt6__ndk118condition_variableD1Ev
+_ZNSt6__ndk119__shared_weak_count14__release_weakEv
+_ZNSt6__ndk119__shared_weak_count4lockEv
+_ZNSt6__ndk119__shared_weak_countD2Ev
+_ZNSt6__ndk119__thread_local_dataEv
+_ZNSt6__ndk120__libcpp_atomic_waitEPVKvi
+_ZNSt6__ndk120__throw_system_errorEiPKc
+_ZNSt6__ndk122__libcpp_verbose_abortEPKcz
+_ZNSt6__ndk123__cxx_atomic_notify_allEPVKv
+_ZNSt6__ndk123__libcpp_atomic_monitorEPVKv
+_ZNSt6__ndk14__fs10filesystem10__absoluteERKNS1_4pathEPNS_10error_codeE
+_ZNSt6__ndk14__fs10filesystem11__canonicalERKNS1_4pathEPNS_10error_codeE
+_ZNSt6__ndk14__fs10filesystem11__copy_fileERKNS1_4pathES4_NS1_12copy_optionsEPNS_10error_codeE
+_ZNSt6__ndk14__fs10filesystem11__file_sizeERKNS1_4pathEPNS_10error_codeE
+=== libphoneMECoreBridge.so EXPORTS TARGETS ===
+   269: 0000000000168cbc    16 FUNC    GLOBAL DEFAULT   14 phoneme_configure_app_translation@@PHONEME_CACHE_OVERLAY
+   271: 000000000016a57c   408 FUNC    GLOBAL DEFAULT   14 phoneme_start_jar@@PHONEME_CACHE_OVERLAY
+   272: 000000000016aa40    12 FUNC    GLOBAL DEFAULT   14 phoneme_pump_events@@PHONEME_CACHE_OVERLAY
+   273: 000000000016b164   116 FUNC    GLOBAL DEFAULT   14 phoneme_lcdui_select_command@@PHONEME_CACHE_OVERLAY
+   274: 000000000016b450   124 FUNC    GLOBAL DEFAULT   14 phoneme_lcdui_set_choice@@PHONEME_CACHE_OVERLAY
+   280: 000000000016b4cc   116 FUNC    GLOBAL DEFAULT   14 phoneme_lcdui_set_gauge@@PHONEME_CACHE_OVERLAY
+   283: 0000000000168814   168 FUNC    GLOBAL DEFAULT   14 phoneme_configure_app_frame_pacing@@PHONEME_CACHE_OVERLAY
+   284: 00000000001688bc   168 FUNC    GLOBAL DEFAULT   14 phoneme_configure_app_heap@@PHONEME_CACHE_OVERLAY
+   286: 0000000000168410    44 FUNC    GLOBAL DEFAULT   14 phoneme_destroy@@PHONEME_CACHE_OVERLAY
+   287: 0000000000168964   172 FUNC    GLOBAL DEFAULT   14 phoneme_configure_jit@@PHONEME_CACHE_OVERLAY
+   289: 0000000000169968   376 FUNC    GLOBAL DEFAULT   14 phoneme_start_midlet@@PHONEME_CACHE_OVERLAY
+   296: 000000000016875c   184 FUNC    GLOBAL DEFAULT   14 phoneme_configure_keymap@@PHONEME_CACHE_OVERLAY
+   297: 000000000016a714    12 FUNC    GLOBAL DEFAULT   14 phoneme_stop@@PHONEME_CACHE_OVERLAY
+   301: 0000000000169054   180 FUNC    GLOBAL DEFAULT   14 phoneme_set_suite_trust@@PHONEME_CACHE_OVERLAY
+   302: 0000000000169824   324 FUNC    GLOBAL DEFAULT   14 phoneme_start_system@@PHONEME_CACHE_OVERLAY
+   305: 0000000000168ccc   568 FUNC    GLOBAL DEFAULT   14 phoneme_configure_app_translation_v2@@PHONEME_CACHE_OVERLAY
+   308: 000000000016b2c4   116 FUNC    GLOBAL DEFAULT   14 phoneme_lcdui_activate_item@@PHONEME_CACHE_OVERLAY
+   311: 000000000016b338   280 FUNC    GLOBAL DEFAULT   14 phoneme_lcdui_set_text@@PHONEME_CACHE_OVERLAY
+   312: 000000000016b5b4   116 FUNC    GLOBAL DEFAULT   14 phoneme_lcdui_set_scroll_position@@PHONEME_CACHE_OVERLAY
+   317: 0000000000168a10   104 FUNC    GLOBAL DEFAULT   14 phoneme_set_thermal_pressure@@PHONEME_CACHE_OVERLAY
+   318: 0000000000169ce0   168 FUNC    GLOBAL DEFAULT   14 phoneme_destroy_midlet@@PHONEME_CACHE_OVERLAY
+   323: 000000000016b1d8   120 FUNC    GLOBAL DEFAULT   14 phoneme_lcdui_select_list_item_command@@PHONEME_CACHE_OVERLAY
+   325: 00000000001683d8    56 FUNC    GLOBAL DEFAULT   14 phoneme_create@@PHONEME_CACHE_OVERLAY
+   333: 0000000000168a8c   560 FUNC    GLOBAL DEFAULT   14 phoneme_configure_translation_v2@@PHONEME_CACHE_OVERLAY
+   334: 000000000016b540   116 FUNC    GLOBAL DEFAULT   14 phoneme_lcdui_set_date@@PHONEME_CACHE_OVERLAY
+   336: 000000000016843c   464 FUNC    GLOBAL DEFAULT   14 phoneme_configure@@PHONEME_CACHE_OVERLAY
+   343: 000000000016b250   116 FUNC    GLOBAL DEFAULT   14 phoneme_lcdui_focus_item@@PHONEME_CACHE_OVERLAY
+   346: 0000000000168f04   336 FUNC    GLOBAL DEFAULT   14 phoneme_configure_permission_prompt@@PHONEME_CACHE_OVERLAY
+   347: 0000000000168a7c    16 FUNC    GLOBAL DEFAULT   14 phoneme_configure_translation@@PHONEME_CACHE_OVERLAY
+   348: 0000000000169ae0   176 FUNC    GLOBAL DEFAULT   14 phoneme_set_foreground@@PHONEME_CACHE_OVERLAY
+=== libphoneMECoreBridgeLegacy.so FILE ===
+  Class:                             ELF64
+  Type:                              DYN (Shared object file)
+  Machine:                           AArch64
+  Entry point address:               0x0
+  Flags:                             0x0
+=== libphoneMECoreBridgeLegacy.so DYNAMIC ===
+ 0x0000000000000001 (NEEDED)             Shared library: [liblog.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libandroid.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libz.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libm.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libc.so]
+ 0x000000000000000e (SONAME)             Library soname: [libphoneMECoreBridgeLegacy.so]
+ 0x000000000000001e (FLAGS)              BIND_NOW
+ 0x000000006ffffffb (FLAGS_1)            Flags: NOW
+=== libphoneMECoreBridgeLegacy.so UNDEFINED SUMMARY ===
+
+__android_log_print
+__assert2@LIBC
+__ctype_get_mb_cur_max@LIBC
+__cxa_atexit@LIBC
+__cxa_finalize@LIBC
+__errno@LIBC
+__memcpy_chk@LIBC
+__open_2@LIBC
+__openat_2@LIBC
+__poll_chk@LIBC
+__read_chk@LIBC
+__register_atfork@LIBC
+__sF@LIBC
+__stack_chk_fail@LIBC
+__strlen_chk@LIBC
+__system_property_get@LIBC
+__vsnprintf_chk@LIBC
+abort@LIBC
+accept@LIBC
+acosf@LIBC
+adler32
+android_set_abort_message@LIBC
+atan2@LIBC
+bind@LIBC
+btowc@LIBC
+ceil@LIBC
+chdir@LIBC
+clock_gettime@LIBC
+close@LIBC
+closedir@LIBC
+closelog@LIBC
+compress2
+compressBound
+connect@LIBC
+cos@LIBC
+cosf@LIBC
+crc32
+deflate
+deflateEnd
+deflateInit2_
+dl_iterate_phdr@LIBC
+dup@LIBC
+exp2@LIBC
+expf@LIBC
+fchmod@LIBC
+fchmodat@LIBC
+fclose@LIBC
+fcntl@LIBC
+fdopendir@LIBC
+fflush@LIBC
+floor@LIBC
+fmod@LIBC
+fmodf@LIBC
+fopen@LIBC
+fprintf@LIBC
+fputc@LIBC
+fputs@LIBC
+fread@LIBC
+free@LIBC
+freeaddrinfo@LIBC
+freelocale@LIBC
+fseek@LIBC
+fseeko@LIBC
+fstat@LIBC
+fstatat@LIBC
+fstatvfs@LIBC
+fsync@LIBC
+ftello@LIBC
+ftruncate@LIBC
+fwrite@LIBC
+gai_strerror@LIBC
+getaddrinfo@LIBC
+getauxval@LIBC
+getcwd@LIBC
+getenv@LIBC
+getnameinfo@LIBC
+getpeername@LIBC
+getpid@LIBC
+getsockname@LIBC
+=== libphoneMECoreBridgeLegacy.so EXPORTS TARGETS ===
+   308: 000000000028626c    16 FUNC    GLOBAL DEFAULT   11 phoneme_configure_app_translation
+   383: 00000000001fbaa4   464 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeLastError
+   476: 00000000001fab30   704 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeCopyFrameSince
+   526: 00000000001fba8c    24 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeLastExitCode
+   588: 00000000001fc178    92 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeLogFilePath
+   720: 000000000028603c   560 FUNC    GLOBAL DEFAULT   11 phoneme_configure_translation_v2
+   843: 00000000001f9ae0     4 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeApiVersion
+   844: 0000000000286dd4   324 FUNC    GLOBAL DEFAULT   11 phoneme_start_system
+   862: 0000000000285f7c   172 FUNC    GLOBAL DEFAULT   11 phoneme_configure_jit
+   876: 0000000000288a2c   116 FUNC    GLOBAL DEFAULT   11 phoneme_lcdui_activate_item
+  1017: 0000000000285e2c   168 FUNC    GLOBAL DEFAULT   11 phoneme_configure_app_frame_pacing
+  1069: 0000000000287b30   508 FUNC    GLOBAL DEFAULT   11 phoneme_start_jar
+  1136: 00000000001faea4  1540 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativePollLcdUiEvent
+  1137: 0000000000288ca8   116 FUNC    GLOBAL DEFAULT   11 phoneme_lcdui_set_date
+  1317: 0000000000288aa0   280 FUNC    GLOBAL DEFAULT   11 phoneme_lcdui_set_text
+  1320: 00000000001fb768    72 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeLcdUiActivateItem
+  1373: 0000000000288018    12 FUNC    GLOBAL DEFAULT   11 phoneme_stop
+  1414: 00000000001fb810    88 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeLcdUiSetGauge
+  1566: 0000000000288bb8   124 FUNC    GLOBAL DEFAULT   11 phoneme_lcdui_set_choice
+  1650: 0000000000288c34   116 FUNC    GLOBAL DEFAULT   11 phoneme_lcdui_set_gauge
+  1651: 0000000000287094   176 FUNC    GLOBAL DEFAULT   11 phoneme_set_foreground
+  1686: 00000000001fadf0    80 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeSendKey
+  1687: 00000000001fb594    72 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeLcdUiFocusItem
+  1706: 00000000002856a4    16 FUNC    GLOBAL DEFAULT   11 phoneme_set_trace_sink
+  1710: 00000000001fb868    96 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeLcdUiSelectListItemCommand
+  1780: 0000000000288940   120 FUNC    GLOBAL DEFAULT   11 phoneme_lcdui_select_list_item_command
+  1785: 00000000001f9ce4  1452 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeConfigure
+  1832: 00000000002889b8   116 FUNC    GLOBAL DEFAULT   11 phoneme_lcdui_focus_item
+  2073: 00000000001f9c14   208 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeDestroy
+  2078: 00000000001fbc74   488 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeMidletError
+  2217: 0000000000285d74   184 FUNC    GLOBAL DEFAULT   11 phoneme_configure_keymap
+  2337: 0000000000286f18   380 FUNC    GLOBAL DEFAULT   11 phoneme_start_midlet
+  2384: 00000000001fc11c    92 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeDebugLog
+  2426: 00000000001fc1d4    60 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeFlushDebugLog
+  2485: 00000000001f9ae4   304 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeCreate
+  2611: 0000000000287294   168 FUNC    GLOBAL DEFAULT   11 phoneme_destroy_midlet
+  2659: 00000000001fbe5c   236 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeSchedulerSnapshot
+  2701: 00000000001fb544    80 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeLcdUiSelectCommand
+  2739: 00000000001fba5c    48 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeIsRunning
+  2740: 0000000000288d1c   116 FUNC    GLOBAL DEFAULT   11 phoneme_lcdui_set_scroll_position
+  2747: 0000000000285ed4   168 FUNC    GLOBAL DEFAULT   11 phoneme_configure_app_heap
+  2827: 00000000001fb8c8   404 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeCopyLcduiImageRgba
+  2862: 00000000002864b4   336 FUNC    GLOBAL DEFAULT   11 phoneme_configure_permission_prompt
+  2932: 00000000001fa684  1084 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeStartJarScoped
+  2963: 00000000001fae40   100 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeSendPointer
+  2982: 000000000028842c    12 FUNC    GLOBAL DEFAULT   11 phoneme_pump_events
+  3046: 00000000001fb7b0    96 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeLcdUiSetChoice
+  3047: 0000000000286604   180 FUNC    GLOBAL DEFAULT   11 phoneme_set_suite_trust
+  3082: 00000000001faac0    92 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeStop
+  3161: 00000000001fab1c    20 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativePump
+  3194: 000000000028602c    16 FUNC    GLOBAL DEFAULT   11 phoneme_configure_translation
+  3202: 0000000000287d2c   748 FUNC    GLOBAL DEFAULT   11 phoneme_start_jar_scoped
+  3216: 00000000001fb5dc   396 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeLcdUiSetText
+  3248: 00000000002859f0    56 FUNC    GLOBAL DEFAULT   11 phoneme_create
+  3276: 000000000028627c   568 FUNC    GLOBAL DEFAULT   11 phoneme_configure_app_translation_v2
+  3316: 00000000001fc098   132 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeMediaTrace
+  3386: 00000000001fa370   788 FUNC    GLOBAL DEFAULT   11 Java_com_phoneme_corebridge_CoreBridgeNative_nativeStartJar
+  3430: 0000000000285a54   464 FUNC    GLOBAL DEFAULT   11 phoneme_configure
+  3526: 0000000000285a28    44 FUNC    GLOBAL DEFAULT   11 phoneme_destroy
+  3563: 00000000002888cc   116 FUNC    GLOBAL DEFAULT   11 phoneme_lcdui_select_command
+=== legacy C API PLT/relocations ===
+00000000009f3798  00000cb000000402 R_AARCH64_JUMP_SLOT    00000000002859f0 phoneme_create + 0
+00000000009f37b0  0000055d00000402 R_AARCH64_JUMP_SLOT    0000000000288018 phoneme_stop + 0
+00000000009f37b8  00000dc600000402 R_AARCH64_JUMP_SLOT    0000000000285a28 phoneme_destroy + 0
+00000000009f37c0  000006aa00000402 R_AARCH64_JUMP_SLOT    00000000002856a4 phoneme_set_trace_sink + 0
+00000000009f37e8  00000d6600000402 R_AARCH64_JUMP_SLOT    0000000000285a54 phoneme_configure + 0
+00000000009f3820  0000042d00000402 R_AARCH64_JUMP_SLOT    0000000000287b30 phoneme_start_jar + 0
+00000000009f3838  00000c8200000402 R_AARCH64_JUMP_SLOT    0000000000287d2c phoneme_start_jar_scoped + 0
+00000000009f3848  00000ba600000402 R_AARCH64_JUMP_SLOT    000000000028842c phoneme_pump_events + 0
+00000000009f3890  00000deb00000402 R_AARCH64_JUMP_SLOT    00000000002888cc phoneme_lcdui_select_command + 0
+00000000009f3898  0000072800000402 R_AARCH64_JUMP_SLOT    00000000002889b8 phoneme_lcdui_focus_item + 0
+00000000009f38a0  0000052500000402 R_AARCH64_JUMP_SLOT    0000000000288aa0 phoneme_lcdui_set_text + 0
+00000000009f38a8  0000036c00000402 R_AARCH64_JUMP_SLOT    0000000000288a2c phoneme_lcdui_activate_item + 0
+00000000009f38b0  0000061e00000402 R_AARCH64_JUMP_SLOT    0000000000288bb8 phoneme_lcdui_set_choice + 0
+00000000009f38b8  0000067200000402 R_AARCH64_JUMP_SLOT    0000000000288c34 phoneme_lcdui_set_gauge + 0
+00000000009f38c0  000006f400000402 R_AARCH64_JUMP_SLOT    0000000000288940 phoneme_lcdui_select_list_item_command + 0
+00000000009f3940  000002d000000402 R_AARCH64_JUMP_SLOT    000000000028603c phoneme_configure_translation_v2 + 0
+00000000009f3948  00000ccc00000402 R_AARCH64_JUMP_SLOT    000000000028627c phoneme_configure_app_translation_v2 + 0
+00000000009f3960  0000092100000402 R_AARCH64_JUMP_SLOT    0000000000286f18 phoneme_start_midlet + 0
+=== overlay dynamic symbol counts ===
+0

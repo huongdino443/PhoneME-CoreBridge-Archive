@@ -1,0 +1,9 @@
+STATUS=guard + cleanup recovery artifact; restored clean 0.1.163 payload
+SOURCE_JAVA_MANIFEST=non-native entries from resource-cache overlay container, hashes match clean checkpoint
+SOURCE_NATIVE=libphoneMECoreBridge.so from native-clean checkpoint candidate; SHA-256 5b525c654cd265cb1fdd6185dbdd7a87e11a341e8d60885475fa60a0bd140668
+OVERLAY_NATIVE=excluded; no legacy dependency; no libc++_shared provider
+CACHE=excluded
+NETWORK=unchanged
+LOGGING=unchanged; cbDebug/fprintf/native trace retained
+LIFECYCLE=clean checkpoint guard + cleanup behavior retained
+DEVICE_STATUS=not tested in sandbox; returned for user storage/baseline

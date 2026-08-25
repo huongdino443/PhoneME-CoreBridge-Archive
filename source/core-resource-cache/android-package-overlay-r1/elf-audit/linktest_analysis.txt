@@ -1,0 +1,129 @@
+=== undefined in linktest ===
+_ZNSt11logic_errorD2Ev
+_ZNSt12length_errorD1Ev
+_ZNSt12out_of_rangeD1Ev
+_ZNSt13runtime_errorD1Ev
+_ZNSt13runtime_errorD2Ev
+_ZNSt14overflow_errorD1Ev
+_ZNSt16invalid_argumentD1Ev
+_ZNSt20bad_array_new_lengthC1Ev
+_ZNSt20bad_array_new_lengthD1Ev
+_ZNSt8bad_castC1Ev
+_ZNSt8bad_castD1Ev
+_ZNSt8bad_castD2Ev
+_ZNSt9bad_allocC1Ev
+_ZNSt9bad_allocD1Ev
+_ZNSt9exceptionD2Ev
+_ZSt9terminatev
+__cxa_allocate_exception
+__cxa_atexit@LIBC
+__cxa_begin_catch
+__cxa_current_primary_exception
+__cxa_decrement_exception_refcount
+__cxa_end_catch
+__cxa_finalize@LIBC
+__cxa_free_exception
+__cxa_guard_abort
+__cxa_guard_acquire
+__cxa_guard_release
+__cxa_increment_exception_refcount
+__cxa_pure_virtual
+__cxa_rethrow
+__cxa_rethrow_primary_exception
+__cxa_throw
+__cxa_uncaught_exceptions
+=== representative shared exports ===
+   202: 000000000012972c   412 FUNC    GLOBAL DEFAULT    16 _ZNSt6__ndk14__fs10filesystem11__canonicalERKNS1_4pathEPNS_10error_codeE
+   625: 00000000000d632c   392 FUNC    WEAK   DEFAULT    16 _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+  1286: 00000000000df380    32 FUNC    GLOBAL DEFAULT    16 _ZNSt6__ndk118condition_variable10notify_allEv
+=== libc++abi archive names ===
+                 U __cxa_allocate_exception
+0000000000000000 T __cxa_bad_cast
+0000000000000000 T __cxa_bad_typeid
+                 U __cxa_throw
+0000000000000000 T __cxa_throw_bad_array_new_length
+                 U _Unwind_Resume
+                 U _ZN10__cxxabiv119__getExceptionClassEPK17_Unwind_Exception
+                 U _ZN10__cxxabiv121__isOurExceptionClassEPK17_Unwind_Exception
+                 U __cxa_begin_catch
+                 U __cxa_demangle
+                 U __cxa_get_globals_fast
+0000000000000000 B __cxa_new_handler
+0000000000000000 D __cxa_terminate_handler
+0000000000000000 D __cxa_unexpected_handler
+0000000000000000 T __cxa_get_globals
+0000000000000000 T __cxa_get_globals_fast
+                 U _Unwind_Resume
+                 U __cxa_begin_catch
+0000000000000000 T __cxa_guard_abort
+0000000000000000 T __cxa_guard_acquire
+0000000000000000 T __cxa_guard_release
+                 U _ZN10__cxxabiv121__isOurExceptionClassEPK17_Unwind_Exception
+                 U __cxa_begin_catch
+                 U __cxa_get_globals_fast
+                 U __cxa_new_handler
+                 U __cxa_terminate_handler
+                 U __cxa_unexpected_handler
+                 U _Unwind_Resume
+                 U __cxa_allocate_exception
+                 U __cxa_begin_catch
+                 U __cxa_throw
+                 U __cxa_uncaught_exception
+0000000000000000 T __cxa_vec_cctor
+0000000000000000 T __cxa_vec_cleanup
+0000000000000000 T __cxa_vec_ctor
+0000000000000000 T __cxa_vec_delete
+0000000000000000 T __cxa_vec_delete2
+0000000000000000 T __cxa_vec_delete3
+0000000000000000 T __cxa_vec_dtor
+0000000000000000 T __cxa_vec_new
+0000000000000000 T __cxa_vec_new2
+0000000000000000 T __cxa_vec_new3
+0000000000000000 T __cxa_deleted_virtual
+0000000000000000 T __cxa_pure_virtual
+                 U _Unwind_Resume
+                 U __cxa_begin_catch
+                 U __cxa_pure_virtual
+                 U _Unwind_Resume
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle10AbiTagAttrEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle10BinaryExprEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle10BitIntTypeEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle10BracedExprEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle10DeleteExprEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle10LambdaExprEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle10MemberExprEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle10ModuleNameEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle10NestedNameEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle10PrefixExprEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle10VectorTypeEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle11EnumLiteralEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle11PointerTypeEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle11PostfixExprEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle11SpecialNameEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle12BinaryFPTypeEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle12CtorDtorNameEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle12EnableIfAttrEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle12FunctionTypeEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle12InitListExprEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle12ModuleEntityEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle12NoexceptSpecEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle12RequiresExprEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle12TemplateArgsEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle13EnclosingExprEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle13NodeArrayNodeEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle13ObjCProtoNameEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle13ParameterPackEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle13QualifiedNameEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle13ReferenceTypeEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle13StringLiteralEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+0000000000000000 t _ZNSt6__ndk18__invokeB8ne180000IRN12_GLOBAL__N_111DumpVisitorEJPKNS1_16itanium_demangle13SubobjectExprEEEEDTclclsr3stdE7declvalIT_EEspclsr3stdE7declvalIT0_EEEEOS8_DpOS9_
+=== complete linktest dynamic ===
+  0x0000000000000001 (NEEDED)       Shared library: [libphoneMECoreBridgeLegacy.so]
+  0x0000000000000001 (NEEDED)       Shared library: [liblog.so]
+  0x0000000000000001 (NEEDED)       Shared library: [libandroid.so]
+  0x0000000000000001 (NEEDED)       Shared library: [libz.so]
+  0x0000000000000001 (NEEDED)       Shared library: [libdl.so]
+  0x0000000000000001 (NEEDED)       Shared library: [libm.so]
+  0x0000000000000001 (NEEDED)       Shared library: [libc.so]
+  0x0000000000000001 (NEEDED)       Shared library: [libc++_shared.so]
+  0x000000000000000e (SONAME)       Library soname: [libphoneMECoreBridge.so]

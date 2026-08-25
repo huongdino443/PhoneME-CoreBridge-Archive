@@ -1,0 +1,12 @@
+Verifying alignment of /home/ubuntu/upload/PhoneME-CoreBridge-0.1.163-resource-cache-overlay-r1.apk (4)...
+      77 AndroidManifest.xml (OK - compressed)
+    1179 resources.arsc (OK - compressed)
+    1450 classes.dex (OK - compressed)
+   80361 lib/arm64-v8a/libphoneMECoreBridge.so (OK - compressed)
+43311340 lib/arm64-v8a/libphoneMECoreBridgeLegacy.so (OK - compressed)
+87016209 lib/arm64-v8a/libc++_shared.so (OK - compressed)
+87514869 assets/NOTICE_PHONE_ME.txt (OK - compressed)
+87515366 META-INF/ANDROIDD.SF (OK - compressed)
+87515931 META-INF/ANDROIDD.RSA (OK - compressed)
+87517052 META-INF/MANIFEST.MF (OK - compressed)
+Verification succesful

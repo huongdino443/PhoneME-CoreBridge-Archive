@@ -1,0 +1,406 @@
+=== archive raw namespace samples ===
+---------------- W _ZNSt6__ndk112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE11__do_rehashILb1EEEvm
+---------------- W _ZNSt6__ndk112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE25__emplace_unique_key_argsIS6_JRKS6_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS6_PvEEEEbEERKT_DpOT0_
+---------------- W _ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEmEENS_22__unordered_map_hasherIS7_S8_N7phoneme7archive10ZipArchive21TransparentStringHashENS_8equal_toIvEELb0EEENS_21__unordered_map_equalIS7_S8_SF_SD_Lb1EEENS5_IS8_EEE11__do_rehashILb1EEEvm
+---------------- W _ZNSt6__ndk112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEmEENS_22__unordered_map_hasherIS7_S8_N7phoneme7archive10ZipArchive21TransparentStringHashENS_8equal_toIvEELb0EEENS_21__unordered_map_equalIS7_S8_SF_SD_Lb1EEENS5_IS8_EEE25__emplace_unique_key_argsIS7_JRS7_RmEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEERKT_DpOT0_
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKcm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn180000EPKcm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn180000ILi0EEEPKc
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2INS_17basic_string_viewIcS2_EETnNS_9enable_ifIXaasr33__can_be_converted_to_string_viewIcS2_T_EE5valuentsr17__is_same_uncvrefISA_S5_EE5valueEiE4typeELi0EEERKSA_
+---------------- W _ZNSt6__ndk113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEmN7phoneme7archive10ZipArchive21TransparentStringHashENS_8equal_toIvEENS4_INS_4pairIKS6_mEEEEE5clearB8nn180000Ev
+---------------- W _ZNSt6__ndk113unordered_mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEmN7phoneme7archive10ZipArchive21TransparentStringHashENS_8equal_toIvEENS4_INS_4pairIKS6_mEEEEE7reserveB8nn180000Em
+---------------- W _ZNSt6__ndk113unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE7reserveB8nn180000Em
+---------------- W _ZNSt6__ndk113unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEED2B8nn180000Ev
+---------------- W _ZNSt6__ndk1eqB8nn180000IcNS_11char_traitsIcEENS_9allocatorIcEEEEbRKNS_12basic_stringIT_T0_T1_EEPKS6_
+                 U _ZNSt6__ndk1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKcm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn180000ILi0EEEPKc
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKcm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn180000ILi0EEEPKc
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEpLB8nn180000ERKS5_
+---------------- W _ZNSt6__ndk16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE21__push_back_slow_pathIS6_EEPS6_OT_
+---------------- W _ZNSt6__ndk16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE7reserveEm
+---------------- W _ZNSt6__ndk18expectedINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7phoneme5ErrorEED2B8nn180000EvQoont27is_trivially_destructible_vIT_Ent27is_trivially_destructible_vIT0_E
+---------------- W _ZNSt6__ndk1eqB8nn180000IcNS_11char_traitsIcEENS_9allocatorIcEEEEbRKNS_12basic_stringIT_T0_T1_EEPKS6_
+---------------- W _ZNSt6__ndk1plB8nn180000IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEOS9_RKS9_
+                 U _ZNSt6__ndk1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_
+---------------- W _ZNSt6__ndk112__hash_tableINS_17__hash_value_typeIiN7phoneme10filesystem10FileSystem6HandleEEENS_22__unordered_map_hasherIiS6_NS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS6_SB_S9_Lb1EEENS_9allocatorIS6_EEE11__do_rehashILb1EEEvm
+---------------- W _ZNSt6__ndk112__hash_tableINS_17__hash_value_typeIiN7phoneme10filesystem10FileSystem6HandleEEENS_22__unordered_map_hasherIiS6_NS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS6_SB_S9_Lb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIiJRKiS5_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS6_PvEEEEbEERKT_DpOT0_
+---------------- W _ZNSt6__ndk112__hash_tableINS_17__hash_value_typeIiN7phoneme10filesystem10FileSystem6HandleEEENS_22__unordered_map_hasherIiS6_NS_4hashIiEENS_8equal_toIiEELb1EEENS_21__unordered_map_equalIiS6_SB_S9_Lb1EEENS_9allocatorIS6_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS6_PvEEEE
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_no_aliasILb1EEERS5_PKcm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendB8nn180000IPKcTnNS_9enable_ifIXsr31__has_forward_iterator_categoryIT_EE5valueEiE4typeELi0EEERS5_SA_SA_
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKcm
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7reserveEm
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn180000ILi0EEEPKc
+                 U _ZNSt6__ndk14__fs10filesystem11__canonicalERKNS1_4pathEPNS_10error_codeE
+                 U _ZNSt6__ndk14__fs10filesystem12__remove_allERKNS1_4pathEPNS_10error_codeE
+                 U _ZNSt6__ndk14__fs10filesystem20__create_directoriesERKNS1_4pathEPNS_10error_codeE
+                 U _ZNSt6__ndk14__fs10filesystem4path8iterator11__incrementEv
+---------------- W _ZNSt6__ndk16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE21__push_back_slow_pathIS6_EEPS6_OT_
+---------------- W _ZNSt6__ndk16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE24__emplace_back_slow_pathIJRKNS_17basic_string_viewIcS3_EEEEEPS6_DpOT_
+---------------- W _ZNSt6__ndk16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE7reserveEm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__assign_trivialB8nn180000IPKcS8_EEvT_T0_m
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_externalEPKcm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+---------------- W _ZNSt6__ndk110__function12__value_funcIFNS_8expectedIvN7phoneme5ErrorEEENS3_10filesystem17SandboxFaultPointEEE4swapB8nn180000ERS9_
+---------------- t _ZNSt6__ndk111__introsortINS_17_ClassicAlgPolicyERZNK7phoneme10filesystem15SandboxResolver4listENS_17basic_string_viewIcNS_11char_traitsIcEEEEE3$_0PNS3_21SandboxDirectoryEntryELb0EEEvT1_SD_T0_NS_15iterator_traitsISD_E15difference_typeEb
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn180000ILi0EEEPKc
+---------------- t _ZNSt6__ndk124__sort5_maybe_branchlessB8nn180000INS_17_ClassicAlgPolicyERZNK7phoneme10filesystem15SandboxResolver4listENS_17basic_string_viewIcNS_11char_traitsIcEEEEE3$_0PNS3_21SandboxDirectoryEntryETnNS_9enable_ifIXntsr21__use_branchless_sortIT0_T1_EE5valueEiE4typeELi0EEEvSF_SF_SF_SF_SF_SE_
+---------------- t _ZNSt6__ndk127__insertion_sort_incompleteB8nn180000INS_17_ClassicAlgPolicyERZNK7phoneme10filesystem15SandboxResolver4listENS_17basic_string_viewIcNS_11char_traitsIcEEEEE3$_0PNS3_21SandboxDirectoryEntryEEEbT1_SD_T0_
+---------------- W _ZNSt6__ndk16vectorIN7phoneme10filesystem21SandboxDirectoryEntryENS_9allocatorIS3_EEE21__push_back_slow_pathIS3_EEPS3_OT_
+---------------- t _ZNSt6__ndk17__sort3B8nn180000INS_17_ClassicAlgPolicyERZNK7phoneme10filesystem15SandboxResolver4listENS_17basic_string_viewIcNS_11char_traitsIcEEEEE3$_0PNS3_21SandboxDirectoryEntryEEEjT1_SD_SD_T0_
+---------------- t _ZNSt6__ndk17__sort4B8nn180000INS_17_ClassicAlgPolicyERZNK7phoneme10filesystem15SandboxResolver4listENS_17basic_string_viewIcNS_11char_traitsIcEEEEE3$_0PNS3_21SandboxDirectoryEntryEEEvT1_SD_SD_SD_T0_
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn180000ILi0EEEPKc
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_no_aliasILb0EEERS5_PKcm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_no_aliasILb1EEERS5_PKcm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn180000ILi0EEEPKc
+                 U _ZNSt6__ndk118condition_variable10notify_allEv
+                 U _ZNSt6__ndk118condition_variable15__do_timed_waitERNS_11unique_lockINS_5mutexEEENS_6chrono10time_pointINS5_12system_clockENS5_8durationIxNS_5ratioILl1ELl1000000000EEEEEEE
+                 U _ZNSt6__ndk118condition_variableD1Ev
+---------------- W _ZNSt6__ndk14pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EaSB8nn180000ERKS7_
+---------------- W _ZNSt6__ndk16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE16__init_with_sizeB8nn180000IPS8_SC_EEvT_T0_m
+---------------- W _ZNSt6__ndk16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE18__assign_with_sizeB8nn180000IPS8_SC_EEvT_T0_l
+---------------- W _ZNSt6__ndk16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE24__emplace_back_slow_pathIJS7_S7_EEEPS8_DpOT_
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_externalEPKc
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_externalEPKcm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_no_aliasILb0EEERS5_PKcm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_no_aliasILb1EEERS5_PKcm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEmc
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn180000ILi0EEEPKc
+                 U _ZNSt6__ndk118condition_variable10notify_allEv
+                 U _ZNSt6__ndk118condition_variable15__do_timed_waitERNS_11unique_lockINS_5mutexEEENS_6chrono10time_pointINS5_12system_clockENS5_8durationIxNS_5ratioILl1ELl1000000000EEEEEEE
+                 U _ZNSt6__ndk118condition_variable4waitERNS_11unique_lockINS_5mutexEEE
+                 U _ZNSt6__ndk118condition_variableD1Ev
+---------------- W _ZNSt6__ndk16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE21__push_back_slow_pathIS6_EEPS6_OT_
+---------------- W _ZNSt6__ndk16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE16__init_with_sizeB8nn180000IPS8_SC_EEvT_T0_m
+---------------- W _ZNSt6__ndk16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE24__emplace_back_slow_pathIJS7_S7_EEEPS8_DpOT_
+---------------- W _ZNSt6__ndk16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE5eraseENS_11__wrap_iterIPKS8_EESE_
+---------------- t _ZNSt6__ndk18erase_ifB8nn180000INS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEZN7phoneme7network12_GLOBAL__N_132perform_plain_http_with_deadlineENSB_11HttpRequestERKNSC_17CancellationCheckERKNSC_17OperationDeadlineEE3$_0EENS_6vectorIT_T0_E9size_typeERSO_T1_
+---------------- W _ZNSt6__ndk1eqB8nn180000INS_9allocatorIcEEEEbRKNS_12basic_stringIcNS_11char_traitsIcEET_EES9_
+---------------- W _ZNSt6__ndk1eqB8nn180000IcNS_11char_traitsIcEENS_9allocatorIcEEEEbRKNS_12basic_stringIT_T0_T1_EEPKS6_
+---------------- W _ZNSt6__ndk1plB8nn180000IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEOS9_PKS6_
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_no_aliasILb0EEERS5_PKcm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_no_aliasILb1EEERS5_PKcm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKcm
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn180000ILi0EEEPKc
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2INS_17basic_string_viewIcS2_EETnNS_9enable_ifIXaasr33__can_be_converted_to_string_viewIcS2_T_EE5valuentsr17__is_same_uncvrefISA_S5_EE5valueEiE4typeELi0EEERKSA_
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_
+---------------- W _ZNSt6__ndk16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE24__emplace_back_slow_pathIJRKNS_17basic_string_viewIcS3_EEEEEPS6_DpOT_
+---------------- W _ZNSt6__ndk1plB8nn180000IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEOS9_SA_
+---------------- W _ZNSt6__ndk1plB8nn180000IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_OS9_
+---------------- W _ZNSt6__ndk1plB8nn180000IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_PKS6_
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendB8nn180000IPKcTnNS_9enable_ifIXsr31__has_forward_iterator_categoryIT_EE5valueEiE4typeELi0EEERS5_SA_SA_
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKcm
+---------------- W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn180000ILi0EEEPKc
+=== libc++ raw namespace samples ===
+0000000000000000 T _ZNSt6__ndk14__fs10filesystem16_FilesystemClock3nowEv
+0000000000000000 V _ZNSt6__ndk14__fs10filesystem16_FilesystemClock9is_steadyE
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_externalEPKcm
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE21__resize_default_initB8ne180000Em
+0000000000000000 T _ZNSt6__ndk14__fs10filesystem16filesystem_error13__create_whatEi
+0000000000000000 T _ZNSt6__ndk14__fs10filesystem16filesystem_errorD0Ev
+0000000000000000 T _ZNSt6__ndk14__fs10filesystem16filesystem_errorD1Ev
+0000000000000000 T _ZNSt6__ndk14__fs10filesystem16filesystem_errorD2Ev
+0000000000000000 W _ZNSt6__ndk14__fs10filesystem6detail13format_stringEPKcz
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendB8ne180000IPKcTnNS_9enable_ifIXsr31__has_forward_iterator_categoryIT_EE5valueEiE4typeELi0EEERS5_SA_SA_
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7reserveEm
+                 U _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc
+0000000000000000 T _ZNSt6__ndk14__fs10filesystem10hash_valueERKNS1_4pathE
+0000000000000000 T _ZNSt6__ndk14__fs10filesystem4path17replace_extensionERKS2_
+0000000000000000 V _ZNSt6__ndk14__fs10filesystem4path19preferred_separatorE
+0000000000000000 T _ZNSt6__ndk14__fs10filesystem4path8iterator11__decrementEv
+0000000000000000 T _ZNSt6__ndk14__fs10filesystem4path8iterator11__incrementEv
+0000000000000000 W _ZNSt6__ndk14__fs10filesystem6parser10PathParser9decrementEv
+0000000000000000 W _ZNSt6__ndk14__fs10filesystem6parser10PathParser9incrementEv
+0000000000000000 t _ZNSt6__ndk112_GLOBAL__N_117as_integer_helperIlNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPFlPKcPPciEEET_RKS7_RKT0_PmiT1_
+0000000000000000 t _ZNSt6__ndk112_GLOBAL__N_117as_integer_helperIlNS_12basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEEPFlPKwPPwiEEET_RKNS2_IcNS3_IcEENS5_IcEEEERKT0_PmiT1_
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_externalEPKc
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_externalEPKcm
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_no_aliasILb0EEERS5_PKcm
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_no_aliasILb1EEERS5_PKcm
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE21__grow_by_and_replaceEmmmmmmPKc
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE26__erase_external_with_moveEmm
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE2atEm
+0000000000000000 V _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4nposE
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5eraseEmm
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6__initEPKcm
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6__initEPKcmm
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6__initEmc
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKc
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendERKS5_mm
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEmc
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKc
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKcm
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignERKS5_mm
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEmc
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertENS_11__wrap_iterIPKcEEc
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKc
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKcm
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmRKS5_mm
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmmc
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7replaceEmmPKc
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7replaceEmmPKcm
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7replaceEmmRKS5_mm
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7replaceEmmmc
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7reserveEm
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9__grow_byEmmmmmm
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_RKS4_
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_mmRKS4_
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2ERKS5_
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2ERKS5_RKS4_
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2ERKS5_mmRKS4_
+0000000000000000 n _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC5ERKS5_
+0000000000000000 n _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC5ERKS5_RKS4_
+0000000000000000 n _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC5ERKS5_mmRKS4_
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev
+0000000000000000 n _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEED5Ev
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_
+0000000000000000 W _ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSEc
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE17__assign_externalEPKw
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE17__assign_externalEPKwm
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE17__assign_no_aliasILb0EEERS5_PKwm
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE17__assign_no_aliasILb1EEERS5_PKwm
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE18__shrink_or_extendB8ne180000Em
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE21__grow_by_and_replaceEmmmmmmPKw
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE25__grow_by_without_replaceB8ne180000Emmmmmm
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE25__init_copy_ctor_externalEPKwm
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE26__erase_external_with_moveEmm
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE2atEm
+0000000000000000 V _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE4nposE
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE5eraseEmm
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6__initEPKwm
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6__initEPKwmm
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6__initEmw
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6appendEPKw
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6appendEPKwm
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6appendERKS5_mm
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6appendEmw
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6assignEPKw
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6assignEPKwm
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6assignERKS5_mm
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6assignEmw
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6insertENS_11__wrap_iterIPKwEEw
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6insertEmPKw
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6insertEmPKwm
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6insertEmRKS5_mm
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6insertEmmw
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE6resizeEmw
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE7replaceEmmPKw
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE7replaceEmmPKwm
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE7replaceEmmRKS5_mm
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE7replaceEmmmw
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE7reserveEm
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE9__grow_byEmmmmmm
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE9push_backEw
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEC1ERKS5_
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEC1ERKS5_RKS4_
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEC1ERKS5_mmRKS4_
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEC2ERKS5_
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEC2ERKS5_RKS4_
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEC2ERKS5_mmRKS4_
+0000000000000000 n _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEC5ERKS5_
+0000000000000000 n _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEC5ERKS5_RKS4_
+0000000000000000 n _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEC5ERKS5_mmRKS4_
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEED1Ev
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEED2Ev
+0000000000000000 n _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEED5Ev
+0000000000000000 W _ZNSt6__ndk112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEEaSERKS5_
+=== overlay undefined raw namespace counts ===
+_ZNSt6__ndk1=92
+_ZNSt6__ndk18=2
+=== relevant CMake compile flags ===
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:46:CMAKE_CXX_COMPILER_AR:FILEPATH=/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:49:CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS:FILEPATH=/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:52:CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:55:CMAKE_CXX_FLAGS:STRING=-D_LIBCPP_ENABLE_EXPERIMENTAL
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:58:CMAKE_CXX_FLAGS_DEBUG:STRING=
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:61:CMAKE_CXX_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:64:CMAKE_CXX_FLAGS_RELEASE:STRING=
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:67:CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:70:CMAKE_CXX_STANDARD_LIBRARIES:STRING=-latomic -lm
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:274://ADVANCED property for variable: CMAKE_CXX_COMPILER_AR
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:275:CMAKE_CXX_COMPILER_AR-ADVANCED:INTERNAL=1
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:276://ADVANCED property for variable: CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:277:CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-ADVANCED:INTERNAL=1
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:278://ADVANCED property for variable: CMAKE_CXX_COMPILER_RANLIB
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:279:CMAKE_CXX_COMPILER_RANLIB-ADVANCED:INTERNAL=1
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:280://ADVANCED property for variable: CMAKE_CXX_FLAGS
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:281:CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:282://ADVANCED property for variable: CMAKE_CXX_FLAGS_DEBUG
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:283:CMAKE_CXX_FLAGS_DEBUG-ADVANCED:INTERNAL=1
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:284://ADVANCED property for variable: CMAKE_CXX_FLAGS_MINSIZEREL
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:285:CMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:286://ADVANCED property for variable: CMAKE_CXX_FLAGS_RELEASE
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:287:CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:288://ADVANCED property for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:289:CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:290://ADVANCED property for variable: CMAKE_CXX_STANDARD_LIBRARIES
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeCache.txt:291:CMAKE_CXX_STANDARD_LIBRARIES-ADVANCED:INTERNAL=1
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/CMakeConfigureLog.yaml:22:      Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;-D_LIBCPP_ENABLE_EXPERIMENTAL
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/CMakeConfigureLog.yaml:52:      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps"
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/CMakeConfigureLog.yaml:53:      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android23"
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/CMakeConfigureLog.yaml:54:      CMAKE_CXX_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat  -D_LIBCPP_ENABLE_EXPERIMENTAL"
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/CMakeConfigureLog.yaml:55:      CMAKE_CXX_FLAGS_DEBUG: "-fno-limit-debug-info "
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/CMakeConfigureLog.yaml:61:      variable: "CMAKE_CXX_ABI_COMPILED"
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/CMakeConfigureLog.yaml:70:        /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat  -D_LIBCPP_ENABLE_EXPERIMENTAL  -fPIE   -v -MD -MT CMakeFiles/cmTC_3ba78.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_3ba78.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_3ba78.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/CMakeConfigureLog.yaml:76:         "/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++" -cc1 -triple aarch64-none-linux-android23 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/CMakeScratch/TryCompile-nGiAbb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/CMakeScratch/TryCompile-nGiAbb -resource-dir /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/18 -dependency-file CMakeFiles/cmTC_3ba78.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_3ba78.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -D _LIBCPP_ENABLE_EXPERIMENTAL -isysroot /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/18/include -internal-isystem /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -ferror-limit 19 -femulated-tls -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_3ba78.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/CMakeConfigureLog.yaml:89:        /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat  -D_LIBCPP_ENABLE_EXPERIMENTAL  -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_3ba78.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_3ba78 
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/CMakeConfigureLog.yaml:135:        ignore line: [/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat  -D_LIBCPP_ENABLE_EXPERIMENTAL  -fPIE   -v -MD -MT CMakeFiles/cmTC_3ba78.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_3ba78.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_3ba78.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/CMakeConfigureLog.yaml:141:        ignore line: [ "/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++" -cc1 -triple aarch64-none-linux-android23 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/CMakeScratch/TryCompile-nGiAbb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/CMakeScratch/TryCompile-nGiAbb -resource-dir /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/18 -dependency-file CMakeFiles/cmTC_3ba78.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_3ba78.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -D _LIBCPP_ENABLE_EXPERIMENTAL -isysroot /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/18/include -internal-isystem /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -ferror-limit 19 -femulated-tls -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_3ba78.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/CMakeConfigureLog.yaml:154:        ignore line: [/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat  -D_LIBCPP_ENABLE_EXPERIMENTAL  -static-libstdc++ -Wl --build-id=sha1 -Wl --no-rosegment -Wl --no-undefined-version -Wl --fatal-warnings -Wl --no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_3ba78.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_3ba78 ]
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/CMakeConfigureLog.yaml:227:      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps"
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/CMakeConfigureLog.yaml:228:      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android23"
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/CMakeConfigureLog.yaml:250:        /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -D_LIBCPP_ENABLE_EXPERIMENTAL -fno-limit-debug-info -fno-limit-debug-info -flto=thin -fPIC -MD -MT CMakeFiles/foo.dir/foo.cpp.o -MF CMakeFiles/foo.dir/foo.cpp.o.d -o CMakeFiles/foo.dir/foo.cpp.o -c /home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/CMakeConfigureLog.yaml:265:        /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -D_LIBCPP_ENABLE_EXPERIMENTAL -fno-limit-debug-info -fno-limit-debug-info -flto=thin -fPIE -MD -MT CMakeFiles/boo.dir/main.cpp.o -MF CMakeFiles/boo.dir/main.cpp.o.d -o CMakeFiles/boo.dir/main.cpp.o -c /home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/CMakeConfigureLog.yaml:268:        /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -D_LIBCPP_ENABLE_EXPERIMENTAL -fno-limit-debug-info -fno-limit-debug-info -flto=thin -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments   CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a -latomic -lm 
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:1:set(CMAKE_CXX_COMPILER "/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:2:set(CMAKE_CXX_COMPILER_ARG1 "")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:3:set(CMAKE_CXX_COMPILER_ID "Clang")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:4:set(CMAKE_CXX_COMPILER_VERSION "18.0.4")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:5:set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:6:set(CMAKE_CXX_COMPILER_WRAPPER "")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:7:set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "17")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:8:set(CMAKE_CXX_EXTENSIONS_COMPUTED_DEFAULT "ON")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:9:set(CMAKE_CXX_COMPILE_FEATURES "cxx_std_98;cxx_template_template_parameters;cxx_std_11;cxx_alias_templates;cxx_alignas;cxx_alignof;cxx_attributes;cxx_auto_type;cxx_constexpr;cxx_decltype;cxx_decltype_incomplete_return_types;cxx_default_function_template_args;cxx_defaulted_functions;cxx_defaulted_move_initializers;cxx_delegating_constructors;cxx_deleted_functions;cxx_enum_forward_declarations;cxx_explicit_conversions;cxx_extended_friend_declarations;cxx_extern_templates;cxx_final;cxx_func_identifier;cxx_generalized_initializers;cxx_inheriting_constructors;cxx_inline_namespaces;cxx_lambdas;cxx_local_type_template_args;cxx_long_long_type;cxx_noexcept;cxx_nonstatic_member_init;cxx_nullptr;cxx_override;cxx_range_for;cxx_raw_string_literals;cxx_reference_qualified_functions;cxx_right_angle_brackets;cxx_rvalue_references;cxx_sizeof_member;cxx_static_assert;cxx_strong_enums;cxx_thread_local;cxx_trailing_return_types;cxx_unicode_literals;cxx_uniform_initialization;cxx_unrestricted_unions;cxx_user_literals;cxx_variadic_macros;cxx_variadic_templates;cxx_std_14;cxx_aggregate_default_initializers;cxx_attribute_deprecated;cxx_binary_literals;cxx_contextual_conversions;cxx_decltype_auto;cxx_digit_separators;cxx_generic_lambdas;cxx_lambda_init_captures;cxx_relaxed_constexpr;cxx_return_type_deduction;cxx_variable_templates;cxx_std_17;cxx_std_20;cxx_std_23")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:10:set(CMAKE_CXX98_COMPILE_FEATURES "cxx_std_98;cxx_template_template_parameters")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:11:set(CMAKE_CXX11_COMPILE_FEATURES "cxx_std_11;cxx_alias_templates;cxx_alignas;cxx_alignof;cxx_attributes;cxx_auto_type;cxx_constexpr;cxx_decltype;cxx_decltype_incomplete_return_types;cxx_default_function_template_args;cxx_defaulted_functions;cxx_defaulted_move_initializers;cxx_delegating_constructors;cxx_deleted_functions;cxx_enum_forward_declarations;cxx_explicit_conversions;cxx_extended_friend_declarations;cxx_extern_templates;cxx_final;cxx_func_identifier;cxx_generalized_initializers;cxx_inheriting_constructors;cxx_inline_namespaces;cxx_lambdas;cxx_local_type_template_args;cxx_long_long_type;cxx_noexcept;cxx_nonstatic_member_init;cxx_nullptr;cxx_override;cxx_range_for;cxx_raw_string_literals;cxx_reference_qualified_functions;cxx_right_angle_brackets;cxx_rvalue_references;cxx_sizeof_member;cxx_static_assert;cxx_strong_enums;cxx_thread_local;cxx_trailing_return_types;cxx_unicode_literals;cxx_uniform_initialization;cxx_unrestricted_unions;cxx_user_literals;cxx_variadic_macros;cxx_variadic_templates")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:12:set(CMAKE_CXX14_COMPILE_FEATURES "cxx_std_14;cxx_aggregate_default_initializers;cxx_attribute_deprecated;cxx_binary_literals;cxx_contextual_conversions;cxx_decltype_auto;cxx_digit_separators;cxx_generic_lambdas;cxx_lambda_init_captures;cxx_relaxed_constexpr;cxx_return_type_deduction;cxx_variable_templates")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:13:set(CMAKE_CXX17_COMPILE_FEATURES "cxx_std_17")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:14:set(CMAKE_CXX20_COMPILE_FEATURES "cxx_std_20")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:15:set(CMAKE_CXX23_COMPILE_FEATURES "cxx_std_23")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:17:set(CMAKE_CXX_PLATFORM_ID "Linux")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:18:set(CMAKE_CXX_SIMULATE_ID "")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:19:set(CMAKE_CXX_COMPILER_FRONTEND_VARIANT "GNU")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:20:set(CMAKE_CXX_SIMULATE_VERSION "")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:26:set(CMAKE_CXX_COMPILER_AR "/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:28:set(CMAKE_CXX_COMPILER_RANLIB "/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:33:set(CMAKE_CXX_COMPILER_LOADED 1)
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:34:set(CMAKE_CXX_COMPILER_WORKS TRUE)
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:35:set(CMAKE_CXX_ABI_COMPILED TRUE)
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:37:set(CMAKE_CXX_COMPILER_ENV_VAR "CXX")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:39:set(CMAKE_CXX_COMPILER_ID_RUN 1)
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:40:set(CMAKE_CXX_SOURCE_FILE_EXTENSIONS C;M;c++;cc;cpp;cxx;m;mm;mpp;CPP;ixx;cppm;ccm;cxxm;c++m)
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:41:set(CMAKE_CXX_IGNORE_EXTENSIONS inl;h;hpp;HPP;H;o;O;obj;OBJ;def;DEF;rc;RC)
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:46:      list(REMOVE_ITEM CMAKE_CXX_SOURCE_FILE_EXTENSIONS ${extension})
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:51:set(CMAKE_CXX_LINKER_PREFERENCE 30)
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:52:set(CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES 1)
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:53:set(CMAKE_CXX_LINKER_DEPFILE_SUPPORTED TRUE)
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:56:set(CMAKE_CXX_SIZEOF_DATA_PTR "8")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:57:set(CMAKE_CXX_COMPILER_ABI "ELF")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:58:set(CMAKE_CXX_BYTE_ORDER "LITTLE_ENDIAN")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:59:set(CMAKE_CXX_LIBRARY_ARCHITECTURE "")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:61:if(CMAKE_CXX_SIZEOF_DATA_PTR)
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:62:  set(CMAKE_SIZEOF_VOID_P "${CMAKE_CXX_SIZEOF_DATA_PTR}")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:65:if(CMAKE_CXX_COMPILER_ABI)
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:66:  set(CMAKE_INTERNAL_PLATFORM_ABI "${CMAKE_CXX_COMPILER_ABI}")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:69:if(CMAKE_CXX_LIBRARY_ARCHITECTURE)
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:73:set(CMAKE_CXX_CL_SHOWINCLUDES_PREFIX "")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:74:if(CMAKE_CXX_CL_SHOWINCLUDES_PREFIX)
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:75:  set(CMAKE_CL_SHOWINCLUDES_PREFIX "${CMAKE_CXX_CL_SHOWINCLUDES_PREFIX}")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:82:set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1;/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/18/include;/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android;/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:83:set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "c++;m;-l:libunwind.a;dl;c;-l:libunwind.a;dl")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:84:set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/18/lib/linux/aarch64;/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23;/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android;/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:85:set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/flags.make:9:CXX_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -D_LIBCPP_ENABLE_EXPERIMENTAL -fno-limit-debug-info -fno-limit-debug-info -flto=thin -fPIC
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/build.make:79:	/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/foo.dir/foo.cpp.o -MF CMakeFiles/foo.dir/foo.cpp.o.d -o CMakeFiles/foo.dir/foo.cpp.o -c /home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/build.make:83:	/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp > CMakeFiles/foo.dir/foo.cpp.i
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/build.make:87:	/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp -o CMakeFiles/foo.dir/foo.cpp.s
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/link.txt:1:/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -D_LIBCPP_ENABLE_EXPERIMENTAL -fno-limit-debug-info -fno-limit-debug-info -flto=thin -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments   CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a -latomic -lm 
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/flags.make:9:CXX_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -D_LIBCPP_ENABLE_EXPERIMENTAL -fno-limit-debug-info -fno-limit-debug-info -flto=thin -fPIE
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/build.make:79:	/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/boo.dir/main.cpp.o -MF CMakeFiles/boo.dir/main.cpp.o.d -o CMakeFiles/boo.dir/main.cpp.o -c /home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/build.make:83:	/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp > CMakeFiles/boo.dir/main.cpp.i
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/build.make:87:	/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp -o CMakeFiles/boo.dir/main.cpp.s
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/CMakeDirectoryInformation.cmake:15:set(CMAKE_CXX_INCLUDE_REGEX_SCAN ${CMAKE_C_INCLUDE_REGEX_SCAN})
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/CMakeDirectoryInformation.cmake:16:set(CMAKE_CXX_INCLUDE_REGEX_COMPLAIN ${CMAKE_C_INCLUDE_REGEX_COMPLAIN})
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeCache.txt:54:CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS:UNINITIALIZED=/home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeCache.txt:57:CMAKE_CXX_COMPILER_TARGET:UNINITIALIZED=aarch64-none-linux-android23
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeCache.txt:60:CMAKE_CXX_FLAGS:STRING=-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -D_LIBCPP_ENABLE_EXPERIMENTAL
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeCache.txt:63:CMAKE_CXX_FLAGS_DEBUG:STRING=-fno-limit-debug-info
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeCache.txt:66:CMAKE_CXX_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeCache.txt:69:CMAKE_CXX_FLAGS_RELEASE:STRING=
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeCache.txt:72:CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeCache.txt:75:CMAKE_CXX_STANDARD_LIBRARIES:STRING=-latomic -lm
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeCache.txt:241://ADVANCED property for variable: CMAKE_CXX_FLAGS
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeCache.txt:242:CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeCache.txt:243://ADVANCED property for variable: CMAKE_CXX_FLAGS_DEBUG
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeCache.txt:244:CMAKE_CXX_FLAGS_DEBUG-ADVANCED:INTERNAL=1
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeCache.txt:245://ADVANCED property for variable: CMAKE_CXX_FLAGS_MINSIZEREL
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeCache.txt:246:CMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeCache.txt:247://ADVANCED property for variable: CMAKE_CXX_FLAGS_RELEASE
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeCache.txt:248:CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeCache.txt:249://ADVANCED property for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeCache.txt:250:CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeCache.txt:251://ADVANCED property for variable: CMAKE_CXX_STANDARD_LIBRARIES
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeCache.txt:252:CMAKE_CXX_STANDARD_LIBRARIES-ADVANCED:INTERNAL=1
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:33: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_stdlib_inlines.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:49: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdlib.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:810: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/cstdlib
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:844: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/stdlib.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:885: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdlib.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:962: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_stdlib_inlines.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:978: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdlib.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:1672: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/cstdlib
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:1698: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/stdlib.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:1737: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdlib.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:1789: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_stdlib_inlines.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:1803: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdlib.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:2288: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/cstdlib
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:2313: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/stdlib.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:2351: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdlib.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:2400: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_stdlib_inlines.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:2414: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdlib.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:3101: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/cstdlib
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:3127: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/stdlib.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:3165: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdlib.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:3215: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_stdlib_inlines.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:3236: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdlib.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:3976: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/cstdlib
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:4008: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/stdlib.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:4054: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdlib.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:4103: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_stdlib_inlines.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:4118: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdlib.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:4616: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/cstdlib
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:4642: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/stdlib.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:4681: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdlib.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:4733: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_stdlib_inlines.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:4754: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdlib.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:5461: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/cstdlib
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:5488: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1/stdlib.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:5534: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdlib.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:5762: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_stdlib_inlines.h
+/home/ubuntu/work/phoneME-resource-cache-android-arm64-make2/CMakeFiles/phoneMECore.dir/compiler_depend.internal:5776: /home/ubuntu/work/android-ndk/android-ndk-r27d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/fortify/stdlib.h
