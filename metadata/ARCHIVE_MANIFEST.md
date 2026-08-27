@@ -35,3 +35,9 @@ The original Danger Dash fixture, Turbo Stable reference APK, CoreBridge r64/r65
 ## Exclusions
 
 No private keys, keystores, tokens or credentials are included. Rejected network experiments, frame-pace/JNI tuner experiments and unrelated transient logs are not promoted as baselines. The withdrawn overlay is deliberately separated and labelled to prevent accidental reuse.
+
+## 2026-08-28 Danger Dash plain Canvas semantic-port snapshot
+
+The archive now includes the exact 23:00 and 23:55 device logs, the two tested-but-insufficient Canvas→GameCanvas JAR experiments under `artifacts/jar/experimental/dangerdash/withdrawn/`, their complete patch directories, and the Stable/CoreBridge ELF/DWARF and framebuffer reports. The main design is `reports/dangerdash/dangerdash_plain_canvas_port_design.md`; it ports only target ownership, dirty tracking and publication invariants, not Stable's legacy JNI/Bitmap/ShortBuffer ABI.
+
+The latest evidence does not justify another JAR mutation or a native binary patch. CoreBridge r64 primitive symbols include Graphics/Image/GraphicsStore/Nokia DirectGraphics write paths, but the exact target-binding and publication source is missing from the recoverable source snapshot. r63 lifecycle/fallback and r64 Farm Frenzy 2 PASS artifacts remain unchanged. See `metadata/DANGERDASH_ARCHIVE_MANIFEST.md` for the detailed status table.

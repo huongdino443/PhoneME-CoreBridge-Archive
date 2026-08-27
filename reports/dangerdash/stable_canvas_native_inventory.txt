@@ -1,0 +1,38 @@
+DEX=/home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/stable/classes.dex
+
+NATIVE_METHOD_COUNT=12
+NATIVE Lbe/preuveneers/phoneme/fpmidp/FrameBufferActivity;->callCVM(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Z Z)V flags=0x109
+NATIVE Lbe/preuveneers/phoneme/fpmidp/FrameBufferActivity;->cleanUpCVM()V flags=0x109
+NATIVE Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->copyToBuffer(Ljava/nio/Buffer;)Z flags=0x109
+NATIVE Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->getNativeAPIVersion()I flags=0x101
+NATIVE Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->initFrameBufferSize(I I Ljava/nio/ShortBuffer; I)Z flags=0x101
+NATIVE Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->initFrameBufferView()Z flags=0x101
+NATIVE Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->renderFrame(Landroid/graphics/Bitmap;)Z flags=0x109
+NATIVE Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->resizeFrameBuffer(I I Ljava/nio/ShortBuffer;)Z flags=0x101
+NATIVE Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->setBitmapFonts(Z)V flags=0x101
+NATIVE Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->setBusy(Z)V flags=0x101
+NATIVE Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->toRGB565([B I I I I)V flags=0x101
+NATIVE Lbe/preuveneers/phoneme/fpmidp/PhoneMECallbacks;->init()V flags=0x109
+
+RELEVANT_METHOD_COUNT=21
+RELEVANT native=0 Lbe/preuveneers/phoneme/fpmidp/CameraProxy;->access$300(Lbe/preuveneers/phoneme/fpmidp/CameraProxy;)Landroid/graphics/Bitmap$CompressFormat; flags=0x1008
+RELEVANT native=0 Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->doRepaint()V flags=0x0
+RELEVANT native=0 Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->drawChars(I Landroid/graphics/Bitmap; I I I Ljava/lang/String; I)V flags=0x20001
+RELEVANT native=0 Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->getFbBitmapForGL()Landroid/graphics/Bitmap; flags=0x9
+RELEVANT native=0 Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->getTextBitmap(I I)Landroid/graphics/Bitmap; flags=0x1
+RELEVANT native=0 Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->paintCameraPreview(Landroid/graphics/Bitmap; I I)V flags=0x1
+RELEVANT native=1 Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->renderFrame(Landroid/graphics/Bitmap;)Z flags=0x109
+RELEVANT native=0 Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->repaintView()V flags=0x1
+RELEVANT native=0 Lcom/phoneme/gl/DisplayHelper;-><clinit>()V flags=0x10008
+RELEVANT native=0 Lcom/phoneme/gl/DisplayHelper;-><init>()V flags=0x10002
+RELEVANT native=0 Lcom/phoneme/gl/DisplayHelper;->ensureCached(Landroid/content/Context;)V flags=0xa
+RELEVANT native=0 Lcom/phoneme/gl/DisplayHelper;->getContentHeight(Landroid/content/Context;)I flags=0x9
+RELEVANT native=0 Lcom/phoneme/gl/DisplayHelper;->getContentWidth(Landroid/content/Context;)I flags=0x9
+RELEVANT native=0 Lcom/phoneme/gl/DisplayHelper;->getRealHeight(Landroid/content/Context;)I flags=0x9
+RELEVANT native=0 Lcom/phoneme/gl/DisplayHelper;->getRealWidth(Landroid/content/Context;)I flags=0x9
+RELEVANT native=0 Lcom/phoneme/gl/DisplayHelper;->invalidateCache()V flags=0x9
+RELEVANT native=0 Lcom/phoneme/gl/FrameBufferBridge;->forwardBitmapToGL(Landroid/graphics/Bitmap;)V flags=0x9
+RELEVANT native=0 Lcom/phoneme/gl/GLFramebufferView;->pushFrame(Landroid/graphics/Bitmap;)V flags=0x1
+RELEVANT native=0 Lcom/phoneme/gl/GLRenderer;->submitFrame(Landroid/graphics/Bitmap;)V flags=0x1
+RELEVANT native=0 Lcom/phoneme/gl/GLRenderer;->uploadBitmap(Landroid/graphics/Bitmap;)V flags=0x2
+RELEVANT native=0 Lcom/phoneme/gl/SIPOverlayView;->onDraw(Landroid/graphics/Canvas;)V flags=0x4

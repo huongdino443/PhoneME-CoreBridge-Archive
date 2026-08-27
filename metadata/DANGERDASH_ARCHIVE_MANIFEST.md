@@ -27,3 +27,27 @@ The r64 APK is the current Farm PASS baseline. The r65 APK is diagnostic only. T
 ## Sensitive-data policy
 
 No private key, keystore file, password, access token, or credential is included in this addition. Public artifact hashes and package/runtime provenance are retained for reproducibility.
+
+
+## Addendum — 2026-08-28 semantic port analysis
+
+The following additions preserve the two device logs and the analysis that followed the plain-Canvas/GameCanvas experiments:
+
+| Path | Status | Provenance / intended use |
+|---|---|---|
+| `logs/dangerdash/PhoneME-CoreBridge-20260827-230036.log.txt` | Device evidence, failed experiment | Exact log for superclass-only Canvas→GameCanvas mutation; registration reached 1 but display remained black. |
+| `logs/dangerdash/PhoneME-CoreBridge-20260827-235520.log.txt` | Device evidence, failed experiment | Exact log for GameCanvas graphics attachment/flush follow-up; registration, attachment, paint and flush counters advanced, but frame stayed black. |
+| `artifacts/jar/experimental/dangerdash/withdrawn/DangerDash-plain-canvas-gamecanvas-patched.jar` | Withdrawn experiment | Preserved byte-for-byte as tested evidence; not a fix or baseline. |
+| `artifacts/jar/experimental/dangerdash/withdrawn/DangerDash-gamecanvas-getgraphics-flush-patched.jar` | Withdrawn experiment | Preserved byte-for-byte as tested evidence; not a fix or baseline. |
+| `reports/dangerdash/dangerdash_plain_canvas_port_design.md` | Analysis/design | Stable-to-CoreBridge semantic mapping, generic native correction contract and recovery boundary. |
+| `reports/dangerdash/plain_canvas_static_evidence_r64.md` | Read-only evidence | ELF/DWARF, symbol and primitive observations for exact r64 binary. |
+| `reports/dangerdash/plain_canvas_root_cause_evidence.md` | Evidence summary | Revised conclusion after registration/attachment/flush experiments. |
+| `reports/dangerdash/dangerdash_stable_comparison_memo.md` | Updated analysis memo | Stable/CoreBridge comparison including 28-08-2026 static evidence and decision not to create another artifact. |
+| `source/dangerdash/patches/plain-canvas-gamecanvas/` | Source/provenance | Complete patch directory, report and original sidecar for the superclass experiment. |
+| `source/dangerdash/patches/gamecanvas-graphics/` | Source/provenance | Complete patch directory, transformer class, report and original sidecar for the getGraphics/flush experiment. |
+
+The read-only ELF review confirms that r64 contains Graphics, Image, GraphicsStore and Nokia DirectGraphics handlers. It does not prove that Danger Dash's paint Graphics, DirectGraphics target and publication target are the same object. The new design therefore ports only target ownership, dirty tracking and publication invariants; it does not copy Stable JNI/Bitmap/ShortBuffer ABI or force plain Canvas into GameCanvas.
+
+The source inventory remains incomplete for a safe native rebuild: `CanvasRuntime.cpp/.hpp`, `GraphicsNatives.cpp`, `ImageNatives.cpp`, `GraphicsStore` definitions, Android JNI implementation and the exact CMake/NDK build graph are absent. The binary `publish_canvas_graphics` signature also differs from the remaining Runtime snapshot, so that snapshot is not treated as exact r64 build source.
+
+No private key, keystore, password, token, credential or user login data was added. r63 lifecycle/fallback and r64 Farm Frenzy 2 PASS artifacts remain untouched.

@@ -1,0 +1,656 @@
+=== Image::mark_dirty_region ===
+
+/home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/corebridge/lib/arm64-v8a/libphoneMECoreBridge.so:     file format elf64-littleaarch64
+
+
+Disassembly of section .text:
+
+00000000002d6cb4 <phoneme::graphics::Image::mark_dirty_region(int, int, int, int)>:
+  2d6cb4:	7100049f 	cmp	w4, #0x1
+  2d6cb8:	5400056b 	b.lt	2d6d64 <phoneme::graphics::Image::mark_dirty_region(int, int, int, int)+0xb0>  // b.tstop
+  2d6cbc:	7100047f 	cmp	w3, #0x1
+  2d6cc0:	5400052b 	b.lt	2d6d64 <phoneme::graphics::Image::mark_dirty_region(int, int, int, int)+0xb0>  // b.tstop
+  2d6cc4:	39402008 	ldrb	w8, [x0, #8]
+  2d6cc8:	340004e8 	cbz	w8, 2d6d64 <phoneme::graphics::Image::mark_dirty_region(int, int, int, int)+0xb0>
+  2d6ccc:	93407c28 	sxtw	x8, w1
+  2d6cd0:	93407c4b 	sxtw	x11, w2
+  2d6cd4:	6940340c 	ldpsw	x12, x13, [x0]
+  2d6cd8:	8b234109 	add	x9, x8, w3, uxtw
+  2d6cdc:	8b24416e 	add	x14, x11, w4, uxtw
+  2d6ce0:	8aa8fd0a 	bic	x10, x8, x8, asr #63
+  2d6ce4:	eb0c013f 	cmp	x9, x12
+  2d6ce8:	9a8cb129 	csel	x9, x9, x12, lt	// lt = tstop
+  2d6cec:	eb0d01df 	cmp	x14, x13
+  2d6cf0:	9a8db1c8 	csel	x8, x14, x13, lt	// lt = tstop
+  2d6cf4:	eb0a013f 	cmp	x9, x10
+  2d6cf8:	5400036d 	b.le	2d6d64 <phoneme::graphics::Image::mark_dirty_region(int, int, int, int)+0xb0>
+  2d6cfc:	8aabfd6b 	bic	x11, x11, x11, asr #63
+  2d6d00:	eb0b011f 	cmp	x8, x11
+  2d6d04:	5400030d 	b.le	2d6d64 <phoneme::graphics::Image::mark_dirty_region(int, int, int, int)+0xb0>
+  2d6d08:	3940a40c 	ldrb	w12, [x0, #41]
+  2d6d0c:	340001ec 	cbz	w12, 2d6d48 <phoneme::graphics::Image::mark_dirty_region(int, int, int, int)+0x94>
+  2d6d10:	6945b40c 	ldpsw	x12, x13, [x0, #44]
+  2d6d14:	6946bc0e 	ldpsw	x14, x15, [x0, #52]
+  2d6d18:	eb0c015f 	cmp	x10, x12
+  2d6d1c:	8b0c01ce 	add	x14, x14, x12
+  2d6d20:	9a8cb14a 	csel	x10, x10, x12, lt	// lt = tstop
+  2d6d24:	eb0d017f 	cmp	x11, x13
+  2d6d28:	8b0d01ec 	add	x12, x15, x13
+  2d6d2c:	9a8db16b 	csel	x11, x11, x13, lt	// lt = tstop
+  2d6d30:	eb0901df 	cmp	x14, x9
+  2d6d34:	9a89c1c9 	csel	x9, x14, x9, gt
+  2d6d38:	eb08019f 	cmp	x12, x8
+  2d6d3c:	b9002c0a 	str	w10, [x0, #44]
+  2d6d40:	9a88c188 	csel	x8, x12, x8, gt
+  2d6d44:	14000004 	b	2d6d54 <phoneme::graphics::Image::mark_dirty_region(int, int, int, int)+0xa0>
+  2d6d48:	5280002c 	mov	w12, #0x1                   	// #1
+  2d6d4c:	b9002c0a 	str	w10, [x0, #44]
+  2d6d50:	3900a40c 	strb	w12, [x0, #41]
+  2d6d54:	4b0a0129 	sub	w9, w9, w10
+  2d6d58:	4b0b0108 	sub	w8, w8, w11
+  2d6d5c:	2906240b 	stp	w11, w9, [x0, #48]
+  2d6d60:	b9003808 	str	w8, [x0, #56]
+  2d6d64:	d65f03c0 	ret
+
+=== Image::set_pixel ===
+
+/home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/corebridge/lib/arm64-v8a/libphoneMECoreBridge.so:     file format elf64-littleaarch64
+
+
+Disassembly of section .text:
+
+00000000002d784c <phoneme::graphics::Image::set_pixel(int, int, unsigned int, bool)>:
+  2d784c:	a9be7bfd 	stp	x29, x30, [sp, #-32]!
+  2d7850:	f9000bf3 	str	x19, [sp, #16]
+  2d7854:	910003fd 	mov	x29, sp
+  2d7858:	39402009 	ldrb	w9, [x0, #8]
+  2d785c:	aa0803f3 	mov	x19, x8
+  2d7860:	34000849 	cbz	w9, 2d7968 <phoneme::graphics::Image::set_pixel(int, int, unsigned int, bool)+0x11c>
+  2d7864:	2a010048 	orr	w8, w2, w1
+  2d7868:	37f811e8 	tbnz	w8, #31, 2d7aa4 <phoneme::graphics::Image::set_pixel(int, int, unsigned int, bool)+0x258>
+  2d786c:	b9400008 	ldr	w8, [x0]
+  2d7870:	6b01011f 	cmp	w8, w1
+  2d7874:	5400118d 	b.le	2d7aa4 <phoneme::graphics::Image::set_pixel(int, int, unsigned int, bool)+0x258>
+  2d7878:	b9400409 	ldr	w9, [x0, #4]
+  2d787c:	6b02013f 	cmp	w9, w2
+  2d7880:	5400112d 	b.le	2d7aa4 <phoneme::graphics::Image::set_pixel(int, int, unsigned int, bool)+0x258>
+  2d7884:	9ba27d08 	umull	x8, w8, w2
+  2d7888:	f9400809 	ldr	x9, [x0, #16]
+  2d788c:	8b080928 	add	x8, x9, x8, lsl #2
+  2d7890:	b8615909 	ldr	w9, [x8, w1, uxtw #2]
+  2d7894:	360000a4 	tbz	w4, #0, 2d78a8 <phoneme::graphics::Image::set_pixel(int, int, unsigned int, bool)+0x5c>
+  2d7898:	53187c6a 	lsr	w10, w3, #24
+  2d789c:	3400104a 	cbz	w10, 2d7aa4 <phoneme::graphics::Image::set_pixel(int, int, unsigned int, bool)+0x258>
+  2d78a0:	7103fd5f 	cmp	w10, #0xff
+  2d78a4:	54000901 	b.ne	2d79c4 <phoneme::graphics::Image::set_pixel(int, int, unsigned int, bool)+0x178>  // b.any
+  2d78a8:	53057c6a 	lsr	w10, w3, #5
+  2d78ac:	529f9f0b 	mov	w11, #0xfcf8                	// #64760
+  2d78b0:	53067c6c 	lsr	w12, w3, #6
+  2d78b4:	72bfff0b 	movk	w11, #0xfff8, lsl #16
+  2d78b8:	0a0b006b 	and	w11, w3, w11
+  2d78bc:	1210094a 	and	w10, w10, #0x70000
+  2d78c0:	2a0b014a 	orr	w10, w10, w11
+  2d78c4:	1218058b 	and	w11, w12, #0x300
+  2d78c8:	2a0b014a 	orr	w10, w10, w11
+  2d78cc:	33051c6a 	bfxil	w10, w3, #5, #3
+  2d78d0:	6b09015f 	cmp	w10, w9
+  2d78d4:	54000e80 	b.eq	2d7aa4 <phoneme::graphics::Image::set_pixel(int, int, unsigned int, bool)+0x258>  // b.none
+  2d78d8:	1e270020 	fmov	s0, w1
+  2d78dc:	52800029 	mov	w9, #0x1                   	// #1
+  2d78e0:	b821590a 	str	w10, [x8, w1, uxtw #2]
+  2d78e4:	4e080d21 	dup	v1.2d, x9
+  2d78e8:	fd400002 	ldr	d2, [x0]
+  2d78ec:	4e0c1c40 	mov	v0.s[1], w2
+  2d78f0:	0f20a442 	sxtl	v2.2d, v2.2s
+  2d78f4:	0ea01021 	saddw	v1.2d, v1.2d, v0.2s
+  2d78f8:	0f20a403 	sxtl	v3.2d, v0.2s
+  2d78fc:	4ee08864 	cmgt	v4.2d, v3.2d, #0
+  2d7900:	4ee13440 	cmgt	v0.2d, v2.2d, v1.2d
+  2d7904:	6e621c20 	bsl	v0.16b, v1.16b, v2.16b
+  2d7908:	4e241c61 	and	v1.16b, v3.16b, v4.16b
+  2d790c:	4ee13402 	cmgt	v2.2d, v0.2d, v1.2d
+  2d7910:	0ea12842 	xtn	v2.2s, v2.2d
+  2d7914:	0e0c3c48 	mov	w8, v2.s[1]
+  2d7918:	1e260049 	fmov	w9, s2
+  2d791c:	0a080128 	and	w8, w9, w8
+  2d7920:	36000c28 	tbz	w8, #0, 2d7aa4 <phoneme::graphics::Image::set_pixel(int, int, unsigned int, bool)+0x258>
+  2d7924:	3940a408 	ldrb	w8, [x0, #41]
+  2d7928:	34000b48 	cbz	w8, 2d7a90 <phoneme::graphics::Image::set_pixel(int, int, unsigned int, bool)+0x244>
+  2d792c:	fc42c002 	ldur	d2, [x0, #44]
+  2d7930:	fc434003 	ldur	d3, [x0, #52]
+  2d7934:	0f20a444 	sxtl	v4.2d, v2.2s
+  2d7938:	0ea20062 	saddl	v2.2d, v3.2s, v2.2s
+  2d793c:	4ee13483 	cmgt	v3.2d, v4.2d, v1.2d
+  2d7940:	4ee03445 	cmgt	v5.2d, v2.2d, v0.2d
+  2d7944:	6ee31c81 	bif	v1.16b, v4.16b, v3.16b
+  2d7948:	6ea51c40 	bit	v0.16b, v2.16b, v5.16b
+  2d794c:	6e014022 	ext	v2.16b, v1.16b, v1.16b, #8
+  2d7950:	6ee18400 	sub	v0.2d, v0.2d, v1.2d
+  2d7954:	0e823821 	zip1	v1.2s, v1.2s, v2.2s
+  2d7958:	0ea12800 	xtn	v0.2s, v0.2d
+  2d795c:	fc02c001 	stur	d1, [x0, #44]
+  2d7960:	fc034000 	stur	d0, [x0, #52]
+  2d7964:	14000050 	b	2d7aa4 <phoneme::graphics::Image::set_pixel(int, int, unsigned int, bool)+0x258>
+  2d7968:	52800600 	mov	w0, #0x30                  	// #48
+  2d796c:	941b9021 	bl	9bb9f0 <operator new(unsigned long)@plt>
+  2d7970:	528c2da8 	mov	w8, #0x616d                	// #24941
+  2d7974:	90fff0e9 	adrp	x9, f3000 <.str.25.llvm.11267191278317594803+0x3630>
+  2d7978:	910c3d29 	add	x9, x9, #0x30f
+  2d797c:	72acace8 	movk	w8, #0x6567, lsl #16
+  2d7980:	ad400520 	ldp	q0, q1, [x9]
+  2d7984:	b801f008 	stur	w8, [x0, #31]
+  2d7988:	528001c8 	mov	w8, #0xe                   	// #14
+  2d798c:	b9000268 	str	w8, [x19]
+  2d7990:	52800628 	mov	w8, #0x31                  	// #49
+  2d7994:	39002268 	strb	w8, [x19, #8]
+  2d7998:	52800468 	mov	w8, #0x23                  	// #35
+  2d799c:	ad000400 	stp	q0, q1, [x0]
+  2d79a0:	39008c1f 	strb	wzr, [x0, #35]
+  2d79a4:	39003e7f 	strb	wzr, [x19, #15]
+  2d79a8:	7800d27f 	sturh	wzr, [x19, #13]
+  2d79ac:	b800927f 	stur	wzr, [x19, #9]
+  2d79b0:	a9010268 	stp	x8, x0, [x19, #16]
+  2d79b4:	a902fe7f 	stp	xzr, xzr, [x19, #40]
+  2d79b8:	f900127f 	str	xzr, [x19, #32]
+  2d79bc:	3900e27f 	strb	wzr, [x19, #56]
+  2d79c0:	1400003b 	b	2d7aac <phoneme::graphics::Image::set_pixel(int, int, unsigned int, bool)+0x260>
+  2d79c4:	53187d2b 	lsr	w11, w9, #24
+  2d79c8:	52001d4c 	eor	w12, w10, #0xff
+  2d79cc:	53083d31 	ubfx	w17, w9, #8, #8
+  2d79d0:	52800fed 	mov	w13, #0x7f                  	// #127
+  2d79d4:	52804070 	mov	w16, #0x203                 	// #515
+  2d79d8:	53083c64 	ubfx	w4, w3, #8, #8
+  2d79dc:	1b0c7d6b 	mul	w11, w11, w12
+  2d79e0:	72a04050 	movk	w16, #0x202, lsl #16
+  2d79e4:	53105d2c 	ubfx	w12, w9, #16, #8
+  2d79e8:	5290102f 	mov	w15, #0x8081                	// #32897
+  2d79ec:	1b113571 	madd	w17, w11, w17, w13
+  2d79f0:	1101fd6e 	add	w14, w11, #0x7f
+  2d79f4:	1b0c356c 	madd	w12, w11, w12, w13
+  2d79f8:	12003dce 	and	w14, w14, #0xffff
+  2d79fc:	1b0f7dce 	mul	w14, w14, w15
+  2d7a00:	53105c6f 	ubfx	w15, w3, #16, #8
+  2d7a04:	9bb07e31 	umull	x17, w17, w16
+  2d7a08:	9bb07d8c 	umull	x12, w12, w16
+  2d7a0c:	0b4e5d4e 	add	w14, w10, w14, lsr #23
+  2d7a10:	d361fe31 	lsr	x17, x17, #33
+  2d7a14:	1b0a4491 	madd	w17, w4, w10, w17
+  2d7a18:	12001d24 	and	w4, w9, #0xff
+  2d7a1c:	d361fd8c 	lsr	x12, x12, #33
+  2d7a20:	1b04356b 	madd	w11, w11, w4, w13
+  2d7a24:	1b0a31ec 	madd	w12, w15, w10, w12
+  2d7a28:	53017dcf 	lsr	w15, w14, #1
+  2d7a2c:	9bb07d6b 	umull	x11, w11, w16
+  2d7a30:	12001c70 	and	w16, w3, #0xff
+  2d7a34:	0b0f022d 	add	w13, w17, w15
+  2d7a38:	0b0f018c 	add	w12, w12, w15
+  2d7a3c:	1ace09ad 	udiv	w13, w13, w14
+  2d7a40:	d361fd6b 	lsr	x11, x11, #33
+  2d7a44:	1b102d4a 	madd	w10, w10, w16, w11
+  2d7a48:	53081dcb 	lsl	w11, w14, #24
+  2d7a4c:	0b0f014a 	add	w10, w10, w15
+  2d7a50:	1ace098c 	udiv	w12, w12, w14
+  2d7a54:	1ace094a 	udiv	w10, w10, w14
+  2d7a58:	33101d8b 	bfi	w11, w12, #16, #8
+  2d7a5c:	53185dac 	lsl	w12, w13, #8
+  2d7a60:	53067dad 	lsr	w13, w13, #6
+  2d7a64:	33001d4b 	bfxil	w11, w10, #0, #8
+  2d7a68:	1216158a 	and	w10, w12, #0xfc00
+  2d7a6c:	331805aa 	bfi	w10, w13, #8, #2
+  2d7a70:	53057d6c 	lsr	w12, w11, #5
+  2d7a74:	120db16b 	and	w11, w11, #0xfff8fff8
+  2d7a78:	2a0b014a 	orr	w10, w10, w11
+  2d7a7c:	1200898c 	and	w12, w12, #0x70007
+  2d7a80:	2a0c014a 	orr	w10, w10, w12
+  2d7a84:	6b09015f 	cmp	w10, w9
+  2d7a88:	54fff281 	b.ne	2d78d8 <phoneme::graphics::Image::set_pixel(int, int, unsigned int, bool)+0x8c>  // b.any
+  2d7a8c:	14000006 	b	2d7aa4 <phoneme::graphics::Image::set_pixel(int, int, unsigned int, bool)+0x258>
+  2d7a90:	6ee18400 	sub	v0.2d, v0.2d, v1.2d
+  2d7a94:	52800028 	mov	w8, #0x1                   	// #1
+  2d7a98:	3900a408 	strb	w8, [x0, #41]
+  2d7a9c:	4e801820 	uzp1	v0.4s, v1.4s, v0.4s
+  2d7aa0:	3c82c000 	stur	q0, [x0, #44]
+  2d7aa4:	52800028 	mov	w8, #0x1                   	// #1
+  2d7aa8:	3900e268 	strb	w8, [x19, #56]
+  2d7aac:	f9400bf3 	ldr	x19, [sp, #16]
+  2d7ab0:	a8c27bfd 	ldp	x29, x30, [sp], #32
+  2d7ab4:	d65f03c0 	ret
+
+=== graphics::fill_rect ===
+
+/home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/corebridge/lib/arm64-v8a/libphoneMECoreBridge.so:     file format elf64-littleaarch64
+
+
+Disassembly of section .text:
+
+00000000002d2bd8 <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)>:
+  2d2bd8:	a9ba7bfd 	stp	x29, x30, [sp, #-96]!
+  2d2bdc:	a9016ffc 	stp	x28, x27, [sp, #16]
+  2d2be0:	a90267fa 	stp	x26, x25, [sp, #32]
+  2d2be4:	a9035ff8 	stp	x24, x23, [sp, #48]
+  2d2be8:	a90457f6 	stp	x22, x21, [sp, #64]
+  2d2bec:	a9054ff4 	stp	x20, x19, [sp, #80]
+  2d2bf0:	910003fd 	mov	x29, sp
+  2d2bf4:	39402009 	ldrb	w9, [x0, #8]
+  2d2bf8:	aa0803f3 	mov	x19, x8
+  2d2bfc:	34000d89 	cbz	w9, 2d2dac <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x1d4>
+  2d2c00:	7100049f 	cmp	w4, #0x1
+  2d2c04:	52800029 	mov	w9, #0x1                   	// #1
+  2d2c08:	54000fcb 	b.lt	2d2e00 <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x228>  // b.tstop
+  2d2c0c:	710004bf 	cmp	w5, #0x1
+  2d2c10:	54000f8b 	b.lt	2d2e00 <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x228>  // b.tstop
+  2d2c14:	39402428 	ldrb	w8, [x1, #9]
+  2d2c18:	aa0103f5 	mov	x21, x1
+  2d2c1c:	34000f28 	cbz	w8, 2d2e00 <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x228>
+  2d2c20:	294226a8 	ldp	w8, w9, [x21, #16]
+  2d2c24:	29443aad 	ldp	w13, w14, [x21, #32]
+  2d2c28:	2b080048 	adds	w8, w2, w8
+  2d2c2c:	131f7d0a 	asr	w10, w8, #31
+  2d2c30:	5201014a 	eor	w10, w10, #0x80000000
+  2d2c34:	1a886148 	csel	w8, w10, w8, vs
+  2d2c38:	2b090069 	adds	w9, w3, w9
+  2d2c3c:	f9400eaa 	ldr	x10, [x21, #24]
+  2d2c40:	131f7d2b 	asr	w11, w9, #31
+  2d2c44:	93407d08 	sxtw	x8, w8
+  2d2c48:	93407d4c 	sxtw	x12, w10
+  2d2c4c:	9360fd4a 	asr	x10, x10, #32
+  2d2c50:	5201016b 	eor	w11, w11, #0x80000000
+  2d2c54:	1a896169 	csel	w9, w11, w9, vs
+  2d2c58:	eb0c011f 	cmp	x8, x12
+  2d2c5c:	0aad7dab 	bic	w11, w13, w13, asr #31
+  2d2c60:	93407d29 	sxtw	x9, w9
+  2d2c64:	9a8cc118 	csel	x24, x8, x12, gt
+  2d2c68:	8b244108 	add	x8, x8, w4, uxtw
+  2d2c6c:	0aae7dcd 	bic	w13, w14, w14, asr #31
+  2d2c70:	8b0b018b 	add	x11, x12, x11
+  2d2c74:	eb0a013f 	cmp	x9, x10
+  2d2c78:	8b25412c 	add	x12, x9, w5, uxtw
+  2d2c7c:	9a8ac137 	csel	x23, x9, x10, gt
+  2d2c80:	eb08017f 	cmp	x11, x8
+  2d2c84:	8b0d0149 	add	x9, x10, x13
+  2d2c88:	9a88b168 	csel	x8, x11, x8, lt	// lt = tstop
+  2d2c8c:	eb0c013f 	cmp	x9, x12
+  2d2c90:	9a8cb12a 	csel	x10, x9, x12, lt	// lt = tstop
+  2d2c94:	eb180108 	subs	x8, x8, x24
+  2d2c98:	52800029 	mov	w9, #0x1                   	// #1
+  2d2c9c:	54000b2d 	b.le	2d2e00 <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x228>
+  2d2ca0:	eb17014a 	subs	x10, x10, x23
+  2d2ca4:	54000aed 	b.le	2d2e00 <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x228>
+  2d2ca8:	12b00009 	mov	w9, #0x7fffffff            	// #2147483647
+  2d2cac:	eb09011f 	cmp	x8, x9
+  2d2cb0:	9a89b108 	csel	x8, x8, x9, lt	// lt = tstop
+  2d2cb4:	eb09015f 	cmp	x10, x9
+  2d2cb8:	9a89b159 	csel	x25, x10, x9, lt	// lt = tstop
+  2d2cbc:	7100051f 	cmp	w8, #0x1
+  2d2cc0:	52800029 	mov	w9, #0x1                   	// #1
+  2d2cc4:	540009eb 	b.lt	2d2e00 <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x228>  // b.tstop
+  2d2cc8:	7100073f 	cmp	w25, #0x1
+  2d2ccc:	540009ab 	b.lt	2d2e00 <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x228>  // b.tstop
+  2d2cd0:	b9400eab 	ldr	w11, [x21, #12]
+  2d2cd4:	aa0003f4 	mov	x20, x0
+  2d2cd8:	53187d69 	lsr	w9, w11, #24
+  2d2cdc:	7103f93f 	cmp	w9, #0xfe
+  2d2ce0:	54000a09 	b.ls	2d2e20 <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x248>  // b.plast
+  2d2ce4:	53057d6a 	lsr	w10, w11, #5
+  2d2ce8:	529f9f0c 	mov	w12, #0xfcf8                	// #64760
+  2d2cec:	53067d6d 	lsr	w13, w11, #6
+  2d2cf0:	72bfff0c 	movk	w12, #0xfff8, lsl #16
+  2d2cf4:	d37ef6f1 	lsl	x17, x23, #2
+  2d2cf8:	aa1f03e9 	mov	x9, xzr
+  2d2cfc:	0a0c016c 	and	w12, w11, w12
+  2d2d00:	1210094a 	and	w10, w10, #0x70000
+  2d2d04:	92407f2e 	and	x14, x25, #0xffffffff
+  2d2d08:	2a0c014a 	orr	w10, w10, w12
+  2d2d0c:	121805ac 	and	w12, w13, #0x300
+  2d2d10:	f9400a8d 	ldr	x13, [x20, #16]
+  2d2d14:	2a0c014a 	orr	w10, w10, w12
+  2d2d18:	9240090c 	and	x12, x8, #0x7
+  2d2d1c:	33051d6a 	bfxil	w10, w11, #5, #3
+  2d2d20:	92407d0b 	and	x11, x8, #0xffffffff
+  2d2d24:	8b1809ad 	add	x13, x13, x24, lsl #2
+  2d2d28:	cb0c016f 	sub	x15, x11, x12
+  2d2d2c:	4e040d40 	dup	v0.4s, w10
+  2d2d30:	d37ef5f0 	lsl	x16, x15, #2
+  2d2d34:	4b0f0100 	sub	w0, w8, w15
+  2d2d38:	910041a1 	add	x1, x13, #0x10
+  2d2d3c:	14000005 	b	2d2d50 <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x178>
+  2d2d40:	91000529 	add	x9, x9, #0x1
+  2d2d44:	91001231 	add	x17, x17, #0x4
+  2d2d48:	eb0e013f 	cmp	x9, x14
+  2d2d4c:	54000940 	b.eq	2d2e74 <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x29c>  // b.none
+  2d2d50:	b9800283 	ldrsw	x3, [x20]
+  2d2d54:	8b170122 	add	x2, x9, x23
+  2d2d58:	f100217f 	cmp	x11, #0x8
+  2d2d5c:	2a0803e4 	mov	w4, w8
+  2d2d60:	9b037c42 	mul	x2, x2, x3
+  2d2d64:	8b0209a2 	add	x2, x13, x2, lsl #2
+  2d2d68:	54000163 	b.cc	2d2d94 <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x1bc>  // b.lo, b.ul, b.last
+  2d2d6c:	9b037e23 	mul	x3, x17, x3
+  2d2d70:	8b100042 	add	x2, x2, x16
+  2d2d74:	aa0f03e4 	mov	x4, x15
+  2d2d78:	8b030023 	add	x3, x1, x3
+  2d2d7c:	ad3f8060 	stp	q0, q0, [x3, #-16]
+  2d2d80:	f1002084 	subs	x4, x4, #0x8
+  2d2d84:	91008063 	add	x3, x3, #0x20
+  2d2d88:	54ffffa1 	b.ne	2d2d7c <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x1a4>  // b.any
+  2d2d8c:	2a0003e4 	mov	w4, w0
+  2d2d90:	b4fffd8c 	cbz	x12, 2d2d40 <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x168>
+  2d2d94:	11000483 	add	w3, w4, #0x1
+  2d2d98:	51000463 	sub	w3, w3, #0x1
+  2d2d9c:	b800444a 	str	w10, [x2], #4
+  2d2da0:	7100047f 	cmp	w3, #0x1
+  2d2da4:	54ffffa8 	b.hi	2d2d98 <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x1c0>  // b.pmore
+  2d2da8:	17ffffe6 	b	2d2d40 <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x168>
+  2d2dac:	52800600 	mov	w0, #0x30                  	// #48
+  2d2db0:	941ba310 	bl	9bb9f0 <operator new(unsigned long)@plt>
+  2d2db4:	528cad88 	mov	w8, #0x656c                	// #25964
+  2d2db8:	b0fff02a 	adrp	x10, d7000 <.str.20.llvm.14703859630110405784+0xf64>
+  2d2dbc:	913a814a 	add	x10, x10, #0xea0
+  2d2dc0:	ad400540 	ldp	q0, q1, [x10]
+  2d2dc4:	79004008 	strh	w8, [x0, #32]
+  2d2dc8:	528001c8 	mov	w8, #0xe                   	// #14
+  2d2dcc:	2a1f03e9 	mov	w9, wzr
+  2d2dd0:	3900881f 	strb	wzr, [x0, #34]
+  2d2dd4:	b9000268 	str	w8, [x19]
+  2d2dd8:	52800628 	mov	w8, #0x31                  	// #49
+  2d2ddc:	39002268 	strb	w8, [x19, #8]
+  2d2de0:	52800448 	mov	w8, #0x22                  	// #34
+  2d2de4:	ad000400 	stp	q0, q1, [x0]
+  2d2de8:	39003e7f 	strb	wzr, [x19, #15]
+  2d2dec:	7800d27f 	sturh	wzr, [x19, #13]
+  2d2df0:	b800927f 	stur	wzr, [x19, #9]
+  2d2df4:	a9010268 	stp	x8, x0, [x19, #16]
+  2d2df8:	a902fe7f 	stp	xzr, xzr, [x19, #40]
+  2d2dfc:	f900127f 	str	xzr, [x19, #32]
+  2d2e00:	3900e269 	strb	w9, [x19, #56]
+  2d2e04:	a9454ff4 	ldp	x20, x19, [sp, #80]
+  2d2e08:	a94457f6 	ldp	x22, x21, [sp, #64]
+  2d2e0c:	a9435ff8 	ldp	x24, x23, [sp, #48]
+  2d2e10:	a94267fa 	ldp	x26, x25, [sp, #32]
+  2d2e14:	a9416ffc 	ldp	x28, x27, [sp, #16]
+  2d2e18:	a8c67bfd 	ldp	x29, x30, [sp], #96
+  2d2e1c:	d65f03c0 	ret
+  2d2e20:	2a1f03fa 	mov	w26, wzr
+  2d2e24:	4b0803fb 	neg	w27, w8
+  2d2e28:	2a1b03fc 	mov	w28, w27
+  2d2e2c:	2a1803f6 	mov	w22, w24
+  2d2e30:	b9400ea3 	ldr	w3, [x21, #12]
+  2d2e34:	0b170342 	add	w2, w26, w23
+  2d2e38:	aa1303e8 	mov	x8, x19
+  2d2e3c:	aa1403e0 	mov	x0, x20
+  2d2e40:	2a1603e1 	mov	w1, w22
+  2d2e44:	52800024 	mov	w4, #0x1                   	// #1
+  2d2e48:	941ba612 	bl	9bc690 <phoneme::graphics::Image::set_pixel(int, int, unsigned int, bool)@plt>
+  2d2e4c:	3940e268 	ldrb	w8, [x19, #56]
+  2d2e50:	34fffda8 	cbz	w8, 2d2e04 <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x22c>
+  2d2e54:	3100079c 	adds	w28, w28, #0x1
+  2d2e58:	110006d6 	add	w22, w22, #0x1
+  2d2e5c:	54fffea3 	b.cc	2d2e30 <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x258>  // b.lo, b.ul, b.last
+  2d2e60:	1100075a 	add	w26, w26, #0x1
+  2d2e64:	52800029 	mov	w9, #0x1                   	// #1
+  2d2e68:	6b19035f 	cmp	w26, w25
+  2d2e6c:	54fffde1 	b.ne	2d2e28 <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x250>  // b.any
+  2d2e70:	17ffffe4 	b	2d2e00 <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x228>
+  2d2e74:	69403289 	ldpsw	x9, x12, [x20]
+  2d2e78:	8b284308 	add	x8, x24, w8, uxtw
+  2d2e7c:	8ab8ff0b 	bic	x11, x24, x24, asr #63
+  2d2e80:	8b1701cd 	add	x13, x14, x23
+  2d2e84:	eb09011f 	cmp	x8, x9
+  2d2e88:	9a89b10a 	csel	x10, x8, x9, lt	// lt = tstop
+  2d2e8c:	eb0c01bf 	cmp	x13, x12
+  2d2e90:	52800029 	mov	w9, #0x1                   	// #1
+  2d2e94:	9a8cb1a8 	csel	x8, x13, x12, lt	// lt = tstop
+  2d2e98:	eb0b015f 	cmp	x10, x11
+  2d2e9c:	54fffb2d 	b.le	2d2e00 <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x228>
+  2d2ea0:	8ab7feec 	bic	x12, x23, x23, asr #63
+  2d2ea4:	eb0c011f 	cmp	x8, x12
+  2d2ea8:	54fffacd 	b.le	2d2e00 <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x228>
+  2d2eac:	3940a689 	ldrb	w9, [x20, #41]
+  2d2eb0:	34000269 	cbz	w9, 2d2efc <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x324>
+  2d2eb4:	6945b689 	ldpsw	x9, x13, [x20, #44]
+  2d2eb8:	6946be8e 	ldpsw	x14, x15, [x20, #52]
+  2d2ebc:	eb09017f 	cmp	x11, x9
+  2d2ec0:	8b0901ce 	add	x14, x14, x9
+  2d2ec4:	9a89b169 	csel	x9, x11, x9, lt	// lt = tstop
+  2d2ec8:	eb0d019f 	cmp	x12, x13
+  2d2ecc:	8b0d01eb 	add	x11, x15, x13
+  2d2ed0:	9a8db18c 	csel	x12, x12, x13, lt	// lt = tstop
+  2d2ed4:	eb0a01df 	cmp	x14, x10
+  2d2ed8:	9a8ac1ca 	csel	x10, x14, x10, gt
+  2d2edc:	eb08017f 	cmp	x11, x8
+  2d2ee0:	2905b289 	stp	w9, w12, [x20, #44]
+  2d2ee4:	9a88c168 	csel	x8, x11, x8, gt
+  2d2ee8:	4b090149 	sub	w9, w10, w9
+  2d2eec:	4b0c0108 	sub	w8, w8, w12
+  2d2ef0:	2906a289 	stp	w9, w8, [x20, #52]
+  2d2ef4:	52800029 	mov	w9, #0x1                   	// #1
+  2d2ef8:	17ffffc2 	b	2d2e00 <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x228>
+  2d2efc:	52800029 	mov	w9, #0x1                   	// #1
+  2d2f00:	4b0b014a 	sub	w10, w10, w11
+  2d2f04:	4b0c0108 	sub	w8, w8, w12
+  2d2f08:	3900a689 	strb	w9, [x20, #41]
+  2d2f0c:	2905b28b 	stp	w11, w12, [x20, #44]
+  2d2f10:	2906a28a 	stp	w10, w8, [x20, #52]
+  2d2f14:	17ffffbb 	b	2d2e00 <phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)+0x228>
+
+=== GraphicsStore::context ===
+
+/home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/corebridge/lib/arm64-v8a/libphoneMECoreBridge.so:     file format elf64-littleaarch64
+
+
+Disassembly of section .text:
+
+00000000002d0838 <phoneme::graphics::GraphicsStore::context(unsigned long)>:
+  2d0838:	a9be7bfd 	stp	x29, x30, [sp, #-32]!
+  2d083c:	f9000bf3 	str	x19, [sp, #16]
+  2d0840:	910003fd 	mov	x29, sp
+  2d0844:	d29199a9 	mov	x9, #0x8ccd                	// #36045
+  2d0848:	ca41842a 	eor	x10, x1, x1, lsr #33
+  2d084c:	aa0803f3 	mov	x19, x8
+  2d0850:	f2bdaaa9 	movk	x9, #0xed55, lsl #16
+  2d0854:	f2d5fae9 	movk	x9, #0xafd7, lsl #32
+  2d0858:	f2ffea29 	movk	x9, #0xff51, lsl #48
+  2d085c:	9b097d49 	mul	x9, x10, x9
+  2d0860:	d361fd2a 	lsr	x10, x9, #33
+  2d0864:	4a090149 	eor	w9, w10, w9
+  2d0868:	9105400a 	add	x10, x0, #0x150
+  2d086c:	92400d29 	and	x9, x9, #0xf
+  2d0870:	8b091149 	add	x9, x10, x9, lsl #4
+  2d0874:	f940012a 	ldr	x10, [x9]
+  2d0878:	eb01015f 	cmp	x10, x1
+  2d087c:	540000e1 	b.ne	2d0898 <phoneme::graphics::GraphicsStore::context(unsigned long)+0x60>  // b.any
+  2d0880:	f9400528 	ldr	x8, [x9, #8]
+  2d0884:	b40000a8 	cbz	x8, 2d0898 <phoneme::graphics::GraphicsStore::context(unsigned long)+0x60>
+  2d0888:	f9000268 	str	x8, [x19]
+  2d088c:	52800028 	mov	w8, #0x1                   	// #1
+  2d0890:	3900e268 	strb	w8, [x19, #56]
+  2d0894:	14000049 	b	2d09b8 <phoneme::graphics::GraphicsStore::context(unsigned long)+0x180>
+  2d0898:	f940180a 	ldr	x10, [x0, #48]
+  2d089c:	b400064a 	cbz	x10, 2d0964 <phoneme::graphics::GraphicsStore::context(unsigned long)+0x12c>
+  2d08a0:	9e670140 	fmov	d0, x10
+  2d08a4:	0e205800 	cnt	v0.8b, v0.8b
+  2d08a8:	2e303800 	uaddlv	h0, v0.8b
+  2d08ac:	1e26000c 	fmov	w12, s0
+  2d08b0:	f100059f 	cmp	x12, #0x1
+  2d08b4:	54000088 	b.hi	2d08c4 <phoneme::graphics::GraphicsStore::context(unsigned long)+0x8c>  // b.pmore
+  2d08b8:	d1000548 	sub	x8, x10, #0x1
+  2d08bc:	8a010108 	and	x8, x8, x1
+  2d08c0:	14000006 	b	2d08d8 <phoneme::graphics::GraphicsStore::context(unsigned long)+0xa0>
+  2d08c4:	eb01015f 	cmp	x10, x1
+  2d08c8:	aa0103e8 	mov	x8, x1
+  2d08cc:	54000068 	b.hi	2d08d8 <phoneme::graphics::GraphicsStore::context(unsigned long)+0xa0>  // b.pmore
+  2d08d0:	9aca0828 	udiv	x8, x1, x10
+  2d08d4:	9b0a8508 	msub	x8, x8, x10, x1
+  2d08d8:	f940140b 	ldr	x11, [x0, #40]
+  2d08dc:	f868796b 	ldr	x11, [x11, x8, lsl #3]
+  2d08e0:	b400042b 	cbz	x11, 2d0964 <phoneme::graphics::GraphicsStore::context(unsigned long)+0x12c>
+  2d08e4:	f940016b 	ldr	x11, [x11]
+  2d08e8:	b40003eb 	cbz	x11, 2d0964 <phoneme::graphics::GraphicsStore::context(unsigned long)+0x12c>
+  2d08ec:	f100099f 	cmp	x12, #0x2
+  2d08f0:	54000282 	b.cs	2d0940 <phoneme::graphics::GraphicsStore::context(unsigned long)+0x108>  // b.hs, b.nlast
+  2d08f4:	d100054a 	sub	x10, x10, #0x1
+  2d08f8:	14000006 	b	2d0910 <phoneme::graphics::GraphicsStore::context(unsigned long)+0xd8>
+  2d08fc:	f940096c 	ldr	x12, [x11, #16]
+  2d0900:	eb01019f 	cmp	x12, x1
+  2d0904:	54000600 	b.eq	2d09c4 <phoneme::graphics::GraphicsStore::context(unsigned long)+0x18c>  // b.none
+  2d0908:	f940016b 	ldr	x11, [x11]
+  2d090c:	b40002cb 	cbz	x11, 2d0964 <phoneme::graphics::GraphicsStore::context(unsigned long)+0x12c>
+  2d0910:	f940056c 	ldr	x12, [x11, #8]
+  2d0914:	eb01019f 	cmp	x12, x1
+  2d0918:	54ffff20 	b.eq	2d08fc <phoneme::graphics::GraphicsStore::context(unsigned long)+0xc4>  // b.none
+  2d091c:	8a0a018c 	and	x12, x12, x10
+  2d0920:	eb08019f 	cmp	x12, x8
+  2d0924:	54ffff20 	b.eq	2d0908 <phoneme::graphics::GraphicsStore::context(unsigned long)+0xd0>  // b.none
+  2d0928:	1400000f 	b	2d0964 <phoneme::graphics::GraphicsStore::context(unsigned long)+0x12c>
+  2d092c:	f940096c 	ldr	x12, [x11, #16]
+  2d0930:	eb01019f 	cmp	x12, x1
+  2d0934:	54000480 	b.eq	2d09c4 <phoneme::graphics::GraphicsStore::context(unsigned long)+0x18c>  // b.none
+  2d0938:	f940016b 	ldr	x11, [x11]
+  2d093c:	b400014b 	cbz	x11, 2d0964 <phoneme::graphics::GraphicsStore::context(unsigned long)+0x12c>
+  2d0940:	f940056c 	ldr	x12, [x11, #8]
+  2d0944:	eb01019f 	cmp	x12, x1
+  2d0948:	54ffff20 	b.eq	2d092c <phoneme::graphics::GraphicsStore::context(unsigned long)+0xf4>  // b.none
+  2d094c:	eb0a019f 	cmp	x12, x10
+  2d0950:	54000063 	b.cc	2d095c <phoneme::graphics::GraphicsStore::context(unsigned long)+0x124>  // b.lo, b.ul, b.last
+  2d0954:	9aca098d 	udiv	x13, x12, x10
+  2d0958:	9b0ab1ac 	msub	x12, x13, x10, x12
+  2d095c:	eb08019f 	cmp	x12, x8
+  2d0960:	54fffec0 	b.eq	2d0938 <phoneme::graphics::GraphicsStore::context(unsigned long)+0x100>  // b.none
+  2d0964:	52800600 	mov	w0, #0x30                  	// #48
+  2d0968:	941bac22 	bl	9bb9f0 <operator new(unsigned long)@plt>
+  2d096c:	f0fff108 	adrp	x8, f3000 <.str.25.llvm.11267191278317594803+0x3630>
+  2d0970:	910b0108 	add	x8, x8, #0x2c0
+  2d0974:	3900b01f 	strb	wzr, [x0, #44]
+  2d0978:	ad400500 	ldp	q0, q1, [x8]
+  2d097c:	3cc1c102 	ldur	q2, [x8, #28]
+  2d0980:	528001c8 	mov	w8, #0xe                   	// #14
+  2d0984:	39003e7f 	strb	wzr, [x19, #15]
+  2d0988:	b9000268 	str	w8, [x19]
+  2d098c:	52800628 	mov	w8, #0x31                  	// #49
+  2d0990:	39002268 	strb	w8, [x19, #8]
+  2d0994:	52800588 	mov	w8, #0x2c                  	// #44
+  2d0998:	ad000400 	stp	q0, q1, [x0]
+  2d099c:	3c81c002 	stur	q2, [x0, #28]
+  2d09a0:	7800d27f 	sturh	wzr, [x19, #13]
+  2d09a4:	b800927f 	stur	wzr, [x19, #9]
+  2d09a8:	a9010268 	stp	x8, x0, [x19, #16]
+  2d09ac:	a902fe7f 	stp	xzr, xzr, [x19, #40]
+  2d09b0:	f900127f 	str	xzr, [x19, #32]
+  2d09b4:	3900e27f 	strb	wzr, [x19, #56]
+  2d09b8:	f9400bf3 	ldr	x19, [sp, #16]
+  2d09bc:	a8c27bfd 	ldp	x29, x30, [sp], #32
+  2d09c0:	d65f03c0 	ret
+  2d09c4:	91006168 	add	x8, x11, #0x18
+  2d09c8:	a9002121 	stp	x1, x8, [x9]
+  2d09cc:	17ffffaf 	b	2d0888 <phoneme::graphics::GraphicsStore::context(unsigned long)+0x50>
+
+=== GraphicsStore::image ===
+
+/home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/corebridge/lib/arm64-v8a/libphoneMECoreBridge.so:     file format elf64-littleaarch64
+
+
+Disassembly of section .text:
+
+00000000002d0508 <phoneme::graphics::GraphicsStore::image(unsigned long)>:
+  2d0508:	a9be7bfd 	stp	x29, x30, [sp, #-32]!
+  2d050c:	f9000bf3 	str	x19, [sp, #16]
+  2d0510:	910003fd 	mov	x29, sp
+  2d0514:	d29199a9 	mov	x9, #0x8ccd                	// #36045
+  2d0518:	ca41842a 	eor	x10, x1, x1, lsr #33
+  2d051c:	aa0803f3 	mov	x19, x8
+  2d0520:	f2bdaaa9 	movk	x9, #0xed55, lsl #16
+  2d0524:	f2d5fae9 	movk	x9, #0xafd7, lsl #32
+  2d0528:	f2ffea29 	movk	x9, #0xff51, lsl #48
+  2d052c:	9b097d49 	mul	x9, x10, x9
+  2d0530:	d361fd2a 	lsr	x10, x9, #33
+  2d0534:	4a090149 	eor	w9, w10, w9
+  2d0538:	9101400a 	add	x10, x0, #0x50
+  2d053c:	92400d29 	and	x9, x9, #0xf
+  2d0540:	8b091149 	add	x9, x10, x9, lsl #4
+  2d0544:	f940012a 	ldr	x10, [x9]
+  2d0548:	eb01015f 	cmp	x10, x1
+  2d054c:	540000e1 	b.ne	2d0568 <phoneme::graphics::GraphicsStore::image(unsigned long)+0x60>  // b.any
+  2d0550:	f9400528 	ldr	x8, [x9, #8]
+  2d0554:	b40000a8 	cbz	x8, 2d0568 <phoneme::graphics::GraphicsStore::image(unsigned long)+0x60>
+  2d0558:	f9000268 	str	x8, [x19]
+  2d055c:	52800028 	mov	w8, #0x1                   	// #1
+  2d0560:	3900e268 	strb	w8, [x19, #56]
+  2d0564:	14000049 	b	2d0688 <phoneme::graphics::GraphicsStore::image(unsigned long)+0x180>
+  2d0568:	f940040a 	ldr	x10, [x0, #8]
+  2d056c:	b400064a 	cbz	x10, 2d0634 <phoneme::graphics::GraphicsStore::image(unsigned long)+0x12c>
+  2d0570:	9e670140 	fmov	d0, x10
+  2d0574:	0e205800 	cnt	v0.8b, v0.8b
+  2d0578:	2e303800 	uaddlv	h0, v0.8b
+  2d057c:	1e26000c 	fmov	w12, s0
+  2d0580:	f100059f 	cmp	x12, #0x1
+  2d0584:	54000088 	b.hi	2d0594 <phoneme::graphics::GraphicsStore::image(unsigned long)+0x8c>  // b.pmore
+  2d0588:	d1000548 	sub	x8, x10, #0x1
+  2d058c:	8a010108 	and	x8, x8, x1
+  2d0590:	14000006 	b	2d05a8 <phoneme::graphics::GraphicsStore::image(unsigned long)+0xa0>
+  2d0594:	eb01015f 	cmp	x10, x1
+  2d0598:	aa0103e8 	mov	x8, x1
+  2d059c:	54000068 	b.hi	2d05a8 <phoneme::graphics::GraphicsStore::image(unsigned long)+0xa0>  // b.pmore
+  2d05a0:	9aca0828 	udiv	x8, x1, x10
+  2d05a4:	9b0a8508 	msub	x8, x8, x10, x1
+  2d05a8:	f940000b 	ldr	x11, [x0]
+  2d05ac:	f868796b 	ldr	x11, [x11, x8, lsl #3]
+  2d05b0:	b400042b 	cbz	x11, 2d0634 <phoneme::graphics::GraphicsStore::image(unsigned long)+0x12c>
+  2d05b4:	f940016b 	ldr	x11, [x11]
+  2d05b8:	b40003eb 	cbz	x11, 2d0634 <phoneme::graphics::GraphicsStore::image(unsigned long)+0x12c>
+  2d05bc:	f100099f 	cmp	x12, #0x2
+  2d05c0:	54000282 	b.cs	2d0610 <phoneme::graphics::GraphicsStore::image(unsigned long)+0x108>  // b.hs, b.nlast
+  2d05c4:	d100054a 	sub	x10, x10, #0x1
+  2d05c8:	14000006 	b	2d05e0 <phoneme::graphics::GraphicsStore::image(unsigned long)+0xd8>
+  2d05cc:	f940096c 	ldr	x12, [x11, #16]
+  2d05d0:	eb01019f 	cmp	x12, x1
+  2d05d4:	54000600 	b.eq	2d0694 <phoneme::graphics::GraphicsStore::image(unsigned long)+0x18c>  // b.none
+  2d05d8:	f940016b 	ldr	x11, [x11]
+  2d05dc:	b40002cb 	cbz	x11, 2d0634 <phoneme::graphics::GraphicsStore::image(unsigned long)+0x12c>
+  2d05e0:	f940056c 	ldr	x12, [x11, #8]
+  2d05e4:	eb01019f 	cmp	x12, x1
+  2d05e8:	54ffff20 	b.eq	2d05cc <phoneme::graphics::GraphicsStore::image(unsigned long)+0xc4>  // b.none
+  2d05ec:	8a0a018c 	and	x12, x12, x10
+  2d05f0:	eb08019f 	cmp	x12, x8
+  2d05f4:	54ffff20 	b.eq	2d05d8 <phoneme::graphics::GraphicsStore::image(unsigned long)+0xd0>  // b.none
+  2d05f8:	1400000f 	b	2d0634 <phoneme::graphics::GraphicsStore::image(unsigned long)+0x12c>
+  2d05fc:	f940096c 	ldr	x12, [x11, #16]
+  2d0600:	eb01019f 	cmp	x12, x1
+  2d0604:	54000480 	b.eq	2d0694 <phoneme::graphics::GraphicsStore::image(unsigned long)+0x18c>  // b.none
+  2d0608:	f940016b 	ldr	x11, [x11]
+  2d060c:	b400014b 	cbz	x11, 2d0634 <phoneme::graphics::GraphicsStore::image(unsigned long)+0x12c>
+  2d0610:	f940056c 	ldr	x12, [x11, #8]
+  2d0614:	eb01019f 	cmp	x12, x1
+  2d0618:	54ffff20 	b.eq	2d05fc <phoneme::graphics::GraphicsStore::image(unsigned long)+0xf4>  // b.none
+  2d061c:	eb0a019f 	cmp	x12, x10
+  2d0620:	54000063 	b.cc	2d062c <phoneme::graphics::GraphicsStore::image(unsigned long)+0x124>  // b.lo, b.ul, b.last
+  2d0624:	9aca098d 	udiv	x13, x12, x10
+  2d0628:	9b0ab1ac 	msub	x12, x13, x10, x12
+  2d062c:	eb08019f 	cmp	x12, x8
+  2d0630:	54fffec0 	b.eq	2d0608 <phoneme::graphics::GraphicsStore::image(unsigned long)+0x100>  // b.none
+  2d0634:	52800600 	mov	w0, #0x30                  	// #48
+  2d0638:	941bacee 	bl	9bb9f0 <operator new(unsigned long)@plt>
+  2d063c:	d0fff088 	adrp	x8, e2000 <.str.1.llvm.10480879346495303811+0x76>
+  2d0640:	91149908 	add	x8, x8, #0x526
+  2d0644:	3900a41f 	strb	wzr, [x0, #41]
+  2d0648:	ad400500 	ldp	q0, q1, [x8]
+  2d064c:	3cc19102 	ldur	q2, [x8, #25]
+  2d0650:	528001c8 	mov	w8, #0xe                   	// #14
+  2d0654:	39003e7f 	strb	wzr, [x19, #15]
+  2d0658:	b9000268 	str	w8, [x19]
+  2d065c:	52800628 	mov	w8, #0x31                  	// #49
+  2d0660:	39002268 	strb	w8, [x19, #8]
+  2d0664:	52800528 	mov	w8, #0x29                  	// #41
+  2d0668:	ad000400 	stp	q0, q1, [x0]
+  2d066c:	3c819002 	stur	q2, [x0, #25]
+  2d0670:	7800d27f 	sturh	wzr, [x19, #13]
+  2d0674:	b800927f 	stur	wzr, [x19, #9]
+  2d0678:	a9010268 	stp	x8, x0, [x19, #16]
+  2d067c:	a902fe7f 	stp	xzr, xzr, [x19, #40]
+  2d0680:	f900127f 	str	xzr, [x19, #32]
+  2d0684:	3900e27f 	strb	wzr, [x19, #56]
+  2d0688:	f9400bf3 	ldr	x19, [sp, #16]
+  2d068c:	a8c27bfd 	ldp	x29, x30, [sp], #32
+  2d0690:	d65f03c0 	ret
+  2d0694:	91006168 	add	x8, x11, #0x18
+  2d0698:	a9002121 	stp	x1, x8, [x9]
+  2d069c:	17ffffaf 	b	2d0558 <phoneme::graphics::GraphicsStore::image(unsigned long)+0x50>

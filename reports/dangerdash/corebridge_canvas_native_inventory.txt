@@ -1,0 +1,51 @@
+DEX=/home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/corebridge/classes.dex
+
+NATIVE_METHOD_COUNT=29
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeApiVersion()I flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeConfigure(J Ljava/lang/String; Ljava/lang/String;)I flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeCopyFrameSince(J J [B [I)I flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeCopyLcduiImageRgba(J I [B [I)I flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeCreate()J flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeDebugLog()Ljava/lang/String; flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeDestroy(J)V flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeFlushDebugLog()V flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeIsRunning(J)Z flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeLastError(J)Ljava/lang/String; flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeLastExitCode(J)I flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeLcdUiActivateItem(J I)V flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeLcdUiFocusItem(J I)V flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeLcdUiSelectCommand(J I)V flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeLcdUiSelectListItemCommand(J I I I)V flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeLcdUiSetChoice(J I I I)V flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeLcdUiSetGauge(J I I)V flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeLcdUiSetText(J I Ljava/lang/String; I)V flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeLogFilePath()Ljava/lang/String; flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeMediaTrace(Ljava/lang/String;)V flags=0x10a
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeMidletError(J I)Ljava/lang/String; flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativePollLcdUiEvent(J)[Ljava/lang/Object; flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativePump(J)V flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeSchedulerSnapshot(J)Ljava/lang/String; flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeSendKey(J I I)V flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeSendPointer(J I I I)V flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeStartJar(J Ljava/lang/String; Ljava/lang/String; I I)I flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeStartJarScoped(J Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; I I)I flags=0x109
+NATIVE Lcom/phoneme/corebridge/CoreBridgeNative;->nativeStop(J)V flags=0x109
+
+RELEVANT_METHOD_COUNT=17
+RELEVANT native=1 Lcom/phoneme/corebridge/CoreBridgeNative;->nativeFlushDebugLog()V flags=0x109
+RELEVANT native=0 Lcom/phoneme/corebridge/GameSurfaceView;->emitCanvasHandshakeLog(J)V flags=0x2
+RELEVANT native=0 Lcom/phoneme/corebridge/GameSurfaceView;->onDraw(Landroid/graphics/Canvas;)V flags=0x4
+RELEVANT native=0 Lcom/phoneme/corebridge/GameSurfaceView;->prepareForCanvasSwitch()V flags=0x1
+RELEVANT native=0 Lcom/phoneme/corebridge/MainActivity;->commandDisplayLabel(Lcom/phoneme/corebridge/MainActivity$LcdUiCommand;)Ljava/lang/String; flags=0x1
+RELEVANT native=0 Lcom/phoneme/corebridge/MainActivity;->finishSyntheticTextBoxHandoffOnCanvas()V flags=0x2
+RELEVANT native=0 Lcom/phoneme/corebridge/MainActivity;->flatButtonBackground()Landroid/graphics/drawable/GradientDrawable; flags=0x2
+RELEVANT native=0 Lcom/phoneme/corebridge/MainActivity;->flatFieldBackground()Landroid/graphics/drawable/GradientDrawable; flags=0x2
+RELEVANT native=0 Lcom/phoneme/corebridge/MainActivity;->flatInteractiveBackground()Landroid/graphics/drawable/GradientDrawable; flags=0x2
+RELEVANT native=0 Lcom/phoneme/corebridge/MainActivity;->flatListRowBackground(Z)Landroid/graphics/drawable/GradientDrawable; flags=0x2
+RELEVANT native=0 Lcom/phoneme/corebridge/MainActivity;->formDisplayValue(Lcom/phoneme/corebridge/MainActivity$FormItemState;)Ljava/lang/String; flags=0x2
+RELEVANT native=0 Lcom/phoneme/corebridge/MainActivity;->listChoiceImageView(Landroid/graphics/Bitmap;)Landroid/widget/ImageView; flags=0x2
+RELEVANT native=0 Lcom/phoneme/corebridge/MainActivity;->loadListChoiceImage(I)Landroid/graphics/Bitmap; flags=0x2
+RELEVANT native=0 Lcom/phoneme/corebridge/MainActivity;->markFreshRestartCanvasPresented()V flags=0x2
+RELEVANT native=0 Lcom/phoneme/corebridge/MainActivity;->presentCanvasScreenFromNativeEvent(I Ljava/lang/String;)V flags=0x2
+RELEVANT native=0 Lcom/phoneme/corebridge/MainActivity;->restoreCanvasPresentation(Ljava/lang/String;)V flags=0x2
+RELEVANT native=0 Lcom/phoneme/corebridge/MainActivity;->trimTransparentBitmap(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap; flags=0x2

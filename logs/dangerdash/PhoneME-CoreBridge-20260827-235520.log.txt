@@ -1,0 +1,1209 @@
+PhoneME CoreBridge full diagnostic log
+exportedAt=2026-08-27 23:55:21.930
+package=com.phoneme.corebridge
+
+--- Java/UI persistent log ---
+2026-08-27 23:54:47.142 --- CoreBridge Java log started ---
+2026-08-27 23:54:47.164 Ứng dụng khởi động; chờ chọn JAR/JAD.
+2026-08-27 23:54:47.164 Core C API: 0x10200
+2026-08-27 23:54:47.165 nativeConfigure=0 home=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime
+2026-08-27 23:54:47.165 Java log file=/data/user/0/com.phoneme.corebridge/files/corebridge-session.log
+2026-08-27 23:54:47.165 Native log file=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/corebridge-native.log
+2026-08-27 23:54:48.593 Đã cấp quyền truy cập bộ nhớ.
+2026-08-27 23:55:10.084 Đã lưu game vào thư viện: /data/user/0/com.phoneme.corebridge/files/game-library/1787849710073_DangerDash-gamecanvas-getgraphics-flush-patched.jar
+2026-08-27 23:55:10.094 Đã chọn và lưu game: /data/user/0/com.phoneme.corebridge/files/game-library/1787849710073_DangerDash-gamecanvas-getgraphics-flush-patched.jar
+2026-08-27 23:55:10.095 MIDlet class: GloftJDMP
+2026-08-27 23:55:11.286 Đã lưu thiết lập app: DangerDash-gamecanvas-getgraphics-flush-patched.jar canvas=360x640 aspect=true scale=100 position=1 mode=0
+2026-08-27 23:55:11.289 Canvas launch size=360x640
+2026-08-27 23:55:11.291 LCDUI clone records reset for new JAR
+2026-08-27 23:55:11.292 FRAME: canvas switch prepared; old framebuffer dropped
+2026-08-27 23:55:11.292 --- Bắt đầu CoreBridge ---
+2026-08-27 23:55:11.293 gamePath=/data/user/0/com.phoneme.corebridge/files/game-library/1787849710073_DangerDash-gamecanvas-getgraphics-flush-patched.jar
+2026-08-27 23:55:11.294 mainClass=GloftJDMP
+2026-08-27 23:55:11.612 nativeStartJarScoped scope=1787849710073 0
+2026-08-27 23:55:11.614 Host presentation switched to game session
+2026-08-27 23:55:11.615 FRAME: render loop started
+2026-08-27 23:55:11.617 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=6 canvasTryPump=72 canvasGateBusy=70 canvasEntries=2 inputProcessed=0 repaintPasses=2 repaintCandidates=1 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=1 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=3 runnable=2 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967299 target=0 SNAPSHOT thread id=3 state=runnable alive=1 priority=5 interrupted=0 object=8589935868 target=4294967734 
+2026-08-27 23:55:11.622 FRAME: uiFrame callback latencyNs=336658432 generation=-9223372036854775808 onDrawCount=0
+2026-08-27 23:55:11.624 LCDUI MIDlet lifecycle kind=1 id=1 destroyed=false paused=false detail= programKey=
+2026-08-27 23:55:11.625 LCDUI raw screen event kind=3 id=100001 componentType=22 arg0=1 arg1=0 arg2=0 arg3=-1007 title=
+2026-08-27 23:55:11.625 LCDUI command owner screen=100001 count=0
+2026-08-27 23:55:11.626 FRAME: frame delivery resumed; waiting for fresh framebuffer
+2026-08-27 23:55:11.626 LCDUI Canvas handoff #1 id=100001 kind=SCREEN_KIND_METADATA wasSuspended=true before=suspended=true awaitingFresh=true freshReady=false epoch=1 generation=-9223372036854775808 after=suspended=false awaitingFresh=true freshReady=false epoch=2 generation=-9223372036854775808
+2026-08-27 23:55:11.627 LCDUI screen kind=Canvas id=100001
+2026-08-27 23:55:11.628 LCDUI raw screen event kind=4 id=100001 componentType=22 arg0=0 arg1=0 arg2=0 arg3=0 title=
+2026-08-27 23:55:11.628 LCDUI command owner screen=100001 count=0
+2026-08-27 23:55:11.628 LCDUI Canvas handoff #2 id=100001 kind=SCREEN_SHOWN wasSuspended=false before=suspended=false awaitingFresh=true freshReady=false epoch=2 generation=-9223372036854775808 after=suspended=false awaitingFresh=true freshReady=false epoch=2 generation=-9223372036854775808
+2026-08-27 23:55:11.629 LCDUI screen shown kind=Canvas id=100001
+2026-08-27 23:55:11.629 LCDUI command owner screen=100001 count=0
+2026-08-27 23:55:11.629 LCDUI command reset owner=100001 activeAlert=-1 activeCommand=100001 form=-1 list=false
+2026-08-27 23:55:11.749 LCDUI Canvas handoff #1 +120ms id=100001 state=suspended=false awaitingFresh=true freshReady=false epoch=2 generation=-9223372036854775808
+2026-08-27 23:55:11.751 LCDUI Canvas handoff #2 +120ms id=100001 state=suspended=false awaitingFresh=true freshReady=false epoch=2 generation=-9223372036854775808
+2026-08-27 23:55:11.778 FRAME: nativePump slow durationNs=162157056
+2026-08-27 23:55:12.618 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=73 canvasGateBusy=70 canvasEntries=3 inputProcessed=0 repaintPasses=3 repaintCandidates=2 paintCallbacks=2 paintCommits=1 gameFlushRequests=1 gameFlushCommits=1 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=1 gameGraphicsAttached=1 paintInFlight=1 nativeInFlight=0 paintPc=1091 paintAgeMs=821 lastNative=java/lang/Object.<init>()V timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=3 runnable=2 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967299 target=0 SNAPSHOT thread id=3 state=runnable alive=1 priority=5 interrupted=0 object=8589935868 target=4294967734
+2026-08-27 23:55:13.305 FRAME: copied generation=3 checksum=a9df1d5340c2c325 changed=true copyCount=1
+2026-08-27 23:55:13.314 FRAME: updateFrame slow durationNs=1520520960 result=true
+2026-08-27 23:55:13.322 FRAME: onDraw generation=3 onDrawCount=4 drawCount=1 bitmapUpdates=1
+2026-08-27 23:55:13.338 FRAME: copied generation=4 checksum=a9df1d5340c2c325 changed=false copyCount=2
+2026-08-27 23:55:13.339 FRAME: frame available bytes=921600 size=360x640 generation=4 state=1
+2026-08-27 23:55:13.355 FRAME: onDraw generation=4 onDrawCount=5 drawCount=2 bitmapUpdates=2
+2026-08-27 23:55:13.360 FRAME: copied generation=5 checksum=a9df1d5340c2c325 changed=false copyCount=3
+2026-08-27 23:55:13.360 FRAME: frame available bytes=921600 size=360x640 generation=5 state=1
+2026-08-27 23:55:13.372 FRAME: onDraw generation=5 onDrawCount=6 drawCount=3 bitmapUpdates=3
+2026-08-27 23:55:13.382 FRAME: copied generation=6 checksum=a9df1d5340c2c325 changed=false copyCount=4
+2026-08-27 23:55:13.382 FRAME: frame available bytes=921600 size=360x640 generation=6 state=1
+2026-08-27 23:55:13.389 FRAME: onDraw generation=6 onDrawCount=7 drawCount=4 bitmapUpdates=4
+2026-08-27 23:55:13.403 FRAME: copied generation=7 checksum=a9df1d5340c2c325 changed=false copyCount=5
+2026-08-27 23:55:13.404 FRAME: frame available bytes=921600 size=360x640 generation=7 state=1
+2026-08-27 23:55:13.421 FRAME: onDraw generation=7 onDrawCount=8 drawCount=5 bitmapUpdates=5
+2026-08-27 23:55:13.443 FRAME: copied generation=8 checksum=a9df1d5340c2c325 changed=false copyCount=6
+2026-08-27 23:55:13.444 FRAME: frame available bytes=921600 size=360x640 generation=8 state=1
+2026-08-27 23:55:13.453 FRAME: onDraw generation=8 onDrawCount=9 drawCount=6 bitmapUpdates=6
+2026-08-27 23:55:13.465 FRAME: copied generation=9 checksum=a9df1d5340c2c325 changed=false copyCount=7
+2026-08-27 23:55:13.466 FRAME: frame available bytes=921600 size=360x640 generation=9 state=1
+2026-08-27 23:55:13.470 FRAME: onDraw generation=9 onDrawCount=10 drawCount=7 bitmapUpdates=7
+2026-08-27 23:55:13.488 FRAME: copied generation=10 checksum=a9df1d5340c2c325 changed=false copyCount=8
+2026-08-27 23:55:13.489 FRAME: frame available bytes=921600 size=360x640 generation=10 state=1
+2026-08-27 23:55:13.503 FRAME: onDraw generation=10 onDrawCount=11 drawCount=8 bitmapUpdates=8
+2026-08-27 23:55:13.511 FRAME: copied generation=11 checksum=a9df1d5340c2c325 changed=false copyCount=9
+2026-08-27 23:55:13.511 FRAME: frame available bytes=921600 size=360x640 generation=11 state=1
+2026-08-27 23:55:13.519 FRAME: onDraw generation=11 onDrawCount=12 drawCount=9 bitmapUpdates=9
+2026-08-27 23:55:13.534 FRAME: copied generation=12 checksum=a9df1d5340c2c325 changed=false copyCount=10
+2026-08-27 23:55:13.535 FRAME: frame available bytes=921600 size=360x640 generation=12 state=1
+2026-08-27 23:55:13.536 FRAME: onDraw generation=12 onDrawCount=13 drawCount=10 bitmapUpdates=10
+2026-08-27 23:55:13.560 FRAME: copied generation=13 checksum=a9df1d5340c2c325 changed=false copyCount=11
+2026-08-27 23:55:13.561 FRAME: frame available bytes=921600 size=360x640 generation=13 state=1
+2026-08-27 23:55:13.569 FRAME: onDraw generation=13 onDrawCount=14 drawCount=11 bitmapUpdates=11
+2026-08-27 23:55:13.587 FRAME: copied generation=14 checksum=a9df1d5340c2c325 changed=false copyCount=12
+2026-08-27 23:55:13.588 FRAME: frame available bytes=921600 size=360x640 generation=14 state=1
+2026-08-27 23:55:13.604 FRAME: onDraw generation=14 onDrawCount=15 drawCount=12 bitmapUpdates=12
+2026-08-27 23:55:13.618 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=87 canvasGateBusy=73 canvasEntries=14 inputProcessed=0 repaintPasses=14 repaintCandidates=13 paintCallbacks=13 paintCommits=12 gameFlushRequests=1 gameFlushCommits=1 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=1 gameGraphicsAttached=1 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=java/lang/System.currentTimeMillis()J timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=3 runnable=2 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967299 target=0 SNAPSHOT thread id=3 state=runnable alive=1 priority=5 interrupted=0 object=8589935868 target=4294967734 
+2026-08-27 23:55:13.628 FRAME: copied generation=15 checksum=a9df1d5340c2c325 changed=false copyCount=13
+2026-08-27 23:55:13.630 FRAME: frame available bytes=921600 size=360x640 generation=15 state=1
+2026-08-27 23:55:13.637 FRAME: onDraw generation=15 onDrawCount=16 drawCount=13 bitmapUpdates=13
+2026-08-27 23:55:13.658 FRAME: copied generation=16 checksum=a9df1d5340c2c325 changed=false copyCount=14
+2026-08-27 23:55:13.660 FRAME: frame available bytes=921600 size=360x640 generation=16 state=1
+2026-08-27 23:55:13.670 FRAME: onDraw generation=16 onDrawCount=17 drawCount=14 bitmapUpdates=14
+2026-08-27 23:55:13.690 FRAME: copied generation=17 checksum=a9df1d5340c2c325 changed=false copyCount=15
+2026-08-27 23:55:13.693 FRAME: frame available bytes=921600 size=360x640 generation=17 state=1
+2026-08-27 23:55:13.702 FRAME: onDraw generation=17 onDrawCount=18 drawCount=15 bitmapUpdates=15
+2026-08-27 23:55:13.720 FRAME: copied generation=18 checksum=a9df1d5340c2c325 changed=false copyCount=16
+2026-08-27 23:55:13.722 FRAME: frame available bytes=921600 size=360x640 generation=18 state=1
+2026-08-27 23:55:13.736 FRAME: onDraw generation=18 onDrawCount=19 drawCount=16 bitmapUpdates=16
+2026-08-27 23:55:13.749 FRAME: copied generation=19 checksum=a9df1d5340c2c325 changed=false copyCount=17
+2026-08-27 23:55:13.751 FRAME: frame available bytes=921600 size=360x640 generation=19 state=1
+2026-08-27 23:55:13.752 FRAME: onDraw generation=19 onDrawCount=20 drawCount=17 bitmapUpdates=17
+2026-08-27 23:55:13.784 FRAME: copied generation=20 checksum=a9df1d5340c2c325 changed=false copyCount=18
+2026-08-27 23:55:13.786 FRAME: frame available bytes=921600 size=360x640 generation=20 state=1
+2026-08-27 23:55:13.803 FRAME: onDraw generation=20 onDrawCount=21 drawCount=18 bitmapUpdates=18
+2026-08-27 23:55:13.816 FRAME: copied generation=21 checksum=a9df1d5340c2c325 changed=false copyCount=19
+2026-08-27 23:55:13.819 FRAME: frame available bytes=921600 size=360x640 generation=21 state=1
+2026-08-27 23:55:13.835 FRAME: onDraw generation=21 onDrawCount=22 drawCount=19 bitmapUpdates=19
+2026-08-27 23:55:13.849 FRAME: copied generation=22 checksum=a9df1d5340c2c325 changed=false copyCount=20
+2026-08-27 23:55:13.851 FRAME: frame available bytes=921600 size=360x640 generation=22 state=1
+2026-08-27 23:55:13.870 FRAME: onDraw generation=22 onDrawCount=23 drawCount=20 bitmapUpdates=20
+2026-08-27 23:55:13.881 FRAME: copied generation=23 checksum=a9df1d5340c2c325 changed=false copyCount=21
+2026-08-27 23:55:13.883 FRAME: frame available bytes=921600 size=360x640 generation=23 state=1
+2026-08-27 23:55:13.885 FRAME: onDraw generation=23 onDrawCount=24 drawCount=21 bitmapUpdates=21
+2026-08-27 23:55:13.930 FRAME: copied generation=24 checksum=a9df1d5340c2c325 changed=false copyCount=22
+2026-08-27 23:55:13.933 FRAME: frame available bytes=921600 size=360x640 generation=24 state=1
+2026-08-27 23:55:13.951 FRAME: onDraw generation=24 onDrawCount=25 drawCount=22 bitmapUpdates=22
+2026-08-27 23:55:13.968 FRAME: copied generation=25 checksum=a9df1d5340c2c325 changed=false copyCount=23
+2026-08-27 23:55:13.971 FRAME: frame available bytes=921600 size=360x640 generation=25 state=1
+2026-08-27 23:55:13.985 FRAME: onDraw generation=25 onDrawCount=26 drawCount=23 bitmapUpdates=23
+2026-08-27 23:55:14.000 FRAME: copied generation=26 checksum=a9df1d5340c2c325 changed=false copyCount=24
+2026-08-27 23:55:14.003 FRAME: frame available bytes=921600 size=360x640 generation=26 state=1
+2026-08-27 23:55:14.018 FRAME: onDraw generation=26 onDrawCount=27 drawCount=24 bitmapUpdates=24
+2026-08-27 23:55:14.035 FRAME: copied generation=27 checksum=a9df1d5340c2c325 changed=false copyCount=25
+2026-08-27 23:55:14.038 FRAME: frame available bytes=921600 size=360x640 generation=27 state=1
+2026-08-27 23:55:14.050 FRAME: onDraw generation=27 onDrawCount=28 drawCount=25 bitmapUpdates=25
+2026-08-27 23:55:14.071 FRAME: copied generation=28 checksum=a9df1d5340c2c325 changed=false copyCount=26
+2026-08-27 23:55:14.074 FRAME: frame available bytes=921600 size=360x640 generation=28 state=1
+2026-08-27 23:55:14.084 FRAME: onDraw generation=28 onDrawCount=29 drawCount=26 bitmapUpdates=26
+2026-08-27 23:55:14.107 FRAME: copied generation=29 checksum=a9df1d5340c2c325 changed=false copyCount=27
+2026-08-27 23:55:14.111 FRAME: frame available bytes=921600 size=360x640 generation=29 state=1
+2026-08-27 23:55:14.117 FRAME: onDraw generation=29 onDrawCount=30 drawCount=27 bitmapUpdates=27
+2026-08-27 23:55:14.146 FRAME: copied generation=30 checksum=a9df1d5340c2c325 changed=false copyCount=28
+2026-08-27 23:55:14.149 FRAME: frame available bytes=921600 size=360x640 generation=30 state=1
+2026-08-27 23:55:14.166 FRAME: onDraw generation=30 onDrawCount=31 drawCount=28 bitmapUpdates=28
+2026-08-27 23:55:14.188 FRAME: copied generation=31 checksum=a9df1d5340c2c325 changed=false copyCount=29
+2026-08-27 23:55:14.192 FRAME: frame available bytes=921600 size=360x640 generation=31 state=1
+2026-08-27 23:55:14.200 FRAME: onDraw generation=31 onDrawCount=32 drawCount=29 bitmapUpdates=29
+2026-08-27 23:55:14.223 FRAME: copied generation=32 checksum=a9df1d5340c2c325 changed=false copyCount=30
+2026-08-27 23:55:14.224 FRAME: frame available bytes=921600 size=360x640 generation=32 state=1
+2026-08-27 23:55:14.232 FRAME: onDraw generation=32 onDrawCount=33 drawCount=30 bitmapUpdates=30
+2026-08-27 23:55:14.249 FRAME: copied generation=33 checksum=a9df1d5340c2c325 changed=false copyCount=31
+2026-08-27 23:55:14.250 FRAME: frame available bytes=921600 size=360x640 generation=33 state=1
+2026-08-27 23:55:14.264 FRAME: onDraw generation=33 onDrawCount=34 drawCount=31 bitmapUpdates=31
+2026-08-27 23:55:14.289 FRAME: copied generation=34 checksum=a9df1d5340c2c325 changed=false copyCount=32
+2026-08-27 23:55:14.292 FRAME: frame available bytes=921600 size=360x640 generation=34 state=1
+2026-08-27 23:55:14.299 FRAME: onDraw generation=34 onDrawCount=35 drawCount=32 bitmapUpdates=32
+2026-08-27 23:55:14.319 FRAME: copied generation=35 checksum=a9df1d5340c2c325 changed=false copyCount=33
+2026-08-27 23:55:14.321 FRAME: frame available bytes=921600 size=360x640 generation=35 state=1
+2026-08-27 23:55:14.332 FRAME: onDraw generation=35 onDrawCount=36 drawCount=33 bitmapUpdates=33
+2026-08-27 23:55:14.355 FRAME: copied generation=36 checksum=a9df1d5340c2c325 changed=false copyCount=34
+2026-08-27 23:55:14.360 FRAME: frame available bytes=921600 size=360x640 generation=36 state=1
+2026-08-27 23:55:14.365 FRAME: onDraw generation=36 onDrawCount=37 drawCount=34 bitmapUpdates=34
+2026-08-27 23:55:14.389 FRAME: copied generation=37 checksum=a9df1d5340c2c325 changed=false copyCount=35
+2026-08-27 23:55:14.391 FRAME: frame available bytes=921600 size=360x640 generation=37 state=1
+2026-08-27 23:55:14.398 FRAME: onDraw generation=37 onDrawCount=38 drawCount=35 bitmapUpdates=35
+2026-08-27 23:55:14.421 FRAME: copied generation=38 checksum=a9df1d5340c2c325 changed=false copyCount=36
+2026-08-27 23:55:14.423 FRAME: frame available bytes=921600 size=360x640 generation=38 state=1
+2026-08-27 23:55:14.431 FRAME: onDraw generation=38 onDrawCount=39 drawCount=36 bitmapUpdates=36
+2026-08-27 23:55:14.454 FRAME: copied generation=39 checksum=a9df1d5340c2c325 changed=false copyCount=37
+2026-08-27 23:55:14.457 FRAME: frame available bytes=921600 size=360x640 generation=39 state=1
+2026-08-27 23:55:14.464 FRAME: onDraw generation=39 onDrawCount=40 drawCount=37 bitmapUpdates=37
+2026-08-27 23:55:14.485 FRAME: copied generation=40 checksum=a9df1d5340c2c325 changed=false copyCount=38
+2026-08-27 23:55:14.488 FRAME: frame available bytes=921600 size=360x640 generation=40 state=1
+2026-08-27 23:55:14.498 FRAME: onDraw generation=40 onDrawCount=41 drawCount=38 bitmapUpdates=38
+2026-08-27 23:55:14.520 FRAME: copied generation=41 checksum=a9df1d5340c2c325 changed=false copyCount=39
+2026-08-27 23:55:14.523 FRAME: frame available bytes=921600 size=360x640 generation=41 state=1
+2026-08-27 23:55:14.531 FRAME: onDraw generation=41 onDrawCount=42 drawCount=39 bitmapUpdates=39
+2026-08-27 23:55:14.564 FRAME: copied generation=42 checksum=a9df1d5340c2c325 changed=false copyCount=40
+2026-08-27 23:55:14.568 FRAME: frame available bytes=921600 size=360x640 generation=42 state=1
+2026-08-27 23:55:14.581 FRAME: onDraw generation=42 onDrawCount=43 drawCount=40 bitmapUpdates=40
+2026-08-27 23:55:14.618 FRAME: copied generation=43 checksum=a9df1d5340c2c325 changed=false copyCount=41
+2026-08-27 23:55:14.619 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=118 canvasGateBusy=75 canvasEntries=43 inputProcessed=0 repaintPasses=43 repaintCandidates=42 paintCallbacks=42 paintCommits=41 gameFlushRequests=1 gameFlushCommits=1 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=1 gameGraphicsAttached=1 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=java/lang/System.currentTimeMillis()J timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=3 runnable=2 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967299 target=0 SNAPSHOT thread id=3 state=runnable alive=1 priority=5 interrupted=0 object=8589935868 target=4294967734 
+2026-08-27 23:55:14.622 FRAME: frame available bytes=921600 size=360x640 generation=43 state=1
+2026-08-27 23:55:14.630 FRAME: onDraw generation=43 onDrawCount=44 drawCount=41 bitmapUpdates=41
+2026-08-27 23:55:14.661 FRAME: copied generation=44 checksum=a9df1d5340c2c325 changed=false copyCount=42
+2026-08-27 23:55:14.666 FRAME: frame available bytes=921600 size=360x640 generation=44 state=1
+2026-08-27 23:55:14.680 FRAME: onDraw generation=44 onDrawCount=45 drawCount=42 bitmapUpdates=42
+2026-08-27 23:55:14.714 FRAME: copied generation=45 checksum=a9df1d5340c2c325 changed=false copyCount=43
+2026-08-27 23:55:14.717 FRAME: frame available bytes=921600 size=360x640 generation=45 state=1
+2026-08-27 23:55:14.730 FRAME: onDraw generation=45 onDrawCount=46 drawCount=43 bitmapUpdates=43
+2026-08-27 23:55:14.768 FRAME: copied generation=46 checksum=a9df1d5340c2c325 changed=false copyCount=44
+2026-08-27 23:55:14.771 FRAME: frame available bytes=921600 size=360x640 generation=46 state=1
+2026-08-27 23:55:14.779 FRAME: onDraw generation=46 onDrawCount=47 drawCount=44 bitmapUpdates=44
+2026-08-27 23:55:14.807 FRAME: copied generation=47 checksum=a9df1d5340c2c325 changed=false copyCount=45
+2026-08-27 23:55:14.810 FRAME: frame available bytes=921600 size=360x640 generation=47 state=1
+2026-08-27 23:55:14.813 FRAME: onDraw generation=47 onDrawCount=48 drawCount=45 bitmapUpdates=45
+2026-08-27 23:55:14.845 FRAME: copied generation=48 checksum=a9df1d5340c2c325 changed=false copyCount=46
+2026-08-27 23:55:14.849 FRAME: frame available bytes=921600 size=360x640 generation=48 state=1
+2026-08-27 23:55:14.862 FRAME: onDraw generation=48 onDrawCount=49 drawCount=46 bitmapUpdates=46
+2026-08-27 23:55:14.881 FRAME: copied generation=49 checksum=a9df1d5340c2c325 changed=false copyCount=47
+2026-08-27 23:55:14.884 FRAME: frame available bytes=921600 size=360x640 generation=49 state=1
+2026-08-27 23:55:14.895 FRAME: onDraw generation=49 onDrawCount=50 drawCount=47 bitmapUpdates=47
+2026-08-27 23:55:14.917 FRAME: copied generation=50 checksum=a9df1d5340c2c325 changed=false copyCount=48
+2026-08-27 23:55:14.919 FRAME: frame available bytes=921600 size=360x640 generation=50 state=1
+2026-08-27 23:55:14.928 FRAME: onDraw generation=50 onDrawCount=51 drawCount=48 bitmapUpdates=48
+2026-08-27 23:55:14.951 FRAME: copied generation=51 checksum=a9df1d5340c2c325 changed=false copyCount=49
+2026-08-27 23:55:14.954 FRAME: frame available bytes=921600 size=360x640 generation=51 state=1
+2026-08-27 23:55:14.961 FRAME: onDraw generation=51 onDrawCount=52 drawCount=49 bitmapUpdates=49
+2026-08-27 23:55:14.987 FRAME: copied generation=52 checksum=a9df1d5340c2c325 changed=false copyCount=50
+2026-08-27 23:55:14.990 FRAME: frame available bytes=921600 size=360x640 generation=52 state=1
+2026-08-27 23:55:14.994 FRAME: onDraw generation=52 onDrawCount=53 drawCount=50 bitmapUpdates=50
+2026-08-27 23:55:15.024 FRAME: copied generation=53 checksum=a9df1d5340c2c325 changed=false copyCount=51
+2026-08-27 23:55:15.027 FRAME: frame available bytes=921600 size=360x640 generation=53 state=1
+2026-08-27 23:55:15.044 FRAME: onDraw generation=53 onDrawCount=54 drawCount=51 bitmapUpdates=51
+2026-08-27 23:55:15.066 FRAME: copied generation=54 checksum=a9df1d5340c2c325 changed=false copyCount=52
+2026-08-27 23:55:15.070 FRAME: frame available bytes=921600 size=360x640 generation=54 state=1
+2026-08-27 23:55:15.077 FRAME: onDraw generation=54 onDrawCount=55 drawCount=52 bitmapUpdates=52
+2026-08-27 23:55:15.107 FRAME: copied generation=55 checksum=a9df1d5340c2c325 changed=false copyCount=53
+2026-08-27 23:55:15.110 FRAME: frame available bytes=921600 size=360x640 generation=55 state=1
+2026-08-27 23:55:15.126 FRAME: onDraw generation=55 onDrawCount=56 drawCount=53 bitmapUpdates=53
+2026-08-27 23:55:15.141 FRAME: copied generation=56 checksum=a9df1d5340c2c325 changed=false copyCount=54
+2026-08-27 23:55:15.143 FRAME: frame available bytes=921600 size=360x640 generation=56 state=1
+2026-08-27 23:55:15.160 FRAME: onDraw generation=56 onDrawCount=57 drawCount=54 bitmapUpdates=54
+2026-08-27 23:55:15.175 FRAME: copied generation=57 checksum=a9df1d5340c2c325 changed=false copyCount=55
+2026-08-27 23:55:15.177 FRAME: frame available bytes=921600 size=360x640 generation=57 state=1
+2026-08-27 23:55:15.193 FRAME: onDraw generation=57 onDrawCount=58 drawCount=55 bitmapUpdates=55
+2026-08-27 23:55:15.207 FRAME: copied generation=58 checksum=a9df1d5340c2c325 changed=false copyCount=56
+2026-08-27 23:55:15.210 FRAME: frame available bytes=921600 size=360x640 generation=58 state=1
+2026-08-27 23:55:15.226 FRAME: onDraw generation=58 onDrawCount=59 drawCount=56 bitmapUpdates=56
+2026-08-27 23:55:15.248 FRAME: copied generation=59 checksum=a9df1d5340c2c325 changed=false copyCount=57
+2026-08-27 23:55:15.251 FRAME: frame available bytes=921600 size=360x640 generation=59 state=1
+2026-08-27 23:55:15.259 FRAME: onDraw generation=59 onDrawCount=60 drawCount=57 bitmapUpdates=57
+2026-08-27 23:55:15.299 FRAME: copied generation=60 checksum=a9df1d5340c2c325 changed=false copyCount=58
+2026-08-27 23:55:15.302 FRAME: frame available bytes=921600 size=360x640 generation=60 state=1
+2026-08-27 23:55:15.308 FRAME: onDraw generation=60 onDrawCount=61 drawCount=58 bitmapUpdates=58
+2026-08-27 23:55:15.336 FRAME: copied generation=61 checksum=a9df1d5340c2c325 changed=false copyCount=59
+2026-08-27 23:55:15.337 FRAME: frame available bytes=921600 size=360x640 generation=61 state=1
+2026-08-27 23:55:15.338 FRAME: onDraw generation=61 onDrawCount=62 drawCount=59 bitmapUpdates=59
+2026-08-27 23:55:15.357 FRAME: copied generation=62 checksum=a9df1d5340c2c325 changed=false copyCount=60
+2026-08-27 23:55:15.358 FRAME: frame available bytes=921600 size=360x640 generation=62 state=1
+2026-08-27 23:55:15.362 FRAME: onDraw generation=62 onDrawCount=63 drawCount=60 bitmapUpdates=60
+2026-08-27 23:55:15.389 FRAME: copied generation=63 checksum=a9df1d5340c2c325 changed=false copyCount=61
+2026-08-27 23:55:15.391 FRAME: frame available bytes=921600 size=360x640 generation=63 state=1
+2026-08-27 23:55:15.395 FRAME: onDraw generation=63 onDrawCount=64 drawCount=61 bitmapUpdates=61
+2026-08-27 23:55:15.412 FRAME: copied generation=64 checksum=a9df1d5340c2c325 changed=false copyCount=62
+2026-08-27 23:55:15.413 FRAME: frame available bytes=921600 size=360x640 generation=64 state=1
+2026-08-27 23:55:15.421 FRAME: onDraw generation=64 onDrawCount=65 drawCount=62 bitmapUpdates=62
+2026-08-27 23:55:15.441 FRAME: copied generation=66 checksum=a9df1d5340c2c325 changed=false copyCount=63
+2026-08-27 23:55:15.443 FRAME: frame available bytes=921600 size=360x640 generation=66 state=1
+2026-08-27 23:55:15.445 FRAME: onDraw generation=66 onDrawCount=66 drawCount=63 bitmapUpdates=63
+2026-08-27 23:55:15.469 FRAME: copied generation=67 checksum=a9df1d5340c2c325 changed=false copyCount=64
+2026-08-27 23:55:15.471 FRAME: frame available bytes=921600 size=360x640 generation=67 state=1
+2026-08-27 23:55:15.478 FRAME: onDraw generation=67 onDrawCount=67 drawCount=64 bitmapUpdates=64
+2026-08-27 23:55:15.499 FRAME: copied generation=69 checksum=a9df1d5340c2c325 changed=false copyCount=65
+2026-08-27 23:55:15.500 FRAME: frame available bytes=921600 size=360x640 generation=69 state=1
+2026-08-27 23:55:15.511 FRAME: onDraw generation=69 onDrawCount=68 drawCount=65 bitmapUpdates=65
+2026-08-27 23:55:15.522 FRAME: copied generation=70 checksum=a9df1d5340c2c325 changed=false copyCount=66
+2026-08-27 23:55:15.523 FRAME: frame available bytes=921600 size=360x640 generation=70 state=1
+2026-08-27 23:55:15.527 FRAME: onDraw generation=70 onDrawCount=69 drawCount=66 bitmapUpdates=66
+2026-08-27 23:55:15.546 FRAME: copied generation=71 checksum=a9df1d5340c2c325 changed=false copyCount=67
+2026-08-27 23:55:15.548 FRAME: frame available bytes=921600 size=360x640 generation=71 state=1
+2026-08-27 23:55:15.560 FRAME: onDraw generation=71 onDrawCount=70 drawCount=67 bitmapUpdates=67
+2026-08-27 23:55:15.570 FRAME: copied generation=73 checksum=a9df1d5340c2c325 changed=false copyCount=68
+2026-08-27 23:55:15.572 FRAME: frame available bytes=921600 size=360x640 generation=73 state=1
+2026-08-27 23:55:15.575 FRAME: onDraw generation=73 onDrawCount=71 drawCount=68 bitmapUpdates=68
+2026-08-27 23:55:15.598 FRAME: copied generation=75 checksum=a9df1d5340c2c325 changed=false copyCount=69
+2026-08-27 23:55:15.599 FRAME: frame available bytes=921600 size=360x640 generation=75 state=1
+2026-08-27 23:55:15.602 FRAME: onDraw generation=75 onDrawCount=72 drawCount=69 bitmapUpdates=69
+2026-08-27 23:55:15.619 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=169 canvasGateBusy=86 canvasEntries=83 inputProcessed=19 repaintPasses=83 repaintCandidates=75 paintCallbacks=75 paintCommits=73 gameFlushRequests=1 gameFlushCommits=1 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=1 gameGraphicsAttached=1 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=java/lang/System.currentTimeMillis()J timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=3 runnable=2 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967299 target=0 SNAPSHOT thread id=3 state=runnable alive=1 priority=5 interrupted=0 object=8589935868 target=4294967734 
+2026-08-27 23:55:15.627 FRAME: copied generation=76 checksum=a9df1d5340c2c325 changed=false copyCount=70
+2026-08-27 23:55:15.629 FRAME: frame available bytes=921600 size=360x640 generation=76 state=1
+2026-08-27 23:55:15.636 FRAME: onDraw generation=76 onDrawCount=73 drawCount=70 bitmapUpdates=70
+2026-08-27 23:55:15.654 FRAME: copied generation=77 checksum=a9df1d5340c2c325 changed=false copyCount=71
+2026-08-27 23:55:15.656 FRAME: frame available bytes=921600 size=360x640 generation=77 state=1
+2026-08-27 23:55:15.661 FRAME: onDraw generation=77 onDrawCount=74 drawCount=71 bitmapUpdates=71
+2026-08-27 23:55:15.682 FRAME: copied generation=78 checksum=a9df1d5340c2c325 changed=false copyCount=72
+2026-08-27 23:55:15.683 FRAME: frame available bytes=921600 size=360x640 generation=78 state=1
+2026-08-27 23:55:15.687 FRAME: onDraw generation=78 onDrawCount=75 drawCount=72 bitmapUpdates=72
+2026-08-27 23:55:15.708 FRAME: copied generation=79 checksum=a9df1d5340c2c325 changed=false copyCount=73
+2026-08-27 23:55:15.710 FRAME: frame available bytes=921600 size=360x640 generation=79 state=1
+2026-08-27 23:55:15.720 FRAME: onDraw generation=79 onDrawCount=76 drawCount=73 bitmapUpdates=73
+2026-08-27 23:55:15.735 FRAME: copied generation=80 checksum=a9df1d5340c2c325 changed=false copyCount=74
+2026-08-27 23:55:15.737 FRAME: frame available bytes=921600 size=360x640 generation=80 state=1
+2026-08-27 23:55:15.745 FRAME: onDraw generation=80 onDrawCount=77 drawCount=74 bitmapUpdates=74
+2026-08-27 23:55:15.779 FRAME: copied generation=81 checksum=a9df1d5340c2c325 changed=false copyCount=75
+2026-08-27 23:55:15.780 FRAME: frame available bytes=921600 size=360x640 generation=81 state=1
+2026-08-27 23:55:15.785 FRAME: onDraw generation=81 onDrawCount=78 drawCount=75 bitmapUpdates=75
+2026-08-27 23:55:15.818 FRAME: copied generation=83 checksum=a9df1d5340c2c325 changed=false copyCount=76
+2026-08-27 23:55:15.820 FRAME: frame available bytes=921600 size=360x640 generation=83 state=1
+2026-08-27 23:55:15.832 FRAME: onDraw generation=83 onDrawCount=79 drawCount=76 bitmapUpdates=76
+2026-08-27 23:55:15.848 FRAME: copied generation=85 checksum=a9df1d5340c2c325 changed=false copyCount=77
+2026-08-27 23:55:15.849 FRAME: frame available bytes=921600 size=360x640 generation=85 state=1
+2026-08-27 23:55:15.851 FRAME: onDraw generation=85 onDrawCount=80 drawCount=77 bitmapUpdates=77
+2026-08-27 23:55:15.875 FRAME: copied generation=86 checksum=a9df1d5340c2c325 changed=false copyCount=78
+2026-08-27 23:55:15.875 FRAME: frame available bytes=921600 size=360x640 generation=86 state=1
+2026-08-27 23:55:15.884 FRAME: onDraw generation=86 onDrawCount=81 drawCount=78 bitmapUpdates=78
+2026-08-27 23:55:15.918 FRAME: copied generation=88 checksum=a9df1d5340c2c325 changed=false copyCount=79
+2026-08-27 23:55:15.920 FRAME: frame available bytes=921600 size=360x640 generation=88 state=1
+2026-08-27 23:55:15.922 FRAME: onDraw generation=88 onDrawCount=82 drawCount=79 bitmapUpdates=79
+2026-08-27 23:55:15.943 FRAME: copied generation=89 checksum=a9df1d5340c2c325 changed=false copyCount=80
+2026-08-27 23:55:15.945 FRAME: frame available bytes=921600 size=360x640 generation=89 state=1
+2026-08-27 23:55:15.958 FRAME: onDraw generation=89 onDrawCount=83 drawCount=80 bitmapUpdates=80
+2026-08-27 23:55:15.970 FRAME: copied generation=91 checksum=a9df1d5340c2c325 changed=false copyCount=81
+2026-08-27 23:55:15.972 FRAME: frame available bytes=921600 size=360x640 generation=91 state=1
+2026-08-27 23:55:15.974 FRAME: onDraw generation=91 onDrawCount=84 drawCount=81 bitmapUpdates=81
+2026-08-27 23:55:15.996 FRAME: copied generation=93 checksum=a9df1d5340c2c325 changed=false copyCount=82
+2026-08-27 23:55:15.999 FRAME: frame available bytes=921600 size=360x640 generation=93 state=1
+2026-08-27 23:55:16.007 FRAME: onDraw generation=93 onDrawCount=85 drawCount=82 bitmapUpdates=82
+2026-08-27 23:55:16.026 FRAME: copied generation=95 checksum=a9df1d5340c2c325 changed=false copyCount=83
+2026-08-27 23:55:16.028 FRAME: frame available bytes=921600 size=360x640 generation=95 state=1
+2026-08-27 23:55:16.033 FRAME: onDraw generation=95 onDrawCount=86 drawCount=83 bitmapUpdates=83
+2026-08-27 23:55:16.067 FRAME: copied generation=96 checksum=a9df1d5340c2c325 changed=false copyCount=84
+2026-08-27 23:55:16.069 FRAME: frame available bytes=921600 size=360x640 generation=96 state=1
+2026-08-27 23:55:16.080 FRAME: onDraw generation=96 onDrawCount=87 drawCount=84 bitmapUpdates=84
+2026-08-27 23:55:16.094 FRAME: copied generation=99 checksum=a9df1d5340c2c325 changed=false copyCount=85
+2026-08-27 23:55:16.095 FRAME: frame available bytes=921600 size=360x640 generation=99 state=1
+2026-08-27 23:55:16.099 FRAME: onDraw generation=99 onDrawCount=88 drawCount=85 bitmapUpdates=85
+2026-08-27 23:55:16.121 FRAME: copied generation=100 checksum=a9df1d5340c2c325 changed=false copyCount=86
+2026-08-27 23:55:16.122 FRAME: frame available bytes=921600 size=360x640 generation=100 state=1
+2026-08-27 23:55:16.132 FRAME: onDraw generation=100 onDrawCount=89 drawCount=86 bitmapUpdates=86
+2026-08-27 23:55:16.158 FRAME: copied generation=101 checksum=a9df1d5340c2c325 changed=false copyCount=87
+2026-08-27 23:55:16.160 FRAME: frame available bytes=921600 size=360x640 generation=101 state=1
+2026-08-27 23:55:16.172 FRAME: onDraw generation=101 onDrawCount=90 drawCount=87 bitmapUpdates=87
+2026-08-27 23:55:16.185 FRAME: copied generation=103 checksum=a9df1d5340c2c325 changed=false copyCount=88
+2026-08-27 23:55:16.187 FRAME: frame available bytes=921600 size=360x640 generation=103 state=1
+2026-08-27 23:55:16.188 FRAME: onDraw generation=103 onDrawCount=91 drawCount=88 bitmapUpdates=88
+2026-08-27 23:55:16.216 FRAME: copied generation=105 checksum=a9df1d5340c2c325 changed=false copyCount=89
+2026-08-27 23:55:16.217 FRAME: frame available bytes=921600 size=360x640 generation=105 state=1
+2026-08-27 23:55:16.224 FRAME: onDraw generation=105 onDrawCount=92 drawCount=89 bitmapUpdates=89
+2026-08-27 23:55:16.257 FRAME: copied generation=106 checksum=a9df1d5340c2c325 changed=false copyCount=90
+2026-08-27 23:55:16.259 FRAME: frame available bytes=921600 size=360x640 generation=106 state=1
+2026-08-27 23:55:16.265 FRAME: onDraw generation=106 onDrawCount=93 drawCount=90 bitmapUpdates=90
+2026-08-27 23:55:16.288 FRAME: copied generation=108 checksum=a9df1d5340c2c325 changed=false copyCount=91
+2026-08-27 23:55:16.290 FRAME: frame available bytes=921600 size=360x640 generation=108 state=1
+2026-08-27 23:55:16.298 FRAME: onDraw generation=108 onDrawCount=94 drawCount=91 bitmapUpdates=91
+2026-08-27 23:55:16.315 FRAME: copied generation=109 checksum=a9df1d5340c2c325 changed=false copyCount=92
+2026-08-27 23:55:16.317 FRAME: frame available bytes=921600 size=360x640 generation=109 state=1
+2026-08-27 23:55:16.323 FRAME: onDraw generation=109 onDrawCount=95 drawCount=92 bitmapUpdates=92
+2026-08-27 23:55:16.344 FRAME: copied generation=110 checksum=a9df1d5340c2c325 changed=false copyCount=93
+2026-08-27 23:55:16.346 FRAME: frame available bytes=921600 size=360x640 generation=110 state=1
+2026-08-27 23:55:16.363 FRAME: onDraw generation=110 onDrawCount=96 drawCount=93 bitmapUpdates=93
+2026-08-27 23:55:16.385 FRAME: copied generation=112 checksum=a9df1d5340c2c325 changed=false copyCount=94
+2026-08-27 23:55:16.386 FRAME: frame available bytes=921600 size=360x640 generation=112 state=1
+2026-08-27 23:55:16.397 FRAME: onDraw generation=112 onDrawCount=97 drawCount=94 bitmapUpdates=94
+2026-08-27 23:55:16.408 FRAME: copied generation=113 checksum=a9df1d5340c2c325 changed=false copyCount=95
+2026-08-27 23:55:16.410 FRAME: frame available bytes=921600 size=360x640 generation=113 state=1
+2026-08-27 23:55:16.412 FRAME: onDraw generation=113 onDrawCount=98 drawCount=95 bitmapUpdates=95
+2026-08-27 23:55:16.431 FRAME: copied generation=114 checksum=a9df1d5340c2c325 changed=false copyCount=96
+2026-08-27 23:55:16.433 FRAME: frame available bytes=921600 size=360x640 generation=114 state=1
+2026-08-27 23:55:16.438 FRAME: onDraw generation=114 onDrawCount=99 drawCount=96 bitmapUpdates=96
+2026-08-27 23:55:16.455 FRAME: copied generation=115 checksum=a9df1d5340c2c325 changed=false copyCount=97
+2026-08-27 23:55:16.457 FRAME: frame available bytes=921600 size=360x640 generation=115 state=1
+2026-08-27 23:55:16.464 FRAME: onDraw generation=115 onDrawCount=100 drawCount=97 bitmapUpdates=97
+2026-08-27 23:55:16.494 FRAME: copied generation=116 checksum=a9df1d5340c2c325 changed=false copyCount=98
+2026-08-27 23:55:16.495 FRAME: frame available bytes=921600 size=360x640 generation=116 state=1
+2026-08-27 23:55:16.500 FRAME: onDraw generation=116 onDrawCount=101 drawCount=98 bitmapUpdates=98
+2026-08-27 23:55:16.525 FRAME: copied generation=119 checksum=a9df1d5340c2c325 changed=false copyCount=99
+2026-08-27 23:55:16.527 FRAME: frame available bytes=921600 size=360x640 generation=119 state=1
+2026-08-27 23:55:16.537 FRAME: onDraw generation=119 onDrawCount=102 drawCount=99 bitmapUpdates=99
+2026-08-27 23:55:16.547 FRAME: copied generation=120 checksum=a9df1d5340c2c325 changed=false copyCount=100
+2026-08-27 23:55:16.548 FRAME: frame available bytes=921600 size=360x640 generation=120 state=1
+2026-08-27 23:55:16.555 FRAME: onDraw generation=120 onDrawCount=103 drawCount=100 bitmapUpdates=100
+2026-08-27 23:55:16.585 FRAME: copied generation=121 checksum=a9df1d5340c2c325 changed=false copyCount=101
+2026-08-27 23:55:16.587 FRAME: frame available bytes=921600 size=360x640 generation=121 state=1
+2026-08-27 23:55:16.588 FRAME: onDraw generation=121 onDrawCount=104 drawCount=101 bitmapUpdates=101
+2026-08-27 23:55:16.610 FRAME: copied generation=123 checksum=a9df1d5340c2c325 changed=false copyCount=102
+2026-08-27 23:55:16.613 FRAME: frame available bytes=921600 size=360x640 generation=123 state=1
+2026-08-27 23:55:16.618 FRAME: onDraw generation=123 onDrawCount=105 drawCount=102 bitmapUpdates=102
+2026-08-27 23:55:16.620 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=270 canvasGateBusy=117 canvasEntries=153 inputProcessed=79 repaintPasses=153 repaintCandidates=123 paintCallbacks=123 paintCommits=122 gameFlushRequests=1 gameFlushCommits=1 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=1 gameGraphicsAttached=1 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=java/lang/System.currentTimeMillis()J timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=3 runnable=2 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967299 target=0 SNAPSHOT thread id=3 state=running alive=1 priority=5 interrupted=0 object=8589935868 target=4294967734 
+2026-08-27 23:55:16.642 FRAME: copied generation=125 checksum=a9df1d5340c2c325 changed=false copyCount=103
+2026-08-27 23:55:16.644 FRAME: frame available bytes=921600 size=360x640 generation=125 state=1
+2026-08-27 23:55:16.654 FRAME: onDraw generation=125 onDrawCount=106 drawCount=103 bitmapUpdates=103
+2026-08-27 23:55:16.670 FRAME: copied generation=126 checksum=a9df1d5340c2c325 changed=false copyCount=104
+2026-08-27 23:55:16.671 FRAME: frame available bytes=921600 size=360x640 generation=126 state=1
+2026-08-27 23:55:16.679 FRAME: onDraw generation=126 onDrawCount=107 drawCount=104 bitmapUpdates=104
+2026-08-27 23:55:16.709 FRAME: copied generation=128 checksum=a9df1d5340c2c325 changed=false copyCount=105
+2026-08-27 23:55:16.711 FRAME: frame available bytes=921600 size=360x640 generation=128 state=1
+2026-08-27 23:55:16.719 FRAME: onDraw generation=128 onDrawCount=108 drawCount=105 bitmapUpdates=105
+2026-08-27 23:55:16.740 FRAME: copied generation=130 checksum=a9df1d5340c2c325 changed=false copyCount=106
+2026-08-27 23:55:16.742 FRAME: frame available bytes=921600 size=360x640 generation=130 state=1
+2026-08-27 23:55:16.752 FRAME: onDraw generation=130 onDrawCount=109 drawCount=106 bitmapUpdates=106
+2026-08-27 23:55:16.763 FRAME: copied generation=131 checksum=a9df1d5340c2c325 changed=false copyCount=107
+2026-08-27 23:55:16.764 FRAME: frame available bytes=921600 size=360x640 generation=131 state=1
+2026-08-27 23:55:16.775 FRAME: onDraw generation=131 onDrawCount=110 drawCount=107 bitmapUpdates=107
+2026-08-27 23:55:16.782 FRAME: copied generation=133 checksum=a9df1d5340c2c325 changed=false copyCount=108
+2026-08-27 23:55:16.783 FRAME: frame available bytes=921600 size=360x640 generation=133 state=1
+2026-08-27 23:55:16.791 FRAME: onDraw generation=133 onDrawCount=111 drawCount=108 bitmapUpdates=108
+2026-08-27 23:55:16.805 FRAME: copied generation=134 checksum=a9df1d5340c2c325 changed=false copyCount=109
+2026-08-27 23:55:16.806 FRAME: frame available bytes=921600 size=360x640 generation=134 state=1
+2026-08-27 23:55:16.807 FRAME: onDraw generation=134 onDrawCount=112 drawCount=109 bitmapUpdates=109
+2026-08-27 23:55:16.833 FRAME: copied generation=136 checksum=a9df1d5340c2c325 changed=false copyCount=110
+2026-08-27 23:55:16.835 FRAME: frame available bytes=921600 size=360x640 generation=136 state=1
+2026-08-27 23:55:16.845 FRAME: onDraw generation=136 onDrawCount=113 drawCount=110 bitmapUpdates=110
+2026-08-27 23:55:16.861 FRAME: copied generation=137 checksum=a9df1d5340c2c325 changed=false copyCount=111
+2026-08-27 23:55:16.863 FRAME: frame available bytes=921600 size=360x640 generation=137 state=1
+2026-08-27 23:55:16.870 FRAME: onDraw generation=137 onDrawCount=114 drawCount=111 bitmapUpdates=111
+2026-08-27 23:55:16.891 FRAME: copied generation=138 checksum=a9df1d5340c2c325 changed=false copyCount=112
+2026-08-27 23:55:16.893 FRAME: frame available bytes=921600 size=360x640 generation=138 state=1
+2026-08-27 23:55:16.909 FRAME: onDraw generation=138 onDrawCount=115 drawCount=112 bitmapUpdates=112
+2026-08-27 23:55:16.913 FRAME: copied generation=140 checksum=a9df1d5340c2c325 changed=false copyCount=113
+2026-08-27 23:55:16.915 FRAME: frame available bytes=921600 size=360x640 generation=140 state=1
+2026-08-27 23:55:16.923 FRAME: onDraw generation=140 onDrawCount=116 drawCount=113 bitmapUpdates=113
+2026-08-27 23:55:16.937 FRAME: copied generation=141 checksum=a9df1d5340c2c325 changed=false copyCount=114
+2026-08-27 23:55:16.939 FRAME: frame available bytes=921600 size=360x640 generation=141 state=1
+2026-08-27 23:55:16.943 FRAME: onDraw generation=141 onDrawCount=117 drawCount=114 bitmapUpdates=114
+2026-08-27 23:55:16.966 FRAME: copied generation=143 checksum=a9df1d5340c2c325 changed=false copyCount=115
+2026-08-27 23:55:16.968 FRAME: frame available bytes=921600 size=360x640 generation=143 state=1
+2026-08-27 23:55:16.976 FRAME: onDraw generation=143 onDrawCount=118 drawCount=115 bitmapUpdates=115
+2026-08-27 23:55:16.994 FRAME: copied generation=145 checksum=a9df1d5340c2c325 changed=false copyCount=116
+2026-08-27 23:55:16.996 FRAME: frame available bytes=921600 size=360x640 generation=145 state=1
+2026-08-27 23:55:17.007 FRAME: onDraw generation=145 onDrawCount=119 drawCount=116 bitmapUpdates=116
+2026-08-27 23:55:17.018 FRAME: copied generation=146 checksum=a9df1d5340c2c325 changed=false copyCount=117
+2026-08-27 23:55:17.021 FRAME: frame available bytes=921600 size=360x640 generation=146 state=1
+2026-08-27 23:55:17.024 FRAME: onDraw generation=146 onDrawCount=120 drawCount=117 bitmapUpdates=117
+2026-08-27 23:55:17.048 FRAME: copied generation=148 checksum=a9df1d5340c2c325 changed=false copyCount=118
+2026-08-27 23:55:17.050 FRAME: frame available bytes=921600 size=360x640 generation=148 state=1
+2026-08-27 23:55:17.060 FRAME: onDraw generation=148 onDrawCount=121 drawCount=118 bitmapUpdates=118
+2026-08-27 23:55:17.077 FRAME: copied generation=149 checksum=a9df1d5340c2c325 changed=false copyCount=119
+2026-08-27 23:55:17.078 FRAME: frame available bytes=921600 size=360x640 generation=149 state=1
+2026-08-27 23:55:17.085 FRAME: onDraw generation=149 onDrawCount=122 drawCount=119 bitmapUpdates=119
+2026-08-27 23:55:17.115 FRAME: copied generation=150 checksum=a9df1d5340c2c325 changed=false copyCount=120
+2026-08-27 23:55:17.117 FRAME: frame available bytes=921600 size=360x640 generation=150 state=1
+2026-08-27 23:55:17.117 FRAME: onDraw generation=150 onDrawCount=123 drawCount=120 bitmapUpdates=120
+2026-08-27 23:55:17.138 FRAME: copied generation=152 checksum=a9df1d5340c2c325 changed=false copyCount=121
+2026-08-27 23:55:17.140 FRAME: frame available bytes=921600 size=360x640 generation=152 state=1
+2026-08-27 23:55:17.142 FRAME: onDraw generation=152 onDrawCount=124 drawCount=121 bitmapUpdates=121
+2026-08-27 23:55:17.163 FRAME: copied generation=154 checksum=a9df1d5340c2c325 changed=false copyCount=122
+2026-08-27 23:55:17.166 FRAME: frame available bytes=921600 size=360x640 generation=154 state=1
+2026-08-27 23:55:17.171 FRAME: onDraw generation=154 onDrawCount=125 drawCount=122 bitmapUpdates=122
+2026-08-27 23:55:17.194 FRAME: copied generation=156 checksum=a9df1d5340c2c325 changed=false copyCount=123
+2026-08-27 23:55:17.195 FRAME: frame available bytes=921600 size=360x640 generation=156 state=1
+2026-08-27 23:55:17.201 FRAME: onDraw generation=156 onDrawCount=126 drawCount=123 bitmapUpdates=123
+2026-08-27 23:55:17.224 FRAME: copied generation=158 checksum=a9df1d5340c2c325 changed=false copyCount=124
+2026-08-27 23:55:17.225 FRAME: frame available bytes=921600 size=360x640 generation=158 state=1
+2026-08-27 23:55:17.234 FRAME: onDraw generation=158 onDrawCount=127 drawCount=124 bitmapUpdates=124
+2026-08-27 23:55:17.252 FRAME: copied generation=159 checksum=a9df1d5340c2c325 changed=false copyCount=125
+2026-08-27 23:55:17.254 FRAME: frame available bytes=921600 size=360x640 generation=159 state=1
+2026-08-27 23:55:17.258 FRAME: onDraw generation=159 onDrawCount=128 drawCount=125 bitmapUpdates=125
+2026-08-27 23:55:17.281 FRAME: copied generation=160 checksum=a9df1d5340c2c325 changed=false copyCount=126
+2026-08-27 23:55:17.282 FRAME: frame available bytes=921600 size=360x640 generation=160 state=1
+2026-08-27 23:55:17.299 FRAME: onDraw generation=160 onDrawCount=129 drawCount=126 bitmapUpdates=126
+2026-08-27 23:55:17.307 FRAME: copied generation=162 checksum=a9df1d5340c2c325 changed=false copyCount=127
+2026-08-27 23:55:17.309 FRAME: frame available bytes=921600 size=360x640 generation=162 state=1
+2026-08-27 23:55:17.316 FRAME: onDraw generation=162 onDrawCount=130 drawCount=127 bitmapUpdates=127
+2026-08-27 23:55:17.348 FRAME: copied generation=163 checksum=a9df1d5340c2c325 changed=false copyCount=128
+2026-08-27 23:55:17.349 FRAME: frame available bytes=921600 size=360x640 generation=163 state=1
+2026-08-27 23:55:17.353 FRAME: onDraw generation=163 onDrawCount=131 drawCount=128 bitmapUpdates=128
+2026-08-27 23:55:17.372 FRAME: copied generation=165 checksum=a9df1d5340c2c325 changed=false copyCount=129
+2026-08-27 23:55:17.374 FRAME: frame available bytes=921600 size=360x640 generation=165 state=1
+2026-08-27 23:55:17.383 FRAME: onDraw generation=165 onDrawCount=132 drawCount=129 bitmapUpdates=129
+2026-08-27 23:55:17.394 FRAME: copied generation=166 checksum=a9df1d5340c2c325 changed=false copyCount=130
+2026-08-27 23:55:17.396 FRAME: frame available bytes=921600 size=360x640 generation=166 state=1
+2026-08-27 23:55:17.404 FRAME: onDraw generation=166 onDrawCount=133 drawCount=130 bitmapUpdates=130
+2026-08-27 23:55:17.419 FRAME: copied generation=168 checksum=a9df1d5340c2c325 changed=false copyCount=131
+2026-08-27 23:55:17.421 FRAME: frame available bytes=921600 size=360x640 generation=168 state=1
+2026-08-27 23:55:17.424 FRAME: onDraw generation=168 onDrawCount=134 drawCount=131 bitmapUpdates=131
+2026-08-27 23:55:17.493 FRAME: copied generation=169 checksum=a9df1d5340c2c325 changed=false copyCount=132
+2026-08-27 23:55:17.495 FRAME: frame available bytes=921600 size=360x640 generation=169 state=1
+2026-08-27 23:55:17.506 FRAME: onDraw generation=169 onDrawCount=135 drawCount=132 bitmapUpdates=132
+2026-08-27 23:55:17.525 FRAME: copied generation=172 checksum=a9df1d5340c2c325 changed=false copyCount=133
+2026-08-27 23:55:17.527 FRAME: frame available bytes=921600 size=360x640 generation=172 state=1
+2026-08-27 23:55:17.538 FRAME: onDraw generation=172 onDrawCount=136 drawCount=133 bitmapUpdates=133
+2026-08-27 23:55:17.553 FRAME: copied generation=174 checksum=a9df1d5340c2c325 changed=false copyCount=134
+2026-08-27 23:55:17.554 FRAME: frame available bytes=921600 size=360x640 generation=174 state=1
+2026-08-27 23:55:17.558 FRAME: onDraw generation=174 onDrawCount=137 drawCount=134 bitmapUpdates=134
+2026-08-27 23:55:17.591 FRAME: copied generation=176 checksum=a9df1d5340c2c325 changed=false copyCount=135
+2026-08-27 23:55:17.592 FRAME: frame available bytes=921600 size=360x640 generation=176 state=1
+2026-08-27 23:55:17.603 FRAME: onDraw generation=176 onDrawCount=138 drawCount=135 bitmapUpdates=135
+2026-08-27 23:55:17.620 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=386 canvasGateBusy=146 canvasEntries=240 inputProcessed=153 repaintPasses=240 repaintCandidates=177 paintCallbacks=177 paintCommits=176 gameFlushRequests=1 gameFlushCommits=1 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=1 gameGraphicsAttached=1 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=java/lang/System.currentTimeMillis()J timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=3 runnable=2 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967299 target=0 SNAPSHOT thread id=3 state=runnable alive=1 priority=5 interrupted=0 object=8589935868 target=4294967734 
+2026-08-27 23:55:17.622 FRAME: copied generation=178 checksum=a9df1d5340c2c325 changed=false copyCount=136
+2026-08-27 23:55:17.623 FRAME: frame available bytes=921600 size=360x640 generation=178 state=1
+2026-08-27 23:55:17.638 FRAME: onDraw generation=178 onDrawCount=139 drawCount=136 bitmapUpdates=136
+2026-08-27 23:55:17.645 FRAME: copied generation=179 checksum=a9df1d5340c2c325 changed=false copyCount=137
+2026-08-27 23:55:17.647 FRAME: frame available bytes=921600 size=360x640 generation=179 state=1
+2026-08-27 23:55:17.655 FRAME: onDraw generation=179 onDrawCount=140 drawCount=137 bitmapUpdates=137
+2026-08-27 23:55:17.686 FRAME: copied generation=180 checksum=a9df1d5340c2c325 changed=false copyCount=138
+2026-08-27 23:55:17.688 FRAME: frame available bytes=921600 size=360x640 generation=180 state=1
+2026-08-27 23:55:17.688 FRAME: onDraw generation=180 onDrawCount=141 drawCount=138 bitmapUpdates=138
+2026-08-27 23:55:17.709 FRAME: copied generation=182 checksum=a9df1d5340c2c325 changed=false copyCount=139
+2026-08-27 23:55:17.710 FRAME: frame available bytes=921600 size=360x640 generation=182 state=1
+2026-08-27 23:55:17.714 FRAME: onDraw generation=182 onDrawCount=142 drawCount=139 bitmapUpdates=139
+2026-08-27 23:55:17.745 FRAME: copied generation=184 checksum=a9df1d5340c2c325 changed=false copyCount=140
+2026-08-27 23:55:17.746 FRAME: frame available bytes=921600 size=360x640 generation=184 state=1
+2026-08-27 23:55:17.754 FRAME: onDraw generation=184 onDrawCount=143 drawCount=140 bitmapUpdates=140
+2026-08-27 23:55:17.774 FRAME: copied generation=185 checksum=a9df1d5340c2c325 changed=false copyCount=141
+2026-08-27 23:55:17.776 FRAME: frame available bytes=921600 size=360x640 generation=185 state=1
+2026-08-27 23:55:17.785 FRAME: onDraw generation=185 onDrawCount=144 drawCount=141 bitmapUpdates=141
+2026-08-27 23:55:17.802 FRAME: copied generation=187 checksum=a9df1d5340c2c325 changed=false copyCount=142
+2026-08-27 23:55:17.804 FRAME: frame available bytes=921600 size=360x640 generation=187 state=1
+2026-08-27 23:55:17.812 FRAME: onDraw generation=187 onDrawCount=145 drawCount=142 bitmapUpdates=142
+2026-08-27 23:55:17.831 FRAME: copied generation=188 checksum=a9df1d5340c2c325 changed=false copyCount=143
+2026-08-27 23:55:17.832 FRAME: frame available bytes=921600 size=360x640 generation=188 state=1
+2026-08-27 23:55:17.837 FRAME: onDraw generation=188 onDrawCount=146 drawCount=143 bitmapUpdates=143
+2026-08-27 23:55:17.870 FRAME: copied generation=189 checksum=a9df1d5340c2c325 changed=false copyCount=144
+2026-08-27 23:55:17.871 FRAME: frame available bytes=921600 size=360x640 generation=189 state=1
+2026-08-27 23:55:17.886 FRAME: onDraw generation=189 onDrawCount=147 drawCount=144 bitmapUpdates=144
+2026-08-27 23:55:17.893 FRAME: copied generation=191 checksum=a9df1d5340c2c325 changed=false copyCount=145
+2026-08-27 23:55:17.895 FRAME: frame available bytes=921600 size=360x640 generation=191 state=1
+2026-08-27 23:55:17.901 FRAME: onDraw generation=191 onDrawCount=148 drawCount=145 bitmapUpdates=145
+2026-08-27 23:55:17.925 FRAME: copied generation=193 checksum=a9df1d5340c2c325 changed=false copyCount=146
+2026-08-27 23:55:17.926 FRAME: frame available bytes=921600 size=360x640 generation=193 state=1
+2026-08-27 23:55:17.929 FRAME: onDraw generation=193 onDrawCount=149 drawCount=146 bitmapUpdates=146
+2026-08-27 23:55:17.954 FRAME: copied generation=194 checksum=a9df1d5340c2c325 changed=false copyCount=147
+2026-08-27 23:55:17.955 FRAME: frame available bytes=921600 size=360x640 generation=194 state=1
+2026-08-27 23:55:17.962 FRAME: onDraw generation=194 onDrawCount=150 drawCount=147 bitmapUpdates=147
+2026-08-27 23:55:17.991 FRAME: copied generation=195 checksum=a9df1d5340c2c325 changed=false copyCount=148
+2026-08-27 23:55:17.993 FRAME: frame available bytes=921600 size=360x640 generation=195 state=1
+2026-08-27 23:55:17.994 FRAME: onDraw generation=195 onDrawCount=151 drawCount=148 bitmapUpdates=148
+2026-08-27 23:55:18.014 FRAME: copied generation=196 checksum=a9df1d5340c2c325 changed=false copyCount=149
+2026-08-27 23:55:18.016 FRAME: frame available bytes=921600 size=360x640 generation=196 state=1
+2026-08-27 23:55:18.020 FRAME: onDraw generation=196 onDrawCount=152 drawCount=149 bitmapUpdates=149
+2026-08-27 23:55:18.043 FRAME: copied generation=197 checksum=a9df1d5340c2c325 changed=false copyCount=150
+2026-08-27 23:55:18.044 FRAME: frame available bytes=921600 size=360x640 generation=197 state=1
+2026-08-27 23:55:18.059 FRAME: onDraw generation=197 onDrawCount=153 drawCount=150 bitmapUpdates=150
+2026-08-27 23:55:18.072 FRAME: copied generation=199 checksum=a9df1d5340c2c325 changed=false copyCount=151
+2026-08-27 23:55:18.073 FRAME: frame available bytes=921600 size=360x640 generation=199 state=1
+2026-08-27 23:55:18.086 FRAME: onDraw generation=199 onDrawCount=154 drawCount=151 bitmapUpdates=151
+2026-08-27 23:55:18.095 FRAME: copied generation=200 checksum=a9df1d5340c2c325 changed=false copyCount=152
+2026-08-27 23:55:18.097 FRAME: frame available bytes=921600 size=360x640 generation=200 state=1
+2026-08-27 23:55:18.099 FRAME: onDraw generation=200 onDrawCount=155 drawCount=152 bitmapUpdates=152
+2026-08-27 23:55:18.119 FRAME: copied generation=201 checksum=a9df1d5340c2c325 changed=false copyCount=153
+2026-08-27 23:55:18.121 FRAME: frame available bytes=921600 size=360x640 generation=201 state=1
+2026-08-27 23:55:18.133 FRAME: onDraw generation=201 onDrawCount=156 drawCount=153 bitmapUpdates=153
+2026-08-27 23:55:18.143 FRAME: copied generation=203 checksum=a9df1d5340c2c325 changed=false copyCount=154
+2026-08-27 23:55:18.145 FRAME: frame available bytes=921600 size=360x640 generation=203 state=1
+2026-08-27 23:55:18.148 FRAME: onDraw generation=203 onDrawCount=157 drawCount=154 bitmapUpdates=154
+2026-08-27 23:55:18.173 FRAME: copied generation=205 checksum=a9df1d5340c2c325 changed=false copyCount=155
+2026-08-27 23:55:18.174 FRAME: frame available bytes=921600 size=360x640 generation=205 state=1
+2026-08-27 23:55:18.177 FRAME: onDraw generation=205 onDrawCount=158 drawCount=155 bitmapUpdates=155
+2026-08-27 23:55:18.211 FRAME: copied generation=207 checksum=a9df1d5340c2c325 changed=false copyCount=156
+2026-08-27 23:55:18.213 FRAME: frame available bytes=921600 size=360x640 generation=207 state=1
+2026-08-27 23:55:18.217 FRAME: onDraw generation=207 onDrawCount=159 drawCount=156 bitmapUpdates=156
+2026-08-27 23:55:18.241 FRAME: copied generation=208 checksum=a9df1d5340c2c325 changed=false copyCount=157
+2026-08-27 23:55:18.242 FRAME: frame available bytes=921600 size=360x640 generation=208 state=1
+2026-08-27 23:55:18.251 FRAME: onDraw generation=208 onDrawCount=160 drawCount=157 bitmapUpdates=157
+2026-08-27 23:55:18.280 FRAME: copied generation=210 checksum=a9df1d5340c2c325 changed=false copyCount=158
+2026-08-27 23:55:18.282 FRAME: frame available bytes=921600 size=360x640 generation=210 state=1
+2026-08-27 23:55:18.285 FRAME: onDraw generation=210 onDrawCount=161 drawCount=158 bitmapUpdates=158
+2026-08-27 23:55:18.312 FRAME: copied generation=212 checksum=a9df1d5340c2c325 changed=false copyCount=159
+2026-08-27 23:55:18.314 FRAME: frame available bytes=921600 size=360x640 generation=212 state=1
+2026-08-27 23:55:18.317 FRAME: onDraw generation=212 onDrawCount=162 drawCount=159 bitmapUpdates=159
+2026-08-27 23:55:18.335 FRAME: copied generation=214 checksum=a9df1d5340c2c325 changed=false copyCount=160
+2026-08-27 23:55:18.337 FRAME: frame available bytes=921600 size=360x640 generation=214 state=1
+2026-08-27 23:55:18.349 FRAME: onDraw generation=214 onDrawCount=163 drawCount=160 bitmapUpdates=160
+2026-08-27 23:55:18.356 FRAME: copied generation=215 checksum=a9df1d5340c2c325 changed=false copyCount=161
+2026-08-27 23:55:18.358 FRAME: frame available bytes=921600 size=360x640 generation=215 state=1
+2026-08-27 23:55:18.362 FRAME: onDraw generation=215 onDrawCount=164 drawCount=161 bitmapUpdates=161
+2026-08-27 23:55:18.386 FRAME: copied generation=217 checksum=a9df1d5340c2c325 changed=false copyCount=162
+2026-08-27 23:55:18.387 FRAME: frame available bytes=921600 size=360x640 generation=217 state=1
+2026-08-27 23:55:18.393 FRAME: onDraw generation=217 onDrawCount=165 drawCount=162 bitmapUpdates=162
+2026-08-27 23:55:18.424 FRAME: copied generation=219 checksum=a9df1d5340c2c325 changed=false copyCount=163
+2026-08-27 23:55:18.426 FRAME: frame available bytes=921600 size=360x640 generation=219 state=1
+2026-08-27 23:55:18.433 FRAME: onDraw generation=219 onDrawCount=166 drawCount=163 bitmapUpdates=163
+2026-08-27 23:55:18.455 FRAME: copied generation=221 checksum=a9df1d5340c2c325 changed=false copyCount=164
+2026-08-27 23:55:18.456 FRAME: frame available bytes=921600 size=360x640 generation=221 state=1
+2026-08-27 23:55:18.463 FRAME: onDraw generation=221 onDrawCount=167 drawCount=164 bitmapUpdates=164
+2026-08-27 23:55:18.478 FRAME: copied generation=222 checksum=a9df1d5340c2c325 changed=false copyCount=165
+2026-08-27 23:55:18.479 FRAME: frame available bytes=921600 size=360x640 generation=222 state=1
+2026-08-27 23:55:18.483 FRAME: onDraw generation=222 onDrawCount=168 drawCount=165 bitmapUpdates=165
+2026-08-27 23:55:18.501 FRAME: copied generation=223 checksum=a9df1d5340c2c325 changed=false copyCount=166
+2026-08-27 23:55:18.503 FRAME: frame available bytes=921600 size=360x640 generation=223 state=1
+2026-08-27 23:55:18.516 FRAME: onDraw generation=223 onDrawCount=169 drawCount=166 bitmapUpdates=166
+2026-08-27 23:55:18.525 FRAME: copied generation=225 checksum=a9df1d5340c2c325 changed=false copyCount=167
+2026-08-27 23:55:18.526 FRAME: frame available bytes=921600 size=360x640 generation=225 state=1
+2026-08-27 23:55:18.532 FRAME: onDraw generation=225 onDrawCount=170 drawCount=167 bitmapUpdates=167
+2026-08-27 23:55:18.553 FRAME: copied generation=226 checksum=a9df1d5340c2c325 changed=false copyCount=168
+2026-08-27 23:55:18.555 FRAME: frame available bytes=921600 size=360x640 generation=226 state=1
+2026-08-27 23:55:18.557 FRAME: onDraw generation=226 onDrawCount=171 drawCount=168 bitmapUpdates=168
+2026-08-27 23:55:18.582 FRAME: copied generation=227 checksum=a9df1d5340c2c325 changed=false copyCount=169
+2026-08-27 23:55:18.584 FRAME: frame available bytes=921600 size=360x640 generation=227 state=1
+2026-08-27 23:55:18.590 FRAME: onDraw generation=227 onDrawCount=172 drawCount=169 bitmapUpdates=169
+2026-08-27 23:55:18.620 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=503 canvasGateBusy=174 canvasEntries=329 inputProcessed=229 repaintPasses=329 repaintCandidates=228 paintCallbacks=228 paintCommits=227 gameFlushRequests=1 gameFlushCommits=1 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=1 gameGraphicsAttached=1 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=java/lang/System.currentTimeMillis()J timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=3 runnable=2 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967299 target=0 SNAPSHOT thread id=3 state=running alive=1 priority=5 interrupted=0 object=8589935868 target=4294967734 
+2026-08-27 23:55:18.621 FRAME: copied generation=228 checksum=a9df1d5340c2c325 changed=false copyCount=170
+2026-08-27 23:55:18.623 FRAME: frame available bytes=921600 size=360x640 generation=228 state=1
+2026-08-27 23:55:18.632 FRAME: onDraw generation=228 onDrawCount=173 drawCount=170 bitmapUpdates=170
+2026-08-27 23:55:18.653 FRAME: copied generation=231 checksum=a9df1d5340c2c325 changed=false copyCount=171
+2026-08-27 23:55:18.655 FRAME: frame available bytes=921600 size=360x640 generation=231 state=1
+2026-08-27 23:55:18.663 FRAME: onDraw generation=231 onDrawCount=174 drawCount=171 bitmapUpdates=171
+2026-08-27 23:55:18.681 FRAME: copied generation=233 checksum=a9df1d5340c2c325 changed=false copyCount=172
+2026-08-27 23:55:18.682 FRAME: frame available bytes=921600 size=360x640 generation=233 state=1
+2026-08-27 23:55:18.692 FRAME: onDraw generation=233 onDrawCount=175 drawCount=172 bitmapUpdates=172
+2026-08-27 23:55:18.719 FRAME: copied generation=234 checksum=a9df1d5340c2c325 changed=false copyCount=173
+2026-08-27 23:55:18.721 FRAME: frame available bytes=921600 size=360x640 generation=234 state=1
+2026-08-27 23:55:18.732 FRAME: onDraw generation=234 onDrawCount=176 drawCount=173 bitmapUpdates=173
+2026-08-27 23:55:18.747 FRAME: copied generation=235 checksum=a9df1d5340c2c325 changed=false copyCount=174
+2026-08-27 23:55:18.749 FRAME: frame available bytes=921600 size=360x640 generation=235 state=1
+2026-08-27 23:55:18.762 FRAME: onDraw generation=235 onDrawCount=177 drawCount=174 bitmapUpdates=174
+2026-08-27 23:55:18.769 FRAME: copied generation=236 checksum=a9df1d5340c2c325 changed=false copyCount=175
+2026-08-27 23:55:18.771 FRAME: frame available bytes=921600 size=360x640 generation=236 state=1
+2026-08-27 23:55:18.778 FRAME: onDraw generation=236 onDrawCount=178 drawCount=175 bitmapUpdates=175
+2026-08-27 23:55:18.794 FRAME: copied generation=238 checksum=a9df1d5340c2c325 changed=false copyCount=176
+2026-08-27 23:55:18.796 FRAME: frame available bytes=921600 size=360x640 generation=238 state=1
+2026-08-27 23:55:18.798 FRAME: onDraw generation=238 onDrawCount=179 drawCount=176 bitmapUpdates=176
+2026-08-27 23:55:18.820 FRAME: copied generation=239 checksum=a9df1d5340c2c325 changed=false copyCount=177
+2026-08-27 23:55:18.822 FRAME: frame available bytes=921600 size=360x640 generation=239 state=1
+2026-08-27 23:55:18.839 FRAME: onDraw generation=239 onDrawCount=180 drawCount=177 bitmapUpdates=177
+2026-08-27 23:55:18.849 FRAME: copied generation=241 checksum=a9df1d5340c2c325 changed=false copyCount=178
+2026-08-27 23:55:18.850 FRAME: frame available bytes=921600 size=360x640 generation=241 state=1
+2026-08-27 23:55:18.855 FRAME: onDraw generation=241 onDrawCount=181 drawCount=178 bitmapUpdates=178
+2026-08-27 23:55:18.879 FRAME: copied generation=242 checksum=a9df1d5340c2c325 changed=false copyCount=179
+2026-08-27 23:55:18.881 FRAME: frame available bytes=921600 size=360x640 generation=242 state=1
+2026-08-27 23:55:18.885 FRAME: onDraw generation=242 onDrawCount=182 drawCount=179 bitmapUpdates=179
+2026-08-27 23:55:18.906 FRAME: copied generation=244 checksum=a9df1d5340c2c325 changed=false copyCount=180
+2026-08-27 23:55:18.908 FRAME: frame available bytes=921600 size=360x640 generation=244 state=1
+2026-08-27 23:55:18.913 FRAME: onDraw generation=244 onDrawCount=183 drawCount=180 bitmapUpdates=180
+2026-08-27 23:55:18.935 FRAME: copied generation=245 checksum=a9df1d5340c2c325 changed=false copyCount=181
+2026-08-27 23:55:18.937 FRAME: frame available bytes=921600 size=360x640 generation=245 state=1
+2026-08-27 23:55:18.946 FRAME: onDraw generation=245 onDrawCount=184 drawCount=181 bitmapUpdates=181
+2026-08-27 23:55:18.962 FRAME: copied generation=246 checksum=a9df1d5340c2c325 changed=false copyCount=182
+2026-08-27 23:55:18.963 FRAME: frame available bytes=921600 size=360x640 generation=246 state=1
+2026-08-27 23:55:18.973 FRAME: onDraw generation=246 onDrawCount=185 drawCount=182 bitmapUpdates=182
+2026-08-27 23:55:18.988 FRAME: copied generation=248 checksum=a9df1d5340c2c325 changed=false copyCount=183
+2026-08-27 23:55:18.990 FRAME: frame available bytes=921600 size=360x640 generation=248 state=1
+2026-08-27 23:55:19.004 FRAME: onDraw generation=248 onDrawCount=186 drawCount=183 bitmapUpdates=183
+2026-08-27 23:55:19.012 FRAME: copied generation=249 checksum=a9df1d5340c2c325 changed=false copyCount=184
+2026-08-27 23:55:19.013 FRAME: frame available bytes=921600 size=360x640 generation=249 state=1
+2026-08-27 23:55:19.017 FRAME: onDraw generation=249 onDrawCount=187 drawCount=184 bitmapUpdates=184
+2026-08-27 23:55:19.036 FRAME: copied generation=250 checksum=a9df1d5340c2c325 changed=false copyCount=185
+2026-08-27 23:55:19.037 FRAME: frame available bytes=921600 size=360x640 generation=250 state=1
+2026-08-27 23:55:19.038 FRAME: onDraw generation=250 onDrawCount=188 drawCount=185 bitmapUpdates=185
+2026-08-27 23:55:19.059 FRAME: copied generation=252 checksum=a9df1d5340c2c325 changed=false copyCount=186
+2026-08-27 23:55:19.059 FRAME: frame available bytes=921600 size=360x640 generation=252 state=1
+2026-08-27 23:55:19.062 FRAME: onDraw generation=252 onDrawCount=189 drawCount=186 bitmapUpdates=186
+2026-08-27 23:55:19.080 FRAME: copied generation=253 checksum=a9df1d5340c2c325 changed=false copyCount=187
+2026-08-27 23:55:19.081 FRAME: frame available bytes=921600 size=360x640 generation=253 state=1
+2026-08-27 23:55:19.087 FRAME: onDraw generation=253 onDrawCount=190 drawCount=187 bitmapUpdates=187
+2026-08-27 23:55:19.108 FRAME: copied generation=254 checksum=a9df1d5340c2c325 changed=false copyCount=188
+2026-08-27 23:55:19.110 FRAME: frame available bytes=921600 size=360x640 generation=254 state=1
+2026-08-27 23:55:19.112 FRAME: onDraw generation=254 onDrawCount=191 drawCount=188 bitmapUpdates=188
+2026-08-27 23:55:19.134 FRAME: copied generation=255 checksum=a9df1d5340c2c325 changed=false copyCount=189
+2026-08-27 23:55:19.135 FRAME: frame available bytes=921600 size=360x640 generation=255 state=1
+2026-08-27 23:55:19.146 FRAME: onDraw generation=255 onDrawCount=192 drawCount=189 bitmapUpdates=189
+2026-08-27 23:55:19.158 FRAME: copied generation=256 checksum=a9df1d5340c2c325 changed=false copyCount=190
+2026-08-27 23:55:19.159 FRAME: frame available bytes=921600 size=360x640 generation=256 state=1
+2026-08-27 23:55:19.161 FRAME: onDraw generation=256 onDrawCount=193 drawCount=190 bitmapUpdates=190
+2026-08-27 23:55:19.186 FRAME: copied generation=257 checksum=a9df1d5340c2c325 changed=false copyCount=191
+2026-08-27 23:55:19.188 FRAME: frame available bytes=921600 size=360x640 generation=257 state=1
+2026-08-27 23:55:19.195 FRAME: onDraw generation=257 onDrawCount=194 drawCount=191 bitmapUpdates=191
+2026-08-27 23:55:19.215 FRAME: copied generation=258 checksum=a9df1d5340c2c325 changed=false copyCount=192
+2026-08-27 23:55:19.216 FRAME: frame available bytes=921600 size=360x640 generation=258 state=1
+2026-08-27 23:55:19.221 FRAME: onDraw generation=258 onDrawCount=195 drawCount=192 bitmapUpdates=192
+2026-08-27 23:55:19.240 FRAME: copied generation=259 checksum=a9df1d5340c2c325 changed=false copyCount=193
+2026-08-27 23:55:19.241 FRAME: frame available bytes=921600 size=360x640 generation=259 state=1
+2026-08-27 23:55:19.245 FRAME: onDraw generation=259 onDrawCount=196 drawCount=193 bitmapUpdates=193
+2026-08-27 23:55:19.266 FRAME: copied generation=260 checksum=a9df1d5340c2c325 changed=false copyCount=194
+2026-08-27 23:55:19.267 FRAME: frame available bytes=921600 size=360x640 generation=260 state=1
+2026-08-27 23:55:19.278 FRAME: onDraw generation=260 onDrawCount=197 drawCount=194 bitmapUpdates=194
+2026-08-27 23:55:19.295 FRAME: copied generation=261 checksum=a9df1d5340c2c325 changed=false copyCount=195
+2026-08-27 23:55:19.296 FRAME: frame available bytes=921600 size=360x640 generation=261 state=1
+2026-08-27 23:55:19.303 FRAME: onDraw generation=261 onDrawCount=198 drawCount=195 bitmapUpdates=195
+2026-08-27 23:55:19.320 FRAME: copied generation=262 checksum=a9df1d5340c2c325 changed=false copyCount=196
+2026-08-27 23:55:19.321 FRAME: frame available bytes=921600 size=360x640 generation=262 state=1
+2026-08-27 23:55:19.328 FRAME: onDraw generation=262 onDrawCount=199 drawCount=196 bitmapUpdates=196
+2026-08-27 23:55:19.351 FRAME: copied generation=263 checksum=a9df1d5340c2c325 changed=false copyCount=197
+2026-08-27 23:55:19.352 FRAME: frame available bytes=921600 size=360x640 generation=263 state=1
+2026-08-27 23:55:19.361 FRAME: onDraw generation=263 onDrawCount=200 drawCount=197 bitmapUpdates=197
+2026-08-27 23:55:19.377 FRAME: copied generation=264 checksum=a9df1d5340c2c325 changed=false copyCount=198
+2026-08-27 23:55:19.379 FRAME: frame available bytes=921600 size=360x640 generation=264 state=1
+2026-08-27 23:55:19.385 FRAME: onDraw generation=264 onDrawCount=201 drawCount=198 bitmapUpdates=198
+2026-08-27 23:55:19.405 FRAME: copied generation=265 checksum=a9df1d5340c2c325 changed=false copyCount=199
+2026-08-27 23:55:19.406 FRAME: frame available bytes=921600 size=360x640 generation=265 state=1
+2026-08-27 23:55:19.411 FRAME: onDraw generation=265 onDrawCount=202 drawCount=199 bitmapUpdates=199
+2026-08-27 23:55:19.432 FRAME: copied generation=266 checksum=a9df1d5340c2c325 changed=false copyCount=200
+2026-08-27 23:55:19.434 FRAME: frame available bytes=921600 size=360x640 generation=266 state=1
+2026-08-27 23:55:19.444 FRAME: onDraw generation=266 onDrawCount=203 drawCount=200 bitmapUpdates=200
+2026-08-27 23:55:19.461 FRAME: copied generation=267 checksum=a9df1d5340c2c325 changed=false copyCount=201
+2026-08-27 23:55:19.463 FRAME: frame available bytes=921600 size=360x640 generation=267 state=1
+2026-08-27 23:55:19.468 FRAME: onDraw generation=267 onDrawCount=204 drawCount=201 bitmapUpdates=201
+2026-08-27 23:55:19.490 FRAME: copied generation=268 checksum=a9df1d5340c2c325 changed=false copyCount=202
+2026-08-27 23:55:19.491 FRAME: frame available bytes=921600 size=360x640 generation=268 state=1
+2026-08-27 23:55:19.501 FRAME: onDraw generation=268 onDrawCount=205 drawCount=202 bitmapUpdates=202
+2026-08-27 23:55:19.519 FRAME: copied generation=269 checksum=a9df1d5340c2c325 changed=false copyCount=203
+2026-08-27 23:55:19.520 FRAME: frame available bytes=921600 size=360x640 generation=269 state=1
+2026-08-27 23:55:19.526 FRAME: onDraw generation=269 onDrawCount=206 drawCount=203 bitmapUpdates=203
+2026-08-27 23:55:19.545 FRAME: copied generation=270 checksum=a9df1d5340c2c325 changed=false copyCount=204
+2026-08-27 23:55:19.546 FRAME: frame available bytes=921600 size=360x640 generation=270 state=1
+2026-08-27 23:55:19.551 FRAME: onDraw generation=270 onDrawCount=207 drawCount=204 bitmapUpdates=204
+2026-08-27 23:55:19.572 FRAME: copied generation=271 checksum=a9df1d5340c2c325 changed=false copyCount=205
+2026-08-27 23:55:19.574 FRAME: frame available bytes=921600 size=360x640 generation=271 state=1
+2026-08-27 23:55:19.584 FRAME: onDraw generation=271 onDrawCount=208 drawCount=205 bitmapUpdates=205
+2026-08-27 23:55:19.617 FRAME: copied generation=272 checksum=a9df1d5340c2c325 changed=false copyCount=206
+2026-08-27 23:55:19.618 FRAME: frame available bytes=921600 size=360x640 generation=272 state=1
+2026-08-27 23:55:19.621 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=579 canvasGateBusy=189 canvasEntries=390 inputProcessed=267 repaintPasses=390 repaintCandidates=271 paintCallbacks=271 paintCommits=270 gameFlushRequests=1 gameFlushCommits=1 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=1 gameGraphicsAttached=1 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=java/lang/System.currentTimeMillis()J timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=3 runnable=2 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967299 target=0 SNAPSHOT thread id=3 state=runnable alive=1 priority=5 interrupted=0 object=8589935868 target=4294967734 
+2026-08-27 23:55:19.626 FRAME: onDraw generation=272 onDrawCount=209 drawCount=206 bitmapUpdates=206
+2026-08-27 23:55:19.646 FRAME: copied generation=273 checksum=a9df1d5340c2c325 changed=false copyCount=207
+2026-08-27 23:55:19.648 FRAME: frame available bytes=921600 size=360x640 generation=273 state=1
+2026-08-27 23:55:19.649 FRAME: onDraw generation=273 onDrawCount=210 drawCount=207 bitmapUpdates=207
+2026-08-27 23:55:19.674 FRAME: copied generation=274 checksum=a9df1d5340c2c325 changed=false copyCount=208
+2026-08-27 23:55:19.676 FRAME: frame available bytes=921600 size=360x640 generation=274 state=1
+2026-08-27 23:55:19.684 FRAME: onDraw generation=274 onDrawCount=211 drawCount=208 bitmapUpdates=208
+2026-08-27 23:55:19.696 FRAME: copied generation=275 checksum=a9df1d5340c2c325 changed=false copyCount=209
+2026-08-27 23:55:19.696 FRAME: frame available bytes=921600 size=360x640 generation=275 state=1
+2026-08-27 23:55:19.722 FRAME: copied generation=276 checksum=a9df1d5340c2c325 changed=false copyCount=210
+2026-08-27 23:55:19.723 FRAME: frame available bytes=921600 size=360x640 generation=276 state=1
+2026-08-27 23:55:19.733 FRAME: onDraw generation=276 onDrawCount=212 drawCount=209 bitmapUpdates=210
+2026-08-27 23:55:19.748 FRAME: copied generation=277 checksum=a9df1d5340c2c325 changed=false copyCount=211
+2026-08-27 23:55:19.749 FRAME: frame available bytes=921600 size=360x640 generation=277 state=1
+2026-08-27 23:55:19.758 FRAME: onDraw generation=277 onDrawCount=213 drawCount=210 bitmapUpdates=211
+2026-08-27 23:55:19.776 FRAME: copied generation=278 checksum=a9df1d5340c2c325 changed=false copyCount=212
+2026-08-27 23:55:19.777 FRAME: frame available bytes=921600 size=360x640 generation=278 state=1
+2026-08-27 23:55:19.783 FRAME: onDraw generation=278 onDrawCount=214 drawCount=211 bitmapUpdates=212
+2026-08-27 23:55:19.820 FRAME: copied generation=279 checksum=a9df1d5340c2c325 changed=false copyCount=213
+2026-08-27 23:55:19.822 FRAME: frame available bytes=921600 size=360x640 generation=279 state=1
+2026-08-27 23:55:19.834 FRAME: onDraw generation=279 onDrawCount=215 drawCount=212 bitmapUpdates=213
+2026-08-27 23:55:19.849 FRAME: copied generation=280 checksum=a9df1d5340c2c325 changed=false copyCount=214
+2026-08-27 23:55:19.851 FRAME: frame available bytes=921600 size=360x640 generation=280 state=1
+2026-08-27 23:55:19.856 FRAME: onDraw generation=280 onDrawCount=216 drawCount=213 bitmapUpdates=214
+2026-08-27 23:55:19.877 FRAME: copied generation=281 checksum=a9df1d5340c2c325 changed=false copyCount=215
+2026-08-27 23:55:19.878 FRAME: frame available bytes=921600 size=360x640 generation=281 state=1
+2026-08-27 23:55:19.882 FRAME: onDraw generation=281 onDrawCount=217 drawCount=214 bitmapUpdates=215
+2026-08-27 23:55:19.939 FRAME: copied generation=282 checksum=a9df1d5340c2c325 changed=false copyCount=216
+2026-08-27 23:55:19.942 FRAME: frame available bytes=921600 size=360x640 generation=282 state=1
+2026-08-27 23:55:19.949 FRAME: onDraw generation=282 onDrawCount=218 drawCount=215 bitmapUpdates=216
+2026-08-27 23:55:19.970 FRAME: copied generation=283 checksum=a9df1d5340c2c325 changed=false copyCount=217
+2026-08-27 23:55:19.972 FRAME: frame available bytes=921600 size=360x640 generation=283 state=1
+2026-08-27 23:55:19.982 FRAME: onDraw generation=283 onDrawCount=219 drawCount=216 bitmapUpdates=217
+2026-08-27 23:55:19.997 FRAME: copied generation=284 checksum=a9df1d5340c2c325 changed=false copyCount=218
+2026-08-27 23:55:19.998 FRAME: frame available bytes=921600 size=360x640 generation=284 state=1
+2026-08-27 23:55:20.006 FRAME: onDraw generation=284 onDrawCount=220 drawCount=217 bitmapUpdates=218
+2026-08-27 23:55:20.025 FRAME: copied generation=285 checksum=a9df1d5340c2c325 changed=false copyCount=219
+2026-08-27 23:55:20.027 FRAME: frame available bytes=921600 size=360x640 generation=285 state=1
+2026-08-27 23:55:20.032 FRAME: onDraw generation=285 onDrawCount=221 drawCount=218 bitmapUpdates=219
+2026-08-27 23:55:20.053 FRAME: copied generation=286 checksum=a9df1d5340c2c325 changed=false copyCount=220
+2026-08-27 23:55:20.055 FRAME: frame available bytes=921600 size=360x640 generation=286 state=1
+2026-08-27 23:55:20.065 FRAME: onDraw generation=286 onDrawCount=222 drawCount=219 bitmapUpdates=220
+2026-08-27 23:55:20.082 FRAME: copied generation=287 checksum=a9df1d5340c2c325 changed=false copyCount=221
+2026-08-27 23:55:20.084 FRAME: frame available bytes=921600 size=360x640 generation=287 state=1
+2026-08-27 23:55:20.090 FRAME: onDraw generation=287 onDrawCount=223 drawCount=220 bitmapUpdates=221
+2026-08-27 23:55:20.111 FRAME: copied generation=288 checksum=a9df1d5340c2c325 changed=false copyCount=222
+2026-08-27 23:55:20.113 FRAME: frame available bytes=921600 size=360x640 generation=288 state=1
+2026-08-27 23:55:20.123 FRAME: onDraw generation=288 onDrawCount=224 drawCount=221 bitmapUpdates=222
+2026-08-27 23:55:20.154 FRAME: copied generation=289 checksum=a9df1d5340c2c325 changed=false copyCount=223
+2026-08-27 23:55:20.155 FRAME: frame available bytes=921600 size=360x640 generation=289 state=1
+2026-08-27 23:55:20.164 FRAME: onDraw generation=289 onDrawCount=225 drawCount=222 bitmapUpdates=223
+2026-08-27 23:55:20.182 FRAME: copied generation=290 checksum=a9df1d5340c2c325 changed=false copyCount=224
+2026-08-27 23:55:20.183 FRAME: frame available bytes=921600 size=360x640 generation=290 state=1
+2026-08-27 23:55:20.189 FRAME: onDraw generation=290 onDrawCount=226 drawCount=223 bitmapUpdates=224
+2026-08-27 23:55:20.211 FRAME: copied generation=291 checksum=a9df1d5340c2c325 changed=false copyCount=225
+2026-08-27 23:55:20.213 FRAME: frame available bytes=921600 size=360x640 generation=291 state=1
+2026-08-27 23:55:20.221 FRAME: onDraw generation=291 onDrawCount=227 drawCount=224 bitmapUpdates=225
+2026-08-27 23:55:20.237 FRAME: copied generation=292 checksum=a9df1d5340c2c325 changed=false copyCount=226
+2026-08-27 23:55:20.238 FRAME: frame available bytes=921600 size=360x640 generation=292 state=1
+2026-08-27 23:55:20.247 FRAME: onDraw generation=292 onDrawCount=228 drawCount=225 bitmapUpdates=226
+2026-08-27 23:55:20.264 FRAME: copied generation=293 checksum=a9df1d5340c2c325 changed=false copyCount=227
+2026-08-27 23:55:20.265 FRAME: frame available bytes=921600 size=360x640 generation=293 state=1
+2026-08-27 23:55:20.271 FRAME: onDraw generation=293 onDrawCount=229 drawCount=226 bitmapUpdates=227
+2026-08-27 23:55:20.290 FRAME: copied generation=294 checksum=a9df1d5340c2c325 changed=false copyCount=228
+2026-08-27 23:55:20.292 FRAME: frame available bytes=921600 size=360x640 generation=294 state=1
+2026-08-27 23:55:20.297 FRAME: onDraw generation=294 onDrawCount=230 drawCount=227 bitmapUpdates=228
+2026-08-27 23:55:20.317 FRAME: copied generation=295 checksum=a9df1d5340c2c325 changed=false copyCount=229
+2026-08-27 23:55:20.319 FRAME: frame available bytes=921600 size=360x640 generation=295 state=1
+2026-08-27 23:55:20.329 FRAME: onDraw generation=295 onDrawCount=231 drawCount=228 bitmapUpdates=229
+2026-08-27 23:55:20.344 FRAME: copied generation=296 checksum=a9df1d5340c2c325 changed=false copyCount=230
+2026-08-27 23:55:20.345 FRAME: frame available bytes=921600 size=360x640 generation=296 state=1
+2026-08-27 23:55:20.354 FRAME: onDraw generation=296 onDrawCount=232 drawCount=229 bitmapUpdates=230
+2026-08-27 23:55:20.370 FRAME: copied generation=297 checksum=a9df1d5340c2c325 changed=false copyCount=231
+2026-08-27 23:55:20.371 FRAME: frame available bytes=921600 size=360x640 generation=297 state=1
+2026-08-27 23:55:20.378 FRAME: onDraw generation=297 onDrawCount=233 drawCount=230 bitmapUpdates=231
+2026-08-27 23:55:20.398 FRAME: copied generation=298 checksum=a9df1d5340c2c325 changed=false copyCount=232
+2026-08-27 23:55:20.400 FRAME: frame available bytes=921600 size=360x640 generation=298 state=1
+2026-08-27 23:55:20.404 FRAME: onDraw generation=298 onDrawCount=234 drawCount=231 bitmapUpdates=232
+2026-08-27 23:55:20.426 FRAME: copied generation=299 checksum=a9df1d5340c2c325 changed=false copyCount=233
+2026-08-27 23:55:20.428 FRAME: frame available bytes=921600 size=360x640 generation=299 state=1
+2026-08-27 23:55:20.437 FRAME: onDraw generation=299 onDrawCount=235 drawCount=232 bitmapUpdates=233
+2026-08-27 23:55:20.453 FRAME: copied generation=300 checksum=a9df1d5340c2c325 changed=false copyCount=234
+2026-08-27 23:55:20.454 FRAME: frame available bytes=921600 size=360x640 generation=300 state=1
+2026-08-27 23:55:20.462 FRAME: onDraw generation=300 onDrawCount=236 drawCount=233 bitmapUpdates=234
+2026-08-27 23:55:20.482 FRAME: copied generation=301 checksum=a9df1d5340c2c325 changed=false copyCount=235
+2026-08-27 23:55:20.483 FRAME: frame available bytes=921600 size=360x640 generation=301 state=1
+2026-08-27 23:55:20.494 FRAME: onDraw generation=301 onDrawCount=237 drawCount=234 bitmapUpdates=235
+2026-08-27 23:55:20.504 FRAME: copied generation=302 checksum=a9df1d5340c2c325 changed=false copyCount=236
+2026-08-27 23:55:20.505 FRAME: frame available bytes=921600 size=360x640 generation=302 state=1
+2026-08-27 23:55:20.510 FRAME: onDraw generation=302 onDrawCount=238 drawCount=235 bitmapUpdates=236
+2026-08-27 23:55:20.526 FRAME: copied generation=303 checksum=a9df1d5340c2c325 changed=false copyCount=237
+2026-08-27 23:55:20.527 FRAME: frame available bytes=921600 size=360x640 generation=303 state=1
+2026-08-27 23:55:20.535 FRAME: onDraw generation=303 onDrawCount=239 drawCount=236 bitmapUpdates=237
+2026-08-27 23:55:20.554 FRAME: copied generation=304 checksum=a9df1d5340c2c325 changed=false copyCount=238
+2026-08-27 23:55:20.555 FRAME: frame available bytes=921600 size=360x640 generation=304 state=1
+2026-08-27 23:55:20.560 FRAME: onDraw generation=304 onDrawCount=240 drawCount=237 bitmapUpdates=238
+2026-08-27 23:55:20.614 FRAME: copied generation=305 checksum=a9df1d5340c2c325 changed=false copyCount=239
+2026-08-27 23:55:20.615 FRAME: frame available bytes=921600 size=360x640 generation=305 state=1
+2026-08-27 23:55:20.620 FRAME: onDraw generation=305 onDrawCount=241 drawCount=238 bitmapUpdates=239
+2026-08-27 23:55:20.621 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=618 canvasGateBusy=195 canvasEntries=423 inputProcessed=267 repaintPasses=423 repaintCandidates=304 paintCallbacks=304 paintCommits=303 gameFlushRequests=1 gameFlushCommits=1 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=1 gameGraphicsAttached=1 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=java/lang/System.currentTimeMillis()J timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=3 runnable=2 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967299 target=0 SNAPSHOT thread id=3 state=runnable alive=1 priority=5 interrupted=0 object=8589935868 target=4294967734 
+2026-08-27 23:55:20.645 FRAME: copied generation=306 checksum=a9df1d5340c2c325 changed=false copyCount=240
+2026-08-27 23:55:20.647 FRAME: frame available bytes=921600 size=360x640 generation=306 state=1
+2026-08-27 23:55:20.651 FRAME: onDraw generation=306 onDrawCount=242 drawCount=239 bitmapUpdates=240
+2026-08-27 23:55:20.674 FRAME: copied generation=307 checksum=a9df1d5340c2c325 changed=false copyCount=241
+2026-08-27 23:55:20.676 FRAME: frame available bytes=921600 size=360x640 generation=307 state=1
+2026-08-27 23:55:20.684 FRAME: onDraw generation=307 onDrawCount=243 drawCount=240 bitmapUpdates=241
+2026-08-27 23:55:20.701 FRAME: copied generation=308 checksum=a9df1d5340c2c325 changed=false copyCount=242
+2026-08-27 23:55:20.703 FRAME: frame available bytes=921600 size=360x640 generation=308 state=1
+2026-08-27 23:55:20.709 FRAME: onDraw generation=308 onDrawCount=244 drawCount=241 bitmapUpdates=242
+2026-08-27 23:55:20.730 FRAME: copied generation=309 checksum=a9df1d5340c2c325 changed=false copyCount=243
+2026-08-27 23:55:20.731 FRAME: frame available bytes=921600 size=360x640 generation=309 state=1
+2026-08-27 23:55:20.741 FRAME: onDraw generation=309 onDrawCount=245 drawCount=242 bitmapUpdates=243
+2026-08-27 23:55:20.754 FRAME: copied generation=310 checksum=a9df1d5340c2c325 changed=false copyCount=244
+2026-08-27 23:55:20.755 FRAME: frame available bytes=921600 size=360x640 generation=310 state=1
+2026-08-27 23:55:20.757 FRAME: onDraw generation=310 onDrawCount=246 drawCount=243 bitmapUpdates=244
+2026-08-27 23:55:20.775 FRAME: copied generation=311 checksum=a9df1d5340c2c325 changed=false copyCount=245
+2026-08-27 23:55:20.776 FRAME: frame available bytes=921600 size=360x640 generation=311 state=1
+2026-08-27 23:55:20.782 FRAME: onDraw generation=311 onDrawCount=247 drawCount=244 bitmapUpdates=245
+2026-08-27 23:55:20.799 FRAME: copied generation=312 checksum=a9df1d5340c2c325 changed=false copyCount=246
+2026-08-27 23:55:20.799 FRAME: frame available bytes=921600 size=360x640 generation=312 state=1
+2026-08-27 23:55:20.807 FRAME: onDraw generation=312 onDrawCount=248 drawCount=245 bitmapUpdates=246
+2026-08-27 23:55:20.819 FRAME: copied generation=313 checksum=a9df1d5340c2c325 changed=false copyCount=247
+2026-08-27 23:55:20.820 FRAME: frame available bytes=921600 size=360x640 generation=313 state=1
+2026-08-27 23:55:20.823 FRAME: onDraw generation=313 onDrawCount=249 drawCount=246 bitmapUpdates=247
+2026-08-27 23:55:20.841 FRAME: copied generation=314 checksum=a9df1d5340c2c325 changed=false copyCount=248
+2026-08-27 23:55:20.841 FRAME: frame available bytes=921600 size=360x640 generation=314 state=1
+2026-08-27 23:55:20.848 FRAME: onDraw generation=314 onDrawCount=250 drawCount=247 bitmapUpdates=248
+2026-08-27 23:55:20.861 FRAME: copied generation=315 checksum=a9df1d5340c2c325 changed=false copyCount=249
+2026-08-27 23:55:20.862 FRAME: frame available bytes=921600 size=360x640 generation=315 state=1
+2026-08-27 23:55:20.865 FRAME: onDraw generation=315 onDrawCount=251 drawCount=248 bitmapUpdates=249
+2026-08-27 23:55:20.881 FRAME: copied generation=316 checksum=a9df1d5340c2c325 changed=false copyCount=250
+2026-08-27 23:55:20.882 FRAME: frame available bytes=921600 size=360x640 generation=316 state=1
+2026-08-27 23:55:20.890 FRAME: onDraw generation=316 onDrawCount=252 drawCount=249 bitmapUpdates=250
+2026-08-27 23:55:20.903 FRAME: copied generation=317 checksum=a9df1d5340c2c325 changed=false copyCount=251
+2026-08-27 23:55:20.904 FRAME: frame available bytes=921600 size=360x640 generation=317 state=1
+2026-08-27 23:55:20.907 FRAME: onDraw generation=317 onDrawCount=253 drawCount=250 bitmapUpdates=251
+2026-08-27 23:55:20.926 FRAME: copied generation=318 checksum=a9df1d5340c2c325 changed=false copyCount=252
+2026-08-27 23:55:20.927 FRAME: frame available bytes=921600 size=360x640 generation=318 state=1
+2026-08-27 23:55:20.932 FRAME: onDraw generation=318 onDrawCount=254 drawCount=251 bitmapUpdates=252
+2026-08-27 23:55:20.950 FRAME: copied generation=319 checksum=a9df1d5340c2c325 changed=false copyCount=253
+2026-08-27 23:55:20.951 FRAME: frame available bytes=921600 size=360x640 generation=319 state=1
+2026-08-27 23:55:20.956 FRAME: onDraw generation=319 onDrawCount=255 drawCount=252 bitmapUpdates=253
+2026-08-27 23:55:20.976 FRAME: copied generation=320 checksum=a9df1d5340c2c325 changed=false copyCount=254
+2026-08-27 23:55:20.977 FRAME: frame available bytes=921600 size=360x640 generation=320 state=1
+2026-08-27 23:55:20.982 FRAME: onDraw generation=320 onDrawCount=256 drawCount=253 bitmapUpdates=254
+2026-08-27 23:55:21.019 FRAME: copied generation=321 checksum=a9df1d5340c2c325 changed=false copyCount=255
+2026-08-27 23:55:21.020 FRAME: frame available bytes=921600 size=360x640 generation=321 state=1
+2026-08-27 23:55:21.023 FRAME: onDraw generation=321 onDrawCount=257 drawCount=254 bitmapUpdates=255
+2026-08-27 23:55:21.061 FRAME: copied generation=322 checksum=a9df1d5340c2c325 changed=false copyCount=256
+2026-08-27 23:55:21.063 FRAME: frame available bytes=921600 size=360x640 generation=322 state=1
+2026-08-27 23:55:21.064 FRAME: onDraw generation=322 onDrawCount=258 drawCount=255 bitmapUpdates=256
+2026-08-27 23:55:21.086 FRAME: frame available bytes=921600 size=360x640 generation=323 state=1
+2026-08-27 23:55:21.106 FRAME: copied generation=324 checksum=a9df1d5340c2c325 changed=false copyCount=258
+2026-08-27 23:55:21.107 FRAME: frame available bytes=921600 size=360x640 generation=324 state=1
+2026-08-27 23:55:21.131 FRAME: copied generation=325 checksum=a9df1d5340c2c325 changed=false copyCount=259
+2026-08-27 23:55:21.132 FRAME: frame available bytes=921600 size=360x640 generation=325 state=1
+2026-08-27 23:55:21.155 FRAME: copied generation=326 checksum=a9df1d5340c2c325 changed=false copyCount=260
+2026-08-27 23:55:21.156 FRAME: frame available bytes=921600 size=360x640 generation=326 state=1
+2026-08-27 23:55:21.179 FRAME: copied generation=327 checksum=a9df1d5340c2c325 changed=false copyCount=261
+2026-08-27 23:55:21.180 FRAME: frame available bytes=921600 size=360x640 generation=327 state=1
+2026-08-27 23:55:21.202 FRAME: copied generation=328 checksum=a9df1d5340c2c325 changed=false copyCount=262
+2026-08-27 23:55:21.204 FRAME: frame available bytes=921600 size=360x640 generation=328 state=1
+2026-08-27 23:55:21.227 FRAME: copied generation=329 checksum=a9df1d5340c2c325 changed=false copyCount=263
+2026-08-27 23:55:21.228 FRAME: frame available bytes=921600 size=360x640 generation=329 state=1
+2026-08-27 23:55:21.252 FRAME: copied generation=330 checksum=a9df1d5340c2c325 changed=false copyCount=264
+2026-08-27 23:55:21.253 FRAME: frame available bytes=921600 size=360x640 generation=330 state=1
+2026-08-27 23:55:21.278 FRAME: copied generation=331 checksum=a9df1d5340c2c325 changed=false copyCount=265
+2026-08-27 23:55:21.279 FRAME: frame available bytes=921600 size=360x640 generation=331 state=1
+2026-08-27 23:55:21.305 FRAME: copied generation=332 checksum=a9df1d5340c2c325 changed=false copyCount=266
+2026-08-27 23:55:21.307 FRAME: frame available bytes=921600 size=360x640 generation=332 state=1
+2026-08-27 23:55:21.332 FRAME: copied generation=333 checksum=a9df1d5340c2c325 changed=false copyCount=267
+2026-08-27 23:55:21.333 FRAME: frame available bytes=921600 size=360x640 generation=333 state=1
+2026-08-27 23:55:21.357 FRAME: copied generation=334 checksum=a9df1d5340c2c325 changed=false copyCount=268
+2026-08-27 23:55:21.359 FRAME: frame available bytes=921600 size=360x640 generation=334 state=1
+2026-08-27 23:55:21.384 FRAME: copied generation=335 checksum=a9df1d5340c2c325 changed=false copyCount=269
+2026-08-27 23:55:21.386 FRAME: frame available bytes=921600 size=360x640 generation=335 state=1
+2026-08-27 23:55:21.430 FRAME: copied generation=336 checksum=a9df1d5340c2c325 changed=false copyCount=270
+2026-08-27 23:55:21.432 FRAME: frame available bytes=921600 size=360x640 generation=336 state=1
+2026-08-27 23:55:21.458 FRAME: copied generation=337 checksum=a9df1d5340c2c325 changed=false copyCount=271
+2026-08-27 23:55:21.460 FRAME: frame available bytes=921600 size=360x640 generation=337 state=1
+2026-08-27 23:55:21.486 FRAME: copied generation=338 checksum=a9df1d5340c2c325 changed=false copyCount=272
+2026-08-27 23:55:21.488 FRAME: frame available bytes=921600 size=360x640 generation=338 state=1
+2026-08-27 23:55:21.512 FRAME: copied generation=339 checksum=a9df1d5340c2c325 changed=false copyCount=273
+2026-08-27 23:55:21.514 FRAME: frame available bytes=921600 size=360x640 generation=339 state=1
+2026-08-27 23:55:21.539 FRAME: copied generation=340 checksum=a9df1d5340c2c325 changed=false copyCount=274
+2026-08-27 23:55:21.541 FRAME: frame available bytes=921600 size=360x640 generation=340 state=1
+2026-08-27 23:55:21.565 FRAME: copied generation=341 checksum=a9df1d5340c2c325 changed=false copyCount=275
+2026-08-27 23:55:21.567 FRAME: frame available bytes=921600 size=360x640 generation=341 state=1
+2026-08-27 23:55:21.593 FRAME: copied generation=342 checksum=a9df1d5340c2c325 changed=false copyCount=276
+2026-08-27 23:55:21.594 FRAME: frame available bytes=921600 size=360x640 generation=342 state=1
+2026-08-27 23:55:21.620 FRAME: copied generation=343 checksum=a9df1d5340c2c325 changed=false copyCount=277
+2026-08-27 23:55:21.622 FRAME: frame available bytes=921600 size=360x640 generation=343 state=1
+2026-08-27 23:55:21.622 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=659 canvasGateBusy=198 canvasEntries=461 inputProcessed=267 repaintPasses=461 repaintCandidates=342 paintCallbacks=342 paintCommits=341 gameFlushRequests=1 gameFlushCommits=1 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=1 gameGraphicsAttached=1 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=java/lang/System.currentTimeMillis()J timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=3 runnable=2 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967299 target=0 SNAPSHOT thread id=3 state=runnable alive=1 priority=5 interrupted=0 object=8589935868 target=4294967734 
+2026-08-27 23:55:21.647 FRAME: copied generation=344 checksum=a9df1d5340c2c325 changed=false copyCount=278
+2026-08-27 23:55:21.649 FRAME: frame available bytes=921600 size=360x640 generation=344 state=1
+2026-08-27 23:55:21.673 FRAME: copied generation=345 checksum=a9df1d5340c2c325 changed=false copyCount=279
+2026-08-27 23:55:21.675 FRAME: frame available bytes=921600 size=360x640 generation=345 state=1
+2026-08-27 23:55:21.699 FRAME: copied generation=346 checksum=a9df1d5340c2c325 changed=false copyCount=280
+2026-08-27 23:55:21.700 FRAME: frame available bytes=921600 size=360x640 generation=346 state=1
+2026-08-27 23:55:21.725 FRAME: copied generation=347 checksum=a9df1d5340c2c325 changed=false copyCount=281
+2026-08-27 23:55:21.727 FRAME: frame available bytes=921600 size=360x640 generation=347 state=1
+2026-08-27 23:55:21.752 FRAME: copied generation=348 checksum=a9df1d5340c2c325 changed=false copyCount=282
+2026-08-27 23:55:21.754 FRAME: frame available bytes=921600 size=360x640 generation=348 state=1
+2026-08-27 23:55:21.797 FRAME: copied generation=349 checksum=a9df1d5340c2c325 changed=false copyCount=283
+2026-08-27 23:55:21.798 FRAME: frame available bytes=921600 size=360x640 generation=349 state=1
+2026-08-27 23:55:21.825 FRAME: copied generation=350 checksum=a9df1d5340c2c325 changed=false copyCount=284
+2026-08-27 23:55:21.827 FRAME: frame available bytes=921600 size=360x640 generation=350 state=1
+2026-08-27 23:55:21.850 FRAME: copied generation=351 checksum=a9df1d5340c2c325 changed=false copyCount=285
+2026-08-27 23:55:21.851 FRAME: frame available bytes=921600 size=360x640 generation=351 state=1
+2026-08-27 23:55:21.875 FRAME: copied generation=352 checksum=a9df1d5340c2c325 changed=false copyCount=286
+2026-08-27 23:55:21.877 FRAME: frame available bytes=921600 size=360x640 generation=352 state=1
+2026-08-27 23:55:21.900 FRAME: copied generation=353 checksum=a9df1d5340c2c325 changed=false copyCount=287
+2026-08-27 23:55:21.901 FRAME: frame available bytes=921600 size=360x640 generation=353 state=1
+2026-08-27 23:55:21.922 FRAME: copied generation=354 checksum=a9df1d5340c2c325 changed=false copyCount=288
+2026-08-27 23:55:21.923 FRAME: frame available bytes=921600 size=360x640 generation=354 state=1
+
+--- Native persistent log ---
+2026-08-27 23:54:47 --- CoreBridge native log session started ---
+2026-08-27 23:54:47 RMS trace sink enabled; logMode=append
+2026-08-27 23:54:47 phoneme_configure result=0 home=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime
+2026-08-27 23:55:11 starting scoped jar=/data/user/0/com.phoneme.corebridge/files/game-library/1787849710073_DangerDash-gamecanvas-getgraphics-flush-patched.jar scope=1787849710073 main=GloftJDMP size=360x640
+2026-08-27 23:55:11 [phoneMETrace][rms] op=configure root=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/games/1868591609/rms/1868591609 quota=33554432 status=ok
+2026-08-27 23:55:11 [phoneMETrace][rms] op=persist store=UNO records=0 bytes=0 version=0 durable=1 generation=1
+2026-08-27 23:55:11 [phoneMETrace][rms] op=load store=UNO source=new records=0 version=0
+2026-08-27 23:55:11 [phoneMETrace][rms] op=open store=UNO create=1 records=0 open=1 version=0
+2026-08-27 23:55:11 [phoneMETrace][rms] op=info store=UNO records=0 bytes=0 version=0 open=1
+2026-08-27 23:55:11 [phoneMETrace][rms] op=persist store=RMSHeader records=0 bytes=0 version=0 durable=1 generation=2
+2026-08-27 23:55:11 [phoneMETrace][rms] op=load store=RMSHeader source=new records=0 version=0
+2026-08-27 23:55:11 [phoneMETrace][rms] op=open store=RMSHeader create=1 records=0 open=1 version=0
+2026-08-27 23:55:11 [phoneMETrace][rms] op=recover path=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/games/1868591609/rms/1868591609/rms-Uk1TSGVhZGVy.rms source=canonical store=RMSHeader records=0 version=0
+2026-08-27 23:55:11 [phoneMETrace][rms] op=recover path=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/games/1868591609/rms/1868591609/rms-VU5P.rms source=canonical store=UNO records=0 version=0
+2026-08-27 23:55:11 [phoneMETrace][rms] op=persist store=RMSHeader records=1 bytes=4 version=1 durable=1 generation=3
+2026-08-27 23:55:11 [phoneMETrace][rms] op=add store=RMSHeader id=1 bytes=4 durable=1 pending=0 generation=3 version=1 records=1
+2026-08-27 23:55:11 [phoneMETrace][rms] op=close store=RMSHeader records=1 open=0 pending=0 version=1
+2026-08-27 23:55:11 [phoneMETrace][rms] op=open store=UNO create=1 records=0 open=2 version=0
+2026-08-27 23:55:11 [phoneMETrace][rms] op=persist store=INBOXMSG records=0 bytes=0 version=0 durable=1 generation=4
+2026-08-27 23:55:11 [phoneMETrace][rms] op=load store=INBOXMSG source=new records=0 version=0
+2026-08-27 23:55:11 [phoneMETrace][rms] op=open store=INBOXMSG create=1 records=0 open=1 version=0
+2026-08-27 23:55:11 [phoneMETrace][rms] op=info store=INBOXMSG records=0 bytes=0 version=0 open=1
+2026-08-27 23:55:11 [phoneMETrace][rms] op=recover path=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/games/1868591609/rms/1868591609/rms-SU5CT1hNU0c.rms source=canonical store=INBOXMSG records=0 version=0
+2026-08-27 23:55:11 [phoneMETrace][rms] op=recover path=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/games/1868591609/rms/1868591609/rms-Uk1TSGVhZGVy.rms source=canonical store=RMSHeader records=1 version=1
+2026-08-27 23:55:11 [phoneMETrace][rms] op=recover path=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/games/1868591609/rms/1868591609/rms-VU5P.rms source=canonical store=UNO records=0 version=0
+2026-08-27 23:55:11 [phoneMETrace][rms] op=persist store=INBOXMSG records=1 bytes=4 version=1 durable=1 generation=5
+2026-08-27 23:55:11 [phoneMETrace][rms] op=add store=INBOXMSG id=1 bytes=4 durable=1 pending=0 generation=5 version=1 records=1
+2026-08-27 23:55:11 [phoneMETrace][rms] op=close store=INBOXMSG records=1 open=0 pending=0 version=1
+2026-08-27 23:55:11 [phoneMETrace][rms] op=recover path=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/games/1868591609/rms/1868591609/rms-SU5CT1hNU0c.rms source=canonical store=INBOXMSG records=1 version=1
+2026-08-27 23:55:11 [phoneMETrace][rms] op=recover path=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/games/1868591609/rms/1868591609/rms-Uk1TSGVhZGVy.rms source=canonical store=RMSHeader records=1 version=1
+2026-08-27 23:55:11 [phoneMETrace][rms] op=recover path=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/games/1868591609/rms/1868591609/rms-VU5P.rms source=canonical store=UNO records=0 version=0
+2026-08-27 23:55:11 [phoneMETrace][rms] op=persist store=UNO records=1 bytes=992 version=1 durable=1 generation=6
+2026-08-27 23:55:11 [phoneMETrace][rms] op=add store=UNO id=1 bytes=992 durable=1 pending=0 generation=6 version=1 records=1
+2026-08-27 23:55:11 [phoneMETrace][rms] op=persist store=UNO records=1 bytes=992 version=2 durable=1 generation=7
+2026-08-27 23:55:11 [phoneMETrace][rms] op=set store=UNO id=1 bytes=992 durable=1 pending=0 generation=7 version=2 records=1
+2026-08-27 23:55:11 [phoneMETrace][rms] op=close store=UNO records=1 open=1 pending=0 version=2
+2026-08-27 23:55:11 [phoneMETrace][rms] op=open store=INBOXMSG create=1 records=1 open=1 version=1
+2026-08-27 23:55:11 [phoneMETrace][rms] op=info store=INBOXMSG records=1 bytes=4 version=1 open=1
+2026-08-27 23:55:11 [phoneMETrace][rms] op=close store=INBOXMSG records=1 open=0 pending=0 version=1
+2026-08-27 23:55:11 phoneme_start_jar_scoped succeeded scope=1787849710073
+2026-08-27 23:55:11 lcd-ui poll kind=1 id=1 parent=0 type=0 index=0 args=0,0,0,0 gen=1 textLen=0 detailLen=0
+2026-08-27 23:55:11 lcd-ui poll kind=2 id=100001 parent=0 type=22 index=0 args=0,0,0,0 gen=1 textLen=0 detailLen=0
+2026-08-27 23:55:11 lcd-ui poll kind=3 id=100001 parent=0 type=22 index=0 args=1,0,0,-1007 gen=2 textLen=0 detailLen=0
+2026-08-27 23:55:11 lcd-ui poll kind=4 id=100001 parent=0 type=22 index=0 args=0,0,0,0 gen=3 textLen=0 detailLen=0
+2026-08-27 23:55:11 lcd-ui poll kind=14 id=0 parent=0 type=0 index=0 args=0,0,0,0 gen=4 textLen=0 detailLen=0
+2026-08-27 23:55:11 lcd-ui poll kind=0 id=1 parent=0 type=0 index=0 args=0,0,0,0 gen=2 textLen=0 detailLen=73
+2026-08-27 23:55:11 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=0 count=1
+2026-08-27 23:55:13 WATCHDOG copy_frame in-flight sequence=1 ageMs=1378 lastGeneration=0 lastResult=0
+2026-08-27 23:55:15 input pointer x=233 y=302 action=1
+2026-08-27 23:55:15 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=59 count=60
+2026-08-27 23:55:15 input pointer x=233 y=302 action=3
+2026-08-27 23:55:15 input pointer x=233 y=302 action=3
+2026-08-27 23:55:15 input pointer x=233 y=302 action=3
+2026-08-27 23:55:15 input pointer x=233 y=302 action=3
+2026-08-27 23:55:15 input pointer x=233 y=302 action=3
+2026-08-27 23:55:15 input pointer x=233 y=302 action=3
+2026-08-27 23:55:15 input pointer x=233 y=302 action=2
+2026-08-27 23:55:15 input pointer x=241 y=295 action=1
+2026-08-27 23:55:15 input pointer x=241 y=295 action=3
+2026-08-27 23:55:15 input pointer x=241 y=295 action=3
+2026-08-27 23:55:15 input pointer x=241 y=295 action=3
+2026-08-27 23:55:15 input pointer x=241 y=295 action=3
+2026-08-27 23:55:15 input pointer x=241 y=295 action=3
+2026-08-27 23:55:15 input pointer x=241 y=295 action=3
+2026-08-27 23:55:15 input pointer x=241 y=295 action=3
+2026-08-27 23:55:15 input pointer x=241 y=295 action=3
+2026-08-27 23:55:15 input pointer x=241 y=295 action=3
+2026-08-27 23:55:15 input pointer x=241 y=295 action=2
+2026-08-27 23:55:15 input pointer x=66 y=278 action=1
+2026-08-27 23:55:15 input pointer x=66 y=278 action=3
+2026-08-27 23:55:15 input pointer x=66 y=278 action=3
+2026-08-27 23:55:15 input pointer x=66 y=278 action=3
+2026-08-27 23:55:15 input pointer x=66 y=278 action=3
+2026-08-27 23:55:15 input pointer x=66 y=278 action=3
+2026-08-27 23:55:15 input pointer x=66 y=278 action=2
+2026-08-27 23:55:15 input pointer x=265 y=281 action=1
+2026-08-27 23:55:15 input pointer x=265 y=281 action=3
+2026-08-27 23:55:15 input pointer x=265 y=281 action=3
+2026-08-27 23:55:15 input pointer x=265 y=281 action=3
+2026-08-27 23:55:15 input pointer x=265 y=281 action=3
+2026-08-27 23:55:15 input pointer x=265 y=281 action=3
+2026-08-27 23:55:15 input pointer x=265 y=281 action=3
+2026-08-27 23:55:15 input pointer x=265 y=281 action=3
+2026-08-27 23:55:15 input pointer x=265 y=281 action=3
+2026-08-27 23:55:15 input pointer x=265 y=280 action=3
+2026-08-27 23:55:16 input pointer x=265 y=282 action=3
+2026-08-27 23:55:16 input pointer x=64 y=297 action=3
+2026-08-27 23:55:16 input pointer x=64 y=297 action=3
+2026-08-27 23:55:16 input pointer x=64 y=297 action=3
+2026-08-27 23:55:16 input pointer x=64 y=297 action=3
+2026-08-27 23:55:16 input pointer x=64 y=297 action=3
+2026-08-27 23:55:16 input pointer x=64 y=297 action=3
+2026-08-27 23:55:16 input pointer x=64 y=297 action=2
+2026-08-27 23:55:16 input pointer x=262 y=285 action=1
+2026-08-27 23:55:16 input pointer x=262 y=285 action=3
+2026-08-27 23:55:16 input pointer x=262 y=285 action=3
+2026-08-27 23:55:16 input pointer x=262 y=285 action=3
+2026-08-27 23:55:16 input pointer x=262 y=285 action=3
+2026-08-27 23:55:16 input pointer x=262 y=284 action=3
+2026-08-27 23:55:16 input pointer x=262 y=285 action=3
+2026-08-27 23:55:16 input pointer x=262 y=285 action=3
+2026-08-27 23:55:16 input pointer x=72 y=300 action=3
+2026-08-27 23:55:16 input pointer x=72 y=300 action=3
+2026-08-27 23:55:16 input pointer x=72 y=300 action=2
+2026-08-27 23:55:16 input pointer x=279 y=276 action=1
+2026-08-27 23:55:16 input pointer x=279 y=276 action=3
+2026-08-27 23:55:16 input pointer x=279 y=276 action=3
+2026-08-27 23:55:16 input pointer x=279 y=276 action=3
+2026-08-27 23:55:16 input pointer x=279 y=276 action=3
+2026-08-27 23:55:16 input pointer x=279 y=276 action=3
+2026-08-27 23:55:16 input pointer x=65 y=287 action=3
+2026-08-27 23:55:16 input pointer x=65 y=287 action=2
+2026-08-27 23:55:16 input pointer x=276 y=279 action=1
+2026-08-27 23:55:16 input pointer x=276 y=279 action=3
+2026-08-27 23:55:16 input pointer x=276 y=279 action=3
+2026-08-27 23:55:16 input pointer x=276 y=279 action=3
+2026-08-27 23:55:16 input pointer x=276 y=279 action=3
+2026-08-27 23:55:16 input pointer x=276 y=279 action=3
+2026-08-27 23:55:16 input pointer x=276 y=279 action=3
+2026-08-27 23:55:16 input pointer x=276 y=279 action=3
+2026-08-27 23:55:16 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=119 count=120
+2026-08-27 23:55:16 input pointer x=63 y=283 action=3
+2026-08-27 23:55:16 input pointer x=63 y=283 action=3
+2026-08-27 23:55:16 input pointer x=63 y=283 action=3
+2026-08-27 23:55:16 input pointer x=63 y=283 action=3
+2026-08-27 23:55:16 input pointer x=63 y=283 action=3
+2026-08-27 23:55:16 input pointer x=63 y=283 action=3
+2026-08-27 23:55:16 input pointer x=63 y=283 action=3
+2026-08-27 23:55:16 input pointer x=63 y=283 action=2
+2026-08-27 23:55:16 input pointer x=286 y=270 action=1
+2026-08-27 23:55:16 input pointer x=286 y=270 action=3
+2026-08-27 23:55:16 input pointer x=286 y=270 action=3
+2026-08-27 23:55:16 input pointer x=286 y=270 action=3
+2026-08-27 23:55:16 input pointer x=285 y=270 action=3
+2026-08-27 23:55:16 input pointer x=285 y=270 action=3
+2026-08-27 23:55:16 input pointer x=285 y=270 action=3
+2026-08-27 23:55:16 input pointer x=285 y=270 action=3
+2026-08-27 23:55:16 input pointer x=85 y=288 action=3
+2026-08-27 23:55:16 input pointer x=85 y=288 action=3
+2026-08-27 23:55:16 input pointer x=85 y=288 action=3
+2026-08-27 23:55:16 input pointer x=85 y=288 action=3
+2026-08-27 23:55:16 input pointer x=85 y=288 action=3
+2026-08-27 23:55:16 input pointer x=85 y=288 action=3
+2026-08-27 23:55:16 input pointer x=85 y=288 action=2
+2026-08-27 23:55:16 input pointer x=285 y=271 action=1
+2026-08-27 23:55:16 input pointer x=285 y=271 action=3
+2026-08-27 23:55:16 input pointer x=285 y=271 action=3
+2026-08-27 23:55:16 input pointer x=285 y=271 action=3
+2026-08-27 23:55:16 input pointer x=285 y=271 action=3
+2026-08-27 23:55:16 input pointer x=285 y=271 action=3
+2026-08-27 23:55:16 input pointer x=285 y=271 action=3
+2026-08-27 23:55:16 input pointer x=285 y=271 action=3
+2026-08-27 23:55:16 input pointer x=285 y=271 action=3
+2026-08-27 23:55:16 input pointer x=285 y=271 action=3
+2026-08-27 23:55:16 input pointer x=285 y=271 action=3
+2026-08-27 23:55:16 input pointer x=81 y=290 action=3
+2026-08-27 23:55:17 input pointer x=81 y=290 action=3
+2026-08-27 23:55:17 input pointer x=81 y=290 action=3
+2026-08-27 23:55:17 input pointer x=81 y=290 action=3
+2026-08-27 23:55:17 input pointer x=81 y=290 action=2
+2026-08-27 23:55:17 input pointer x=302 y=267 action=1
+2026-08-27 23:55:17 input pointer x=302 y=267 action=3
+2026-08-27 23:55:17 input pointer x=302 y=267 action=3
+2026-08-27 23:55:17 input pointer x=302 y=267 action=3
+2026-08-27 23:55:17 input pointer x=302 y=267 action=3
+2026-08-27 23:55:17 input pointer x=302 y=267 action=3
+2026-08-27 23:55:17 input pointer x=302 y=267 action=3
+2026-08-27 23:55:17 input pointer x=302 y=267 action=3
+2026-08-27 23:55:17 input pointer x=302 y=267 action=3
+2026-08-27 23:55:17 input pointer x=302 y=267 action=3
+2026-08-27 23:55:17 input pointer x=302 y=267 action=3
+2026-08-27 23:55:17 input pointer x=302 y=267 action=3
+2026-08-27 23:55:17 input pointer x=82 y=298 action=2
+2026-08-27 23:55:17 input pointer x=308 y=263 action=1
+2026-08-27 23:55:17 input pointer x=308 y=263 action=3
+2026-08-27 23:55:17 input pointer x=308 y=263 action=3
+2026-08-27 23:55:17 input pointer x=308 y=263 action=3
+2026-08-27 23:55:17 input pointer x=308 y=263 action=3
+2026-08-27 23:55:17 input pointer x=308 y=263 action=3
+2026-08-27 23:55:17 input pointer x=308 y=263 action=3
+2026-08-27 23:55:17 input pointer x=308 y=263 action=3
+2026-08-27 23:55:17 input pointer x=308 y=263 action=3
+2026-08-27 23:55:17 input pointer x=308 y=263 action=3
+2026-08-27 23:55:17 input pointer x=308 y=263 action=3
+2026-08-27 23:55:17 input pointer x=308 y=263 action=3
+2026-08-27 23:55:17 input pointer x=308 y=263 action=3
+2026-08-27 23:55:17 input pointer x=308 y=263 action=3
+2026-08-27 23:55:17 input pointer x=308 y=263 action=2
+2026-08-27 23:55:17 input pointer x=325 y=261 action=1
+2026-08-27 23:55:17 input pointer x=325 y=261 action=3
+2026-08-27 23:55:17 input pointer x=325 y=261 action=3
+2026-08-27 23:55:17 input pointer x=325 y=261 action=3
+2026-08-27 23:55:17 input pointer x=325 y=261 action=3
+2026-08-27 23:55:17 input pointer x=325 y=261 action=3
+2026-08-27 23:55:17 input pointer x=325 y=261 action=3
+2026-08-27 23:55:17 input pointer x=325 y=261 action=3
+2026-08-27 23:55:17 input pointer x=325 y=261 action=3
+2026-08-27 23:55:17 input pointer x=325 y=261 action=3
+2026-08-27 23:55:17 input pointer x=325 y=261 action=3
+2026-08-27 23:55:17 input pointer x=325 y=261 action=3
+2026-08-27 23:55:17 input pointer x=325 y=261 action=3
+2026-08-27 23:55:17 input pointer x=325 y=261 action=3
+2026-08-27 23:55:17 input pointer x=325 y=261 action=3
+2026-08-27 23:55:17 input pointer x=325 y=261 action=3
+2026-08-27 23:55:17 input pointer x=325 y=261 action=3
+2026-08-27 23:55:17 input pointer x=325 y=261 action=3
+2026-08-27 23:55:17 input pointer x=325 y=261 action=2
+2026-08-27 23:55:17 input pointer x=83 y=305 action=1
+2026-08-27 23:55:17 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=179 count=180
+2026-08-27 23:55:17 input pointer x=83 y=305 action=3
+2026-08-27 23:55:17 input pointer x=83 y=305 action=3
+2026-08-27 23:55:17 input pointer x=83 y=305 action=3
+2026-08-27 23:55:17 input pointer x=83 y=305 action=3
+2026-08-27 23:55:17 input pointer x=83 y=305 action=3
+2026-08-27 23:55:17 input pointer x=83 y=305 action=3
+2026-08-27 23:55:17 input pointer x=84 y=303 action=3
+2026-08-27 23:55:17 input pointer x=84 y=303 action=2
+2026-08-27 23:55:17 input pointer x=345 y=260 action=1
+2026-08-27 23:55:17 input pointer x=345 y=260 action=3
+2026-08-27 23:55:17 input pointer x=345 y=260 action=3
+2026-08-27 23:55:17 input pointer x=345 y=260 action=3
+2026-08-27 23:55:17 input pointer x=345 y=260 action=2
+2026-08-27 23:55:17 input pointer x=79 y=295 action=1
+2026-08-27 23:55:17 input pointer x=79 y=295 action=3
+2026-08-27 23:55:17 input pointer x=79 y=295 action=3
+2026-08-27 23:55:17 input pointer x=79 y=295 action=3
+2026-08-27 23:55:17 input pointer x=79 y=295 action=3
+2026-08-27 23:55:17 input pointer x=79 y=295 action=3
+2026-08-27 23:55:17 input pointer x=80 y=293 action=3
+2026-08-27 23:55:17 input pointer x=80 y=293 action=3
+2026-08-27 23:55:17 input pointer x=80 y=293 action=2
+2026-08-27 23:55:17 input pointer x=342 y=270 action=1
+2026-08-27 23:55:17 input pointer x=342 y=270 action=3
+2026-08-27 23:55:17 input pointer x=342 y=270 action=3
+2026-08-27 23:55:17 input pointer x=342 y=270 action=2
+2026-08-27 23:55:18 input pointer x=72 y=259 action=1
+2026-08-27 23:55:18 input pointer x=72 y=259 action=3
+2026-08-27 23:55:18 input pointer x=72 y=259 action=3
+2026-08-27 23:55:18 input pointer x=72 y=259 action=3
+2026-08-27 23:55:18 input pointer x=72 y=259 action=3
+2026-08-27 23:55:18 input pointer x=72 y=259 action=3
+2026-08-27 23:55:18 input pointer x=72 y=259 action=3
+2026-08-27 23:55:18 input pointer x=323 y=282 action=3
+2026-08-27 23:55:18 input pointer x=323 y=282 action=3
+2026-08-27 23:55:18 input pointer x=323 y=282 action=3
+2026-08-27 23:55:18 input pointer x=323 y=282 action=3
+2026-08-27 23:55:18 input pointer x=323 y=282 action=3
+2026-08-27 23:55:18 input pointer x=323 y=282 action=3
+2026-08-27 23:55:18 input pointer x=323 y=282 action=3
+2026-08-27 23:55:18 input pointer x=323 y=282 action=2
+2026-08-27 23:55:18 input pointer x=98 y=301 action=1
+2026-08-27 23:55:18 input pointer x=98 y=301 action=3
+2026-08-27 23:55:18 input pointer x=98 y=301 action=3
+2026-08-27 23:55:18 input pointer x=98 y=301 action=3
+2026-08-27 23:55:18 input pointer x=98 y=301 action=3
+2026-08-27 23:55:18 input pointer x=98 y=301 action=3
+2026-08-27 23:55:18 input pointer x=98 y=301 action=3
+2026-08-27 23:55:18 input pointer x=295 y=285 action=3
+2026-08-27 23:55:18 input pointer x=295 y=285 action=3
+2026-08-27 23:55:18 input pointer x=295 y=285 action=3
+2026-08-27 23:55:18 input pointer x=295 y=285 action=3
+2026-08-27 23:55:18 input pointer x=295 y=285 action=3
+2026-08-27 23:55:18 input pointer x=295 y=285 action=3
+2026-08-27 23:55:18 input pointer x=295 y=285 action=3
+2026-08-27 23:55:18 input pointer x=295 y=285 action=3
+2026-08-27 23:55:18 input pointer x=295 y=285 action=3
+2026-08-27 23:55:18 input pointer x=295 y=285 action=3
+2026-08-27 23:55:18 input pointer x=295 y=285 action=2
+2026-08-27 23:55:18 input pointer x=86 y=310 action=1
+2026-08-27 23:55:18 input pointer x=86 y=310 action=3
+2026-08-27 23:55:18 input pointer x=86 y=310 action=3
+2026-08-27 23:55:18 input pointer x=86 y=310 action=3
+2026-08-27 23:55:18 input pointer x=86 y=310 action=3
+2026-08-27 23:55:18 input pointer x=86 y=310 action=3
+2026-08-27 23:55:18 input pointer x=86 y=310 action=3
+2026-08-27 23:55:18 input pointer x=86 y=310 action=3
+2026-08-27 23:55:18 input pointer x=87 y=307 action=3
+2026-08-27 23:55:18 input pointer x=87 y=308 action=2
+2026-08-27 23:55:18 input pointer x=355 y=273 action=1
+2026-08-27 23:55:18 input pointer x=349 y=275 action=3
+2026-08-27 23:55:18 input pointer x=346 y=276 action=3
+2026-08-27 23:55:18 input pointer x=344 y=276 action=3
+2026-08-27 23:55:18 input pointer x=344 y=276 action=3
+2026-08-27 23:55:18 input pointer x=72 y=294 action=3
+2026-08-27 23:55:18 input pointer x=72 y=294 action=3
+2026-08-27 23:55:18 input pointer x=72 y=294 action=3
+2026-08-27 23:55:18 input pointer x=72 y=294 action=3
+2026-08-27 23:55:18 input pointer x=72 y=294 action=3
+2026-08-27 23:55:18 input pointer x=73 y=292 action=3
+2026-08-27 23:55:18 input pointer x=73 y=292 action=2
+2026-08-27 23:55:18 input pointer x=298 y=302 action=1
+2026-08-27 23:55:18 input pointer x=298 y=302 action=3
+2026-08-27 23:55:18 input pointer x=298 y=302 action=3
+2026-08-27 23:55:18 input pointer x=298 y=302 action=3
+2026-08-27 23:55:18 input pointer x=298 y=302 action=3
+2026-08-27 23:55:18 input pointer x=298 y=302 action=3
+2026-08-27 23:55:18 input pointer x=298 y=302 action=3
+2026-08-27 23:55:18 input pointer x=298 y=302 action=3
+2026-08-27 23:55:18 input pointer x=298 y=302 action=3
+2026-08-27 23:55:18 input pointer x=298 y=302 action=3
+2026-08-27 23:55:18 input pointer x=298 y=302 action=3
+2026-08-27 23:55:18 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=239 count=240
+2026-08-27 23:55:18 input pointer x=298 y=302 action=3
+2026-08-27 23:55:18 input pointer x=298 y=302 action=3
+2026-08-27 23:55:18 input pointer x=96 y=318 action=3
+2026-08-27 23:55:18 input pointer x=96 y=318 action=3
+2026-08-27 23:55:18 input pointer x=96 y=318 action=2
+2026-08-27 23:55:18 input pointer x=286 y=308 action=1
+2026-08-27 23:55:18 input pointer x=286 y=308 action=3
+2026-08-27 23:55:18 input pointer x=286 y=308 action=3
+2026-08-27 23:55:18 input pointer x=286 y=308 action=3
+2026-08-27 23:55:19 input pointer x=286 y=308 action=3
+2026-08-27 23:55:19 input pointer x=286 y=308 action=3
+2026-08-27 23:55:19 input pointer x=286 y=308 action=3
+2026-08-27 23:55:19 input pointer x=286 y=308 action=3
+2026-08-27 23:55:19 input pointer x=286 y=308 action=3
+2026-08-27 23:55:19 input pointer x=78 y=316 action=3
+2026-08-27 23:55:19 input pointer x=78 y=316 action=3
+2026-08-27 23:55:19 input pointer x=78 y=316 action=2
+2026-08-27 23:55:20 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=299 count=300
+
+--- Runtime snapshot ---
+nativeLogFilePath=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/corebridge-native.log
+nativeIsRunning=true
+nativeLastExitCode=0

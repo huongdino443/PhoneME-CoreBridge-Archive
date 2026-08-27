@@ -1,0 +1,53 @@
+000000000042a38c t phoneme::vm::(anonymous namespace)::attach_item(phoneme::vm::Machine&, phoneme::vm::ObjectRef, phoneme::vm::ObjectRef, int, bool)
+0000000000802834 t phoneme::vm::(anonymous namespace)::branch_target(unsigned long, long, unsigned long)
+0000000000972624 t phoneme::vm::(anonymous namespace)::branch_target(unsigned long, long, unsigned long)
+000000000095f960 t phoneme::vm::(anonymous namespace)::encode_png_region(phoneme::graphics::Image const&, int, int, int, int)
+000000000071d240 t phoneme::vm::(anonymous namespace)::bound_render_target(phoneme::vm::Machine&, phoneme::vm::ObjectRef)
+0000000000666554 t phoneme::vm::(anonymous namespace)::create_image_object(phoneme::vm::Machine&, phoneme::graphics::Image)
+0000000000721804 t phoneme::vm::(anonymous namespace)::require_bound_target(phoneme::vm::Machine&, phoneme::vm::ObjectRef)
+000000000042ebf0 t phoneme::vm::(anonymous namespace)::update_item_if_attached(phoneme::vm::Machine&, phoneme::vm::ObjectRef)
+000000000056fb54 t phoneme::vm::(anonymous namespace)::attach_byte_input_stream(phoneme::vm::Machine&, phoneme::vm::ObjectRef)
+00000000004d9374 t phoneme::vm::(anonymous namespace)::matches_damageable_target_intrinsic(phoneme::classfile::Method const&)
+00000000004624cc t phoneme::vm::(anonymous namespace)::copy_date(phoneme::vm::Machine&, long)
+000000000049889c T phoneme::vm::Machine::run_java_thread_target(phoneme::vm::ObjectRef)
+0000000000493778 T phoneme::vm::Machine::translate_draw_character(unsigned long, char32_t, int, int, int, int, int, int)
+000000000084532c t phoneme::vm::micro3d::(anonymous namespace)::bound_target(phoneme::vm::Machine&, phoneme::vm::ObjectRef)
+0000000000845768 t phoneme::vm::micro3d::(anonymous namespace)::project(phoneme::vm::micro3d::(anonymous namespace)::BatchState const&, phoneme::graphics::Image const&, phoneme::vm::micro3d::(anonymous namespace)::Vertex const&, phoneme::vm::micro3d::(anonymous namespace)::ScreenVertex&)
+00000000002d2f18 T phoneme::graphics::clear_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)
+00000000002d489c T phoneme::graphics::draw_image(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, phoneme::graphics::Image const&, int, int, int)
+00000000002d5070 T phoneme::graphics::draw_region(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, phoneme::graphics::Image const&, int, int, int, int, phoneme::graphics::Transform, int, int, int)
+00000000002d28dc t phoneme::graphics::(anonymous namespace)::draw_line_absolute(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int) [clone .llvm.16943024432416533976]
+00000000002d0f04 T phoneme::graphics::GraphicsStore::erase_image(unsigned long)
+00000000002cf720 T phoneme::graphics::GraphicsStore::attach_image(unsigned long, phoneme::graphics::Image)
+00000000002d1100 T phoneme::graphics::GraphicsStore::erase_context(unsigned long)
+00000000002cfe68 T phoneme::graphics::GraphicsStore::attach_context(unsigned long, unsigned long, bool)
+00000000002d0b68 T phoneme::graphics::GraphicsStore::consume_dirty_update(unsigned long)
+00000000002d1520 T phoneme::graphics::GraphicsStore::clear()
+00000000002d0508 T phoneme::graphics::GraphicsStore::image(unsigned long)
+00000000002d0838 T phoneme::graphics::GraphicsStore::context(unsigned long)
+00000000002d4090 T phoneme::graphics::fill_triangle(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int, int, int)
+00000000002d24ac T phoneme::graphics::target_bounds(phoneme::graphics::Image const&)
+00000000002d3794 T phoneme::graphics::draw_round_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int, int, int, bool)
+00000000002d6908 T phoneme::graphics::Image::create_mutable(int, int)
+00000000002d6cb4 T phoneme::graphics::Image::mark_dirty_region(int, int, int, int)
+00000000002d778c T phoneme::graphics::Image::clear_dirty_region()
+00000000002d73e4 T phoneme::graphics::Image::transformed_region(phoneme::graphics::Image const&, int, int, int, int, phoneme::graphics::Transform)
+00000000002d6910 T phoneme::graphics::Image::create_mutable_argb(int, int, unsigned int)
+00000000002d784c T phoneme::graphics::Image::set_pixel(int, int, unsigned int, bool)
+00000000002d3c00 T phoneme::graphics::draw_arc(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int, int, int, bool)
+00000000002d24bc T phoneme::graphics::set_clip(phoneme::graphics::GraphicsContext&, phoneme::graphics::Image const&, int, int, int, int)
+00000000002d254c T phoneme::graphics::clip_rect(phoneme::graphics::GraphicsContext&, phoneme::graphics::Image const&, int, int, int, int)
+00000000002d57c0 T phoneme::graphics::copy_area(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int, int, int, int)
+00000000002d27e4 T phoneme::graphics::draw_line(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)
+00000000002d317c T phoneme::graphics::draw_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)
+00000000002d2bd8 T phoneme::graphics::fill_rect(phoneme::graphics::Image&, phoneme::graphics::GraphicsContext const&, int, int, int, int)
+00000000002d265c T phoneme::graphics::translate(phoneme::graphics::GraphicsContext&, int, int)
+0000000000493cf0 T phoneme::vm::Machine::intercept_image_draw(phoneme::vm::ImageDrawEvent const&) const
+00000000008ba02c T phoneme::vm::Scheduler::runnable_target(phoneme::vm::ObjectRef) const
+00000000002d1288 T phoneme::graphics::GraphicsStore::estimated_bytes() const
+00000000002d1278 T phoneme::graphics::GraphicsStore::automatic_collection_due() const
+00000000002cf6d8 T phoneme::graphics::GraphicsStore::invalidate_lookup_caches() const
+00000000002d06a0 T phoneme::graphics::GraphicsStore::image(unsigned long) const
+00000000002d09d0 T phoneme::graphics::GraphicsStore::context(unsigned long) const
+00000000002d779c T phoneme::graphics::Image::pixel(int, int) const
+000000000071ee14 t phoneme::vm::(anonymous namespace)::draw_background_image(phoneme::vm::Machine&, phoneme::vm::ObjectRef, phoneme::vm::(anonymous namespace)::BoundRenderTarget&, phoneme::vm::(anonymous namespace)::RenderArea const&)::$_0::operator()(unsigned long, unsigned long) const

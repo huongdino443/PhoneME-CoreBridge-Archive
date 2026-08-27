@@ -1,0 +1,6 @@
+000000000060aac8 00000000000001b8 t auto phoneme::vm::register_graphics_natives(phoneme::vm::NativeMethodRegistry&)::$_0::operator()<unsigned char (*)(unsigned int) noexcept>(char const*, unsigned char (*)(unsigned int) noexcept) const
+000000000060ac94 00000000000001cc t phoneme::vm::register_graphics_natives(phoneme::vm::NativeMethodRegistry&)::$_28::operator()(char const*, bool) const
+000000000060ae60 00000000000001cc t phoneme::vm::register_graphics_natives(phoneme::vm::NativeMethodRegistry&)::$_32::operator()(char const*, bool) const
+000000000060b02c 00000000000001c8 t phoneme::vm::register_graphics_natives(phoneme::vm::NativeMethodRegistry&)::$_34::operator()(char const*, bool) const
+000000000060b1f4 00000000000001c8 t phoneme::vm::register_graphics_natives(phoneme::vm::NativeMethodRegistry&)::$_35::operator()(char const*, bool) const
+000000000060b3bc 00000000000001d0 t phoneme::vm::register_graphics_natives(phoneme::vm::NativeMethodRegistry&)::$_66::operator()(char const*, bool) const

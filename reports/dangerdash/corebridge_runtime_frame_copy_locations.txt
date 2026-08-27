@@ -1,0 +1,48 @@
+3041-    finalize_deferred_start(app_id, vm);
+3042-}
+3043-
+3044-FrameMetadata Runtime::frame_metadata() {
+3045-    pump_events();
+3046-    return framebuffer_.metadata();
+3047-}
+3048-
+3049:FrameMetadata Runtime::copy_current_frame_rgba(
+3050-    std::span<u8> destination) const noexcept {
+3051-    return framebuffer_.copy_rgba(destination);
+3052-}
+3053-
+3054:std::optional<FrameMetadata> Runtime::copy_current_frame_rgba_since(
+3055-    u64 previous_generation,
+3056-    std::span<u8> destination) const noexcept {
+3057-    return framebuffer_.copy_rgba_since(previous_generation, destination);
+3058-}
+3059-
+3060:std::optional<FrameReadView> Runtime::acquire_current_frame_rgba_since(
+3061-    u64 previous_generation) noexcept {
+3062-    frame_read_lease_.reset();
+3063-    auto lease = framebuffer_.acquire_rgba_since(previous_generation);
+3064-    if (!lease) return std::nullopt;
+3065-    const FrameMetadata metadata = lease->metadata();
+3066-    const auto pixels = lease->pixels();
+3067-    const auto damage_regions = lease->damage_regions();
+3068-    frame_read_lease_.emplace(std::move(*lease));
+3069-    return FrameReadView {
+3070-        .pixels = pixels.data(),
+3071-        .metadata = metadata,
+3072-        .damage_regions = damage_regions,
+3073-    };
+3074-}
+3075-
+3076-void Runtime::release_current_frame_rgba() noexcept {
+3077-    frame_read_lease_.reset();
+3078-}
+3079-
+3080-u64 Runtime::storage_generation() noexcept {
+3081-    std::shared_ptr<ApplicationVM> vm;
+3082-    {
+3083-        std::unique_lock lock(mutex_);
+3084-        const App* app = find_app_unlocked(foreground_app_id_);
+3085-        if (app != nullptr && app->vm != nullptr &&
+3086-            (app->state == AppState::active || app->state == AppState::paused)) {
+3087-            vm = app->vm;
+3088-        }

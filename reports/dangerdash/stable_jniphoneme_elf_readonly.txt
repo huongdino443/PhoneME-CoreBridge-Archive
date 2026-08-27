@@ -1,0 +1,90 @@
+=== FILE/HASH ===
+/home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/stable/lib/arm64-v8a/libjniphoneme.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, not stripped
+72dd67eb5139a0b1e836aec639bae57e543de515e9b4d6d7b055b928d57f9105  /home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/stable/lib/arm64-v8a/libjniphoneme.so
+
+=== SECTIONS/SYMBOLS ===
+  [ 2] .dynsym           DYNSYM           0000000000000308  00000308
+  [ 7] .dynstr           STRTAB           0000000000000848  00000848
+  [10] .rodata           PROGBITS         0000000000000ed0  00000ed0
+  [13] .text             PROGBITS         0000000000002578  00001578
+  [21] .symtab           SYMTAB           0000000000000000  00002700
+  [23] .strtab           STRTAB           0000000000000000  00002f93
+
+=== DYNAMIC SYMBOL TARGETS ===
+                 U AndroidBitmap_getInfo
+                 U AndroidBitmap_lockPixels
+                 U AndroidBitmap_unlockPixels
+00000000000025d8 T Java_be_preuveneers_phoneme_fpmidp_FrameBufferActivity_callCVM
+0000000000002cf8 T Java_be_preuveneers_phoneme_fpmidp_FrameBufferActivity_cleanUpCVM
+0000000000003074 T Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_copyToBuffer
+0000000000002d48 T Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_getNativeAPIVersion
+0000000000002d58 T Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_initFrameBufferSize
+0000000000002d50 T Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_initFrameBufferView
+0000000000002f40 T Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_renderFrame
+0000000000002e68 T Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_resizeFrameBuffer
+0000000000003220 T Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_setBitmapFonts
+000000000000321c T Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_setBusy
+00000000000030e4 T Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_toRGB565
+
+=== ALL SYMBOL TARGETS ===
+00000000000025d8 T Java_be_preuveneers_phoneme_fpmidp_FrameBufferActivity_callCVM
+0000000000002cf8 T Java_be_preuveneers_phoneme_fpmidp_FrameBufferActivity_cleanUpCVM
+0000000000003074 T Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_copyToBuffer
+0000000000002d48 T Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_getNativeAPIVersion
+0000000000002d58 T Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_initFrameBufferSize
+0000000000002d50 T Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_initFrameBufferView
+0000000000002f40 T Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_renderFrame
+0000000000002e68 T Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_resizeFrameBuffer
+0000000000003220 T Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_setBitmapFonts
+000000000000321c T Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_setBusy
+00000000000030e4 T Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_toRGB565
+0000000000005658 b cvm_finalize_fb
+0000000000005690 b cvm_init_exit
+0000000000005698 b cvm_init_invoke
+0000000000005680 b cvm_init_surface
+0000000000005688 b cvm_resize_fb
+00000000000056a0 b cvm_surface_buffer
+00000000000056b0 b cvm_surface_height
+00000000000056a8 b cvm_surface_width
+00000000000028f8 t cvm_thread
+0000000000002e10 t flush_framebuffer
+0000000000005660 b g_cvm
+0000000000005668 b g_framebuffer
+0000000000005670 b g_framebuffer_pixels
+
+=== RELEVANT STRINGS ===
+Java_be_preuveneers_phoneme_fpmidp_FrameBufferActivity_callCVM
+Java_be_preuveneers_phoneme_fpmidp_FrameBufferActivity_cleanUpCVM
+Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_getNativeAPIVersion
+Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_initFrameBufferView
+Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_initFrameBufferSize
+Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_resizeFrameBuffer
+Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_renderFrame
+Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_copyToBuffer
+Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_toRGB565
+Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_setBusy
+Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_setBitmapFonts
+initSurfaceBitmap
+get_surface_buffer
+get_surface_height
+resizeFrameBuffer
+finalizeFrameBuffer
+get_surface_width
+cvm_init_surface
+cvm_surface_buffer
+cvm_surface_width
+cvm_surface_height
+g_framebuffer
+g_framebuffer_pixels
+flush_framebuffer
+Java_be_preuveneers_phoneme_fpmidp_FrameBufferActivity_callCVM
+Java_be_preuveneers_phoneme_fpmidp_FrameBufferActivity_cleanUpCVM
+Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_getNativeAPIVersion
+Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_initFrameBufferView
+Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_initFrameBufferSize
+Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_resizeFrameBuffer
+Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_renderFrame
+Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_copyToBuffer
+Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_toRGB565
+Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_setBusy
+Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_setBitmapFonts

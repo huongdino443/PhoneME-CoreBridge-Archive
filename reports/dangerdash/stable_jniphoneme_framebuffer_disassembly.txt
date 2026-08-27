@@ -1,0 +1,374 @@
+=== SYMBOL SIZES ===
+    25: 0000000000002d58   184 FUNC    GLOBAL DEFAULT   13 Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_initFrameBufferSize
+    26: 00000000000030e4   312 FUNC    GLOBAL DEFAULT   13 Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_toRGB565
+    30: 0000000000002e68   216 FUNC    GLOBAL DEFAULT   13 Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_resizeFrameBuffer
+    31: 0000000000002f40   308 FUNC    GLOBAL DEFAULT   13 Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_renderFrame
+    32: 0000000000003074   112 FUNC    GLOBAL DEFAULT   13 Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_copyToBuffer
+    27: 0000000000005680     8 OBJECT  LOCAL  DEFAULT   19 cvm_init_surface
+    41: 0000000000002e10    88 FUNC    LOCAL  DEFAULT   13 flush_framebuffer
+    72: 0000000000002d58   184 FUNC    GLOBAL DEFAULT   13 Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_initFrameBufferSize
+    73: 0000000000002e68   216 FUNC    GLOBAL DEFAULT   13 Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_resizeFrameBuffer
+    74: 0000000000002f40   308 FUNC    GLOBAL DEFAULT   13 Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_renderFrame
+    78: 0000000000003074   112 FUNC    GLOBAL DEFAULT   13 Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_copyToBuffer
+    79: 00000000000030e4   312 FUNC    GLOBAL DEFAULT   13 Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_toRGB565
+
+=== DISASSEMBLY ===
+
+/home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/stable/lib/arm64-v8a/libjniphoneme.so:     file format elf64-littleaarch64
+
+
+Disassembly of section .text:
+
+0000000000002e10 <flush_framebuffer>:
+    2e10:	a9be7bfd 	stp	x29, x30, [sp, #-32]!
+    2e14:	f9000bf3 	str	x19, [sp, #16]
+    2e18:	910003fd 	mov	x29, sp
+    2e1c:	aa0003f3 	mov	x19, x0
+    2e20:	d503201f 	nop
+    2e24:	10014060 	adr	x0, 5630 <g_lock>
+    2e28:	9400013a 	bl	3310 <pthread_mutex_lock@plt>
+    2e2c:	b4000153 	cbz	x19, 2e54 <flush_framebuffer+0x44>
+    2e30:	f0000008 	adrp	x8, 5000 <_DYNAMIC+0xc38>
+    2e34:	f9433500 	ldr	x0, [x8, #1640]
+    2e38:	b40000e0 	cbz	x0, 2e54 <flush_framebuffer+0x44>
+    2e3c:	f0000008 	adrp	x8, 5000 <_DYNAMIC+0xc38>
+    2e40:	f9433908 	ldr	x8, [x8, #1648]
+    2e44:	b4000088 	cbz	x8, 2e54 <flush_framebuffer+0x44>
+    2e48:	d37ff902 	lsl	x2, x8, #1
+    2e4c:	aa1303e1 	mov	x1, x19
+    2e50:	94000120 	bl	32d0 <memcpy@plt>
+    2e54:	d503201f 	nop
+    2e58:	10013ec0 	adr	x0, 5630 <g_lock>
+    2e5c:	f9400bf3 	ldr	x19, [sp, #16]
+    2e60:	a8c27bfd 	ldp	x29, x30, [sp], #32
+    2e64:	14000133 	b	3330 <pthread_mutex_unlock@plt>
+
+Disassembly of section .plt:
+
+/home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/stable/lib/arm64-v8a/libjniphoneme.so:     file format elf64-littleaarch64
+
+
+Disassembly of section .text:
+
+0000000000002d58 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_initFrameBufferSize>:
+    2d58:	a9bd7bfd 	stp	x29, x30, [sp, #-48]!
+    2d5c:	f9000bf5 	str	x21, [sp, #16]
+    2d60:	a9024ff4 	stp	x20, x19, [sp, #32]
+    2d64:	910003fd 	mov	x29, sp
+    2d68:	f9400008 	ldr	x8, [x0]
+    2d6c:	aa0403e1 	mov	x1, x4
+    2d70:	2a0303f3 	mov	w19, w3
+    2d74:	2a0203f4 	mov	w20, w2
+    2d78:	f9439908 	ldr	x8, [x8, #1840]
+    2d7c:	d63f0100 	blr	x8
+    2d80:	aa0003f5 	mov	x21, x0
+    2d84:	2a1f03e0 	mov	w0, wzr
+    2d88:	7100067f 	cmp	w19, #0x1
+    2d8c:	540003ab 	b.lt	2e00 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_initFrameBufferSize+0xa8>  // b.tstop
+    2d90:	7100069f 	cmp	w20, #0x1
+    2d94:	5400036b 	b.lt	2e00 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_initFrameBufferSize+0xa8>  // b.tstop
+    2d98:	b4000355 	cbz	x21, 2e00 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_initFrameBufferSize+0xa8>
+    2d9c:	d503201f 	nop
+    2da0:	10014480 	adr	x0, 5630 <g_lock>
+    2da4:	9400015b 	bl	3310 <pthread_mutex_lock@plt>
+    2da8:	f0000008 	adrp	x8, 5000 <_DYNAMIC+0xc38>
+    2dac:	f0000009 	adrp	x9, 5000 <_DYNAMIC+0xc38>
+    2db0:	9bb47e63 	umull	x3, w19, w20
+    2db4:	f000000a 	adrp	x10, 5000 <_DYNAMIC+0xc38>
+    2db8:	f000000b 	adrp	x11, 5000 <_DYNAMIC+0xc38>
+    2dbc:	f000000c 	adrp	x12, 5000 <_DYNAMIC+0xc38>
+    2dc0:	f9033515 	str	x21, [x8, #1640]
+    2dc4:	f9434128 	ldr	x8, [x9, #1664]
+    2dc8:	f9033943 	str	x3, [x10, #1648]
+    2dcc:	b9067974 	str	w20, [x11, #1656]
+    2dd0:	b9067d93 	str	w19, [x12, #1660]
+    2dd4:	b40000e8 	cbz	x8, 2df0 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_initFrameBufferSize+0x98>
+    2dd8:	90000004 	adrp	x4, 2000 <__FRAME_END__+0xdb8>
+    2ddc:	91384084 	add	x4, x4, #0xe10
+    2de0:	2a1403e0 	mov	w0, w20
+    2de4:	2a1303e1 	mov	w1, w19
+    2de8:	aa1503e2 	mov	x2, x21
+    2dec:	d63f0100 	blr	x8
+    2df0:	d503201f 	nop
+    2df4:	100141e0 	adr	x0, 5630 <g_lock>
+    2df8:	9400014e 	bl	3330 <pthread_mutex_unlock@plt>
+    2dfc:	52800020 	mov	w0, #0x1                   	// #1
+    2e00:	a9424ff4 	ldp	x20, x19, [sp, #32]
+    2e04:	f9400bf5 	ldr	x21, [sp, #16]
+    2e08:	a8c37bfd 	ldp	x29, x30, [sp], #48
+    2e0c:	d65f03c0 	ret
+
+Disassembly of section .plt:
+
+/home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/stable/lib/arm64-v8a/libjniphoneme.so:     file format elf64-littleaarch64
+
+
+Disassembly of section .text:
+
+0000000000002e68 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_resizeFrameBuffer>:
+    2e68:	a9bd7bfd 	stp	x29, x30, [sp, #-48]!
+    2e6c:	f9000bf5 	str	x21, [sp, #16]
+    2e70:	a9024ff4 	stp	x20, x19, [sp, #32]
+    2e74:	910003fd 	mov	x29, sp
+    2e78:	f9400008 	ldr	x8, [x0]
+    2e7c:	aa0403e1 	mov	x1, x4
+    2e80:	2a0303f3 	mov	w19, w3
+    2e84:	2a0203f4 	mov	w20, w2
+    2e88:	f9439908 	ldr	x8, [x8, #1840]
+    2e8c:	d63f0100 	blr	x8
+    2e90:	aa0003f5 	mov	x21, x0
+    2e94:	2a1f03e0 	mov	w0, wzr
+    2e98:	7100067f 	cmp	w19, #0x1
+    2e9c:	540004ab 	b.lt	2f30 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_resizeFrameBuffer+0xc8>  // b.tstop
+    2ea0:	7100069f 	cmp	w20, #0x1
+    2ea4:	5400046b 	b.lt	2f30 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_resizeFrameBuffer+0xc8>  // b.tstop
+    2ea8:	b4000455 	cbz	x21, 2f30 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_resizeFrameBuffer+0xc8>
+    2eac:	d503201f 	nop
+    2eb0:	10013c00 	adr	x0, 5630 <g_lock>
+    2eb4:	94000117 	bl	3310 <pthread_mutex_lock@plt>
+    2eb8:	f0000008 	adrp	x8, 5000 <_DYNAMIC+0xc38>
+    2ebc:	f0000009 	adrp	x9, 5000 <_DYNAMIC+0xc38>
+    2ec0:	9bb47e63 	umull	x3, w19, w20
+    2ec4:	f000000a 	adrp	x10, 5000 <_DYNAMIC+0xc38>
+    2ec8:	f000000b 	adrp	x11, 5000 <_DYNAMIC+0xc38>
+    2ecc:	f000000c 	adrp	x12, 5000 <_DYNAMIC+0xc38>
+    2ed0:	f9033515 	str	x21, [x8, #1640]
+    2ed4:	f9434528 	ldr	x8, [x9, #1672]
+    2ed8:	f9033943 	str	x3, [x10, #1648]
+    2edc:	b9067974 	str	w20, [x11, #1656]
+    2ee0:	b9067d93 	str	w19, [x12, #1660]
+    2ee4:	b40000c8 	cbz	x8, 2efc <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_resizeFrameBuffer+0x94>
+    2ee8:	2a1403e0 	mov	w0, w20
+    2eec:	2a1303e1 	mov	w1, w19
+    2ef0:	aa1503e2 	mov	x2, x21
+    2ef4:	d63f0100 	blr	x8
+    2ef8:	1400000a 	b	2f20 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_resizeFrameBuffer+0xb8>
+    2efc:	f0000008 	adrp	x8, 5000 <_DYNAMIC+0xc38>
+    2f00:	f9434108 	ldr	x8, [x8, #1664]
+    2f04:	b40000e8 	cbz	x8, 2f20 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_resizeFrameBuffer+0xb8>
+    2f08:	90000004 	adrp	x4, 2000 <__FRAME_END__+0xdb8>
+    2f0c:	91384084 	add	x4, x4, #0xe10
+    2f10:	2a1403e0 	mov	w0, w20
+    2f14:	2a1303e1 	mov	w1, w19
+    2f18:	aa1503e2 	mov	x2, x21
+    2f1c:	d63f0100 	blr	x8
+    2f20:	d503201f 	nop
+    2f24:	10013860 	adr	x0, 5630 <g_lock>
+    2f28:	94000102 	bl	3330 <pthread_mutex_unlock@plt>
+    2f2c:	52800020 	mov	w0, #0x1                   	// #1
+    2f30:	a9424ff4 	ldp	x20, x19, [sp, #32]
+    2f34:	f9400bf5 	ldr	x21, [sp, #16]
+    2f38:	a8c37bfd 	ldp	x29, x30, [sp], #48
+    2f3c:	d65f03c0 	ret
+
+Disassembly of section .plt:
+
+/home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/stable/lib/arm64-v8a/libjniphoneme.so:     file format elf64-littleaarch64
+
+
+Disassembly of section .text:
+
+0000000000002f40 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_renderFrame>:
+    2f40:	b4000202 	cbz	x2, 2f80 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_renderFrame+0x40>
+    2f44:	d101c3ff 	sub	sp, sp, #0x70
+    2f48:	a9027bfd 	stp	x29, x30, [sp, #32]
+    2f4c:	f9001bf9 	str	x25, [sp, #48]
+    2f50:	a9045ff8 	stp	x24, x23, [sp, #64]
+    2f54:	a90557f6 	stp	x22, x21, [sp, #80]
+    2f58:	a9064ff4 	stp	x20, x19, [sp, #96]
+    2f5c:	910083fd 	add	x29, sp, #0x20
+    2f60:	aa0203f3 	mov	x19, x2
+    2f64:	910023e2 	add	x2, sp, #0x8
+    2f68:	aa1303e1 	mov	x1, x19
+    2f6c:	aa0003f4 	mov	x20, x0
+    2f70:	94000104 	bl	3380 <AndroidBitmap_getInfo@plt>
+    2f74:	340000a0 	cbz	w0, 2f88 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_renderFrame+0x48>
+    2f78:	2a1f03e0 	mov	w0, wzr
+    2f7c:	14000037 	b	3058 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_renderFrame+0x118>
+    2f80:	2a1f03e0 	mov	w0, wzr
+    2f84:	d65f03c0 	ret
+    2f88:	910063a2 	add	x2, x29, #0x18
+    2f8c:	aa1403e0 	mov	x0, x20
+    2f90:	aa1303e1 	mov	x1, x19
+    2f94:	f9000fbf 	str	xzr, [x29, #24]
+    2f98:	940000fe 	bl	3390 <AndroidBitmap_lockPixels@plt>
+    2f9c:	2a0003e8 	mov	w8, w0
+    2fa0:	2a1f03e0 	mov	w0, wzr
+    2fa4:	350005a8 	cbnz	w8, 3058 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_renderFrame+0x118>
+    2fa8:	f9400fa8 	ldr	x8, [x29, #24]
+    2fac:	b4000568 	cbz	x8, 3058 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_renderFrame+0x118>
+    2fb0:	d503201f 	nop
+    2fb4:	100133e0 	adr	x0, 5630 <g_lock>
+    2fb8:	940000d6 	bl	3310 <pthread_mutex_lock@plt>
+    2fbc:	f0000016 	adrp	x22, 5000 <_DYNAMIC+0xc38>
+    2fc0:	f94336c8 	ldr	x8, [x22, #1640]
+    2fc4:	b40003c8 	cbz	x8, 303c <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_renderFrame+0xfc>
+    2fc8:	f0000008 	adrp	x8, 5000 <_DYNAMIC+0xc38>
+    2fcc:	f9433908 	ldr	x8, [x8, #1648]
+    2fd0:	b4000368 	cbz	x8, 303c <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_renderFrame+0xfc>
+    2fd4:	f0000008 	adrp	x8, 5000 <_DYNAMIC+0xc38>
+    2fd8:	b9400fe9 	ldr	w9, [sp, #12]
+    2fdc:	b9467d08 	ldr	w8, [x8, #1660]
+    2fe0:	6b08013f 	cmp	w9, w8
+    2fe4:	1a883137 	csel	w23, w9, w8, cc	// cc = lo, ul, last
+    2fe8:	710006ff 	cmp	w23, #0x1
+    2fec:	5400028b 	b.lt	303c <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_renderFrame+0xfc>  // b.tstop
+    2ff0:	f0000019 	adrp	x25, 5000 <_DYNAMIC+0xc38>
+    2ff4:	b9400be8 	ldr	w8, [sp, #8]
+    2ff8:	aa1f03f8 	mov	x24, xzr
+    2ffc:	b9467b29 	ldr	w9, [x25, #1656]
+    3000:	6b09011f 	cmp	w8, w9
+    3004:	1a893108 	csel	w8, w8, w9, cc	// cc = lo, ul, last
+    3008:	937f7d15 	sbfiz	x21, x8, #1, #32
+    300c:	b9467b28 	ldr	w8, [x25, #1656]
+    3010:	aa1503e2 	mov	x2, x21
+    3014:	f9400fa9 	ldr	x9, [x29, #24]
+    3018:	b94013ea 	ldr	w10, [sp, #16]
+    301c:	f94336cb 	ldr	x11, [x22, #1640]
+    3020:	9b087f08 	mul	x8, x24, x8
+    3024:	9b0a2700 	madd	x0, x24, x10, x9
+    3028:	8b080561 	add	x1, x11, x8, lsl #1
+    302c:	940000a9 	bl	32d0 <memcpy@plt>
+    3030:	91000718 	add	x24, x24, #0x1
+    3034:	eb1802ff 	cmp	x23, x24
+    3038:	54fffea1 	b.ne	300c <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_renderFrame+0xcc>  // b.any
+    303c:	d503201f 	nop
+    3040:	10012f80 	adr	x0, 5630 <g_lock>
+    3044:	940000bb 	bl	3330 <pthread_mutex_unlock@plt>
+    3048:	aa1403e0 	mov	x0, x20
+    304c:	aa1303e1 	mov	x1, x19
+    3050:	940000d4 	bl	33a0 <AndroidBitmap_unlockPixels@plt>
+    3054:	52800020 	mov	w0, #0x1                   	// #1
+    3058:	a9464ff4 	ldp	x20, x19, [sp, #96]
+    305c:	a94557f6 	ldp	x22, x21, [sp, #80]
+    3060:	a9445ff8 	ldp	x24, x23, [sp, #64]
+    3064:	a9427bfd 	ldp	x29, x30, [sp, #32]
+    3068:	f9401bf9 	ldr	x25, [sp, #48]
+    306c:	9101c3ff 	add	sp, sp, #0x70
+    3070:	d65f03c0 	ret
+
+Disassembly of section .plt:
+
+/home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/stable/lib/arm64-v8a/libjniphoneme.so:     file format elf64-littleaarch64
+
+
+Disassembly of section .text:
+
+0000000000003074 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_copyToBuffer>:
+    3074:	a9be7bfd 	stp	x29, x30, [sp, #-32]!
+    3078:	f9000bf3 	str	x19, [sp, #16]
+    307c:	910003fd 	mov	x29, sp
+    3080:	f9400008 	ldr	x8, [x0]
+    3084:	aa0203e1 	mov	x1, x2
+    3088:	f9439908 	ldr	x8, [x8, #1840]
+    308c:	d63f0100 	blr	x8
+    3090:	b4000240 	cbz	x0, 30d8 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_copyToBuffer+0x64>
+    3094:	aa0003f3 	mov	x19, x0
+    3098:	d503201f 	nop
+    309c:	10012ca0 	adr	x0, 5630 <g_lock>
+    30a0:	9400009c 	bl	3310 <pthread_mutex_lock@plt>
+    30a4:	d0000008 	adrp	x8, 5000 <_DYNAMIC+0xc38>
+    30a8:	f9433501 	ldr	x1, [x8, #1640]
+    30ac:	b40000e1 	cbz	x1, 30c8 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_copyToBuffer+0x54>
+    30b0:	d0000008 	adrp	x8, 5000 <_DYNAMIC+0xc38>
+    30b4:	f9433908 	ldr	x8, [x8, #1648]
+    30b8:	b4000088 	cbz	x8, 30c8 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_copyToBuffer+0x54>
+    30bc:	d37ff902 	lsl	x2, x8, #1
+    30c0:	aa1303e0 	mov	x0, x19
+    30c4:	94000083 	bl	32d0 <memcpy@plt>
+    30c8:	d503201f 	nop
+    30cc:	10012b20 	adr	x0, 5630 <g_lock>
+    30d0:	94000098 	bl	3330 <pthread_mutex_unlock@plt>
+    30d4:	52800020 	mov	w0, #0x1                   	// #1
+    30d8:	f9400bf3 	ldr	x19, [sp, #16]
+    30dc:	a8c27bfd 	ldp	x29, x30, [sp], #32
+    30e0:	d65f03c0 	ret
+
+Disassembly of section .plt:
+
+/home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/stable/lib/arm64-v8a/libjniphoneme.so:     file format elf64-littleaarch64
+
+
+Disassembly of section .text:
+
+00000000000030e4 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_toRGB565>:
+    30e4:	a9bc7bfd 	stp	x29, x30, [sp, #-64]!
+    30e8:	a9015ff8 	stp	x24, x23, [sp, #16]
+    30ec:	a90257f6 	stp	x22, x21, [sp, #32]
+    30f0:	a9034ff4 	stp	x20, x19, [sp, #48]
+    30f4:	910003fd 	mov	x29, sp
+    30f8:	b4000882 	cbz	x2, 3208 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_toRGB565+0x124>
+    30fc:	2a0503f7 	mov	w23, w5
+    3100:	710004bf 	cmp	w5, #0x1
+    3104:	5400082b 	b.lt	3208 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_toRGB565+0x124>  // b.tstop
+    3108:	2a0603f6 	mov	w22, w6
+    310c:	710004df 	cmp	w6, #0x1
+    3110:	540007cb 	b.lt	3208 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_toRGB565+0x124>  // b.tstop
+    3114:	f9400008 	ldr	x8, [x0]
+    3118:	aa0203e1 	mov	x1, x2
+    311c:	aa0203f3 	mov	x19, x2
+    3120:	aa0003f4 	mov	x20, x0
+    3124:	f942ad08 	ldr	x8, [x8, #1368]
+    3128:	d63f0100 	blr	x8
+    312c:	f9400288 	ldr	x8, [x20]
+    3130:	2a0003f8 	mov	w24, w0
+    3134:	aa1403e0 	mov	x0, x20
+    3138:	aa1303e1 	mov	x1, x19
+    313c:	aa1f03e2 	mov	x2, xzr
+    3140:	f942e108 	ldr	x8, [x8, #1472]
+    3144:	d63f0100 	blr	x8
+    3148:	b4000600 	cbz	x0, 3208 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_toRGB565+0x124>
+    314c:	aa0003f5 	mov	x21, x0
+    3150:	d503201f 	nop
+    3154:	100126e0 	adr	x0, 5630 <g_lock>
+    3158:	9400006e 	bl	3310 <pthread_mutex_lock@plt>
+    315c:	d0000008 	adrp	x8, 5000 <_DYNAMIC+0xc38>
+    3160:	f9433508 	ldr	x8, [x8, #1640]
+    3164:	b4000368 	cbz	x8, 31d0 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_toRGB565+0xec>
+    3168:	d0000009 	adrp	x9, 5000 <_DYNAMIC+0xc38>
+    316c:	b9467929 	ldr	w9, [x9, #1656]
+    3170:	7100053f 	cmp	w9, #0x1
+    3174:	540002eb 	b.lt	31d0 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_toRGB565+0xec>  // b.tstop
+    3178:	d0000009 	adrp	x9, 5000 <_DYNAMIC+0xc38>
+    317c:	b9467d29 	ldr	w9, [x9, #1660]
+    3180:	7100053f 	cmp	w9, #0x1
+    3184:	5400026b 	b.lt	31d0 <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_toRGB565+0xec>  // b.tstop
+    3188:	9bb77ec9 	umull	x9, w22, w23
+    318c:	5280006a 	mov	w10, #0x3                   	// #3
+    3190:	91000aab 	add	x11, x21, #0x2
+    3194:	6b090b1f 	cmp	w24, w9, lsl #2
+    3198:	9a8ab54a 	cinc	x10, x10, ge	// ge = tcont
+    319c:	385ff16c 	ldurb	w12, [x11, #-1]
+    31a0:	f1000529 	subs	x9, x9, #0x1
+    31a4:	385fe16d 	ldurb	w13, [x11, #-2]
+    31a8:	3940016e 	ldrb	w14, [x11]
+    31ac:	8b0a016b 	add	x11, x11, x10
+    31b0:	121e158c 	and	w12, w12, #0xfc
+    31b4:	53027d8c 	lsr	w12, w12, #2
+    31b8:	121d11ad 	and	w13, w13, #0xf8
+    31bc:	53185dad 	lsl	w13, w13, #8
+    31c0:	331b158d 	bfi	w13, w12, #5, #6
+    31c4:	2a4e0dac 	orr	w12, w13, w14, lsr #3
+    31c8:	7800250c 	strh	w12, [x8], #2
+    31cc:	54fffe81 	b.ne	319c <Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_toRGB565+0xb8>  // b.any
+    31d0:	d503201f 	nop
+    31d4:	100122e0 	adr	x0, 5630 <g_lock>
+    31d8:	94000056 	bl	3330 <pthread_mutex_unlock@plt>
+    31dc:	f9400288 	ldr	x8, [x20]
+    31e0:	aa1403e0 	mov	x0, x20
+    31e4:	aa1303e1 	mov	x1, x19
+    31e8:	aa1503e2 	mov	x2, x21
+    31ec:	f9430104 	ldr	x4, [x8, #1536]
+    31f0:	52800043 	mov	w3, #0x2                   	// #2
+    31f4:	a9434ff4 	ldp	x20, x19, [sp, #48]
+    31f8:	a94257f6 	ldp	x22, x21, [sp, #32]
+    31fc:	a9415ff8 	ldp	x24, x23, [sp, #16]
+    3200:	a8c47bfd 	ldp	x29, x30, [sp], #64
+    3204:	d61f0080 	br	x4
+    3208:	a9434ff4 	ldp	x20, x19, [sp, #48]
+    320c:	a94257f6 	ldp	x22, x21, [sp, #32]
+    3210:	a9415ff8 	ldp	x24, x23, [sp, #16]
+    3214:	a8c47bfd 	ldp	x29, x30, [sp], #64
+    3218:	d65f03c0 	ret
+
+Disassembly of section .plt:

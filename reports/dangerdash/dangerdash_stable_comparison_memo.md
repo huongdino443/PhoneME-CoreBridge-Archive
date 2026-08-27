@@ -154,3 +154,44 @@ Archive hiện không có Android JNI implementation đầy đủ, không có CM
 **Quyết định:** chưa tạo APK/JAR mới. Bước kỹ thuật có giá trị tiếp theo là phục hồi build surface hoặc native source đầy đủ của CoreBridge/Stable, sau đó instrument một lần tại handler Graphics/Image và publication với target identity, kích thước, pixel mẫu, dirty count và generation trước/sau. `DangerDash-private-drawrgb-patched.jar` tiếp tục giữ trạng thái **chưa test hợp lệ**.
 
 Chi tiết thiết kế probe được lưu tại `corebridge_generic_probe_design.md`.
+
+
+## 11. Bằng chứng tĩnh bổ sung ngày 28-08-2026
+
+Phân tích read-only ELF r64 cho thấy CoreBridge không thiếu toàn bộ đường vẽ Graphics/DirectGraphics. Binary có các entrypoint `register_graphics_natives`, `register_image_natives`, `register_canvas_natives`, cùng các helper `bound_graphics`, `bound_direct_graphics`, `direct_graphics_target`, `draw_nokia_pixels`, `set_nokia_byte_pixel`, `ensure_mutable_image_surface`, `GraphicsStore::attach_image`, `GraphicsStore::attach_context`, `GraphicsStore::image`, `GraphicsStore::context`, `Image::set_pixel` và `Image::mark_dirty_region`. Binary cũng có các primitive `fill_rect`, `draw_rgb`, `draw_image`, `draw_region`, `copy_area`, `draw_text`, `draw_line` và `draw_arc`.
+
+Disassembly của các primitive r64 cho thấy `fill_rect` có path ghi pixel trực tiếp vào Image storage và path tổng quát gọi `Image::set_pixel`; `Image::set_pixel` kiểm tra mutable/bounds, ghi pixel và cập nhật dirty region. Đây là bằng chứng chống lại giả thuyết đơn giản rằng Graphics primitive luôn là no-op. Điểm chưa giải quyết là native handler có dùng đúng Image key của `Graphics.target` hay không, DirectGraphics có resolve cùng target hay không, và `publish_canvas_graphics` có đọc đúng Image đã dirty hay không.
+
+ELF r64 có DWARF, producer Android clang 18.0.4 và source path `/home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/runtime/Runtime.cpp`. Các symbol runtime có thể ánh xạ được gồm `CanvasRuntime::register_canvas`, `request_repaint`, `process_repaints`, `game_graphics`, `request_game_flush`, `invoke_paint` và `publish_canvas_graphics`. Tuy nhiên, DWARF không khôi phục được source body của `CanvasRuntime.cpp`, `GraphicsNatives.cpp`, `ImageNatives.cpp` hoặc `GraphicsStore`; inventory source còn lại chỉ có 9 file và không có các file này.
+
+Một sai khác provenance cần giữ rõ: symbol binary của `publish_canvas_graphics` có dạng logic gồm `Machine`, `Framebuffer`, `ObjectRef`, thêm `const char*` và vector RGBA dùng lại, trong khi snapshot `Runtime.cpp` hiện không có tham số nhãn đó. Vì vậy snapshot chỉ được dùng như tài liệu semantic tham khảo, chưa được xem là exact source của APK r64 để rebuild.
+
+## 12. Bảng semantic Stable → CoreBridge
+
+| Stable | CoreBridge tương ứng | Có thể port |
+|---|---|---|
+| `surfaceCreated` tạo Bitmap/ShortBuffer có kích thước logic | `register_canvas`/`prepare_canvas_graphics` tạo display Image và Graphics target | Có thể port invariant “một display surface có owner rõ ràng”; không port object Android. |
+| Legacy CVM framebuffer là nguồn duy nhất của `renderFrame`/`copyToBuffer` | `Graphics.target`/Image được `publish_canvas_graphics` đọc rồi cập nhật `Framebuffer` | Có thể port invariant “renderer và host phải đọc cùng storage”. |
+| `renderFrame(Bitmap)` khóa, copy RGB565 và trả kết quả | `publish_canvas_graphics` convert Image pixels rồi publish generation/damage | Có thể port thứ tự atomic về target → pixel → publish; không port JNI copy. |
+| `copyToBuffer`/`toRGB565` ghi buffer legacy | `nativeCopyFrameSince` chỉ copy framebuffer đã publish | Chỉ port format/ownership contract; không port ShortBuffer ABI. |
+| Android repaint/GL trình bày Bitmap | `GameSurfaceView` chuyển RGBA thành Bitmap | Không cần sửa để chữa Danger Dash; checksum đã đen trước lớp này. |
+
+Kết luận: phần đáng học từ Stable là **pixel ownership và điểm copy nằm sau renderer**, không phải một native method plain Canvas bị thiếu. CoreBridge đã có khung semantic tương tự; lỗi hiện tại nhiều khả năng nằm ở việc target Graphics/DirectGraphics và target publisher không đồng nhất, dirty state bị mất, hoặc target bị reset/stale trong lifecycle.
+
+## 13. Quyết định port và kiểm thử
+
+Thiết kế port chi tiết được lưu tại `dangerdash_plain_canvas_port_design.md`. Thiết kế yêu cầu mọi Graphics dùng cho paint màn hình phải trỏ cùng display Image mà publisher đọc; mọi primitive, gồm Nokia DirectGraphics, phải ghi Image đó và mark dirty; commit/flush chỉ hoàn tất sau publication target. Không ép plain Canvas thành GameCanvas và không biến mọi Image thành display target.
+
+Phép kiểm chứng quyết định phải là native probe generic ở các điểm acquire Graphics, bound Graphics/DirectGraphics, primitive write, dirty consumption, publication và C API copy. Probe cần ghi target identity, Image key, kích thước/clip, pixel mẫu, dirty bounds và generation trước/sau. JAR fixture chỉ kiểm tra được symptom cuối, không phân biệt được target binding với publication; vì vậy chưa đủ lý do để tạo thêm JAR mutation.
+
+**Quyết định hiện tại: chưa phát hành APK/JAR mới.** Giữ bất biến r63 fallback và r64 Farm Frenzy 2 PASS. `DangerDash-private-drawrgb-patched.jar` vẫn là artifact chưa test hợp lệ, không đánh dấu thất bại và không gộp với patch khác.
+
+## 14. Bằng chứng bổ sung
+
+[11]: /home/ubuntu/work/edge-menu-build/game_analysis/plain_canvas_static_evidence_r64.md "Báo cáo bằng chứng tĩnh Canvas/Graphics/framebuffer r64 ngày 28-08-2026"
+[12]: /home/ubuntu/work/edge-menu-build/game_analysis/corebridge_canvas_graphics_symbols_r64.txt "Inventory symbol CanvasRuntime, Graphics, DirectGraphics, Image và GraphicsStore"
+[13]: /home/ubuntu/work/edge-menu-build/game_analysis/corebridge_graphics_primitives_disassembly_r64.txt "Disassembly primitive và dirty tracking r64"
+[14]: /home/ubuntu/work/edge-menu-build/game_analysis/corebridge_dwarf_sources_r64.txt "Source/compile-unit mapping từ DWARF r64"
+[15]: /home/ubuntu/work/edge-menu-build/game_analysis/corebridge_dwarf_targets_r64.txt "DIE/source target mapping CanvasRuntime và Runtime"
+[16]: /home/ubuntu/work/edge-menu-build/game_analysis/corebridge_remaining_source_inventory.txt "Inventory source CoreBridge còn lại"
+[17]: /home/ubuntu/work/edge-menu-build/game_analysis/dangerdash_plain_canvas_port_design.md "Thiết kế port semantic plain Canvas Stable → CoreBridge"

@@ -44,3 +44,11 @@ Các hash SHA-256 chi tiết nằm trong `metadata/SHA256SUMS.txt`. Thông tin t
 ## Cập nhật kho
 
 Repository này được tạo private trên GitHub. Khi có artifact mới, hãy thêm sidecar SHA-256 và verification/build-info tương ứng, cập nhật manifest, rồi commit với mô tả rõ mốc test. Không ghi private key, token, keystore hoặc dữ liệu đăng nhập vào kho.
+
+## Danger Dash plain Canvas analysis — 2026-08-28
+
+The latest semantic comparison is documented in `reports/dangerdash/dangerdash_plain_canvas_port_design.md` and the updated comparison memo. Turbo Stable's `renderFrame(Bitmap)` was verified as a legacy framebuffer copy endpoint, not a missing plain-Canvas JNI implementation. CoreBridge r64 contains Graphics, Image, GraphicsStore and Nokia DirectGraphics symbols, so the remaining investigation is target identity, dirty tracking and publication ordering.
+
+The two tested Canvas→GameCanvas experiments are preserved under `artifacts/jar/experimental/dangerdash/withdrawn/`. They are insufficient/failed display experiments and must not be treated as fixes. The exact device logs are under `logs/dangerdash/`. No new APK/JAR was promoted, and the r64 Farm Frenzy 2 PASS baseline plus r63 lifecycle/fallback artifacts remain unchanged.
+
+A safe native correction requires the missing exact-revision Canvas/Graphics/Image source and Android NDK build graph. Do not patch the `.so` by offset or copy Stable's JNI/Bitmap/ShortBuffer ABI into CoreBridge.

@@ -1,0 +1,1 @@
+3de21c85c41dd3a15dff074667b45b757bf1da9d929473f04ccc1f6896f2e898  /home/ubuntu/work/edge-menu-build/dangerdash_plain_canvas_gamecanvas_patch/DangerDash-plain-canvas-gamecanvas-patched.jar
