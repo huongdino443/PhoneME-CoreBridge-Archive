@@ -1,0 +1,366 @@
+=== COUNTS ===
+resource-read=0
+resource-miss=0
+native_error=69
+frame_copied=11233
+frame_available=11277
+paint_callbacks_mentions=375
+
+=== RESOURCE TRACE LINES (first 40) ===
+
+=== RESOURCE TRACE LINES (last 40) ===
+
+=== START/NATIVE/RENDER MARKERS ===
+10:2026-08-27 18:17:04.036 Java log file=/data/user/0/com.phoneme.corebridge/files/corebridge-session.log
+11:2026-08-27 18:17:04.037 Native log file=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/corebridge-native.log
+15:2026-08-27 18:17:06.645 FRAME: canvas switch prepared; old framebuffer dropped
+16:2026-08-27 18:17:06.645 --- Bắt đầu CoreBridge ---
+19:2026-08-27 18:17:06.914 nativeStartJarScoped scope=1787821200048 0
+20:2026-08-27 18:17:06.915 Host presentation switched to game session
+21:2026-08-27 18:17:06.915 FRAME: render loop started
+22:2026-08-27 18:17:06.916 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=6 canvasTryPump=99 canvasGateBusy=97 canvasEntries=2 inputProcessed=0 repaintPasses=2 repaintCandidates=1 paintCallbacks=0 paintCommits=0 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=- timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=3 runnable=2 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967299 target=0 SNAPSHOT thread id=3 state=runnable alive=1 priority=5 interrupted=0 object=8589935902 target=4294967734 
+23:2026-08-27 18:17:06.919 FRAME: uiFrame callback latencyNs=273915937 generation=-9223372036854775808 onDrawCount=0
+39:2026-08-27 18:17:07.916 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=100 canvasGateBusy=97 canvasEntries=3 inputProcessed=0 repaintPasses=3 repaintCandidates=2 paintCallbacks=2 paintCommits=1 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=1 nativeInFlight=0 paintPc=1122 paintAgeMs=825 lastNative=java/lang/String.equals(Ljava/lang/Object;)Z timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=3 runnable=2 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967299 target=0 SNAPSHOT thread id=3 state=runnable alive=1 priority=5 interrupted=0 object=8589935902 target=4294967734 
+40:2026-08-27 18:17:08.597 FRAME: copied generation=2 checksum=a9df1d5340c2c325 changed=true copyCount=1
+41:2026-08-27 18:17:08.605 FRAME: frame available bytes=921600 size=360x640 generation=2 state=1
+43:2026-08-27 18:17:08.612 FRAME: onDraw generation=2 onDrawCount=4 drawCount=1 bitmapUpdates=1
+44:2026-08-27 18:17:08.625 FRAME: copied generation=3 checksum=a9df1d5340c2c325 changed=false copyCount=2
+45:2026-08-27 18:17:08.626 FRAME: frame available bytes=921600 size=360x640 generation=3 state=1
+46:2026-08-27 18:17:08.629 FRAME: onDraw generation=3 onDrawCount=5 drawCount=2 bitmapUpdates=2
+47:2026-08-27 18:17:08.646 FRAME: copied generation=4 checksum=a9df1d5340c2c325 changed=false copyCount=3
+48:2026-08-27 18:17:08.647 FRAME: frame available bytes=921600 size=360x640 generation=4 state=1
+49:2026-08-27 18:17:08.654 FRAME: onDraw generation=4 onDrawCount=6 drawCount=3 bitmapUpdates=3
+50:2026-08-27 18:17:08.668 FRAME: copied generation=5 checksum=a9df1d5340c2c325 changed=false copyCount=4
+51:2026-08-27 18:17:08.669 FRAME: frame available bytes=921600 size=360x640 generation=5 state=1
+52:2026-08-27 18:17:08.670 FRAME: onDraw generation=5 onDrawCount=7 drawCount=4 bitmapUpdates=4
+53:2026-08-27 18:17:08.689 FRAME: copied generation=6 checksum=a9df1d5340c2c325 changed=false copyCount=5
+54:2026-08-27 18:17:08.690 FRAME: frame available bytes=921600 size=360x640 generation=6 state=1
+55:2026-08-27 18:17:08.695 FRAME: onDraw generation=6 onDrawCount=8 drawCount=5 bitmapUpdates=5
+56:2026-08-27 18:17:08.710 FRAME: copied generation=7 checksum=a9df1d5340c2c325 changed=false copyCount=6
+57:2026-08-27 18:17:08.711 FRAME: frame available bytes=921600 size=360x640 generation=7 state=1
+58:2026-08-27 18:17:08.712 FRAME: onDraw generation=7 onDrawCount=9 drawCount=6 bitmapUpdates=6
+59:2026-08-27 18:17:08.731 FRAME: copied generation=8 checksum=a9df1d5340c2c325 changed=false copyCount=7
+60:2026-08-27 18:17:08.732 FRAME: frame available bytes=921600 size=360x640 generation=8 state=1
+61:2026-08-27 18:17:08.737 FRAME: onDraw generation=8 onDrawCount=10 drawCount=7 bitmapUpdates=7
+62:2026-08-27 18:17:08.753 FRAME: copied generation=9 checksum=a9df1d5340c2c325 changed=false copyCount=8
+63:2026-08-27 18:17:08.753 FRAME: frame available bytes=921600 size=360x640 generation=9 state=1
+64:2026-08-27 18:17:08.762 FRAME: onDraw generation=9 onDrawCount=11 drawCount=8 bitmapUpdates=8
+65:2026-08-27 18:17:08.790 FRAME: copied generation=10 checksum=a9df1d5340c2c325 changed=false copyCount=9
+66:2026-08-27 18:17:08.791 FRAME: frame available bytes=921600 size=360x640 generation=10 state=1
+67:2026-08-27 18:17:08.795 FRAME: onDraw generation=10 onDrawCount=12 drawCount=9 bitmapUpdates=9
+68:2026-08-27 18:17:08.820 FRAME: copied generation=11 checksum=a9df1d5340c2c325 changed=false copyCount=10
+69:2026-08-27 18:17:08.822 FRAME: frame available bytes=921600 size=360x640 generation=11 state=1
+70:2026-08-27 18:17:08.828 FRAME: onDraw generation=11 onDrawCount=13 drawCount=10 bitmapUpdates=10
+71:2026-08-27 18:17:08.849 FRAME: copied generation=12 checksum=a9df1d5340c2c325 changed=false copyCount=11
+72:2026-08-27 18:17:08.849 FRAME: frame available bytes=921600 size=360x640 generation=12 state=1
+73:2026-08-27 18:17:08.853 FRAME: onDraw generation=12 onDrawCount=14 drawCount=11 bitmapUpdates=11
+74:2026-08-27 18:17:08.895 FRAME: copied generation=13 checksum=a9df1d5340c2c325 changed=false copyCount=12
+75:2026-08-27 18:17:08.896 FRAME: frame available bytes=921600 size=360x640 generation=13 state=1
+76:2026-08-27 18:17:08.903 FRAME: onDraw generation=13 onDrawCount=15 drawCount=12 bitmapUpdates=12
+77:2026-08-27 18:17:08.916 FRAME: scheduler snapshot SNAPSHOT scheduler app=1 running=1 suspended=0 inputQueue=0 uiQueue=0 canvasTryPump=115 canvasGateBusy=100 canvasEntries=15 inputProcessed=0 repaintPasses=15 repaintCandidates=14 paintCallbacks=14 paintCommits=13 gameFlushRequests=0 gameFlushCommits=0 renderStateChanges=0 renderDisabledEvents=0 hostForeground=1 hostRendering=1 gameRendering=1 gameCanvasRegistered=0 gameGraphicsAttached=0 paintInFlight=0 nativeInFlight=0 paintPc=0 paintAgeMs=0 lastNative=java/lang/System.currentTimeMillis()J timerCount=0 timerScheduledTasks=0 timerTaskRecords=0 vm=present threads=3 runnable=2 blocked=0 sleeping=0 SNAPSHOT thread id=1 state=running alive=1 priority=5 interrupted=0 object=0 target=0 SNAPSHOT thread id=2 state=terminated alive=0 priority=5 interrupted=0 object=4294967299 target=0 SNAPSHOT thread id=3 state=runnable alive=1 priority=5 interrupted=0 object=8589935902 target=4294967734 
+78:2026-08-27 18:17:08.916 FRAME: copied generation=14 checksum=a9df1d5340c2c325 changed=false copyCount=13
+79:2026-08-27 18:17:08.917 FRAME: frame available bytes=921600 size=360x640 generation=14 state=1
+80:2026-08-27 18:17:08.919 FRAME: onDraw generation=14 onDrawCount=16 drawCount=13 bitmapUpdates=13
+81:2026-08-27 18:17:08.946 FRAME: copied generation=15 checksum=a9df1d5340c2c325 changed=false copyCount=14
+82:2026-08-27 18:17:08.947 FRAME: frame available bytes=921600 size=360x640 generation=15 state=1
+83:2026-08-27 18:17:08.953 FRAME: onDraw generation=15 onDrawCount=17 drawCount=14 bitmapUpdates=14
+84:2026-08-27 18:17:08.976 FRAME: copied generation=16 checksum=a9df1d5340c2c325 changed=false copyCount=15
+85:2026-08-27 18:17:08.977 FRAME: frame available bytes=921600 size=360x640 generation=16 state=1
+86:2026-08-27 18:17:08.986 FRAME: onDraw generation=16 onDrawCount=18 drawCount=15 bitmapUpdates=15
+87:2026-08-27 18:17:09.003 FRAME: copied generation=17 checksum=a9df1d5340c2c325 changed=false copyCount=16
+88:2026-08-27 18:17:09.006 FRAME: frame available bytes=921600 size=360x640 generation=17 state=1
+89:2026-08-27 18:17:09.011 FRAME: onDraw generation=17 onDrawCount=19 drawCount=16 bitmapUpdates=16
+90:2026-08-27 18:17:09.031 FRAME: copied generation=18 checksum=a9df1d5340c2c325 changed=false copyCount=17
+91:2026-08-27 18:17:09.033 FRAME: frame available bytes=921600 size=360x640 generation=18 state=1
+92:2026-08-27 18:17:09.036 FRAME: onDraw generation=18 onDrawCount=20 drawCount=17 bitmapUpdates=17
+93:2026-08-27 18:17:09.055 FRAME: copied generation=19 checksum=a9df1d5340c2c325 changed=false copyCount=18
+94:2026-08-27 18:17:09.056 FRAME: frame available bytes=921600 size=360x640 generation=19 state=1
+95:2026-08-27 18:17:09.060 FRAME: onDraw generation=19 onDrawCount=21 drawCount=18 bitmapUpdates=18
+96:2026-08-27 18:17:09.086 FRAME: copied generation=20 checksum=a9df1d5340c2c325 changed=false copyCount=19
+97:2026-08-27 18:17:09.088 FRAME: frame available bytes=921600 size=360x640 generation=20 state=1
+98:2026-08-27 18:17:09.094 FRAME: onDraw generation=20 onDrawCount=22 drawCount=19 bitmapUpdates=19
+99:2026-08-27 18:17:09.118 FRAME: copied generation=21 checksum=a9df1d5340c2c325 changed=false copyCount=20
+100:2026-08-27 18:17:09.119 FRAME: frame available bytes=921600 size=360x640 generation=21 state=1
+101:2026-08-27 18:17:09.127 FRAME: onDraw generation=21 onDrawCount=23 drawCount=20 bitmapUpdates=20
+102:2026-08-27 18:17:09.147 FRAME: copied generation=22 checksum=a9df1d5340c2c325 changed=false copyCount=21
+103:2026-08-27 18:17:09.150 FRAME: frame available bytes=921600 size=360x640 generation=22 state=1
+104:2026-08-27 18:17:09.152 FRAME: onDraw generation=22 onDrawCount=24 drawCount=21 bitmapUpdates=21
+105:2026-08-27 18:17:09.177 FRAME: copied generation=23 checksum=a9df1d5340c2c325 changed=false copyCount=22
+106:2026-08-27 18:17:09.179 FRAME: frame available bytes=921600 size=360x640 generation=23 state=1
+107:2026-08-27 18:17:09.185 FRAME: onDraw generation=23 onDrawCount=25 drawCount=22 bitmapUpdates=22
+108:2026-08-27 18:17:09.207 FRAME: copied generation=24 checksum=a9df1d5340c2c325 changed=false copyCount=23
+109:2026-08-27 18:17:09.209 FRAME: frame available bytes=921600 size=360x640 generation=24 state=1
+110:2026-08-27 18:17:09.210 FRAME: onDraw generation=24 onDrawCount=26 drawCount=23 bitmapUpdates=23
+111:2026-08-27 18:17:09.229 FRAME: copied generation=25 checksum=a9df1d5340c2c325 changed=false copyCount=24
+112:2026-08-27 18:17:09.230 FRAME: frame available bytes=921600 size=360x640 generation=25 state=1
+113:2026-08-27 18:17:09.235 FRAME: onDraw generation=25 onDrawCount=27 drawCount=24 bitmapUpdates=24
+114:2026-08-27 18:17:09.262 FRAME: copied generation=26 checksum=a9df1d5340c2c325 changed=false copyCount=25
+115:2026-08-27 18:17:09.263 FRAME: frame available bytes=921600 size=360x640 generation=26 state=1
+116:2026-08-27 18:17:09.268 FRAME: onDraw generation=26 onDrawCount=28 drawCount=25 bitmapUpdates=25
+117:2026-08-27 18:17:09.290 FRAME: copied generation=27 checksum=a9df1d5340c2c325 changed=false copyCount=26
+118:2026-08-27 18:17:09.292 FRAME: frame available bytes=921600 size=360x640 generation=27 state=1
+119:2026-08-27 18:17:09.293 FRAME: onDraw generation=27 onDrawCount=29 drawCount=26 bitmapUpdates=26
+120:2026-08-27 18:17:09.316 FRAME: copied generation=28 checksum=a9df1d5340c2c325 changed=false copyCount=27
+121:2026-08-27 18:17:09.318 FRAME: frame available bytes=921600 size=360x640 generation=28 state=1
+122:2026-08-27 18:17:09.327 FRAME: onDraw generation=28 onDrawCount=30 drawCount=27 bitmapUpdates=27
+123:2026-08-27 18:17:09.348 FRAME: copied generation=29 checksum=a9df1d5340c2c325 changed=false copyCount=28
+124:2026-08-27 18:17:09.350 FRAME: frame available bytes=921600 size=360x640 generation=29 state=1
+125:2026-08-27 18:17:09.351 FRAME: onDraw generation=29 onDrawCount=31 drawCount=28 bitmapUpdates=28
+126:2026-08-27 18:17:09.381 FRAME: copied generation=30 checksum=a9df1d5340c2c325 changed=false copyCount=29
+127:2026-08-27 18:17:09.383 FRAME: frame available bytes=921600 size=360x640 generation=30 state=1
+128:2026-08-27 18:17:09.384 FRAME: onDraw generation=30 onDrawCount=32 drawCount=29 bitmapUpdates=29
+129:2026-08-27 18:17:09.414 FRAME: copied generation=31 checksum=a9df1d5340c2c325 changed=false copyCount=30
+130:2026-08-27 18:17:09.416 FRAME: frame available bytes=921600 size=360x640 generation=31 state=1
+
+=== ERROR-LIKE LINES ===
+35280:2026-08-27 16:48:17 [phoneMETrace][rms-error] op=open store=profiles code=11 error=RMS store does not exist
+35523:2026-08-27 16:48:39 [phoneMETrace][media] service adapter start player=1 handle=1 ok=1 playing=1 error=-1
+35528:2026-08-27 16:48:39 [phoneMETrace][media-error] dispatch event player=1 kind=started result=skipped
+35805:2026-08-27 16:48:45 [phoneMETrace][media-error] dispatch event player=1 kind=stopped result=skipped
+36145:2026-08-27 16:48:56 [phoneMETrace][media] service adapter start player=6 handle=6 ok=1 playing=1 error=-1
+36150:2026-08-27 16:48:56 [phoneMETrace][media-error] dispatch event player=6 kind=started result=skipped
+36203:2026-08-27 16:48:56 [phoneMETrace][media-error] dispatch event player=6 kind=endOfMedia result=skipped
+36401:2026-08-27 16:49:02 [phoneMETrace][media] service adapter start player=6 handle=6 ok=1 playing=1 error=-1
+36406:2026-08-27 16:49:02 [phoneMETrace][media-error] dispatch event player=6 kind=started result=skipped
+36455:2026-08-27 16:49:02 [phoneMETrace][media-error] dispatch event player=6 kind=endOfMedia result=skipped
+36606:2026-08-27 16:49:07 [phoneMETrace][media] service adapter start player=6 handle=6 ok=1 playing=1 error=-1
+36611:2026-08-27 16:49:07 [phoneMETrace][media-error] dispatch event player=6 kind=started result=skipped
+36661:2026-08-27 16:49:07 [phoneMETrace][media-error] dispatch event player=6 kind=endOfMedia result=skipped
+36917:2026-08-27 16:49:14 [phoneMETrace][media] service adapter start player=6 handle=6 ok=1 playing=1 error=-1
+36922:2026-08-27 16:49:14 [phoneMETrace][media-error] dispatch event player=6 kind=started result=skipped
+36971:2026-08-27 16:49:15 [phoneMETrace][media-error] dispatch event player=6 kind=endOfMedia result=skipped
+37398:2026-08-27 16:49:28 [phoneMETrace][media] service adapter start player=6 handle=6 ok=1 playing=1 error=-1
+37403:2026-08-27 16:49:28 [phoneMETrace][media-error] dispatch event player=6 kind=started result=skipped
+37455:2026-08-27 16:49:28 [phoneMETrace][media-error] dispatch event player=6 kind=endOfMedia result=skipped
+37523:2026-08-27 16:49:30 [phoneMETrace][media] service adapter start player=6 handle=6 ok=1 playing=1 error=-1
+37528:2026-08-27 16:49:30 [phoneMETrace][media-error] dispatch event player=6 kind=started result=skipped
+37577:2026-08-27 16:49:31 [phoneMETrace][media-error] dispatch event player=6 kind=endOfMedia result=skipped
+37623:2026-08-27 16:49:33 [phoneMETrace][media] service adapter start player=6 handle=6 ok=1 playing=1 error=-1
+37628:2026-08-27 16:49:33 [phoneMETrace][media-error] dispatch event player=6 kind=started result=skipped
+37639:2026-08-27 16:49:33 [phoneMETrace][media-error] dispatch event player=6 kind=stopped result=skipped
+37653:2026-08-27 16:49:33 [phoneMETrace][media] service adapter start player=6 handle=6 ok=1 playing=1 error=-1
+37658:2026-08-27 16:49:33 [phoneMETrace][media-error] dispatch event player=6 kind=started result=skipped
+37694:2026-08-27 16:49:34 [phoneMETrace][media-error] dispatch event player=6 kind=endOfMedia result=skipped
+37892:2026-08-27 16:49:42 [phoneMETrace][media] service adapter start player=6 handle=6 ok=1 playing=1 error=-1
+37897:2026-08-27 16:49:42 [phoneMETrace][media-error] dispatch event player=6 kind=started result=skipped
+37907:2026-08-27 16:49:42 [phoneMETrace][media-error] dispatch event player=6 kind=stopped result=skipped
+37921:2026-08-27 16:49:42 [phoneMETrace][media] service adapter start player=6 handle=6 ok=1 playing=1 error=-1
+37926:2026-08-27 16:49:42 [phoneMETrace][media-error] dispatch event player=6 kind=started result=skipped
+37963:2026-08-27 16:49:42 [phoneMETrace][media-error] dispatch event player=6 kind=endOfMedia result=skipped
+37978:2026-08-27 16:49:43 [phoneMETrace][media] service adapter start player=6 handle=6 ok=1 playing=1 error=-1
+37983:2026-08-27 16:49:43 [phoneMETrace][media-error] dispatch event player=6 kind=started result=skipped
+38034:2026-08-27 16:49:44 [phoneMETrace][media-error] dispatch event player=6 kind=endOfMedia result=skipped
+38288:2026-08-27 16:49:51 [phoneMETrace][media] service adapter start player=6 handle=6 ok=1 playing=1 error=-1
+38293:2026-08-27 16:49:51 [phoneMETrace][media-error] dispatch event player=6 kind=started result=skipped
+38339:2026-08-27 16:49:52 [phoneMETrace][media-error] dispatch event player=6 kind=endOfMedia result=skipped
+38364:2026-08-27 16:49:52 [phoneMETrace][media] service adapter start player=2 handle=2 ok=1 playing=1 error=-1
+38369:2026-08-27 16:49:52 [phoneMETrace][media-error] dispatch event player=2 kind=started result=skipped
+40107:2026-08-27 16:50:35 [phoneMETrace][media-error] dispatch event player=2 kind=endOfMedia result=skipped
+40367:2026-08-27 16:50:51 [phoneMETrace][media-error] dispatch event player=2 kind=closed result=skipped
+40569:2026-08-27 17:58:44 [phoneMETrace][rms-error] op=open store=taitho code=11 error=RMS store does not exist
+40570:2026-08-27 17:58:44 [phoneMETrace][rms-error] op=open store=isQty code=11 error=RMS store does not exist
+40571:2026-08-27 17:58:44 [phoneMETrace][rms-error] op=open store=isLowDevice code=11 error=RMS store does not exist
+40572:2026-08-27 17:58:44 [phoneMETrace][rms-error] op=open store=isIndexRes code=11 error=RMS store does not exist
+40573:2026-08-27 17:58:44 [phoneMETrace][rms-error] op=open store=isIndexServer code=11 error=RMS store does not exist
+40574:2026-08-27 17:58:44 [phoneMETrace][rms-error] op=open store=listServer code=11 error=RMS store does not exist
+40587:2026-08-27 17:58:47 [phoneMETrace][rms-error] op=open store=local_server code=11 error=RMS store does not exist
+40588:2026-08-27 17:58:47 [phoneMETrace][rms-error] op=open store=user_pass code=11 error=RMS store does not exist
+40703:2026-08-27 17:58:56 [phoneMETrace][rms-error] op=open store=taitho code=11 error=RMS store does not exist
+40704:2026-08-27 17:58:56 [phoneMETrace][rms-error] op=open store=isQty code=11 error=RMS store does not exist
+40705:2026-08-27 17:58:56 [phoneMETrace][rms-error] op=open store=isLowDevice code=11 error=RMS store does not exist
+40706:2026-08-27 17:58:56 [phoneMETrace][rms-error] op=open store=isIndexRes code=11 error=RMS store does not exist
+40707:2026-08-27 17:58:56 [phoneMETrace][rms-error] op=open store=isIndexServer code=11 error=RMS store does not exist
+40708:2026-08-27 17:58:56 [phoneMETrace][rms-error] op=open store=listServer code=11 error=RMS store does not exist
+40718:2026-08-27 17:58:59 [phoneMETrace][rms-error] op=open store=local_server code=11 error=RMS store does not exist
+40719:2026-08-27 17:58:59 [phoneMETrace][rms-error] op=open store=user_pass code=11 error=RMS store does not exist
+40875:2026-08-27 17:59:05 [phoneMETrace][rms-error] op=open store=user_pass code=11 error=RMS store does not exist
+40876:2026-08-27 17:59:05 [phoneMETrace][rms-error] op=open store=isIndexServer code=11 error=RMS store does not exist
+40877:2026-08-27 17:59:05 [phoneMETrace][rms-error] op=open store=user_pass code=11 error=RMS store does not exist
+41300:2026-08-27 17:59:23 [phoneMETrace][rms-error] op=open store=image3011 code=11 error=RMS store does not exist
+41301:2026-08-27 17:59:23 [phoneMETrace][rms-error] op=open store=image6000 code=11 error=RMS store does not exist
+41354:2026-08-27 17:59:25 [phoneMETrace][rms-error] op=open store=image4013 code=11 error=RMS store does not exist
+41355:2026-08-27 17:59:25 [phoneMETrace][rms-error] op=open store=image4016 code=11 error=RMS store does not exist
+41931:2026-08-27 17:59:33 [phoneMETrace][rms-error] op=open store=image3029 code=11 error=RMS store does not exist
+42429:2026-08-27 17:59:49 [phoneMETrace][rms-error] op=open store=image4000 code=11 error=RMS store does not exist
+
+=== TAIL 180 ===
+2026-08-27 17:59:54 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=3638d10500ab7ac1 repeated=0 count=1490
+2026-08-27 17:59:54 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=a06a5b5da496b253 repeated=0 count=1491
+2026-08-27 17:59:54 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=363630bdba26b8f3 repeated=0 count=1492
+2026-08-27 17:59:54 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=b1293c59781f74fc repeated=0 count=1493
+2026-08-27 17:59:54 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=b8d57c30d9a0f02f repeated=0 count=1494
+2026-08-27 17:59:54 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=4dc05f539ad7537d repeated=0 count=1495
+2026-08-27 17:59:54 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=99fd3e9347f7a8be repeated=0 count=1496
+2026-08-27 17:59:54 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=e4b28330039813b0 repeated=0 count=1497
+2026-08-27 17:59:54 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=c0dfe43eb6a52e57 repeated=0 count=1498
+2026-08-27 17:59:54 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=9986a3b13f62a95d repeated=0 count=1499
+2026-08-27 17:59:54 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=b65f80a143766790 repeated=0 count=1500
+2026-08-27 17:59:54 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=c0bf9368fff27110 repeated=0 count=1501
+2026-08-27 17:59:54 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=3dac6bd0b84d3e15 repeated=0 count=1502
+2026-08-27 17:59:54 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=d702049fa0587b67 repeated=0 count=1503
+2026-08-27 17:59:54 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=72b9d77a630b4347 repeated=0 count=1504
+2026-08-27 17:59:54 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=15143f4b1b715038 repeated=0 count=1505
+2026-08-27 17:59:55 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=1e3d9062a11effd4 repeated=0 count=1506
+2026-08-27 17:59:55 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=14d10ce1e606c335 repeated=0 count=1507
+2026-08-27 17:59:55 [phoneMETrace][rms] op=flush_all pending=0 stores=3 status=clean
+2026-08-27 17:59:55 runtime stopped exitCode=0
+2026-08-27 17:59:57 WATCHDOG no frame progress ageMs=2868 lastGeneration=0 lastResult=0
+2026-08-27 17:59:57 SNAPSHOT unavailable
+2026-08-27 17:59:59 WATCHDOG no frame progress ageMs=4869 lastGeneration=0 lastResult=0
+2026-08-27 17:59:59 SNAPSHOT unavailable
+2026-08-27 18:00:26 --- CoreBridge native log session started ---
+2026-08-27 18:00:26 RMS trace sink enabled; logMode=append
+2026-08-27 18:00:26 phoneme_configure result=0 home=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime
+2026-08-27 18:00:35 starting scoped jar=/data/user/0/com.phoneme.corebridge/files/game-library/1787828433988_KnightOnline_ATM_x50.jar scope=1787828433988 main=quyetdaik/quyetdaik size=360x640
+2026-08-27 18:00:35 phoneme_start_jar_scoped failed=-1 stage=-1 suiteStage=0
+2026-08-27 18:00:42 starting scoped jar=/data/user/0/com.phoneme.corebridge/files/game-library/1787828433988_KnightOnline_ATM_x50.jar scope=1787828433988 main=quyetdaik/quyetdaik size=360x640
+2026-08-27 18:00:42 phoneme_start_jar_scoped failed=-1 stage=-1 suiteStage=0
+2026-08-27 18:16:05 --- CoreBridge native log session started ---
+2026-08-27 18:16:05 RMS trace sink enabled; logMode=append
+2026-08-27 18:16:05 phoneme_configure result=0 home=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime
+2026-08-27 18:16:10 starting scoped jar=/data/user/0/com.phoneme.corebridge/files/game-library/1787821200048_DangerDash_Nokia_5800_EN_IGP_IAP_EU_TS_109.jar scope=1787821200048 main=GloftJDMP size=360x640
+2026-08-27 18:16:10 [phoneMETrace][rms] op=configure root=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/games/1899851832/rms/1899851832 quota=33554432 status=ok
+2026-08-27 18:16:10 [phoneMETrace][rms] op=recover path=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/games/1899851832/rms/1899851832/rms-VU5P.rms source=canonical store=UNO records=1 version=2
+2026-08-27 18:16:10 [phoneMETrace][rms] op=load store=UNO source=file records=1 version=2
+2026-08-27 18:16:10 [phoneMETrace][rms] op=open store=UNO create=1 records=1 open=1 version=2
+2026-08-27 18:16:10 [phoneMETrace][rms] op=info store=UNO records=1 bytes=992 version=2 open=1
+2026-08-27 18:16:10 [phoneMETrace][rms] op=close store=UNO records=1 open=0 pending=0 version=2
+2026-08-27 18:16:10 [phoneMETrace][rms] op=recover path=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/games/1899851832/rms/1899851832/rms-SU5CT1hNU0c.rms source=canonical store=INBOXMSG records=1 version=1
+2026-08-27 18:16:10 [phoneMETrace][rms] op=load store=INBOXMSG source=file records=1 version=1
+2026-08-27 18:16:10 [phoneMETrace][rms] op=open store=INBOXMSG create=1 records=1 open=1 version=1
+2026-08-27 18:16:10 [phoneMETrace][rms] op=info store=INBOXMSG records=1 bytes=4 version=1 open=1
+2026-08-27 18:16:10 [phoneMETrace][rms] op=close store=INBOXMSG records=1 open=0 pending=0 version=1
+2026-08-27 18:16:10 phoneme_start_jar_scoped succeeded scope=1787821200048
+2026-08-27 18:16:10 lcd-ui poll kind=1 id=1 parent=0 type=0 index=0 args=0,0,0,0 gen=1 textLen=0 detailLen=0
+2026-08-27 18:16:10 lcd-ui poll kind=2 id=100001 parent=0 type=22 index=0 args=0,0,0,0 gen=1 textLen=0 detailLen=0
+2026-08-27 18:16:10 lcd-ui poll kind=3 id=100001 parent=0 type=22 index=0 args=1,0,0,-1007 gen=2 textLen=0 detailLen=0
+2026-08-27 18:16:10 lcd-ui poll kind=4 id=100001 parent=0 type=22 index=0 args=0,0,0,0 gen=3 textLen=0 detailLen=0
+2026-08-27 18:16:10 lcd-ui poll kind=14 id=0 parent=0 type=0 index=0 args=0,0,0,0 gen=4 textLen=0 detailLen=0
+2026-08-27 18:16:10 lcd-ui poll kind=0 id=1 parent=0 type=0 index=0 args=0,0,0,0 gen=2 textLen=0 detailLen=73
+2026-08-27 18:16:10 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=0 count=1
+2026-08-27 18:16:11 WATCHDOG copy_frame in-flight sequence=1 ageMs=981 lastGeneration=0 lastResult=0
+2026-08-27 18:16:14 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=59 count=60
+2026-08-27 18:16:15 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=119 count=120
+2026-08-27 18:16:17 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=179 count=180
+2026-08-27 18:16:19 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=239 count=240
+2026-08-27 18:16:21 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=299 count=300
+2026-08-27 18:16:22 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=359 count=360
+2026-08-27 18:16:24 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=419 count=420
+2026-08-27 18:16:25 [phoneMETrace][rms] op=open store=UNO create=1 records=1 open=1 version=2
+2026-08-27 18:16:25 [phoneMETrace][rms] op=persist store=UNO records=1 bytes=992 version=3 durable=1 generation=1
+2026-08-27 18:16:25 [phoneMETrace][rms] op=set store=UNO id=1 bytes=992 durable=1 pending=0 generation=1 version=3 records=1
+2026-08-27 18:16:25 [phoneMETrace][rms] op=close store=UNO records=1 open=0 pending=0 version=3
+2026-08-27 18:16:25 [phoneMETrace][rms] op=flush_all pending=0 stores=2 status=clean
+2026-08-27 18:16:25 runtime stopped exitCode=0
+2026-08-27 18:16:27 WATCHDOG no frame progress ageMs=2572 lastGeneration=472 lastResult=0
+2026-08-27 18:16:27 SNAPSHOT unavailable
+2026-08-27 18:16:29 WATCHDOG no frame progress ageMs=4573 lastGeneration=472 lastResult=0
+2026-08-27 18:16:29 SNAPSHOT unavailable
+2026-08-27 18:16:31 WATCHDOG no frame progress ageMs=6573 lastGeneration=472 lastResult=0
+2026-08-27 18:16:31 SNAPSHOT unavailable
+2026-08-27 18:16:33 WATCHDOG no frame progress ageMs=8574 lastGeneration=472 lastResult=0
+2026-08-27 18:16:33 SNAPSHOT unavailable
+2026-08-27 18:16:35 WATCHDOG no frame progress ageMs=10575 lastGeneration=472 lastResult=0
+2026-08-27 18:16:35 SNAPSHOT unavailable
+2026-08-27 18:16:38 WATCHDOG no frame progress ageMs=12576 lastGeneration=472 lastResult=0
+2026-08-27 18:16:38 SNAPSHOT unavailable
+2026-08-27 18:16:40 WATCHDOG no frame progress ageMs=14576 lastGeneration=472 lastResult=0
+2026-08-27 18:16:40 SNAPSHOT unavailable
+2026-08-27 18:16:42 WATCHDOG no frame progress ageMs=16576 lastGeneration=472 lastResult=0
+2026-08-27 18:16:42 SNAPSHOT unavailable
+2026-08-27 18:16:44 WATCHDOG no frame progress ageMs=18577 lastGeneration=472 lastResult=0
+2026-08-27 18:16:44 SNAPSHOT unavailable
+2026-08-27 18:16:46 WATCHDOG no frame progress ageMs=20577 lastGeneration=472 lastResult=0
+2026-08-27 18:16:46 SNAPSHOT unavailable
+2026-08-27 18:16:48 WATCHDOG no frame progress ageMs=22577 lastGeneration=472 lastResult=0
+2026-08-27 18:16:48 SNAPSHOT unavailable
+2026-08-27 18:16:50 WATCHDOG no frame progress ageMs=24578 lastGeneration=472 lastResult=0
+2026-08-27 18:16:50 SNAPSHOT unavailable
+2026-08-27 18:16:52 WATCHDOG no frame progress ageMs=26588 lastGeneration=472 lastResult=0
+2026-08-27 18:16:52 SNAPSHOT unavailable
+2026-08-27 18:17:04 --- CoreBridge native log session started ---
+2026-08-27 18:17:04 RMS trace sink enabled; logMode=append
+2026-08-27 18:17:04 phoneme_configure result=0 home=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime
+2026-08-27 18:17:06 starting scoped jar=/data/user/0/com.phoneme.corebridge/files/game-library/1787821200048_DangerDash_Nokia_5800_EN_IGP_IAP_EU_TS_109.jar scope=1787821200048 main=GloftJDMP size=360x640
+2026-08-27 18:17:06 [phoneMETrace][rms] op=configure root=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/games/1899851832/rms/1899851832 quota=33554432 status=ok
+2026-08-27 18:17:06 [phoneMETrace][rms] op=recover path=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/games/1899851832/rms/1899851832/rms-VU5P.rms source=canonical store=UNO records=1 version=3
+2026-08-27 18:17:06 [phoneMETrace][rms] op=load store=UNO source=file records=1 version=3
+2026-08-27 18:17:06 [phoneMETrace][rms] op=open store=UNO create=1 records=1 open=1 version=3
+2026-08-27 18:17:06 [phoneMETrace][rms] op=info store=UNO records=1 bytes=992 version=3 open=1
+2026-08-27 18:17:06 [phoneMETrace][rms] op=close store=UNO records=1 open=0 pending=0 version=3
+2026-08-27 18:17:06 [phoneMETrace][rms] op=recover path=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/games/1899851832/rms/1899851832/rms-SU5CT1hNU0c.rms source=canonical store=INBOXMSG records=1 version=1
+2026-08-27 18:17:06 [phoneMETrace][rms] op=load store=INBOXMSG source=file records=1 version=1
+2026-08-27 18:17:06 [phoneMETrace][rms] op=open store=INBOXMSG create=1 records=1 open=1 version=1
+2026-08-27 18:17:06 [phoneMETrace][rms] op=info store=INBOXMSG records=1 bytes=4 version=1 open=1
+2026-08-27 18:17:06 [phoneMETrace][rms] op=close store=INBOXMSG records=1 open=0 pending=0 version=1
+2026-08-27 18:17:06 phoneme_start_jar_scoped succeeded scope=1787821200048
+2026-08-27 18:17:06 lcd-ui poll kind=1 id=1 parent=0 type=0 index=0 args=0,0,0,0 gen=1 textLen=0 detailLen=0
+2026-08-27 18:17:06 lcd-ui poll kind=2 id=100001 parent=0 type=22 index=0 args=0,0,0,0 gen=1 textLen=0 detailLen=0
+2026-08-27 18:17:06 lcd-ui poll kind=3 id=100001 parent=0 type=22 index=0 args=1,0,0,-1007 gen=2 textLen=0 detailLen=0
+2026-08-27 18:17:06 lcd-ui poll kind=4 id=100001 parent=0 type=22 index=0 args=0,0,0,0 gen=3 textLen=0 detailLen=0
+2026-08-27 18:17:06 lcd-ui poll kind=14 id=0 parent=0 type=0 index=0 args=0,0,0,0 gen=4 textLen=0 detailLen=0
+2026-08-27 18:17:06 lcd-ui poll kind=0 id=1 parent=0 type=0 index=0 args=0,0,0,0 gen=2 textLen=0 detailLen=73
+2026-08-27 18:17:07 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=0 count=1
+2026-08-27 18:17:08 WATCHDOG copy_frame in-flight sequence=1 ageMs=946 lastGeneration=0 lastResult=0
+2026-08-27 18:17:10 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=59 count=60
+2026-08-27 18:17:12 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=119 count=120
+2026-08-27 18:17:13 input pointer x=287 y=356 action=1
+2026-08-27 18:17:13 input pointer x=287 y=356 action=2
+2026-08-27 18:17:13 input pointer x=294 y=346 action=1
+2026-08-27 18:17:13 input pointer x=294 y=346 action=2
+2026-08-27 18:17:13 input pointer x=306 y=341 action=1
+2026-08-27 18:17:13 input pointer x=307 y=342 action=3
+2026-08-27 18:17:13 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=179 count=180
+2026-08-27 18:17:13 input pointer x=307 y=342 action=2
+2026-08-27 18:17:13 input pointer x=59 y=347 action=1
+2026-08-27 18:17:13 input pointer x=59 y=347 action=2
+2026-08-27 18:17:14 input pointer x=311 y=369 action=1
+2026-08-27 18:17:14 input pointer x=310 y=369 action=3
+2026-08-27 18:17:14 input pointer x=309 y=368 action=3
+2026-08-27 18:17:14 input pointer x=309 y=368 action=3
+2026-08-27 18:17:14 input pointer x=309 y=368 action=3
+2026-08-27 18:17:14 input pointer x=309 y=368 action=3
+2026-08-27 18:17:14 input pointer x=309 y=369 action=3
+2026-08-27 18:17:14 input pointer x=44 y=337 action=2
+2026-08-27 18:17:14 input pointer x=309 y=360 action=1
+2026-08-27 18:17:14 input pointer x=33 y=335 action=3
+2026-08-27 18:17:14 input pointer x=31 y=336 action=3
+2026-08-27 18:17:14 input pointer x=30 y=336 action=3
+2026-08-27 18:17:14 input pointer x=30 y=336 action=3
+2026-08-27 18:17:14 input pointer x=30 y=336 action=2
+2026-08-27 18:17:14 input pointer x=308 y=357 action=1
+2026-08-27 18:17:14 input pointer x=308 y=357 action=2
+2026-08-27 18:17:14 input pointer x=311 y=361 action=1
+2026-08-27 18:17:14 input pointer x=311 y=361 action=2
+2026-08-27 18:17:14 input pointer x=318 y=361 action=1
+2026-08-27 18:17:14 input pointer x=318 y=361 action=3
+2026-08-27 18:17:14 input pointer x=317 y=362 action=3
+2026-08-27 18:17:14 input pointer x=316 y=363 action=3
+2026-08-27 18:17:14 input pointer x=315 y=364 action=3
+2026-08-27 18:17:14 input pointer x=314 y=365 action=3
+2026-08-27 18:17:14 input pointer x=314 y=366 action=3
+2026-08-27 18:17:14 input pointer x=315 y=367 action=3
+2026-08-27 18:17:14 input pointer x=315 y=367 action=3
+2026-08-27 18:17:14 input pointer x=315 y=367 action=2
+2026-08-27 18:17:14 input pointer x=25 y=341 action=1
+2026-08-27 18:17:15 input pointer x=25 y=341 action=3
+2026-08-27 18:17:15 input pointer x=25 y=341 action=3
+2026-08-27 18:17:15 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=239 count=240
+2026-08-27 18:17:15 input pointer x=25 y=341 action=3
+2026-08-27 18:17:15 input pointer x=25 y=341 action=3
+2026-08-27 18:17:15 input pointer x=25 y=341 action=3
+2026-08-27 18:17:15 input pointer x=25 y=341 action=3
+2026-08-27 18:17:15 input pointer x=25 y=341 action=3
+2026-08-27 18:17:15 input pointer x=306 y=390 action=3
+2026-08-27 18:17:15 input pointer x=306 y=390 action=3
+2026-08-27 18:17:15 input pointer x=306 y=390 action=2
+2026-08-27 18:17:15 input pointer x=31 y=354 action=1
+2026-08-27 18:17:15 input pointer x=31 y=354 action=2
+2026-08-27 18:17:16 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=299 count=300
+2026-08-27 18:17:18 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=359 count=360
+2026-08-27 18:17:19 [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=419 count=420
+
+--- Runtime snapshot ---
+nativeLogFilePath=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/corebridge-native.log
+nativeIsRunning=true
+nativeLastExitCode=0

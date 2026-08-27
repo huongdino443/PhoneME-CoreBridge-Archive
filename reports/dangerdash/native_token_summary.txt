@@ -1,0 +1,256 @@
+=== /home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/stable/assets/foundation64/bin/libcvm.so ===
+framebuffer: 8
+  connectFrameBuffer
+  finalizeFrameBuffer
+  initFrameBuffer
+  resizeFrameBuffer
+surface_buffer: 3
+  get_surface_buffer
+  surface_buffer
+flush_framebuffer: 0
+copy_frame: 0
+render_frame: 0
+bitmap: 16
+  FontBitmaps
+  INFO: calling flushSurfaceBitmap function pointer.
+  TheFontBitmap0000
+  TheFontBitmap0080
+  TheFontBitmap2026
+  TheFontBitmap20ac
+  WARNING: flushSurfaceBitmap function pointer is NULL.
+  flushSurfaceBitmap
+  gxj_font_bitmap.c
+  initSurfaceBitmap
+android_bitmap: 0
+graphics_natives: 0
+image_natives: 0
+image2d: 0
+jpeg: 135
+  Bogus JPEG colorspace
+  Buffer passed to JPEG library is too small
+  CNIjavax_microedition_lcdui_ImageDataFactory_loadJPEG
+  Caution: quantization tables are too coarse for baseline JPEG
+  Corrupt JPEG data: %u extraneous bytes before marker 0x%02x
+  Corrupt JPEG data: bad Huffman code
+  Corrupt JPEG data: found marker 0x%02x instead of RST%d
+  Corrupt JPEG data: premature end of data segment
+  Empty JPEG image (DNL not supported)
+  Improper call to JPEG library in state %d
+  Invalid JPEG file structure: SOS before SOF
+  Invalid JPEG file structure: missing SOS marker
+png: 24
+  CNIjavax_microedition_lcdui_ImageDataFactory_loadPNG
+  PNG_EXT1
+  PNG_EXT2
+  PNGdecodeImage_getByte
+  PNGdecodeImage_getBytes
+  PNGdecodeImage_real
+  PNGdecodeImage_seek
+  PNGdecodeImage_size
+  _PNG_EXT1_data
+  _PNG_EXT2_data
+  decodePNG
+  decode_png_image
+gif: 1
+  ioctl SIOCGIFCONF failed
+directgraphics: 0
+surfaceview: 0
+egl_opengl: 253
+  AUDIO_CHA_GLOBAL_LIMIT
+  CNIcom_sun_midp_lcdui_DisplayDeviceAccess_toggleBacklight0
+  CNIcom_sun_midp_main_IndicatorManager_toggleHomeIcon0
+  CNIjavax_microedition_lcdui_Graphics_fillTriangle
+  CVMID_freeClassGlobalRoot
+  CVMID_freeClassLoaderGlobalRoot
+  CVMID_freeGlobalRoot
+  CVMID_freeProtectionDomainGlobalRoot
+  CVMID_freeWeakGlobalRoot
+  CVMID_getClassGlobalRoot
+  CVMID_getClassLoaderGlobalRoot
+  CVMID_getGlobalRoot
+source_core: 0
+=== /home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/stable/lib/arm64-v8a/libjniphoneme.so ===
+framebuffer: 27
+  Java_be_preuveneers_phoneme_fpmidp_FrameBufferActivity_callCVM
+  Java_be_preuveneers_phoneme_fpmidp_FrameBufferActivity_cleanUpCVM
+  Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_copyToBuffer
+  Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_getNativeAPIVersion
+  Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_initFrameBufferSize
+  Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_initFrameBufferView
+  Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_renderFrame
+  Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_resizeFrameBuffer
+  Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_setBitmapFonts
+  Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_setBusy
+  Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_toRGB565
+  finalizeFrameBuffer
+surface_buffer: 2
+  cvm_surface_buffer
+  get_surface_buffer
+flush_framebuffer: 1
+  flush_framebuffer
+copy_frame: 0
+render_frame: 2
+  Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_renderFrame
+bitmap: 9
+  AndroidBitmap_getInfo
+  AndroidBitmap_lockPixels
+  AndroidBitmap_unlockPixels
+  Java_be_preuveneers_phoneme_fpmidp_FrameBufferView_setBitmapFonts
+  initSurfaceBitmap
+android_bitmap: 6
+  AndroidBitmap_getInfo
+  AndroidBitmap_lockPixels
+  AndroidBitmap_unlockPixels
+graphics_natives: 0
+image_natives: 0
+image2d: 0
+jpeg: 0
+png: 0
+gif: 0
+directgraphics: 0
+surfaceview: 0
+egl_opengl: 1
+source_core: 0
+=== /home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/corebridge/lib/arm64-v8a/libphoneMECoreBridge.so ===
+framebuffer: 669
+  /home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/runtime/Framebuffer.cpp
+  Framebuffer
+  Framebuffer.cpp
+  GetByteArrayElements failed for frame buffer length=%d
+  PhoneME-Turbo-CoreBridge/Core/include/phoneme/runtime/Framebuffer.hpp
+  PhoneME-Turbo-CoreBridge/Core/src/runtime/Framebuffer.cpp
+  _ZN7phoneme7runtime11Framebuffer13update_regionENS_10DimensionsEiiiiNSt6__ndk14spanIKhLm18446744073709551615EEE
+  _ZN7phoneme7runtime11Framebuffer16replace_exchangeENS_10DimensionsERNSt6__ndk16vectorIhNS3_9allocatorIhEEEE
+  _ZN7phoneme7runtime11Framebuffer5clearEv
+  _ZN7phoneme7runtime11Framebuffer6resizeENS_10DimensionsE
+  _ZN7phoneme7runtime11Framebuffer7replaceENS_10DimensionsENSt6__ndk14spanIKhLm18446744073709551615EEE
+  _ZN7phoneme7runtime11Framebuffer9ReadLeaseC2EOS2_
+surface_buffer: 0
+flush_framebuffer: 0
+copy_frame: 9
+  WATCHDOG copy_frame in-flight sequence=%llu ageMs=%llu lastGeneration=%llu lastResult=%d
+  _ZN7phoneme7runtime12_GLOBAL__N_125copy_framebuffer_to_imageERNS0_11FramebufferERNS_8graphics5ImageE
+  copy_framebuffer_to_image
+  phoneme_copy_frame_rgba
+  phoneme_copy_frame_rgba_since
+render_frame: 0
+bitmap: 14
+  _ZN7phoneme8graphics12_GLOBAL__N_117bitmap_text_widthERKNS0_4FontENSt6__ndk14spanIKDiLm18446744073709551615EEE
+  _ZN7phoneme8graphics12_GLOBAL__N_119bitmap_pixel_is_setERKNS1_14PhoneMEFontBinEiii
+  bitmap
+  bitmap_bits
+  bitmap_bytes
+  bitmap_offset
+  bitmap_pixel_is_set
+  bitmap_text_width
+  draw_bitmap_text
+  phoneME bitmap font does not contain the glyph
+  phoneME bitmap font is unavailable
+android_bitmap: 0
+graphics_natives: 2346
+  /home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/vm/GraphicsNatives.cpp
+  GraphicsNatives.cpp
+  PhoneME-Turbo-CoreBridge/Core/src/vm/GraphicsNativeSupport.hpp
+  PhoneME-Turbo-CoreBridge/Core/src/vm/GraphicsNatives.cpp
+  PhoneME-Turbo-CoreBridge/Core/src/vm/GraphicsNatives.hpp
+  __tuple_leaf<0UL, (lambda at /home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/vm/GraphicsNatives.cpp:1309:9) &&, false>
+  __tuple_leaf<0UL, (lambda at /home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/vm/GraphicsNatives.cpp:1322:9) &&, false>
+  __tuple_leaf<0UL, (lambda at /home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/vm/GraphicsNatives.cpp:1346:9) &&, false>
+  __tuple_leaf<0UL, (lambda at /home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/vm/GraphicsNatives.cpp:1356:9) &&, false>
+  __tuple_leaf<0UL, (lambda at /home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/vm/GraphicsNatives.cpp:1373:13) &&, false>
+  __tuple_leaf<0UL, (lambda at /home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/vm/GraphicsNatives.cpp:1387:9) &&, false>
+  __tuple_leaf<0UL, (lambda at /home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/vm/GraphicsNatives.cpp:1406:9) &&, false>
+image_natives: 2124
+  _ZN7phoneme2vm12_GLOBAL__N_116register_image2dERNS0_20NativeMethodRegistryE
+  _ZN7phoneme2vm22register_image_nativesERNS0_20NativeMethodRegistryE
+  _ZNKSt6__ndk15tupleIJOZN7phoneme2vm22register_image_nativesERNS2_20NativeMethodRegistryEE3$_0EE4swapB8nn180000ERKS7_
+  _ZNKSt6__ndk15tupleIJOZN7phoneme2vm22register_image_nativesERNS2_20NativeMethodRegistryEE3$_1EE4swapB8nn180000ERKS7_
+  _ZNKSt6__ndk15tupleIJOZN7phoneme2vm22register_image_nativesERNS2_20NativeMethodRegistryEE3$_2EE4swapB8nn180000ERKS7_
+  _ZNKSt6__ndk15tupleIJOZN7phoneme2vm22register_image_nativesERNS2_20NativeMethodRegistryEE3$_3EE4swapB8nn180000ERKS7_
+  _ZNKSt6__ndk15tupleIJOZN7phoneme2vm22register_image_nativesERNS2_20NativeMethodRegistryEE3$_4EE4swapB8nn180000ERKS7_
+  _ZNKSt6__ndk15tupleIJOZN7phoneme2vm22register_image_nativesERNS2_20NativeMethodRegistryEE3$_5EE4swapB8nn180000ERKS7_
+  _ZNKSt6__ndk15tupleIJOZN7phoneme2vm22register_image_nativesERNS2_20NativeMethodRegistryEE3$_6EE4swapB8nn180000ERKS7_
+  _ZNKSt6__ndk15tupleIJOZN7phoneme2vm22register_image_nativesERNS2_20NativeMethodRegistryEE3$_7EE4swapB8nn180000ERKS7_
+  _ZNKSt6__ndk15tupleIJOZN7phoneme2vm22register_image_nativesERNS2_20NativeMethodRegistryEE3$_8EE4swapB8nn180000ERKS7_
+  _ZNKSt6__ndk15tupleIJOZN7phoneme2vm22register_image_nativesERNS2_20NativeMethodRegistryEE3$_9EE4swapB8nn180000ERKS7_
+image2d: 434
+  ()Ljavax/microedition/m3g/Image2D;
+  (Ljavax/microedition/m3g/Image2D;)V
+  (ZLjavax/microedition/m3g/Image2D;Ljavax/microedition/m3g/Appearance;)V
+  Image2D backing array is truncated
+  Image2D dimensions must be positive
+  Image2D format
+  Image2D height
+  Image2D is immutable
+  Image2D is null
+  Image2D metadata is invalid
+  Image2D mutable flag
+  Image2D palette
+jpeg: 7
+  JPEG is not valid for an M3G external reference
+  JPEG/GIF decoding is unavailable on this platform
+  _ZN7phoneme2vm12_GLOBAL__N_119jpeg_image2d_formatENSt6__ndk14spanIKhLm18446744073709551615EEE
+  _ZN7phoneme8graphics12_GLOBAL__N_17is_jpegENSt6__ndk14spanIKhLm18446744073709551615EEE
+  is_jpeg
+  jpeg
+  jpeg_image2d_format
+png: 59
+  !PNg
+  /home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/graphics/PngDecoder.cpp
+  PNG IDAT is out of order
+  PNG IDAT stream cannot be decompressed exactly
+  PNG IEND is malformed or appears too early
+  PNG IHDR is missing, duplicated or malformed
+  PNG PLTE chunk is malformed or out of order
+  PNG bit depth/color type combination is unsupported
+  PNG chunk CRC does not match
+  PNG chunk CRC offset overflows
+  PNG chunk exceeds zlib limits
+  PNG chunk header is truncated
+gif: 8
+  JPEG/GIF decoding is unavailable on this platform
+  _ZN7phoneme2vm12_GLOBAL__N_116floating_to_longIfEElT_
+  _ZN7phoneme8graphics12_GLOBAL__N_16is_gifENSt6__ndk14spanIKhLm18446744073709551615EEE
+  is_gif
+  kGif87a
+  kGif89a
+directgraphics: 24
+  (Ljavax/microedition/lcdui/Graphics;)Lcom/nokia/mid/ui/DirectGraphics;
+  DirectGraphics manipulation is invalid
+  DirectGraphics requires Graphics
+  DirectGraphics.<init>
+  DirectGraphics.drawImage
+  DirectGraphics.drawPixels(byte[])
+  DirectGraphics.drawPixels(int[])
+  DirectGraphics.drawPixels(short[])
+  DirectGraphics.drawPolygon
+  DirectGraphics.drawTriangle
+  DirectGraphics.fillPolygon
+  DirectGraphics.fillTriangle
+surfaceview: 0
+egl_opengl: 207850
+   gLn
+   source rectangle is outside the surface
+  !Gle
+  #GLw
+  #glT
+  (GLS|
+  /home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/vm/M3gLoader.cpp
+  2Gglb
+  3GlQ
+  AlertType singleton has an invalid native kind
+  Dangling regex quantifier
+  DeleteGlobalRef
+source_core: 82197
+  (lambda at /home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/network/ConnectionRegistry.cpp:254:9)
+  (lambda at /home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/network/ConnectionRegistry.cpp:271:24)
+  (lambda at /home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/network/PosixNetworkAdapter.cpp:1951:13)
+  (lambda at /home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/network/PosixNetworkAdapter.cpp:1982:13)
+  (lambda at /home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/network/PosixNetworkAdapter.cpp:2062:13)
+  (lambda at /home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/network/PosixNetworkAdapter.cpp:2204:13)
+  (lambda at /home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/network/PosixNetworkAdapter.cpp:2250:13)
+  (lambda at /home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/network/PosixNetworkAdapter.cpp:2410:13)
+  (lambda at /home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/network/PosixNetworkAdapter.cpp:2731:26)
+  (lambda at /home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/network/PosixNetworkAdapter.cpp:2742:30)
+  (lambda at /home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/network/PosixNetworkAdapter.cpp:2808:13)
+  (lambda at /home/ubuntu/PhoneME-Turbo-CoreBridge/Core/src/runtime/Runtime.cpp:1640:9)

@@ -1,0 +1,5 @@
+/home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/stable/assets/foundation/bin/cvm	class=32-bit	type=2	machine=EM_ARM
+/home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/stable/assets/foundation/bin/libcvm.so	class=32-bit	type=3	machine=EM_ARM
+/home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/stable/assets/foundation64/bin/libcvm.so	class=64-bit	type=3	machine=EM_AARCH64
+/home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/stable/lib/arm64-v8a/libjniphoneme.so	class=64-bit	type=3	machine=EM_AARCH64
+/home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/corebridge/lib/arm64-v8a/libphoneMECoreBridge.so	class=64-bit	type=3	machine=EM_AARCH64

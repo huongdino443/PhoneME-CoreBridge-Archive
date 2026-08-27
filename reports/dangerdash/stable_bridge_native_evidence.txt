@@ -1,0 +1,19 @@
+Stable bridge native evidence (2026-08-27)
+
+Provenance: user confirmed Turbo Stable used the same Danger Dash JAR core as the original upload; only filename may differ.
+
+classes.dex disassembly:
+- FrameBufferView.renderFrame(Bitmap), initFrameBufferView(), initFrameBufferSize(int,int,ShortBuffer,int), resizeFrameBuffer(int,int,ShortBuffer), setBusy(boolean), getNativeAPIVersion(), toRGB565(byte[],int,int,int,int) and copyToBuffer(Buffer) are native methods (access flags include native 0x100).
+- FrameBufferView.updateView(): if fbCanvasReady is false, returns. Otherwise synchronizes on fbBitmap, calls native renderFrame(fbBitmap), and only when true calls fbBitmap.copyPixelsFromBuffer(bitmapBuffer), then repaintView().
+- surfaceCreated/surfaceChanged allocate fbBitmap as Bitmap.Config.RGB_565 and bitmapBuffer as a direct ShortBuffer of targetWidth*targetHeight*2 bytes, then pass the ShortBuffer to native init/resizeFrameBuffer.
+- FrameBufferBridge.forwardToGL() gets FrameBufferView.getFbBitmapForGL() and pushes the Bitmap to GL; it logs bitmapBuffer NULL only in the separate no-Bitmap branch. The warning is not proof that the actual bitmap path is empty.
+- GLRenderer uses a Bitmap upload path (GLUtils.texSubImage2D) or ShortBuffer path (glTexSubImage2D, GL_RGB, GL_UNSIGNED_SHORT_5_6_5), with 360x640 source dimensions in its constructor.
+
+CoreBridge surviving source:
+- Runtime::publish_canvas_graphics() publishes the mutable Canvas Image only when has_dirty_region(), converts graphics::Pixel through rgb565_roundtrip(), then updates/replaces the host framebuffer.
+- phoneme_copy_frame_rgba() copies the already-published RGBA framebuffer under lock; the Android layer is downstream of this call.
+- The archive contains only six partial Core source files under Core/src and no concrete GraphicsNatives.cpp/ImageNatives.cpp or full Android native build system. LcduiBuiltinClasses.cpp declares drawRGB/DirectGraphics APIs, but LcduiNatives.cpp does not contain their concrete handlers in this snapshot.
+
+Implication:
+- Stable's bitmapBuffer NULL warning is a benign alternate branch in a working frame pipeline, not a direct fix target.
+- The decisive unknown remains whether Danger Dash's direct pixel operations mutate the CoreBridge Canvas Image/dirty region at all. A generic native patch cannot be safely built from this archive without recovering the missing graphics implementation/build artifacts.

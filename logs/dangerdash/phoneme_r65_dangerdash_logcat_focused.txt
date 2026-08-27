@@ -1,0 +1,361 @@
+08-27 17:57:53.833  3240  3390 I am_proc_start: [0,15376,11078,com.phoneme.corebridge,preStart_down,com.phoneme.corebridge]
+08-27 17:57:53.848  3240  4858 I am_proc_bound: [0,15376,com.phoneme.corebridge]
+08-27 17:57:53.869  3240  4353 I wm_create_activity: [0,108249983,4905,com.phoneme.corebridge/.MainActivity,android.intent.action.MAIN,NULL,NULL,807403520]
+08-27 17:57:53.872  3240  4353 I wm_restart_activity: [0,108249983,4905,com.phoneme.corebridge/.MainActivity]
+08-27 17:57:53.873  3240  4353 I wm_set_resumed_activity: [0,com.phoneme.corebridge/.MainActivity,realStartActivityLocked - onActivityStateChanged]
+08-27 17:57:53.902 15376 15376 I auditd  : type=1400 audit(0.0:345237): avc:  denied  { read } for  comm="neme.corebridge" name="u:object_r:microsoft_ltw_prop:s0" dev="tmpfs" ino=334 scontext=u:r:untrusted_app_27:s0:c54,c260,c512,c768 tcontext=u:object_r:microsoft_ltw_prop:s0 tclass=file permissive=0 app=com.phoneme.corebridge
+08-27 17:57:53.905 15376 15376 I wm_on_create_called: [108249983,com.phoneme.corebridge.MainActivity,performCreate,22]
+08-27 17:57:53.906 15376 15376 I wm_on_start_called: [108249983,com.phoneme.corebridge.MainActivity,handleStartActivity,0]
+08-27 17:57:53.906 15376 15376 I wm_on_resume_called: [108249983,com.phoneme.corebridge.MainActivity,RESUME_ACTIVITY,0]
+08-27 17:57:53.918  3240  3362 I input_focus: [Focus request Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=UpdateInputWindows]
+08-27 17:57:53.929 15376 15376 I wm_on_top_resumed_gained_called: [108249983,com.phoneme.corebridge.MainActivity,topStateChangedWhenResumed]
+08-27 17:57:53.934  3240  3358 I sysui_multi_action: [319,0,322,69,325,270946,757,761,758,8,759,3,806,com.phoneme.corebridge,871,com.phoneme.corebridge.MainActivity,904,com.bbk.launcher2,905,0,1320,4,1321,4]
+08-27 17:57:53.934  3240  3358 I wm_activity_launch_time: [0,108249983,com.phoneme.corebridge/.MainActivity,69]
+08-27 17:57:53.947  3240  3887 I input_focus: [Focus entering Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=Window became focusable. Previous reason: NOT_VISIBLE]
+08-27 17:57:54.849  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:57:54.930  3240  3362 I input_focus: [Focus request Window:2c20cde type=2 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=UpdateInputWindows]
+08-27 17:57:54.942  3240  3887 I input_focus: [Focus leaving Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=Waiting for window because NOT_VISIBLE]
+08-27 17:57:54.959  3240  3887 I input_focus: [Focus entering Window:2c20cde type=2 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=Window became focusable. Previous reason: NOT_VISIBLE]
+08-27 17:57:55.440  3240  3887 I input_interaction: Interaction with: Window:2c20cde type=2 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:57:55.438 15376 15376 I auditd  : type=1400 audit(0.0:345238): avc:  denied  { read } for  comm="support-thread" name="u:object_r:vendor_feature_prop:s0" dev="tmpfs" ino=517 scontext=u:r:untrusted_app_27:s0:c54,c260,c512,c768 tcontext=u:object_r:vendor_feature_prop:s0 tclass=file permissive=0 app=com.phoneme.corebridge
+08-27 17:57:57.509  3240  5132 I sysui_multi_action: [757,906,758,4,806,com.phoneme.corebridge,871,,908,com.vivo.cipherchain,1452,0,1456,535919008]
+08-27 17:57:57.528  3240  3240 I sysui_multi_action: [757,907,758,10,806,com.phoneme.corebridge,871,,908,com.vivo.cipherchain,909,-1,1454,1,1456,535919008]
+08-27 17:57:57.528  3240  3240 I sysui_multi_action: [757,919,758,4,806,com.phoneme.corebridge,871,,908,com.vivo.cipherchain,1455,1,1456,535919008]
+08-27 17:57:57.549 15376 15445 I jank_cuj_events_begin_request: [80,1787828277549655000,397826825816982,270950312903357,0@0@com.phoneme.corebridge]
+08-27 17:57:59.938  3240  3887 I input_interaction: Interaction with: Window:2c20cde type=2 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:58:00.035  3240  3362 I input_focus: [Focus request Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=UpdateInputWindows]
+08-27 17:58:00.047  3240  3887 I input_focus: [Focus entering Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=setFocusedWindow]
+08-27 17:58:01.086  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:58:06.801  3240  3887 I input_interaction: Interaction with: Letterbox_top_ActivityRecord{108249983 u0 com.phoneme.corebridge/.MainActivity t4905 d0}, [Gesture Monitor] swipe-up, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:58:06.830  3240  3887 I input_interaction: Interaction with: Letterbox_top_ActivityRecord{108249983 u0 com.phoneme.corebridge/.MainActivity t4905 d0}, [Gesture Monitor] swipe-up, [Gesture Monitor] global_gesture_monitor, Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, PointerEventDispatcher0, 
+08-27 17:58:06.838  3240  3887 I input_interaction: Interaction with: [Gesture Monitor] swipe-up, [Gesture Monitor] global_gesture_monitor, Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, PointerEventDispatcher0, 
+08-27 17:58:08.741  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:58:14.814  3240  3887 I input_interaction: Interaction with: Letterbox_top_ActivityRecord{108249983 u0 com.phoneme.corebridge/.MainActivity t4905 d0}, [Gesture Monitor] swipe-up, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:58:14.844  3240  3887 I input_interaction: Interaction with: Letterbox_top_ActivityRecord{108249983 u0 com.phoneme.corebridge/.MainActivity t4905 d0}, [Gesture Monitor] swipe-up, [Gesture Monitor] global_gesture_monitor, Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, PointerEventDispatcher0, 
+08-27 17:58:14.851  3240  3887 I input_interaction: Interaction with: [Gesture Monitor] swipe-up, [Gesture Monitor] global_gesture_monitor, Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, PointerEventDispatcher0, 
+08-27 17:58:15.472  3240  3378 I am_pss  : [15376,11078,com.phoneme.corebridge,0,0,0,265822208,0,2,1]
+08-27 17:58:15.487  3240  3887 I input_focus: [Focus leaving Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=Waiting for window because NOT_FOCUSABLE]
+08-27 17:58:16.374  3240  3362 I input_focus: [Focus request Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=UpdateInputWindows]
+08-27 17:58:16.382  3240  3887 I input_focus: [Focus entering Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=setFocusedWindow]
+08-27 17:58:16.983  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:58:17.063 15376 15445 I jank_cuj_events_begin_request: [80,1787828297063796000,397846339958329,270969827044652,0@0@com.phoneme.corebridge]
+08-27 17:58:18.120  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, PointerEventDispatcher0, 
+08-27 17:58:18.144 15376 15445 I jank_cuj_events_begin_request: [81,1787828298144442000,397847420604318,270970907690641,1@0@com.phoneme.corebridge]
+08-27 17:58:18.551  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:58:23.686  3240  3887 I input_focus: [Focus leaving Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=Waiting for window because NO_WINDOW]
+08-27 17:58:24.421  3240  3362 I input_focus: [Focus request Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=UpdateInputWindows]
+08-27 17:58:24.434  3240  3887 I input_focus: [Focus entering Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=setFocusedWindow]
+08-27 17:58:24.957  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:58:26.226  3240  3378 I am_pss  : [15376,11078,com.phoneme.corebridge,0,0,0,273027072,0,2,10]
+08-27 17:58:27.413  3240  3887 I input_focus: [Focus leaving Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=Waiting for window because NO_WINDOW]
+08-27 17:58:27.934  3240  3362 I input_focus: [Focus request Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=UpdateInputWindows]
+08-27 17:58:27.945  3240  3887 I input_focus: [Focus entering Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=setFocusedWindow]
+08-27 17:58:28.582  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:58:29.745  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] swipe-up, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:58:30.371  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:58:33.289  3240  3887 I input_focus: [Focus leaving Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=Waiting for window because NO_WINDOW]
+08-27 17:58:35.107  3240  3362 I input_focus: [Focus request Window:e66b87e type=2 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=UpdateInputWindows]
+08-27 17:58:35.133  3240  3887 I input_focus: [Focus entering Window:e66b87e type=2 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=Window became focusable. Previous reason: NOT_VISIBLE]
+08-27 17:58:35.779  3240  3887 I input_interaction: Interaction with: Window:e66b87e type=2 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:58:35.882  3240  3362 I input_focus: [Focus request Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=UpdateInputWindows]
+08-27 17:58:35.898  3240  3887 I input_focus: [Focus entering Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=setFocusedWindow]
+08-27 17:58:36.974  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:58:37.062  3240  3362 I input_focus: [Focus request Window:edafbbf type=2 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=UpdateInputWindows]
+08-27 17:58:37.075  3240  3887 I input_focus: [Focus leaving Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=Waiting for window because NO_WINDOW]
+08-27 17:58:37.091  3240  3887 I input_focus: [Focus entering Window:edafbbf type=2 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=Window became focusable. Previous reason: NOT_VISIBLE]
+08-27 17:58:37.565  3240  3887 I input_interaction: Interaction with: Window:edafbbf type=2 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:58:39.849  3240  4331 I sysui_multi_action: [757,906,758,4,806,com.phoneme.corebridge,871,,908,com.vivo.cipherchain,1452,0,1456,88126289]
+08-27 17:58:39.873  3240  3240 I sysui_multi_action: [757,907,758,10,806,com.phoneme.corebridge,871,,908,com.vivo.cipherchain,909,-1,1454,1,1456,88126289]
+08-27 17:58:39.873  3240  3240 I sysui_multi_action: [757,919,758,4,806,com.phoneme.corebridge,871,,908,com.vivo.cipherchain,1455,1,1456,88126289]
+08-27 17:58:39.883 15376 15445 I jank_cuj_events_begin_request: [80,1787828319883390000,397869159552018,270992646638341,0@0@com.phoneme.corebridge]
+08-27 17:58:43.285  3240  3887 I input_interaction: Interaction with: Window:edafbbf type=2 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:58:43.370  3240  3362 I input_focus: [Focus request Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=UpdateInputWindows]
+08-27 17:58:43.383  3240  3887 I input_focus: [Focus entering Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=setFocusedWindow]
+08-27 17:58:44.235  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:58:47.259  3240  3887 I input_interaction: Interaction with: Letterbox_top_ActivityRecord{108249983 u0 com.phoneme.corebridge/.MainActivity t4905 d0}, [Gesture Monitor] swipe-up, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:58:47.319  3240  3887 I input_interaction: Interaction with: Letterbox_top_ActivityRecord{108249983 u0 com.phoneme.corebridge/.MainActivity t4905 d0}, [Gesture Monitor] swipe-up, [Gesture Monitor] global_gesture_monitor, Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, PointerEventDispatcher0, 
+08-27 17:58:47.327  3240  3887 I input_interaction: Interaction with: [Gesture Monitor] swipe-up, [Gesture Monitor] global_gesture_monitor, Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, PointerEventDispatcher0, 
+08-27 17:58:49.256  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:58:49.844  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] swipe-up, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:58:50.929  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:58:59.664  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] swipe-up, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:59:00.674  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:59:03.617  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] swipe-up, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:59:04.873  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:59:14.890  3240  4333 I sysui_multi_action: [757,906,758,4,806,com.phoneme.corebridge,871,,908,com.vivo.cipherchain,1452,0,1456,421286917]
+08-27 17:59:14.906  3240  3240 I sysui_multi_action: [757,907,758,10,806,com.phoneme.corebridge,871,,908,com.vivo.cipherchain,909,-1,1454,1,1456,421286917]
+08-27 17:59:14.906  3240  3240 I sysui_multi_action: [757,919,758,4,806,com.phoneme.corebridge,871,,908,com.vivo.cipherchain,1455,1,1456,421286917]
+08-27 17:59:14.926 15376 15445 I jank_cuj_events_begin_request: [80,1787828354926031000,397904202192682,271027689279057,0@0@com.phoneme.corebridge]
+08-27 17:59:16.980  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:59:17.022 15376 15445 I jank_cuj_events_begin_request: [81,1787828357021855000,397906298017472,271029785103952,1@0@com.phoneme.corebridge]
+08-27 17:59:19.300 15376 15445 I jank_cuj_events_begin_request: [80,1787828359300269000,397908576431065,271032063517388,0@0@com.phoneme.corebridge]
+08-27 17:59:20.551  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:59:20.585 15376 15445 I jank_cuj_events_begin_request: [81,1787828360585208000,397909861371013,271033348457440,1@0@com.phoneme.corebridge]
+08-27 17:59:24.691  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] swipe-up, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:59:27.808  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:59:30.782  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] swipe-up, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:59:31.362  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:59:54.379  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] swipe-up, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:59:54.941  3240  3887 I input_interaction: Interaction with: Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 17:59:59.025 15376 15376 I wm_on_top_resumed_lost_called: [108249983,com.phoneme.corebridge.MainActivity,topStateChangedWhenResumed]
+08-27 17:59:59.078  3240  3378 I am_pss  : [15376,11078,com.phoneme.corebridge,0,0,0,292454400,0,2,1]
+08-27 17:59:59.427  3240  5668 I wm_add_to_stopping: [0,108249983,com.phoneme.corebridge/.MainActivity,makeInvisible]
+08-27 17:59:59.428  3240  5668 I wm_pause_activity: [0,108249983,com.phoneme.corebridge/.MainActivity,userLeaving=true,finishTransition]
+08-27 17:59:59.429 15376 15376 I wm_on_paused_called: [108249983,com.phoneme.corebridge.MainActivity,performPause,0]
+08-27 17:59:59.430  3240  3361 I wm_stop_activity: [0,108249983,com.phoneme.corebridge/.MainActivity]
+08-27 17:59:59.435  3240  3887 I input_focus: [Focus leaving Window:415322a type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=NOT_VISIBLE]
+08-27 17:59:59.442 15376 15376 I wm_on_stop_called: [108249983,com.phoneme.corebridge.MainActivity,STOP_ACTIVITY_ITEM,0]
+08-27 18:00:00.137  3240  4331 I wm_destroy_activity: [0,108249983,4905,com.phoneme.corebridge/.MainActivity,finish-imm:remove-task callingPid:4937]
+08-27 18:00:00.139  3240  3404 I am_kill : [0,15376,com.phoneme.corebridge,700,stop com.phoneme.corebridge due to single-cleaner,263716]
+08-27 18:00:00.142  3240  3404 I wm_finish_activity: [0,108249983,4905,com.phoneme.corebridge/.MainActivity,proc died without state saved]
+08-27 18:00:00.143  3240  3404 I wm_task_removed: [4905,4905,0,removeChild, last child = ActivityRecord{108249983 u0 com.phoneme.corebridge/.MainActivity t-1 d-1 f}} in Task{f71a4aa #4905 type=standard A=11078:com.phoneme.corebridge U=0 displayId=0 mode=fullscreen sz=0}]
+08-27 18:00:00.150  3240  3240 I notification_cancel_all: [1000,3240,com.phoneme.corebridge,0,0,0,5,NULL]
+08-27 18:00:26.894  3240  3390 I am_proc_start: [0,17293,11078,com.phoneme.corebridge,preStart_down,com.phoneme.corebridge]
+08-27 18:00:26.906  3240  3551 I am_proc_bound: [0,17293,com.phoneme.corebridge]
+08-27 18:00:26.947  3240  5133 I wm_create_activity: [0,231041026,4907,com.phoneme.corebridge/.MainActivity,android.intent.action.MAIN,NULL,NULL,807403520]
+08-27 18:00:26.951  3240  5133 I wm_restart_activity: [0,231041026,4907,com.phoneme.corebridge/.MainActivity]
+08-27 18:00:26.952  3240  5133 I wm_set_resumed_activity: [0,com.phoneme.corebridge/.MainActivity,realStartActivityLocked - onActivityStateChanged]
+08-27 18:00:26.994  3240  3362 I input_focus: [Focus request Window:4516ef type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=UpdateInputWindows]
+08-27 18:00:26.982 17293 17293 I auditd  : type=1400 audit(0.0:345260): avc:  denied  { read } for  comm="neme.corebridge" name="u:object_r:microsoft_ltw_prop:s0" dev="tmpfs" ino=334 scontext=u:r:untrusted_app_27:s0:c54,c260,c512,c768 tcontext=u:object_r:microsoft_ltw_prop:s0 tclass=file permissive=0 app=com.phoneme.corebridge
+08-27 18:00:26.982 17293 17293 I wm_on_create_called: [231041026,com.phoneme.corebridge.MainActivity,performCreate,21]
+08-27 18:00:26.982 17293 17293 I wm_on_start_called: [231041026,com.phoneme.corebridge.MainActivity,handleStartActivity,0]
+08-27 18:00:26.982 17293 17293 I wm_on_resume_called: [231041026,com.phoneme.corebridge.MainActivity,RESUME_ACTIVITY,0]
+08-27 18:00:27.009 17293 17293 I wm_on_top_resumed_gained_called: [231041026,com.phoneme.corebridge.MainActivity,topStateChangedWhenResumed]
+08-27 18:00:27.022  3240  3887 I input_focus: [Focus entering Window:4516ef type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=Window became focusable. Previous reason: NOT_VISIBLE]
+08-27 18:00:27.012  3240  3358 I sysui_multi_action: [319,0,322,67,325,271099,757,761,758,8,759,3,806,com.phoneme.corebridge,871,com.phoneme.corebridge.MainActivity,904,com.bbk.launcher2,905,0,1320,4,1321,4]
+08-27 18:00:27.012  3240  3358 I wm_activity_launch_time: [0,231041026,com.phoneme.corebridge/.MainActivity,67]
+08-27 18:00:27.852  3240  3887 I input_interaction: Interaction with: Window:4516ef type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 18:00:28.350 17293 17293 I auditd  : type=1400 audit(0.0:345261): avc:  denied  { read } for  comm="support-thread" name="u:object_r:vendor_feature_prop:s0" dev="tmpfs" ino=517 scontext=u:r:untrusted_app_27:s0:c54,c260,c512,c768 tcontext=u:object_r:vendor_feature_prop:s0 tclass=file permissive=0 app=com.phoneme.corebridge
+08-27 18:00:28.427  3240  3362 I input_focus: [Focus request Window:30d1566 type=2 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=UpdateInputWindows]
+08-27 18:00:28.440  3240  3887 I input_focus: [Focus leaving Window:4516ef type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=Waiting for window because NO_WINDOW]
+08-27 18:00:28.449  3240  3887 I input_focus: [Focus entering Window:30d1566 type=2 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=Window became focusable. Previous reason: NOT_VISIBLE]
+08-27 18:00:29.015  3240  3887 I input_interaction: Interaction with: Window:30d1566 type=2 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 18:00:30.933  3240  5133 I sysui_multi_action: [757,906,758,4,806,com.phoneme.corebridge,871,,908,com.vivo.cipherchain,1452,0,1456,1140963912]
+08-27 18:00:30.951  3240  3240 I sysui_multi_action: [757,907,758,10,806,com.phoneme.corebridge,871,,908,com.vivo.cipherchain,909,-1,1454,1,1456,1140963912]
+08-27 18:00:30.951  3240  3240 I sysui_multi_action: [757,919,758,4,806,com.phoneme.corebridge,871,,908,com.vivo.cipherchain,1455,1,1456,1140963912]
+08-27 18:00:30.967 17293 17369 I jank_cuj_events_begin_request: [80,1787828430967219000,397980243380986,271103730467413,0@0@com.phoneme.corebridge]
+08-27 18:00:33.899  3240  3887 I input_interaction: Interaction with: Window:30d1566 type=2 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 18:00:34.044  3240  3362 I input_focus: [Focus request Window:4516ef type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=UpdateInputWindows]
+08-27 18:00:34.060  3240  3887 I input_focus: [Focus entering Window:4516ef type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=setFocusedWindow]
+08-27 18:00:35.011  3240  3887 I input_interaction: Interaction with: Window:4516ef type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 18:00:46.727 17293 17293 I wm_on_top_resumed_lost_called: [231041026,com.phoneme.corebridge.MainActivity,topStateChangedWhenResumed]
+08-27 18:00:46.786  3240  3378 I am_pss  : [17293,11078,com.phoneme.corebridge,0,0,0,250613760,0,2,1]
+08-27 18:00:47.137  3240  3279 I wm_add_to_stopping: [0,231041026,com.phoneme.corebridge/.MainActivity,makeInvisible]
+08-27 18:00:47.138  3240  3279 I wm_pause_activity: [0,231041026,com.phoneme.corebridge/.MainActivity,userLeaving=true,finishTransition]
+08-27 18:00:47.138 17293 17293 I wm_on_paused_called: [231041026,com.phoneme.corebridge.MainActivity,performPause,0]
+08-27 18:00:47.140  3240  3361 I wm_stop_activity: [0,231041026,com.phoneme.corebridge/.MainActivity]
+08-27 18:00:47.144  3240  3887 I input_focus: [Focus leaving Window:4516ef type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=NOT_VISIBLE]
+08-27 18:00:47.150 17293 17293 I wm_on_stop_called: [231041026,com.phoneme.corebridge.MainActivity,STOP_ACTIVITY_ITEM,0]
+08-27 18:00:47.739  3240  4562 I wm_destroy_activity: [0,231041026,4907,com.phoneme.corebridge/.MainActivity,finish-imm:remove-task callingPid:4937]
+08-27 18:00:47.741  3240  3404 I am_kill : [0,17293,com.phoneme.corebridge,700,stop com.phoneme.corebridge due to single-cleaner,224592]
+08-27 18:00:47.744  3240  3404 I wm_finish_activity: [0,231041026,4907,com.phoneme.corebridge/.MainActivity,proc died without state saved]
+08-27 18:00:47.746  3240  3404 I wm_task_removed: [4907,4907,0,removeChild, last child = ActivityRecord{231041026 u0 com.phoneme.corebridge/.MainActivity t-1 d-1 f}} in Task{fa8f350 #4907 type=standard A=11078:com.phoneme.corebridge U=0 displayId=0 mode=fullscreen sz=0}]
+08-27 18:00:47.753  3240  3240 I notification_cancel_all: [1000,3240,com.phoneme.corebridge,0,0,0,5,NULL]
+08-27 18:01:19.917  3240  3240 I notification_cancel_all: [1000,3240,com.phoneme.corebridge,0,0,0,5,NULL]
+08-27 18:16:04.377  3240  3442 I installer_clear_app_data_caller: [3240,1000,com.phoneme.corebridge,39]
+08-27 18:16:04.381  3240  3442 I installer_clear_app_data_caller: [3240,1000,com.phoneme.corebridge,39]
+08-27 18:16:04.382  3240  3442 I installer_clear_app_data_caller: [3240,1000,com.phoneme.corebridge,39]
+08-27 18:16:04.690  3240  3240 I notification_cancel_all: [1000,3240,com.phoneme.corebridge,0,0,0,5,NULL]
+08-27 18:16:04.693  3240  3240 I notification_cancel_all: [1000,3240,com.phoneme.corebridge,0,0,0,5,NULL]
+08-27 18:16:05.907  3240  3280 I wm_create_activity: [0,267368499,4912,com.phoneme.corebridge/.MainActivity,android.intent.action.MAIN,NULL,NULL,270532608]
+08-27 18:16:05.934  3240  3390 I am_proc_start: [0,22191,11078,com.phoneme.corebridge,next-top-activity,{com.phoneme.corebridge/com.phoneme.corebridge.MainActivity}]
+08-27 18:16:05.948  3240  4952 I am_proc_bound: [0,22191,com.phoneme.corebridge]
+08-27 18:16:05.963  3240  4615 I wm_restart_activity: [0,267368499,4912,com.phoneme.corebridge/.MainActivity]
+08-27 18:16:05.963  3240  4615 I wm_set_resumed_activity: [0,com.phoneme.corebridge/.MainActivity,realStartActivityLocked - onActivityStateChanged]
+08-27 18:16:05.987 22191 22191 I wm_on_create_called: [267368499,com.phoneme.corebridge.MainActivity,performCreate,18]
+08-27 18:16:05.987 22191 22191 I wm_on_start_called: [267368499,com.phoneme.corebridge.MainActivity,handleStartActivity,0]
+08-27 18:16:05.987 22191 22191 I wm_on_resume_called: [267368499,com.phoneme.corebridge.MainActivity,RESUME_ACTIVITY,0]
+08-27 18:16:05.986 22191 22191 I auditd  : type=1400 audit(0.0:345409): avc:  denied  { read } for  comm="neme.corebridge" name="u:object_r:microsoft_ltw_prop:s0" dev="tmpfs" ino=334 scontext=u:r:untrusted_app_27:s0:c54,c260,c512,c768 tcontext=u:object_r:microsoft_ltw_prop:s0 tclass=file permissive=0 app=com.phoneme.corebridge
+08-27 18:16:06.000  3240  3362 I input_focus: [Focus request Window:1c15a2b type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=UpdateInputWindows]
+08-27 18:16:06.011 22191 22191 I wm_on_top_resumed_gained_called: [267368499,com.phoneme.corebridge.MainActivity,topStateChangedWhenResumed]
+08-27 18:16:06.017  3240  3358 I sysui_multi_action: [319,28,321,25,322,112,325,272038,757,761,758,7,759,1,806,com.phoneme.corebridge,871,com.phoneme.corebridge.MainActivity,904,com.android.packageinstaller,905,0,945,50,1320,4,1321,4]
+08-27 18:16:06.018  3240  3358 I wm_activity_launch_time: [0,267368499,com.phoneme.corebridge/.MainActivity,112]
+08-27 18:16:06.031  3240  3887 I input_focus: [Focus entering Window:1c15a2b type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=Window became focusable. Previous reason: NOT_VISIBLE]
+08-27 18:16:09.299  3240  3887 I input_interaction: Interaction with: Window:1c15a2b type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 18:16:10.535  3240  3551 I sysui_multi_action: [757,906,758,4,806,com.phoneme.corebridge,871,,908,com.vivo.cipherchain,1452,0,1456,1095898306]
+08-27 18:16:10.613  3240  3240 I sysui_multi_action: [757,907,758,10,806,com.phoneme.corebridge,871,,908,com.vivo.cipherchain,909,-1,1454,1,1456,1095898306]
+08-27 18:16:10.613  3240  3240 I sysui_multi_action: [757,919,758,4,806,com.phoneme.corebridge,871,,908,com.vivo.cipherchain,1455,1,1456,1095898306]
+08-27 18:16:21.036  3240  3887 I input_interaction: Interaction with: Window:1c15a2b type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] swipe-up, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 18:16:22.111  3240  3887 I input_interaction: Interaction with: Window:1c15a2b type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 18:16:22.248  3240  5130 I wm_pause_activity: [0,267368499,com.phoneme.corebridge/.MainActivity,userLeaving=true,resumeTopActivity]
+08-27 18:16:22.251 22191 22191 I wm_on_top_resumed_lost_called: [267368499,com.phoneme.corebridge.MainActivity,topStateChangedWhenResumed]
+08-27 18:16:22.251 22191 22191 I wm_on_paused_called: [267368499,com.phoneme.corebridge.MainActivity,performPause,0]
+08-27 18:16:22.254  3240  3280 I wm_add_to_stopping: [0,267368499,com.phoneme.corebridge/.MainActivity,makeInvisible]
+08-27 18:16:22.266  3240  3887 I input_focus: [Focus leaving Window:1c15a2b type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=Waiting for window because NO_WINDOW]
+08-27 18:16:22.277  3240  3378 I am_pss  : [22191,11078,com.phoneme.corebridge,0,0,0,299917312,0,2,5]
+08-27 18:16:22.362  3240  3358 I sysui_multi_action: [319,119,322,117,325,272055,757,761,758,8,759,2,806,com.android.documentsui,871,com.android.documentsui.picker.PickActivity,904,com.phoneme.corebridge,905,0,1320,8,1321,102]
+08-27 18:16:22.551  3240  3361 I wm_stop_activity: [0,267368499,com.phoneme.corebridge/.MainActivity]
+08-27 18:16:22.563 22191 22191 I wm_on_stop_called: [267368499,com.phoneme.corebridge.MainActivity,STOP_ACTIVITY_ITEM,0]
+08-27 18:16:23.584  3240  3550 I wm_set_resumed_activity: [0,com.phoneme.corebridge/.MainActivity,resumeTopActivity - onActivityStateChanged]
+08-27 18:16:23.585  3240  3550 I wm_resume_activity: [0,267368499,4912,com.phoneme.corebridge/.MainActivity]
+08-27 18:16:23.662 22191 22191 I wm_on_activity_result_called: [267368499,com.phoneme.corebridge.MainActivity,ACTIVITY_RESULT]
+08-27 18:16:23.662 22191 22191 I wm_on_restart_called: [267368499,com.phoneme.corebridge.MainActivity,performRestart,0]
+08-27 18:16:23.662 22191 22191 I wm_on_start_called: [267368499,com.phoneme.corebridge.MainActivity,handleStartActivity,0]
+08-27 18:16:23.662 22191 22191 I wm_on_resume_called: [267368499,com.phoneme.corebridge.MainActivity,RESUME_ACTIVITY,0]
+08-27 18:16:23.662 22191 22191 I wm_on_top_resumed_gained_called: [267368499,com.phoneme.corebridge.MainActivity,topWhenResuming]
+08-27 18:16:23.665  3240  3362 I input_focus: [Focus request Window:1c15a2b type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=UpdateInputWindows]
+08-27 18:16:23.688  3240  3887 I input_focus: [Focus entering Window:1c15a2b type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=Window became focusable. Previous reason: NOT_VISIBLE]
+08-27 18:16:24.806  3240  3887 I input_interaction: Interaction with: Window:1c15a2b type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] swipe-up, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 18:16:25.361  3240  3887 I input_interaction: Interaction with: Window:1c15a2b type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 18:16:27.720 22191 22191 I wm_on_top_resumed_lost_called: [267368499,com.phoneme.corebridge.MainActivity,topStateChangedWhenResumed]
+08-27 18:16:27.729  3240  3887 I input_focus: [Focus leaving Window:1c15a2b type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=Waiting for window because NO_WINDOW]
+08-27 18:16:47.984  3240  4620 I wm_set_resumed_activity: [0,com.phoneme.corebridge/.MainActivity,positionChildTaskAt]
+08-27 18:16:47.994  3240  3362 I input_focus: [Focus request Window:1c15a2b type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=UpdateInputWindows]
+08-27 18:16:48.004  3240  3887 I input_focus: [Focus entering Window:1c15a2b type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=setFocusedWindow]
+08-27 18:16:48.013 22191 22191 I wm_on_top_resumed_gained_called: [267368499,com.phoneme.corebridge.MainActivity,topStateChangedWhenResumed]
+08-27 18:16:48.861  3240  3359 I wm_pause_activity: [0,267368499,com.phoneme.corebridge/.MainActivity,userLeaving=true,pauseBackTasks]
+08-27 18:16:48.862  3240  3359 I wm_add_to_stopping: [0,267368499,com.phoneme.corebridge/.MainActivity,makeInvisible]
+08-27 18:16:48.866 22191 22191 I wm_on_top_resumed_lost_called: [267368499,com.phoneme.corebridge.MainActivity,topStateChangedWhenResumed]
+08-27 18:16:48.884  3240  3887 I input_focus: [Focus leaving Window:1c15a2b type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=Waiting for window because NO_WINDOW]
+08-27 18:16:48.868 22191 22191 I wm_on_paused_called: [267368499,com.phoneme.corebridge.MainActivity,performPause,0]
+08-27 18:16:49.449  3240  4952 I wm_add_to_stopping: [0,267368499,com.phoneme.corebridge/.MainActivity,makeInvisible]
+08-27 18:16:49.450  3240  3361 I wm_stop_activity: [0,267368499,com.phoneme.corebridge/.MainActivity]
+08-27 18:16:49.454 22191 22191 I wm_on_stop_called: [267368499,com.phoneme.corebridge.MainActivity,STOP_ACTIVITY_ITEM,0]
+08-27 18:16:53.726 22051 22051 I sysui_multi_action: [757,807,758,4,806,com.phoneme.corebridge]
+08-27 18:16:53.729  3240  4615 I am_kill : [0,22191,com.phoneme.corebridge,430,stop com.phoneme.corebridge due to stop by com.android.settings,156700]
+08-27 18:16:53.732  3240  4615 I wm_finish_activity: [0,267368499,4912,com.phoneme.corebridge/.MainActivity,proc died without state saved]
+08-27 18:16:53.735  3240  4615 I wm_task_removed: [4912,4912,0,removeChild, last child = ActivityRecord{267368499 u0 com.phoneme.corebridge/.MainActivity t-1 d-1 f}} in Task{8435169 #4912 type=standard A=11078:com.phoneme.corebridge U=0 displayId=0 mode=fullscreen sz=0}]
+08-27 18:16:53.767  3240  3240 I notification_cancel_all: [1000,3240,com.phoneme.corebridge,0,0,0,5,NULL]
+08-27 18:17:00.811  3240  3240 I notification_cancel_all: [1000,3240,com.phoneme.corebridge,0,0,0,5,NULL]
+08-27 18:17:03.970  3240  3390 I am_proc_start: [0,23351,11078,com.phoneme.corebridge,preStart_down,com.phoneme.corebridge]
+08-27 18:17:03.983  3240  4562 I am_proc_bound: [0,23351,com.phoneme.corebridge]
+08-27 18:17:04.003  3240  3280 I wm_create_activity: [0,67553640,4914,com.phoneme.corebridge/.MainActivity,android.intent.action.MAIN,NULL,NULL,807403520]
+08-27 18:17:04.006  3240  3280 I wm_restart_activity: [0,67553640,4914,com.phoneme.corebridge/.MainActivity]
+08-27 18:17:04.007  3240  3280 I wm_set_resumed_activity: [0,com.phoneme.corebridge/.MainActivity,realStartActivityLocked - onActivityStateChanged]
+08-27 18:17:04.034 23351 23351 I auditd  : type=1400 audit(0.0:345415): avc:  denied  { read } for  comm="neme.corebridge" name="u:object_r:microsoft_ltw_prop:s0" dev="tmpfs" ino=334 scontext=u:r:untrusted_app_27:s0:c54,c260,c512,c768 tcontext=u:object_r:microsoft_ltw_prop:s0 tclass=file permissive=0 app=com.phoneme.corebridge
+08-27 18:17:04.037 23351 23351 I wm_on_create_called: [67553640,com.phoneme.corebridge.MainActivity,performCreate,21]
+08-27 18:17:04.037 23351 23351 I wm_on_start_called: [67553640,com.phoneme.corebridge.MainActivity,handleStartActivity,0]
+08-27 18:17:04.037 23351 23351 I wm_on_resume_called: [67553640,com.phoneme.corebridge.MainActivity,RESUME_ACTIVITY,0]
+08-27 18:17:04.051  3240  3362 I input_focus: [Focus request Window:8b07700 type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=UpdateInputWindows]
+08-27 18:17:04.066 23351 23351 I wm_on_top_resumed_gained_called: [67553640,com.phoneme.corebridge.MainActivity,topStateChangedWhenResumed]
+08-27 18:17:04.071  3240  3358 I sysui_multi_action: [319,28,321,23,322,68,325,272096,757,761,758,8,759,1,806,com.phoneme.corebridge,871,com.phoneme.corebridge.MainActivity,904,com.bbk.launcher2,905,0,1320,4,1321,4]
+08-27 18:17:04.071  3240  3358 I wm_activity_launch_time: [0,67553640,com.phoneme.corebridge/.MainActivity,68]
+08-27 18:17:04.079  3240  3887 I input_focus: [Focus entering Window:8b07700 type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=Window became focusable. Previous reason: NOT_VISIBLE]
+08-27 18:17:06.588  3240  3887 I input_interaction: Interaction with: Window:8b07700 type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 18:17:06.643  3240  3550 I sysui_multi_action: [757,906,758,4,806,com.phoneme.corebridge,871,,908,com.vivo.cipherchain,1452,0,1456,1467077077]
+08-27 18:17:06.696  3240  3240 I sysui_multi_action: [757,907,758,10,806,com.phoneme.corebridge,871,,908,com.vivo.cipherchain,909,-1,1454,1,1456,1467077077]
+08-27 18:17:06.696  3240  3240 I sysui_multi_action: [757,919,758,4,806,com.phoneme.corebridge,871,,908,com.vivo.cipherchain,1455,1,1456,1467077077]
+08-27 18:17:14.801  3240  3887 I input_interaction: Interaction with: Window:8b07700 type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, [Gesture Monitor] swipe-up, PointerEventDispatcher0, 
+08-27 18:17:14.878  3240  3887 I input_interaction: Interaction with: Window:8b07700 type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 18:17:14.986  3240  3887 I input_interaction: Interaction with: Window:8b07700 type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] swipe-up, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 18:17:15.093  3240  3887 I input_interaction: Interaction with: Window:8b07700 type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 18:17:18.856  3240  3887 I input_interaction: Interaction with: Window:8b07700 type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] swipe-up, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 18:17:19.643  3240  3887 I input_interaction: Interaction with: Window:8b07700 type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 18:17:19.726  3240  3550 I wm_pause_activity: [0,67553640,com.phoneme.corebridge/.MainActivity,userLeaving=true,resumeTopActivity]
+08-27 18:17:19.728 23351 23351 I wm_on_top_resumed_lost_called: [67553640,com.phoneme.corebridge.MainActivity,topStateChangedWhenResumed]
+08-27 18:17:19.728 23351 23351 I wm_on_paused_called: [67553640,com.phoneme.corebridge.MainActivity,performPause,0]
+08-27 18:17:19.730  3240  4333 I wm_add_to_stopping: [0,67553640,com.phoneme.corebridge/.MainActivity,makeInvisible]
+08-27 18:17:19.743  3240  3887 I input_focus: [Focus leaving Window:8b07700 type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=Waiting for window because NO_WINDOW]
+08-27 18:17:19.749  3240  3378 I am_pss  : [23351,11078,com.phoneme.corebridge,0,0,0,273907712,0,2,9]
+08-27 18:17:19.801  3240  3358 I sysui_multi_action: [319,81,322,80,325,272112,757,761,758,8,759,2,806,com.android.documentsui,871,com.android.documentsui.picker.PickActivity,904,com.phoneme.corebridge,905,0,1320,8,1321,102]
+08-27 18:17:19.995  3240  3361 I wm_stop_activity: [0,67553640,com.phoneme.corebridge/.MainActivity]
+08-27 18:17:20.007 23351 23351 I wm_on_stop_called: [67553640,com.phoneme.corebridge.MainActivity,STOP_ACTIVITY_ITEM,0]
+08-27 18:17:20.664  3240  4333 I wm_set_resumed_activity: [0,com.phoneme.corebridge/.MainActivity,resumeTopActivity - onActivityStateChanged]
+08-27 18:17:20.664  3240  4333 I wm_resume_activity: [0,67553640,4914,com.phoneme.corebridge/.MainActivity]
+08-27 18:17:20.717 23351 23351 I wm_on_activity_result_called: [67553640,com.phoneme.corebridge.MainActivity,ACTIVITY_RESULT]
+08-27 18:17:20.718 23351 23351 I wm_on_restart_called: [67553640,com.phoneme.corebridge.MainActivity,performRestart,0]
+08-27 18:17:20.718 23351 23351 I wm_on_start_called: [67553640,com.phoneme.corebridge.MainActivity,handleStartActivity,0]
+08-27 18:17:20.718 23351 23351 I wm_on_resume_called: [67553640,com.phoneme.corebridge.MainActivity,RESUME_ACTIVITY,0]
+08-27 18:17:20.718 23351 23351 I wm_on_top_resumed_gained_called: [67553640,com.phoneme.corebridge.MainActivity,topWhenResuming]
+08-27 18:17:20.727  3240  3362 I input_focus: [Focus request Window:8b07700 type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=UpdateInputWindows]
+08-27 18:17:20.748  3240  3887 I input_focus: [Focus entering Window:8b07700 type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=Window became focusable. Previous reason: NOT_VISIBLE]
+08-27 18:17:21.736  3240  3887 I input_interaction: Interaction with: Window:8b07700 type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] swipe-up, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 18:17:22.302  3240  3887 I input_interaction: Interaction with: Window:8b07700 type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 18:17:23.864 23351 23351 I wm_on_top_resumed_lost_called: [67553640,com.phoneme.corebridge.MainActivity,topStateChangedWhenResumed]
+08-27 18:17:24.318  3240  4592 I wm_add_to_stopping: [0,67553640,com.phoneme.corebridge/.MainActivity,makeInvisible]
+08-27 18:17:24.319  3240  4592 I wm_pause_activity: [0,67553640,com.phoneme.corebridge/.MainActivity,userLeaving=true,finishTransition]
+08-27 18:17:24.319 23351 23351 I wm_on_paused_called: [67553640,com.phoneme.corebridge.MainActivity,performPause,0]
+08-27 18:17:24.322  3240  3361 I wm_stop_activity: [0,67553640,com.phoneme.corebridge/.MainActivity]
+08-27 18:17:24.326  3240  3887 I input_focus: [Focus leaving Window:8b07700 type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=NOT_VISIBLE]
+08-27 18:17:24.333 23351 23351 I wm_on_stop_called: [67553640,com.phoneme.corebridge.MainActivity,STOP_ACTIVITY_ITEM,0]
+08-27 18:17:30.814  3240  3407 I am_app_frozen: [0,11078,com.phoneme.corebridge,from fast_freezer]
+08-27 18:17:59.982  3240  3378 I am_pss  : [23351,11078,com.phoneme.corebridge,0,0,0,150654976,0,16,2]
+08-27 18:18:08.143  3240  3550 I wm_destroy_activity: [0,67553640,4914,com.phoneme.corebridge/.MainActivity,finish-imm:remove-task callingPid:4937]
+08-27 18:18:08.170  3240  3404 I am_kill : [0,23351,com.phoneme.corebridge,704,stop com.phoneme.corebridge due to single-cleaner,146612]
+08-27 18:18:08.176  3240  3404 I wm_finish_activity: [0,67553640,4914,com.phoneme.corebridge/.MainActivity,proc died without state saved]
+08-27 18:18:08.180  3240  3404 I wm_task_removed: [4914,4914,0,removeChild, last child = ActivityRecord{67553640 u0 com.phoneme.corebridge/.MainActivity t-1 d-1 f}} in Task{380ee67 #4914 type=standard A=11078:com.phoneme.corebridge U=0 displayId=0 mode=fullscreen sz=0}]
+08-27 18:18:08.197  3240  3407 I am_app_unfrozen: [0,11078,com.phoneme.corebridge,package died]
+08-27 18:18:08.200  3240  3240 I notification_cancel_all: [1000,3240,com.phoneme.corebridge,0,0,0,5,NULL]
+08-27 18:18:34.123  3240  3240 I notification_cancel_all: [1000,3240,com.phoneme.corebridge,0,0,0,5,NULL]
+08-27 18:26:05.564 12606 12734 I NebulaeTrainingCacheMetricsProcessor: NebulaeTrainingCacheMetricsProcessor.processBeginSession():246 Begin training cache session: com.phoneme.corebridge_-1/
+08-27 18:26:09.562 12606 12734 I NebulaeTrainingCacheMetricsProcessor: NebulaeTrainingCacheMetricsProcessor.processEndSession():590 End training cache session: com.phoneme.corebridge_-1/
+08-27 18:26:17.871  3240  3390 I am_proc_start: [0,28370,11078,com.phoneme.corebridge,preStart_down,com.phoneme.corebridge]
+08-27 18:26:17.880 28370 28370 E neme.corebridge: BBinder_init Processname  com.phoneme.corebridge  
+08-27 18:26:17.880 28370 28370 E neme.corebridge: BBinder_init hasGetProcessName  com.phoneme.corebridge
+08-27 18:26:17.883  3240  4620 I am_proc_bound: [0,28370,com.phoneme.corebridge]
+08-27 18:26:17.893 28370 28370 D nativeloader: Configuring clns-9 for other apk /data/app/~~WrwLGFtZQRZ_YGayfLQqlQ==/com.phoneme.corebridge-P_yucZsnCAWtkQPBB2c6xQ==/base.apk. target_sdk_version=28, uses_libraries=, library_path=/data/app/~~WrwLGFtZQRZ_YGayfLQqlQ==/com.phoneme.corebridge-P_yucZsnCAWtkQPBB2c6xQ==/lib/arm64:/data/app/~~WrwLGFtZQRZ_YGayfLQqlQ==/com.phoneme.corebridge-P_yucZsnCAWtkQPBB2c6xQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.phoneme.corebridge
+08-27 18:26:17.896 28370 28370 V GraphicsEnvironment: com.phoneme.corebridge is not listed in per-application setting
+08-27 18:26:17.896 28370 28370 V GraphicsEnvironment: com.phoneme.corebridge is not listed in ANGLE allowlist or settings, returning default
+08-27 18:26:17.936  3240  4620 I wm_create_activity: [0,224577187,4918,com.phoneme.corebridge/.MainActivity,android.intent.action.MAIN,NULL,NULL,807403520]
+08-27 18:26:17.940  3240  4620 I wm_restart_activity: [0,224577187,4918,com.phoneme.corebridge/.MainActivity]
+08-27 18:26:17.941  3240  4620 I wm_set_resumed_activity: [0,com.phoneme.corebridge/.MainActivity,realStartActivityLocked - onActivityStateChanged]
+08-27 18:26:17.948 28370 28401 I GameManager: __progname=com.phoneme.corebridge
+08-27 18:26:17.948 28370 28401 D vulkan  : searching for layers in '/data/app/~~WrwLGFtZQRZ_YGayfLQqlQ==/com.phoneme.corebridge-P_yucZsnCAWtkQPBB2c6xQ==/lib/arm64'
+08-27 18:26:17.948 28370 28401 D vulkan  : searching for layers in '/data/app/~~WrwLGFtZQRZ_YGayfLQqlQ==/com.phoneme.corebridge-P_yucZsnCAWtkQPBB2c6xQ==/base.apk!/lib/arm64-v8a'
+08-27 18:26:17.965 28370 28401 I AdrenoVK-0: Process Name        : com.phoneme.corebridge
+08-27 18:26:17.969 28370 28370 D nativeloader: Load /data/app/~~WrwLGFtZQRZ_YGayfLQqlQ==/com.phoneme.corebridge-P_yucZsnCAWtkQPBB2c6xQ==/lib/arm64/libphoneMECoreBridge.so using class loader ns clns-9 (caller=/data/app/~~WrwLGFtZQRZ_YGayfLQqlQ==/com.phoneme.corebridge-P_yucZsnCAWtkQPBB2c6xQ==/base.apk): ok
+08-27 18:26:17.966 28370 28370 I auditd  : type=1400 audit(0.0:347968): avc:  denied  { read } for  comm="neme.corebridge" name="u:object_r:microsoft_ltw_prop:s0" dev="tmpfs" ino=334 scontext=u:r:untrusted_app_27:s0:c54,c260,c512,c768 tcontext=u:object_r:microsoft_ltw_prop:s0 tclass=file permissive=0 app=com.phoneme.corebridge
+08-27 18:26:17.966 28370 28370 W neme.corebridge: type=1400 audit(0.0:347968): avc:  denied  { read } for  name="u:object_r:microsoft_ltw_prop:s0" dev="tmpfs" ino=334 scontext=u:r:untrusted_app_27:s0:c54,c260,c512,c768 tcontext=u:object_r:microsoft_ltw_prop:s0 tclass=file permissive=0 app=com.phoneme.corebridge
+08-27 18:26:17.969 28370 28370 I PhoneME-CoreBridge: phoneme_configure result=0 home=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime
+08-27 18:26:17.969 28370 28370 I PhoneME-CoreBridge: nativeConfigure=0 home=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime
+08-27 18:26:17.969 28370 28370 I PhoneME-CoreBridge: Java log file=/data/user/0/com.phoneme.corebridge/files/corebridge-session.log
+08-27 18:26:17.969 28370 28370 I PhoneME-CoreBridge: Native log file=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/corebridge-native.log
+08-27 18:26:17.970 28370 28370 I wm_on_create_called: [224577187,com.phoneme.corebridge.MainActivity,performCreate,19]
+08-27 18:26:17.970 28370 28370 I wm_on_start_called: [224577187,com.phoneme.corebridge.MainActivity,handleStartActivity,0]
+08-27 18:26:17.970 28370 28370 I wm_on_resume_called: [224577187,com.phoneme.corebridge.MainActivity,RESUME_ACTIVITY,0]
+08-27 18:26:17.981  3240  3362 I input_focus: [Focus request Window:5fce502 type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=UpdateInputWindows]
+08-27 18:26:17.999 28370 28370 I wm_on_top_resumed_gained_called: [224577187,com.phoneme.corebridge.MainActivity,topStateChangedWhenResumed]
+08-27 18:26:18.004  3240  3358 I sysui_multi_action: [319,0,322,69,325,272650,757,761,758,8,759,3,806,com.phoneme.corebridge,871,com.phoneme.corebridge.MainActivity,904,com.bbk.launcher2,905,0,1320,4,1321,4]
+08-27 18:26:18.004  3240  3358 I wm_activity_launch_time: [0,224577187,com.phoneme.corebridge/.MainActivity,69]
+08-27 18:26:18.004  3240  3358 I ActivityTaskManager: Displayed com.phoneme.corebridge/.MainActivity for user 0: +69ms
+08-27 18:26:18.011  3240  3887 I input_focus: [Focus entering Window:5fce502 type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=Window became focusable. Previous reason: NOT_VISIBLE]
+08-27 18:26:18.012 28370 28370 I ImeTracker: com.phoneme.corebridge:d447f480: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+08-27 18:26:18.013 12606 12606 D InlineSuggestionSessionController: notifyOnStartInput: com.phoneme.corebridge, 0
+08-27 18:26:18.013 12606 12606 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1446 onStartInput(EditorInfo{EditorInfo{packageName=com.phoneme.corebridge, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+08-27 18:26:18.137 28370 28426 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.phoneme.corebridge
+08-27 18:26:20.766  3240  3887 I input_interaction: Interaction with: Window:5fce502 type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 18:26:20.862  3240  5133 I sysui_multi_action: [757,906,758,4,806,com.phoneme.corebridge,871,,908,com.vivo.cipherchain,1452,0,1456,59171547]
+08-27 18:26:20.867 28370 28370 I PhoneME-CoreBridge: gamePath=/data/user/0/com.phoneme.corebridge/files/game-library/1787821200048_DangerDash_Nokia_5800_EN_IGP_IAP_EU_TS_109.jar
+08-27 18:26:20.918 28370 28444 I PhoneME-CoreBridge: starting scoped jar=/data/user/0/com.phoneme.corebridge/files/game-library/1787821200048_DangerDash_Nokia_5800_EN_IGP_IAP_EU_TS_109.jar scope=1787821200048 main=GloftJDMP size=360x640
+08-27 18:26:20.923 12606 12606 D InlineSuggestionSessionController: notifyOnStartInput: com.phoneme.corebridge, 0
+08-27 18:26:20.923 12606 12606 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1446 onStartInput(EditorInfo{EditorInfo{packageName=com.phoneme.corebridge, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+08-27 18:26:20.931  3240  3240 I sysui_multi_action: [757,907,758,10,806,com.phoneme.corebridge,871,,908,com.vivo.cipherchain,909,-1,1454,1,1456,59171547]
+08-27 18:26:20.931  3240  3240 I sysui_multi_action: [757,919,758,4,806,com.phoneme.corebridge,871,,908,com.vivo.cipherchain,1455,1,1456,59171547]
+08-27 18:26:20.956 28370 28444 I PhoneME-CoreBridge: [phoneMETrace][rms] op=configure root=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/games/1899851832/rms/1899851832 quota=33554432 status=ok
+08-27 18:26:21.123 28370 28449 I PhoneME-CoreBridge: [phoneMETrace][rms] op=recover path=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/games/1899851832/rms/1899851832/rms-VU5P.rms source=canonical store=UNO records=1 version=4
+08-27 18:26:21.123 28370 28449 I PhoneME-CoreBridge: [phoneMETrace][rms] op=load store=UNO source=file records=1 version=4
+08-27 18:26:21.123 28370 28449 I PhoneME-CoreBridge: [phoneMETrace][rms] op=open store=UNO create=1 records=1 open=1 version=4
+08-27 18:26:21.123 28370 28449 I PhoneME-CoreBridge: [phoneMETrace][rms] op=info store=UNO records=1 bytes=992 version=4 open=1
+08-27 18:26:21.123 28370 28449 I PhoneME-CoreBridge: [phoneMETrace][rms] op=close store=UNO records=1 open=0 pending=0 version=4
+08-27 18:26:21.123 28370 28449 I PhoneME-CoreBridge: [phoneMETrace][rms] op=recover path=/data/user/0/com.phoneme.corebridge/files/corebridge-runtime/games/1899851832/rms/1899851832/rms-SU5CT1hNU0c.rms source=canonical store=INBOXMSG records=1 version=1
+08-27 18:26:21.123 28370 28449 I PhoneME-CoreBridge: [phoneMETrace][rms] op=load store=INBOXMSG source=file records=1 version=1
+08-27 18:26:21.123 28370 28449 I PhoneME-CoreBridge: [phoneMETrace][rms] op=open store=INBOXMSG create=1 records=1 open=1 version=1
+08-27 18:26:21.123 28370 28449 I PhoneME-CoreBridge: [phoneMETrace][rms] op=info store=INBOXMSG records=1 bytes=4 version=1 open=1
+08-27 18:26:21.123 28370 28449 I PhoneME-CoreBridge: [phoneMETrace][rms] op=close store=INBOXMSG records=1 open=0 pending=0 version=1
+08-27 18:26:21.277 28370 28454 I PhoneME-CoreBridge: [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=0 count=1
+08-27 18:26:24.511 28370 28454 I PhoneME-CoreBridge: [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=59 count=60
+08-27 18:26:26.405 28370 28454 I PhoneME-CoreBridge: [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=119 count=120
+08-27 18:26:28.208 28370 28454 I PhoneME-CoreBridge: [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=179 count=180
+08-27 18:26:30.054 28370 28454 I PhoneME-CoreBridge: [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=239 count=240
+08-27 18:26:31.923 28370 28454 I PhoneME-CoreBridge: [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=299 count=300
+08-27 18:26:33.801 28370 28454 I PhoneME-CoreBridge: [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=359 count=360
+08-27 18:26:34.094 28370 28370 I wm_on_top_resumed_lost_called: [224577187,com.phoneme.corebridge.MainActivity,topStateChangedWhenResumed]
+08-27 18:26:34.117  3240  3378 I am_pss  : [28370,11078,com.phoneme.corebridge,0,0,0,291385344,0,2,1]
+08-27 18:26:34.548  3240  3550 I wm_add_to_stopping: [0,224577187,com.phoneme.corebridge/.MainActivity,makeInvisible]
+08-27 18:26:34.549  3240  3550 I wm_pause_activity: [0,224577187,com.phoneme.corebridge/.MainActivity,userLeaving=true,finishTransition]
+08-27 18:26:34.550  3240  3361 I wm_stop_activity: [0,224577187,com.phoneme.corebridge/.MainActivity]
+08-27 18:26:34.551 28370 28370 I wm_on_paused_called: [224577187,com.phoneme.corebridge.MainActivity,performPause,0]
+08-27 18:26:34.552 28370 28370 I wm_on_stop_called: [224577187,com.phoneme.corebridge.MainActivity,STOP_ACTIVITY_ITEM,0]
+08-27 18:26:34.556  3240  3887 I input_focus: [Focus leaving Window:5fce502 type=1 com.phoneme.corebridge/com.phoneme.corebridge.MainActivity,reason=NOT_VISIBLE]
+08-27 18:26:35.653 28370 28454 I PhoneME-CoreBridge: [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=419 count=420
+08-27 18:26:38.864 28370 28454 I PhoneME-CoreBridge: [phoneMETrace][frame-publish] source=paint_commit bytes=921600 hash=907e47d95bfda383 repeated=479 count=480
+08-27 18:26:40.057  3240  3407 I am_app_frozen: [0,11078,com.phoneme.corebridge,from fast_freezer]
+08-27 18:26:42.743 12606 12734 I NebulaeTrainingCacheMetricsProcessor: NebulaeTrainingCacheMetricsProcessor.processBeginSession():246 Begin training cache session: com.phoneme.corebridge_-1/
+08-27 18:26:45.391 12606 12734 I NebulaeTrainingCacheMetricsProcessor: NebulaeTrainingCacheMetricsProcessor.processEndSession():590 End training cache session: com.phoneme.corebridge_-1/
+08-27 18:26:50.107 12606 12734 I NebulaeTrainingCacheMetricsProcessor: NebulaeTrainingCacheMetricsProcessor.processBeginSession():246 Begin training cache session: com.phoneme.corebridge_-1/
+08-27 18:26:56.198  3240  3378 I am_pss  : [28370,11078,com.phoneme.corebridge,0,0,0,158425088,0,16,1]
+08-27 18:26:56.419 12606 12734 I NebulaeTrainingCacheMetricsProcessor: NebulaeTrainingCacheMetricsProcessor.processEndSession():590 End training cache session: com.phoneme.corebridge_-1/
+08-27 18:26:57.159 12606 12734 I NebulaeTrainingCacheMetricsProcessor: NebulaeTrainingCacheMetricsProcessor.processBeginSession():246 Begin training cache session: com.phoneme.corebridge_-1/
+08-27 18:27:02.491  6941 30939 I BreventServer: new command: logcat -d -v threadtime -b all | grep -E 'resource-read|resource-miss|AndroidRuntime|com\.phoneme\.corebridge|phoneME' > /sdcard/Download/phoneme_r65_dangerdash_logcat_focused.txt
+08-27 18:27:02.494 12606 12734 I NebulaeTrainingCacheMetricsProcessor: NebulaeTrainingCacheMetricsProcessor.processEndSession():590 End training cache session: com.phoneme.corebridge_-1/
+08-27 18:27:02.507  6941  8340 I SimpleSh: [shexec] logcat -d -v threadtime -b all | grep -E 'resource-read|resource-miss|AndroidRuntime|com\.phoneme\.corebridge|phoneME' > /sdcard/Download/phoneme_r65_dangerdash_logcat_focused.txt

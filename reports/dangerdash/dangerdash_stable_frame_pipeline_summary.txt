@@ -1,0 +1,187 @@
+=== counts in whole full log ===
+FrameBufferView                    5131
+FrameBufferBridge                  2796
+GLFramebufferView                  1401
+bitmapBuffer is NULL               1398
+renderFrame returned TRUE          1398
+renderFrame returned FALSE         1
+fbCanvasReady=FALSE                467
+pushFrame(Bitmap)                  1398
+submitFrame                        1398
+requestRender                      1398
+surfaceview_callback               106
+surfaceview_layout                 48
+=== unique pipeline messages ===
+   1866 updateView: called
+   1398 updateView: renderFrame returned TRUE -> will repaint
+   1398 repaintView: GL instance OK -> forwarding to GL
+   1398 pushFrame(Bitmap) -> submitFrame + requestRender
+   1398 forwardToGL: pushing fbBitmap frame to GL
+   1398 forwardToGL: bitmapBuffer is NULL, no frame to push
+    467 updateView: fbCanvasReady=FALSE -> return early
+      1 updateView: renderFrame returned FALSE -> no repaint
+      1 <init>(Context, Listener) constructor called
+      1 08-27 21:23: 31840 31840 V ImeFocusController: onWindowFocus: be.preuveneers.phoneme.fpmidp.FrameBufferView{a68225f VFE...... .F...... 0,0-1080,2087} softInputMode=STATE_ALWAYS_HIDDEN|ADJUST_PAN|IS_FORWARD_NAVIGATION
+      1 08-27 21:23: 31840 31840 I PhoneME : GLFramebufferView.onMeasure: view size 1080x2087 (spec=1080x2087 phys=1080x2358)
+      1 08-27 21:23: 31840 31840 I PhoneME : GLFramebufferView created and added to layout OK
+=== non-null/buffer-producing candidates ===
+08-27 21:09:55.613  3163  4506 I wm_create_activity: [0,67357126,15,be.preuveneers.phoneme.fpmidp/.FrameBufferActivity,NULL,NULL,NULL,131072]
+08-27 21:10:49.040  3163  5089 I wm_create_activity: [0,239905219,15,be.preuveneers.phoneme.fpmidp/.FrameBufferActivity,NULL,NULL,NULL,131072]
+08-27 21:21:31.076  3163  5035 I wm_create_activity: [0,212907287,19,be.preuveneers.phoneme.fpmidp/.FrameBufferActivity,NULL,NULL,NULL,131072]
+08-27 21:23:39.242  3163  5090 I wm_create_activity: [0,181680358,19,be.preuveneers.phoneme.fpmidp/.FrameBufferActivity,NULL,NULL,NULL,131072]
+08-27 21:23:57.664  3163  5095 I wm_create_activity: [0,236864833,19,be.preuveneers.phoneme.fpmidp/.FrameBufferActivity,NULL,NULL,NULL,131072]
+08-27 21:23:57.726 31840 31840 W FrameBufferView: updateView: renderFrame returned FALSE -> no repaint
+08-27 21:23:57.727 31840 31840 D PhoneME : FrameBufferActivity.keyboardEvent: Keyboard output stream is null
+08-27 21:23:58.265 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.265 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.265 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.266 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.267 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.267 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.267 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.267 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.272 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.272 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.272 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.272 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.355 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.355 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.355 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.356 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.674 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.675 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.675 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.675 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.675 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.675 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.675 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.675 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.681 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.681 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.681 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.681 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.696 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.696 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.696 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.696 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.712 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.712 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.712 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.712 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.728 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.728 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.728 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.728 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.747 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.747 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.747 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.747 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.760 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.760 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.760 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.760 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.778 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.778 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.778 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.778 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.792 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.792 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.792 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.792 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.810 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.810 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.810 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.810 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.826 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.826 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.826 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.826 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.840 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.840 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.840 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.840 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.859 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.859 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.859 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.859 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.872 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.872 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.872 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.872 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.892 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.892 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.892 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.892 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.907 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.907 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.907 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.907 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.923 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.923 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.923 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.923 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.939 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.939 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.939 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.939 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.955 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.955 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.955 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.955 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.971 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.971 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.972 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.972 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:58.987 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:58.987 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:58.987 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:58.987 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:59.000 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:59.000 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:59.000 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:59.000 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:59.019 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:59.020 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:59.020 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:59.020 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:59.035 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:59.036 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:59.036 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:59.036 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:59.051 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:59.051 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:59.051 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:59.052 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:59.068 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:59.068 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:59.068 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:59.068 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:59.084 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:59.084 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:59.084 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:59.084 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:59.100 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:59.100 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:59.100 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:59.100 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:59.116 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:59.116 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:59.116 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:59.116 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:59.131 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:59.131 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:59.131 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:59.131 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:59.147 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:59.147 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:59.147 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:59.147 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:59.164 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:59.164 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:59.164 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:59.164 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:59.179 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint
+08-27 21:23:59.179 31840 32123 D FrameBufferBridge: forwardToGL: pushing fbBitmap frame to GL
+08-27 21:23:59.179 31840 32123 D GLFramebufferView: pushFrame(Bitmap) -> submitFrame + requestRender
+08-27 21:23:59.180 31840 32123 W FrameBufferBridge: forwardToGL: bitmapBuffer is NULL, no frame to push
+08-27 21:23:59.195 31840 32123 D FrameBufferView: updateView: renderFrame returned TRUE -> will repaint

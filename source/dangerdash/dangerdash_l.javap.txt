@@ -1,0 +1,2189 @@
+final class l extends g {
+  private r[] q;
+
+  private int r;
+
+  private int s;
+
+  private r[] t;
+
+  private r[] u;
+
+  l();
+    Code:
+       0: aload_0
+       1: invokespecial #31                 // Method g."<init>":()V
+       4: return
+
+  final void a(int, int, int, int, int, int, int, int, int);
+    Code:
+       0: iinc          2, -2
+       3: iconst_m1
+       4: istore        10
+       6: iconst_0
+       7: istore        11
+       9: iload_3
+      10: iload_2
+      11: if_icmple     28
+      14: iload         7
+      16: iload         4
+      18: if_icmplt     28
+      21: iload         6
+      23: iload         5
+      25: if_icmpge     29
+      28: return
+      29: iload_3
+      30: ifle          40
+      33: iload_2
+      34: sipush        640
+      37: if_icmplt     41
+      40: return
+      41: iload         8
+      43: iload         9
+      45: if_icmpeq     52
+      48: iconst_1
+      49: goto          53
+      52: iconst_0
+      53: istore        12
+      55: aload_0
+      56: iload         8
+      58: invokevirtual #39                 // Method g.k:(I)V
+      61: iload         12
+      63: ifeq          87
+      66: iload         8
+      68: invokestatic  #44                 // Method i.J:(I)I
+      71: istore        10
+      73: iload         9
+      75: iload         8
+      77: isub
+      78: invokestatic  #44                 // Method i.J:(I)I
+      81: iload_3
+      82: iload_2
+      83: isub
+      84: idiv
+      85: istore        11
+      87: aload_0
+      88: invokevirtual #40                 // Method g.l:()I
+      91: istore        8
+      93: aload_0
+      94: iload_1
+      95: invokevirtual #33                 // Method g.b:(I)I
+      98: istore        9
+     100: aload_0
+     101: iload_1
+     102: invokevirtual #34                 // Method g.c:(I)I
+     105: istore        12
+     107: iload_3
+     108: iload_2
+     109: isub
+     110: istore        13
+     112: iload         12
+     114: invokestatic  #44                 // Method i.J:(I)I
+     117: dup
+     118: istore        14
+     120: iload         13
+     122: idiv
+     123: istore        15
+     125: iconst_0
+     126: istore        16
+     128: iload         5
+     130: iload         4
+     132: isub
+     133: invokestatic  #44                 // Method i.J:(I)I
+     136: iload         13
+     138: idiv
+     139: istore        17
+     141: iload         6
+     143: iload         7
+     145: isub
+     146: invokestatic  #44                 // Method i.J:(I)I
+     149: iload         13
+     151: idiv
+     152: istore        18
+     154: iconst_0
+     155: istore        19
+     157: iload         5
+     159: iload         4
+     161: if_icmpeq     180
+     164: iload         13
+     166: invokestatic  #44                 // Method i.J:(I)I
+     169: iload         5
+     171: iload         4
+     173: isub
+     174: invokestatic  #50                 // Method i.R:(I)I
+     177: idiv
+     178: istore        19
+     180: iload         4
+     182: invokestatic  #44                 // Method i.J:(I)I
+     185: istore        20
+     187: iload         7
+     189: invokestatic  #44                 // Method i.J:(I)I
+     192: istore        21
+     194: iload_2
+     195: ifge          267
+     198: iconst_0
+     199: iload_2
+     200: isub
+     201: istore        22
+     203: iload         13
+     205: iload         22
+     207: isub
+     208: istore        13
+     210: iconst_0
+     211: iload         15
+     213: iload         22
+     215: imul
+     216: iadd
+     217: dup
+     218: istore        16
+     220: iflt          230
+     223: iload         16
+     225: iload         14
+     227: if_icmplt     231
+     230: return
+     231: iload         20
+     233: iload         17
+     235: iload         22
+     237: imul
+     238: iadd
+     239: istore        20
+     241: iload         21
+     243: iload         18
+     245: iload         22
+     247: imul
+     248: iadd
+     249: istore        21
+     251: iload         20
+     253: invokestatic  #45                 // Method i.K:(I)I
+     256: istore        4
+     258: iload         21
+     260: invokestatic  #45                 // Method i.K:(I)I
+     263: istore        7
+     265: iconst_0
+     266: istore_2
+     267: iload         16
+     269: invokestatic  #45                 // Method i.K:(I)I
+     272: dup
+     273: istore        22
+     275: iflt          290
+     278: iload         22
+     280: iload         12
+     282: if_icmpge     290
+     285: iload         13
+     287: ifgt          291
+     290: return
+     291: iload_3
+     292: sipush        640
+     295: if_icmple     348
+     298: iload_3
+     299: sipush        640
+     302: isub
+     303: istore        20
+     305: iload         13
+     307: iload         20
+     309: isub
+     310: istore        13
+     312: iload         5
+     314: invokestatic  #44                 // Method i.J:(I)I
+     317: iload         17
+     319: iload         20
+     321: imul
+     322: isub
+     323: invokestatic  #45                 // Method i.K:(I)I
+     326: istore        5
+     328: iload         6
+     330: invokestatic  #44                 // Method i.J:(I)I
+     333: iload         18
+     335: iload         20
+     337: imul
+     338: isub
+     339: invokestatic  #45                 // Method i.K:(I)I
+     342: istore        6
+     344: sipush        640
+     347: istore_3
+     348: iload         4
+     350: sipush        360
+     353: if_icmplt     430
+     356: iload         4
+     358: sipush        360
+     361: isub
+     362: iconst_1
+     363: iadd
+     364: dup
+     365: istore        20
+     367: iload         19
+     369: imul
+     370: invokestatic  #45                 // Method i.K:(I)I
+     373: istore        22
+     375: iload         13
+     377: iload         22
+     379: isub
+     380: istore        13
+     382: iload_2
+     383: iload         22
+     385: iadd
+     386: istore_2
+     387: iload         16
+     389: iload         15
+     391: iload         22
+     393: imul
+     394: iadd
+     395: dup
+     396: istore        16
+     398: iflt          408
+     401: iload         16
+     403: iload         14
+     405: if_icmplt     409
+     408: return
+     409: iload         21
+     411: iload         18
+     413: iload         22
+     415: imul
+     416: iadd
+     417: dup
+     418: istore        21
+     420: invokestatic  #45                 // Method i.K:(I)I
+     423: istore        7
+     425: sipush        359
+     428: istore        4
+     430: iload         5
+     432: sipush        360
+     435: if_icmplt     490
+     438: iload         5
+     440: sipush        360
+     443: isub
+     444: iconst_1
+     445: iadd
+     446: dup
+     447: istore        20
+     449: iload         19
+     451: imul
+     452: invokestatic  #45                 // Method i.K:(I)I
+     455: istore        22
+     457: iload         13
+     459: iload         22
+     461: isub
+     462: istore        13
+     464: iload_2
+     465: iload         13
+     467: iadd
+     468: istore_3
+     469: iload         6
+     471: invokestatic  #44                 // Method i.J:(I)I
+     474: iload         18
+     476: iload         22
+     478: imul
+     479: isub
+     480: invokestatic  #45                 // Method i.K:(I)I
+     483: istore        6
+     485: sipush        359
+     488: istore        5
+     490: iload         13
+     492: ifgt          496
+     495: return
+     496: iload         4
+     498: iload         5
+     500: invokestatic  #57                 // Method java/lang/Math.min:(II)I
+     503: dup
+     504: istore        20
+     506: ifge          512
+     509: iconst_0
+     510: istore        20
+     512: iload         6
+     514: iload         7
+     516: invokestatic  #56                 // Method java/lang/Math.max:(II)I
+     519: dup
+     520: istore        22
+     522: sipush        360
+     525: if_icmple     533
+     528: sipush        360
+     531: istore        22
+     533: iload         22
+     535: iload         20
+     537: isub
+     538: dup
+     539: istore        14
+     541: ifgt          545
+     544: return
+     545: aconst_null
+     546: invokestatic  #32                 // Method g.a:([I)[I
+     549: astore        19
+     551: aconst_null
+     552: astore        22
+     554: aload_0
+     555: invokevirtual #42                 // Method g.n:()Z
+     558: ifeq          573
+     561: aload_0
+     562: iload_1
+     563: invokevirtual #41                 // Method g.m:(I)[B
+     566: ifnull        573
+     569: iconst_1
+     570: goto          574
+     573: iconst_0
+     574: istore        20
+     576: aload_0
+     577: iconst_0
+     578: iload         8
+     580: invokevirtual #38                 // Method g.g:(II)Ljava/lang/Object;
+     583: checkcast     #3                  // class "[I"
+     586: astore        8
+     588: iload         20
+     590: ifeq          603
+     593: aload_0
+     594: iload_1
+     595: invokevirtual #41                 // Method g.m:(I)[B
+     598: astore        22
+     600: goto          609
+     603: aload_0
+     604: iload_1
+     605: invokevirtual #43                 // Method g.o:(I)[I
+     608: pop
+     609: iload         14
+     611: istore_1
+     612: aload         19
+     614: arraylength
+     615: iload_1
+     616: idiv
+     617: istore        14
+     619: iload_3
+     620: iload_2
+     621: isub
+     622: iload         14
+     624: idiv
+     625: istore        23
+     627: iload         4
+     629: istore        20
+     631: iload         7
+     633: istore        21
+     635: iconst_0
+     636: istore        28
+     638: iload         28
+     640: iload         23
+     642: if_icmpge     850
+     645: iload         4
+     647: iload         5
+     649: iload         4
+     651: isub
+     652: iload         14
+     654: imul
+     655: iload         28
+     657: iconst_1
+     658: iadd
+     659: imul
+     660: iload         13
+     662: idiv
+     663: iadd
+     664: istore        24
+     666: iload         7
+     668: iload         6
+     670: iload         7
+     672: isub
+     673: iload         14
+     675: imul
+     676: iload         28
+     678: iconst_1
+     679: iadd
+     680: imul
+     681: iload         13
+     683: idiv
+     684: iadd
+     685: istore        25
+     687: iload         20
+     689: iload         24
+     691: invokestatic  #55                 // Method i.j:(II)I
+     694: istore        26
+     696: iload         25
+     698: iload         21
+     700: invokestatic  #54                 // Method i.i:(II)I
+     703: istore        27
+     705: iload         26
+     707: ifge          713
+     710: iconst_0
+     711: istore        26
+     713: iload         27
+     715: sipush        360
+     718: if_icmple     726
+     721: sipush        360
+     724: istore        27
+     726: iload         27
+     728: iload         26
+     730: isub
+     731: istore_1
+     732: iload         20
+     734: invokestatic  #44                 // Method i.J:(I)I
+     737: istore        20
+     739: iload         21
+     741: invokestatic  #44                 // Method i.J:(I)I
+     744: istore        21
+     746: aload         22
+     748: ifnull        804
+     751: aload_0
+     752: aload         19
+     754: aload         8
+     756: aload         22
+     758: iload_1
+     759: iload         9
+     761: iload         12
+     763: iload         16
+     765: iload_2
+     766: iload         14
+     768: iload         28
+     770: imul
+     771: iadd
+     772: iload_2
+     773: iload         14
+     775: iload         28
+     777: iconst_1
+     778: iadd
+     779: imul
+     780: iadd
+     781: iload         26
+     783: iload         27
+     785: iload         20
+     787: iload         21
+     789: iload         15
+     791: iload         17
+     793: iload         18
+     795: iload         10
+     797: iload         11
+     799: invokespecial #65                 // Method a:([I[I[BIIIIIIIIIIIIIII)I
+     802: istore        16
+     804: getstatic     #15                 // Field i.a_:Ljavax/microedition/lcdui/Graphics;
+     807: invokestatic  #30                 // Method com/nokia/mid/ui/DirectUtils.getDirectGraphics:(Ljavax/microedition/lcdui/Graphics;)Lcom/nokia/mid/ui/DirectGraphics;
+     810: aload         19
+     812: iconst_1
+     813: iconst_0
+     814: iload_1
+     815: iload         26
+     817: iload_2
+     818: iload         14
+     820: iload         28
+     822: imul
+     823: iadd
+     824: iload_1
+     825: iload         14
+     827: iconst_0
+     828: sipush        8888
+     831: invokeinterface #66,  11          // InterfaceMethod com/nokia/mid/ui/DirectGraphics.drawPixels:([IZIIIIIIII)V
+     836: iload         24
+     838: istore        20
+     840: iload         25
+     842: istore        21
+     844: iinc          28, 1
+     847: goto          638
+     850: iload         13
+     852: iload         14
+     854: iload         23
+     856: imul
+     857: isub
+     858: dup
+     859: istore        28
+     861: ifle          1012
+     864: iload         5
+     866: istore        24
+     868: iload         6
+     870: istore        25
+     872: iload         20
+     874: iload         24
+     876: invokestatic  #55                 // Method i.j:(II)I
+     879: istore        26
+     881: iload         25
+     883: iload         21
+     885: invokestatic  #54                 // Method i.i:(II)I
+     888: istore        27
+     890: iload         26
+     892: ifge          898
+     895: iconst_0
+     896: istore        26
+     898: iload         27
+     900: sipush        360
+     903: if_icmple     911
+     906: sipush        360
+     909: istore        27
+     911: iload         27
+     913: iload         26
+     915: isub
+     916: istore_1
+     917: iload         20
+     919: invokestatic  #44                 // Method i.J:(I)I
+     922: istore        20
+     924: iload         21
+     926: invokestatic  #44                 // Method i.J:(I)I
+     929: istore        21
+     931: aload         22
+     933: ifnull        980
+     936: aload_0
+     937: aload         19
+     939: aload         8
+     941: aload         22
+     943: iload_1
+     944: iload         9
+     946: iload         12
+     948: iload         16
+     950: iload_2
+     951: iload         14
+     953: iload         23
+     955: imul
+     956: iadd
+     957: iload_3
+     958: iload         26
+     960: iload         27
+     962: iload         20
+     964: iload         21
+     966: iload         15
+     968: iload         17
+     970: iload         18
+     972: iload         10
+     974: iload         11
+     976: invokespecial #65                 // Method a:([I[I[BIIIIIIIIIIIIIII)I
+     979: pop
+     980: getstatic     #15                 // Field i.a_:Ljavax/microedition/lcdui/Graphics;
+     983: invokestatic  #30                 // Method com/nokia/mid/ui/DirectUtils.getDirectGraphics:(Ljavax/microedition/lcdui/Graphics;)Lcom/nokia/mid/ui/DirectGraphics;
+     986: aload         19
+     988: iconst_1
+     989: iconst_0
+     990: iload_1
+     991: iload         26
+     993: iload_2
+     994: iload         14
+     996: iload         23
+     998: imul
+     999: iadd
+    1000: iload_1
+    1001: iload         28
+    1003: iconst_0
+    1004: sipush        8888
+    1007: invokeinterface #66,  11          // InterfaceMethod com/nokia/mid/ui/DirectGraphics.drawPixels:([IZIIIIIIII)V
+    1012: return
+
+  private final int a(int[], int[], byte[], int, int, int, int, int, int, int, int, int, int, int, int, int, int, int);
+    Code:
+       0: iload         7
+       2: bipush        8
+       4: ishr
+       5: iload         5
+       7: imul
+       8: istore        20
+      10: iload         17
+      12: invokestatic  #45                 // Method i.K:(I)I
+      15: istore        26
+      17: aload_0
+      18: iconst_0
+      19: iload         26
+      21: invokevirtual #38                 // Method g.g:(II)Ljava/lang/Object;
+      24: checkcast     #3                  // class "[I"
+      27: astore_2
+      28: iload         12
+      30: invokestatic  #45                 // Method i.K:(I)I
+      33: istore        27
+      35: iload         13
+      37: invokestatic  #45                 // Method i.K:(I)I
+      40: istore        28
+      42: iload         8
+      44: istore        29
+      46: iload         29
+      48: iload         9
+      50: if_icmpge     556
+      53: iload         28
+      55: iload         10
+      57: if_icmplt     67
+      60: iload         27
+      62: iload         11
+      64: if_icmplt     144
+      67: iload         29
+      69: iload         8
+      71: isub
+      72: iload         4
+      74: imul
+      75: istore        22
+      77: iconst_0
+      78: istore        19
+      80: iload         19
+      82: iload         4
+      84: if_icmpge     101
+      87: aload_1
+      88: iload         22
+      90: iconst_0
+      91: iastore
+      92: iinc          22, 1
+      95: iinc          19, 1
+      98: goto          80
+     101: iload         18
+     103: ifeq          550
+     106: iload         17
+     108: iload         18
+     110: iadd
+     111: istore        17
+     113: iload         26
+     115: istore        19
+     117: iload         17
+     119: invokestatic  #45                 // Method i.K:(I)I
+     122: dup
+     123: istore        26
+     125: iload         19
+     127: if_icmpeq     550
+     130: aload_0
+     131: iconst_0
+     132: iload         26
+     134: invokevirtual #38                 // Method g.g:(II)Ljava/lang/Object;
+     137: checkcast     #3                  // class "[I"
+     140: astore_2
+     141: goto          550
+     144: iload         29
+     146: iload         8
+     148: isub
+     149: iload         4
+     151: imul
+     152: istore        22
+     154: iload         27
+     156: iload         10
+     158: isub
+     159: iconst_1
+     160: isub
+     161: istore        19
+     163: iload         19
+     165: iflt          182
+     168: aload_1
+     169: iload         22
+     171: iconst_0
+     172: iastore
+     173: iinc          22, 1
+     176: iinc          19, -1
+     179: goto          163
+     182: iload         4
+     184: iconst_1
+     185: isub
+     186: iload         29
+     188: iload         8
+     190: isub
+     191: iload         4
+     193: imul
+     194: iadd
+     195: istore        22
+     197: iload         11
+     199: iload         28
+     201: isub
+     202: iconst_1
+     203: isub
+     204: istore        19
+     206: iload         19
+     208: iflt          225
+     211: aload_1
+     212: iload         22
+     214: iconst_0
+     215: iastore
+     216: iinc          22, -1
+     219: iinc          19, -1
+     222: goto          206
+     225: iload         27
+     227: iload         28
+     229: if_icmpge     427
+     232: iload         29
+     234: iload         8
+     236: isub
+     237: iload         4
+     239: imul
+     240: istore        21
+     242: iconst_0
+     243: istore        22
+     245: iconst_0
+     246: istore        24
+     248: iload         5
+     250: invokestatic  #44                 // Method i.J:(I)I
+     253: iload         28
+     255: iload         27
+     257: isub
+     258: idiv
+     259: istore        19
+     261: iload         27
+     263: iload         10
+     265: if_icmpge     291
+     268: iload         19
+     270: iload         10
+     272: iload         27
+     274: isub
+     275: imul
+     276: istore        22
+     278: iload         22
+     280: iconst_0
+     281: iadd
+     282: istore        22
+     284: iload         10
+     286: istore        27
+     288: goto          301
+     291: iload         21
+     293: iload         27
+     295: iload         10
+     297: isub
+     298: iadd
+     299: istore        21
+     301: iload         28
+     303: iload         11
+     305: if_icmple     312
+     308: iload         11
+     310: istore        28
+     312: aload_3
+     313: iload         20
+     315: baload
+     316: sipush        255
+     319: iand
+     320: dup
+     321: istore        25
+     323: sipush        255
+     326: if_icmpne     335
+     329: iconst_0
+     330: istore        25
+     332: goto          341
+     335: aload_2
+     336: iload         25
+     338: iaload
+     339: istore        25
+     341: iload         27
+     343: iload         28
+     345: if_icmpge     427
+     348: iload         22
+     350: bipush        8
+     352: ishr
+     353: istore        23
+     355: iload         24
+     357: iload         23
+     359: if_icmpeq     405
+     362: iload         20
+     364: iload         23
+     366: iload         24
+     368: isub
+     369: iadd
+     370: istore        20
+     372: aload_3
+     373: iload         20
+     375: baload
+     376: sipush        255
+     379: iand
+     380: dup
+     381: istore        25
+     383: sipush        255
+     386: if_icmpne     395
+     389: iconst_0
+     390: istore        25
+     392: goto          401
+     395: aload_2
+     396: iload         25
+     398: iaload
+     399: istore        25
+     401: iload         23
+     403: istore        24
+     405: aload_1
+     406: iload         21
+     408: iload         25
+     410: iastore
+     411: iinc          21, 1
+     414: iload         22
+     416: iload         19
+     418: iadd
+     419: istore        22
+     421: iinc          27, 1
+     424: goto          341
+     427: iload         12
+     429: iload         15
+     431: iadd
+     432: istore        12
+     434: iload         13
+     436: iload         16
+     438: iadd
+     439: istore        13
+     441: iload         7
+     443: iload         14
+     445: iadd
+     446: istore        7
+     448: iload         12
+     450: bipush        8
+     452: ishr
+     453: istore        27
+     455: iload         13
+     457: bipush        8
+     459: ishr
+     460: istore        28
+     462: iload         7
+     464: bipush        8
+     466: ishr
+     467: iload         5
+     469: imul
+     470: dup
+     471: istore        20
+     473: ifge          485
+     476: iconst_0
+     477: istore        20
+     479: iconst_0
+     480: istore        7
+     482: goto          510
+     485: iload         20
+     487: iload         6
+     489: iload         5
+     491: imul
+     492: if_icmplt     510
+     495: iload         6
+     497: iload         5
+     499: imul
+     500: iconst_1
+     501: isub
+     502: dup
+     503: istore        20
+     505: bipush        8
+     507: ishl
+     508: istore        7
+     510: iload         18
+     512: ifeq          550
+     515: iload         17
+     517: iload         18
+     519: iadd
+     520: istore        17
+     522: iload         26
+     524: istore        19
+     526: iload         17
+     528: invokestatic  #45                 // Method i.K:(I)I
+     531: dup
+     532: istore        26
+     534: iload         19
+     536: if_icmpeq     550
+     539: aload_0
+     540: iconst_0
+     541: iload         26
+     543: invokevirtual #38                 // Method g.g:(II)Ljava/lang/Object;
+     546: checkcast     #3                  // class "[I"
+     549: astore_2
+     550: iinc          29, 1
+     553: goto          46
+     556: iload         7
+     558: ireturn
+
+  final void a(int, int, int, int, int, int, boolean, boolean);
+    Code:
+       0: iload         5
+       2: iflt          10
+       5: iload         6
+       7: ifge          11
+      10: return
+      11: aload_0
+      12: invokevirtual #40                 // Method g.l:()I
+      15: istore        8
+      17: aconst_null
+      18: invokestatic  #32                 // Method g.a:([I)[I
+      21: astore        14
+      23: aconst_null
+      24: astore        16
+      26: aconst_null
+      27: astore        17
+      29: aload_0
+      30: invokevirtual #42                 // Method g.n:()Z
+      33: ifeq          48
+      36: aload_0
+      37: iload_1
+      38: invokevirtual #41                 // Method g.m:(I)[B
+      41: ifnull        48
+      44: iconst_1
+      45: goto          49
+      48: iconst_0
+      49: istore        18
+      51: aload_0
+      52: iconst_0
+      53: iload         8
+      55: invokevirtual #38                 // Method g.g:(II)Ljava/lang/Object;
+      58: checkcast     #3                  // class "[I"
+      61: astore        15
+      63: iload         18
+      65: ifeq          78
+      68: aload_0
+      69: iload_1
+      70: invokevirtual #41                 // Method g.m:(I)[B
+      73: astore        16
+      75: goto          85
+      78: aload_0
+      79: iload_1
+      80: invokevirtual #43                 // Method g.o:(I)[I
+      83: astore        17
+      85: aload         17
+      87: ifnonnull     96
+      90: aload         16
+      92: ifnonnull     96
+      95: return
+      96: aload_0
+      97: iload_1
+      98: invokevirtual #33                 // Method g.b:(I)I
+     101: istore        8
+     103: aload_0
+     104: iload_1
+     105: invokevirtual #34                 // Method g.c:(I)I
+     108: istore        9
+     110: aload_0
+     111: iload_1
+     112: invokevirtual #36                 // Method g.d:(I)I
+     115: istore        10
+     117: aload_0
+     118: iload_1
+     119: invokevirtual #37                 // Method g.e:(I)I
+     122: istore_1
+     123: iload         10
+     125: iload         5
+     127: imul
+     128: bipush        100
+     130: idiv
+     131: istore        11
+     133: iload_1
+     134: iload         6
+     136: imul
+     137: bipush        100
+     139: idiv
+     140: istore        12
+     142: iload         8
+     144: iload         10
+     146: iadd
+     147: iload         5
+     149: imul
+     150: bipush        100
+     152: idiv
+     153: istore        10
+     155: iload         9
+     157: iload_1
+     158: iadd
+     159: iload         6
+     161: imul
+     162: bipush        100
+     164: idiv
+     165: istore        13
+     167: iload         10
+     169: iload         11
+     171: isub
+     172: istore_1
+     173: iload         13
+     175: iload         12
+     177: isub
+     178: istore        10
+     180: iload_1
+     181: ifne          185
+     184: return
+     185: iload         10
+     187: ifne          191
+     190: return
+     191: invokestatic  #46                 // Method i.L:()I
+     194: istore        11
+     196: invokestatic  #47                 // Method i.M:()I
+     199: istore        12
+     201: invokestatic  #48                 // Method i.N:()I
+     204: istore        13
+     206: invokestatic  #49                 // Method i.O:()I
+     209: istore        19
+     211: iload         8
+     213: invokestatic  #44                 // Method i.J:(I)I
+     216: iload_1
+     217: idiv
+     218: istore        20
+     220: iload         9
+     222: invokestatic  #44                 // Method i.J:(I)I
+     225: iload         10
+     227: idiv
+     228: istore        21
+     230: iload_1
+     231: istore        22
+     233: iconst_0
+     234: istore        23
+     236: iconst_0
+     237: istore        24
+     239: iload_3
+     240: istore_3
+     241: iload         4
+     243: iconst_1
+     244: iand
+     245: ifeq          264
+     248: iconst_1
+     249: istore        23
+     251: iload         7
+     253: ifne          266
+     256: iload_2
+     257: iload         22
+     259: isub
+     260: istore_2
+     261: goto          266
+     264: iload_2
+     265: istore_2
+     266: iload         4
+     268: iconst_2
+     269: iand
+     270: ifeq          283
+     273: iconst_1
+     274: istore        24
+     276: iload         7
+     278: ifne          283
+     281: iload_3
+     282: istore_3
+     283: iconst_0
+     284: istore        7
+     286: iconst_0
+     287: istore        25
+     289: iload_2
+     290: iload         11
+     292: iload         13
+     294: iadd
+     295: if_icmpge     325
+     298: iload_2
+     299: iload         22
+     301: iadd
+     302: iload         11
+     304: if_icmple     325
+     307: iload_3
+     308: iload         12
+     310: iload         19
+     312: iadd
+     313: if_icmpge     325
+     316: iload_3
+     317: iload         10
+     319: iadd
+     320: iload         12
+     322: if_icmpgt     326
+     325: return
+     326: iload_2
+     327: iload         11
+     329: if_icmpge     358
+     332: iload         11
+     334: iload_2
+     335: isub
+     336: istore        26
+     338: iload         22
+     340: iload         26
+     342: isub
+     343: istore        22
+     345: iload         26
+     347: bipush        100
+     349: imul
+     350: iload         5
+     352: idiv
+     353: istore        7
+     355: iload         11
+     357: istore_2
+     358: iload_2
+     359: iload         22
+     361: iadd
+     362: iload         13
+     364: iload         11
+     366: iadd
+     367: if_icmple     379
+     370: iload         13
+     372: iload         11
+     374: iadd
+     375: iload_2
+     376: isub
+     377: istore        22
+     379: iload_3
+     380: iload         12
+     382: if_icmpge     417
+     385: iload         12
+     387: iload_3
+     388: isub
+     389: dup
+     390: istore        26
+     392: bipush        100
+     394: imul
+     395: iload         6
+     397: idiv
+     398: istore        25
+     400: iload         9
+     402: iload         25
+     404: isub
+     405: istore        9
+     407: iload         12
+     409: istore_3
+     410: iload         10
+     412: iload         26
+     414: isub
+     415: istore        10
+     417: iload_3
+     418: iload         10
+     420: iadd
+     421: iload         19
+     423: iload         12
+     425: iadd
+     426: if_icmple     438
+     429: iload         19
+     431: iload         12
+     433: iadd
+     434: iload_3
+     435: isub
+     436: istore        10
+     438: aload         14
+     440: arraylength
+     441: iload         22
+     443: idiv
+     444: istore        4
+     446: iload         10
+     448: iload         4
+     450: invokestatic  #55                 // Method i.j:(II)I
+     453: istore        4
+     455: iload         10
+     457: iload         4
+     459: idiv
+     460: istore_1
+     461: iload         7
+     463: invokestatic  #44                 // Method i.J:(I)I
+     466: istore        7
+     468: iload         25
+     470: invokestatic  #44                 // Method i.J:(I)I
+     473: istore        25
+     475: iconst_0
+     476: istore        26
+     478: iload         26
+     480: iload_1
+     481: if_icmpge     591
+     484: iload         18
+     486: ifeq          523
+     489: aload         14
+     491: aload         16
+     493: aload         15
+     495: iload         7
+     497: iload         25
+     499: iload         8
+     501: iload         9
+     503: iload         22
+     505: iload         4
+     507: iload         20
+     509: iload         21
+     511: iload         23
+     513: iload         24
+     515: invokestatic  #63                 // Method a:([I[B[IIIIIIIIIZZ)I
+     518: istore        25
+     520: goto          552
+     523: aload         14
+     525: aload         17
+     527: iload         7
+     529: iload         25
+     531: iload         8
+     533: iload         9
+     535: iload         22
+     537: iload         4
+     539: iload         20
+     541: iload         21
+     543: iload         23
+     545: iload         24
+     547: invokestatic  #64                 // Method a:([I[IIIIIIIIIZZ)I
+     550: istore        25
+     552: getstatic     #15                 // Field i.a_:Ljavax/microedition/lcdui/Graphics;
+     555: invokestatic  #30                 // Method com/nokia/mid/ui/DirectUtils.getDirectGraphics:(Ljavax/microedition/lcdui/Graphics;)Lcom/nokia/mid/ui/DirectGraphics;
+     558: aload         14
+     560: iconst_1
+     561: iconst_0
+     562: iload         22
+     564: iload_2
+     565: iload_3
+     566: iload         26
+     568: iload         4
+     570: imul
+     571: iadd
+     572: iload         22
+     574: iload         4
+     576: iconst_0
+     577: sipush        8888
+     580: invokeinterface #66,  11          // InterfaceMethod com/nokia/mid/ui/DirectGraphics.drawPixels:([IZIIIIIIII)V
+     585: iinc          26, 1
+     588: goto          478
+     591: iload         10
+     593: iload         4
+     595: iload_1
+     596: imul
+     597: isub
+     598: dup
+     599: istore        26
+     601: ifle          702
+     604: iload         18
+     606: ifeq          642
+     609: aload         14
+     611: aload         16
+     613: aload         15
+     615: iload         7
+     617: iload         25
+     619: iload         8
+     621: iload         9
+     623: iload         22
+     625: iload         26
+     627: iload         20
+     629: iload         21
+     631: iload         23
+     633: iload         24
+     635: invokestatic  #63                 // Method a:([I[B[IIIIIIIIIZZ)I
+     638: pop
+     639: goto          670
+     642: aload         14
+     644: aload         17
+     646: iload         7
+     648: iload         25
+     650: iload         8
+     652: iload         9
+     654: iload         22
+     656: iload         26
+     658: iload         20
+     660: iload         21
+     662: iload         23
+     664: iload         24
+     666: invokestatic  #64                 // Method a:([I[IIIIIIIIIZZ)I
+     669: pop
+     670: getstatic     #15                 // Field i.a_:Ljavax/microedition/lcdui/Graphics;
+     673: invokestatic  #30                 // Method com/nokia/mid/ui/DirectUtils.getDirectGraphics:(Ljavax/microedition/lcdui/Graphics;)Lcom/nokia/mid/ui/DirectGraphics;
+     676: aload         14
+     678: iconst_1
+     679: iconst_0
+     680: iload         22
+     682: iload_2
+     683: iload_3
+     684: iload_1
+     685: iload         4
+     687: imul
+     688: iadd
+     689: iload         22
+     691: iload         26
+     693: iconst_0
+     694: sipush        8888
+     697: invokeinterface #66,  11          // InterfaceMethod com/nokia/mid/ui/DirectGraphics.drawPixels:([IZIIIIIIII)V
+     702: return
+
+  private static int a(int[], byte[], int[], int, int, int, int, int, int, int, int, boolean, boolean);
+    Code:
+       0: iconst_m1
+       1: istore        14
+       3: iconst_0
+       4: istore        16
+       6: iload         4
+       8: istore        18
+      10: iconst_0
+      11: istore        21
+      13: iload         21
+      15: iload         8
+      17: if_icmpge     266
+      20: iload         12
+      22: ifeq          40
+      25: iload         6
+      27: iconst_1
+      28: isub
+      29: iload         18
+      31: bipush        8
+      33: ishr
+      34: isub
+      35: istore        13
+      37: goto          47
+      40: iload         18
+      42: bipush        8
+      44: ishr
+      45: istore        13
+      47: iload         11
+      49: ifeq          66
+      52: iload         13
+      54: iconst_1
+      55: iadd
+      56: iload         5
+      58: imul
+      59: iconst_1
+      60: isub
+      61: istore        15
+      63: goto          73
+      66: iload         13
+      68: iload         5
+      70: imul
+      71: istore        15
+      73: iload_3
+      74: istore        19
+      76: iload         16
+      78: istore        17
+      80: iload         16
+      82: iload         7
+      84: iadd
+      85: istore        20
+      87: iload         14
+      89: iload         13
+      91: if_icmpne     111
+      94: aload_0
+      95: iload         16
+      97: iload         7
+      99: isub
+     100: aload_0
+     101: iload         16
+     103: iload         7
+     105: invokestatic  #62                 // Method java/lang/System.arraycopy:(Ljava/lang/Object;ILjava/lang/Object;II)V
+     108: goto          242
+     111: iload         11
+     113: ifeq          179
+     116: iload         16
+     118: iload         20
+     120: if_icmpge     242
+     123: iload         19
+     125: bipush        8
+     127: ishr
+     128: istore        4
+     130: aload_1
+     131: iload         15
+     133: iload         4
+     135: isub
+     136: baload
+     137: sipush        255
+     140: iand
+     141: dup
+     142: istore        4
+     144: sipush        255
+     147: if_icmpne     158
+     150: aload_0
+     151: iload         16
+     153: iconst_0
+     154: iastore
+     155: goto          166
+     158: aload_0
+     159: iload         16
+     161: aload_2
+     162: iload         4
+     164: iaload
+     165: iastore
+     166: iinc          16, 1
+     169: iload         19
+     171: iload         9
+     173: iadd
+     174: istore        19
+     176: goto          116
+     179: iload         16
+     181: iload         20
+     183: if_icmpge     242
+     186: iload         19
+     188: bipush        8
+     190: ishr
+     191: istore        4
+     193: aload_1
+     194: iload         4
+     196: iload         15
+     198: iadd
+     199: baload
+     200: sipush        255
+     203: iand
+     204: dup
+     205: istore        4
+     207: sipush        255
+     210: if_icmpne     221
+     213: aload_0
+     214: iload         16
+     216: iconst_0
+     217: iastore
+     218: goto          229
+     221: aload_0
+     222: iload         16
+     224: aload_2
+     225: iload         4
+     227: iaload
+     228: iastore
+     229: iinc          16, 1
+     232: iload         19
+     234: iload         9
+     236: iadd
+     237: istore        19
+     239: goto          179
+     242: iload         17
+     244: iload         7
+     246: iadd
+     247: istore        16
+     249: iload         18
+     251: iload         10
+     253: iadd
+     254: istore        18
+     256: iload         13
+     258: istore        14
+     260: iinc          21, 1
+     263: goto          13
+     266: iload         18
+     268: ireturn
+
+  private static int a(int[], int[], int, int, int, int, int, int, int, int, boolean, boolean);
+    Code:
+       0: iconst_m1
+       1: istore        13
+       3: iconst_0
+       4: istore        15
+       6: iload_3
+       7: istore        17
+       9: iconst_0
+      10: istore        20
+      12: iload         20
+      14: iload         7
+      16: if_icmpge     211
+      19: iload         11
+      21: ifeq          39
+      24: iload         5
+      26: iconst_1
+      27: isub
+      28: iload         17
+      30: bipush        8
+      32: ishr
+      33: isub
+      34: istore        12
+      36: goto          46
+      39: iload         17
+      41: bipush        8
+      43: ishr
+      44: istore        12
+      46: iload         10
+      48: ifeq          65
+      51: iload         12
+      53: iconst_1
+      54: iadd
+      55: iload         4
+      57: imul
+      58: iconst_1
+      59: isub
+      60: istore        14
+      62: goto          72
+      65: iload         12
+      67: iload         4
+      69: imul
+      70: istore        14
+      72: iload_2
+      73: istore        18
+      75: iload         15
+      77: istore        16
+      79: iload         15
+      81: iload         6
+      83: iadd
+      84: istore        19
+      86: iload         13
+      88: iload         12
+      90: if_icmpne     110
+      93: aload_0
+      94: iload         15
+      96: iload         6
+      98: isub
+      99: aload_0
+     100: iload         15
+     102: iload         6
+     104: invokestatic  #62                 // Method java/lang/System.arraycopy:(Ljava/lang/Object;ILjava/lang/Object;II)V
+     107: goto          187
+     110: iload         10
+     112: ifeq          151
+     115: iload         15
+     117: iload         19
+     119: if_icmpge     187
+     122: iload         18
+     124: bipush        8
+     126: ishr
+     127: istore_3
+     128: aload_0
+     129: iload         15
+     131: aload_1
+     132: iload         14
+     134: iload_3
+     135: isub
+     136: iaload
+     137: iastore
+     138: iinc          15, 1
+     141: iload         18
+     143: iload         8
+     145: iadd
+     146: istore        18
+     148: goto          115
+     151: iload         15
+     153: iload         19
+     155: if_icmpge     187
+     158: iload         18
+     160: bipush        8
+     162: ishr
+     163: istore_3
+     164: aload_0
+     165: iload         15
+     167: aload_1
+     168: iload_3
+     169: iload         14
+     171: iadd
+     172: iaload
+     173: iastore
+     174: iinc          15, 1
+     177: iload         18
+     179: iload         8
+     181: iadd
+     182: istore        18
+     184: goto          151
+     187: iload         16
+     189: iload         6
+     191: iadd
+     192: istore        15
+     194: iload         17
+     196: iload         9
+     198: iadd
+     199: istore        17
+     201: iload         12
+     203: istore        13
+     205: iinc          20, 1
+     208: goto          12
+     211: iload         17
+     213: ireturn
+
+  public final void b(boolean);
+    Code:
+       0: aload_0
+       1: invokestatic  #25                 // Method b.t:()I
+       4: aload_0
+       5: invokevirtual #35                 // Method g.d:()I
+       8: imul
+       9: anewarray     #14                 // class r
+      12: putfield      #16                 // Field q:[Lr;
+      15: aload_0
+      16: invokevirtual #40                 // Method g.l:()I
+      19: istore_1
+      20: aconst_null
+      21: invokestatic  #32                 // Method g.a:([I)[I
+      24: astore        9
+      26: aload_0
+      27: iconst_0
+      28: iload_1
+      29: invokevirtual #38                 // Method g.g:(II)Ljava/lang/Object;
+      32: checkcast     #3                  // class "[I"
+      35: astore        10
+      37: aload_0
+      38: aload_0
+      39: aload_0
+      40: invokevirtual #35                 // Method g.d:()I
+      43: iconst_1
+      44: isub
+      45: invokevirtual #36                 // Method g.d:(I)I
+      48: putfield      #17                 // Field r:I
+      51: aload_0
+      52: aload_0
+      53: aload_0
+      54: invokevirtual #35                 // Method g.d:()I
+      57: iconst_1
+      58: isub
+      59: invokevirtual #37                 // Method g.e:(I)I
+      62: putfield      #18                 // Field s:I
+      65: iconst_0
+      66: istore        12
+      68: iload         12
+      70: aload_0
+      71: invokevirtual #35                 // Method g.d:()I
+      74: iconst_1
+      75: isub
+      76: if_icmpge     311
+      79: aload_0
+      80: invokevirtual #42                 // Method g.n:()Z
+      83: ifeq          99
+      86: aload_0
+      87: iload         12
+      89: invokevirtual #41                 // Method g.m:(I)[B
+      92: ifnull        99
+      95: iconst_1
+      96: goto          100
+      99: iconst_0
+     100: dup
+     101: istore_1
+     102: ifeq          305
+     105: aload_0
+     106: iload         12
+     108: invokevirtual #41                 // Method g.m:(I)[B
+     111: astore        11
+     113: aload_0
+     114: iload         12
+     116: invokevirtual #33                 // Method g.b:(I)I
+     119: istore_1
+     120: aload_0
+     121: iload         12
+     123: invokevirtual #34                 // Method g.c:(I)I
+     126: istore_2
+     127: aload_0
+     128: iload         12
+     130: invokevirtual #36                 // Method g.d:(I)I
+     133: istore_3
+     134: aload_0
+     135: iload         12
+     137: invokevirtual #37                 // Method g.e:(I)I
+     140: istore        4
+     142: iconst_0
+     143: istore        13
+     145: iload         13
+     147: invokestatic  #25                 // Method b.t:()I
+     150: if_icmpge     305
+     153: iload         13
+     155: invokestatic  #28                 // Method b.y:(I)I
+     158: istore        7
+     160: iload         13
+     162: invokestatic  #28                 // Method b.y:(I)I
+     165: istore        8
+     167: iload_3
+     168: iload         7
+     170: imul
+     171: bipush        100
+     173: idiv
+     174: istore        5
+     176: iload         4
+     178: iload         8
+     180: imul
+     181: bipush        100
+     183: idiv
+     184: istore        6
+     186: iload_1
+     187: iload_3
+     188: iadd
+     189: iload         7
+     191: imul
+     192: bipush        100
+     194: idiv
+     195: istore        7
+     197: iload_2
+     198: iload         4
+     200: iadd
+     201: iload         8
+     203: imul
+     204: bipush        100
+     206: idiv
+     207: istore        8
+     209: iload         7
+     211: iload         5
+     213: isub
+     214: istore        5
+     216: iload         8
+     218: iload         6
+     220: isub
+     221: istore        6
+     223: iload         5
+     225: ifeq          299
+     228: iload         6
+     230: ifeq          299
+     233: iload_1
+     234: invokestatic  #44                 // Method i.J:(I)I
+     237: iload         5
+     239: idiv
+     240: istore        7
+     242: iload_2
+     243: invokestatic  #44                 // Method i.J:(I)I
+     246: iload         6
+     248: idiv
+     249: istore        8
+     251: aload         9
+     253: aload         11
+     255: aload         10
+     257: iconst_0
+     258: iconst_0
+     259: iload_1
+     260: iload_2
+     261: iload         5
+     263: iload         6
+     265: iload         7
+     267: iload         8
+     269: iconst_0
+     270: iconst_0
+     271: invokestatic  #63                 // Method a:([I[B[IIIIIIIIIZZ)I
+     274: pop
+     275: aload_0
+     276: getfield      #16                 // Field q:[Lr;
+     279: iload         12
+     281: invokestatic  #25                 // Method b.t:()I
+     284: imul
+     285: iload         13
+     287: iadd
+     288: aload         9
+     290: iload         5
+     292: iload         6
+     294: iconst_1
+     295: invokestatic  #52                 // Method i.a:([IIIZ)Lr;
+     298: aastore
+     299: iinc          13, 1
+     302: goto          145
+     305: iinc          12, 1
+     308: goto          68
+     311: return
+
+  public final void c(javax.microedition.lcdui.Graphics, int, int, int, int, int);
+    Code:
+       0: iload         5
+       2: iflt          10
+       5: iload         6
+       7: ifge          11
+      10: return
+      11: iload         5
+      13: invokestatic  #29                 // Method b.z:(I)I
+      16: istore        5
+      18: iload_2
+      19: invokestatic  #25                 // Method b.t:()I
+      22: imul
+      23: iload         5
+      25: iadd
+      26: istore_2
+      27: iload_3
+      28: aload_0
+      29: getfield      #17                 // Field r:I
+      32: iload         5
+      34: invokestatic  #28                 // Method b.y:(I)I
+      37: imul
+      38: bipush        100
+      40: idiv
+      41: iadd
+      42: istore_3
+      43: iload         4
+      45: aload_0
+      46: getfield      #18                 // Field s:I
+      49: iload         5
+      51: invokestatic  #28                 // Method b.y:(I)I
+      54: imul
+      55: bipush        100
+      57: idiv
+      58: iadd
+      59: istore        4
+      61: aload_1
+      62: aload_0
+      63: getfield      #16                 // Field q:[Lr;
+      66: iload_2
+      67: aaload
+      68: iload_3
+      69: iload         4
+      71: bipush        20
+      73: iconst_0
+      74: invokestatic  #51                 // Method i.a:(Ljavax/microedition/lcdui/Graphics;Lr;IIIZ)V
+      77: return
+
+  public final void c(boolean);
+    Code:
+       0: aload_0
+       1: invokestatic  #26                 // Method b.u:()I
+       4: aload_0
+       5: invokevirtual #35                 // Method g.d:()I
+       8: imul
+       9: anewarray     #14                 // class r
+      12: putfield      #19                 // Field t:[Lr;
+      15: aload_0
+      16: invokevirtual #40                 // Method g.l:()I
+      19: istore_1
+      20: aconst_null
+      21: invokestatic  #32                 // Method g.a:([I)[I
+      24: astore        9
+      26: aload_0
+      27: iconst_0
+      28: iload_1
+      29: invokevirtual #38                 // Method g.g:(II)Ljava/lang/Object;
+      32: checkcast     #3                  // class "[I"
+      35: astore        10
+      37: aload_0
+      38: aload_0
+      39: aload_0
+      40: invokevirtual #35                 // Method g.d:()I
+      43: iconst_1
+      44: isub
+      45: invokevirtual #36                 // Method g.d:(I)I
+      48: putfield      #17                 // Field r:I
+      51: aload_0
+      52: aload_0
+      53: aload_0
+      54: invokevirtual #35                 // Method g.d:()I
+      57: iconst_1
+      58: isub
+      59: invokevirtual #37                 // Method g.e:(I)I
+      62: putfield      #18                 // Field s:I
+      65: iconst_0
+      66: istore        12
+      68: iload         12
+      70: aload_0
+      71: invokevirtual #35                 // Method g.d:()I
+      74: iconst_1
+      75: isub
+      76: if_icmpge     311
+      79: aload_0
+      80: invokevirtual #42                 // Method g.n:()Z
+      83: ifeq          99
+      86: aload_0
+      87: iload         12
+      89: invokevirtual #41                 // Method g.m:(I)[B
+      92: ifnull        99
+      95: iconst_1
+      96: goto          100
+      99: iconst_0
+     100: dup
+     101: istore_1
+     102: ifeq          305
+     105: aload_0
+     106: iload         12
+     108: invokevirtual #41                 // Method g.m:(I)[B
+     111: astore        11
+     113: aload_0
+     114: iload         12
+     116: invokevirtual #33                 // Method g.b:(I)I
+     119: istore_1
+     120: aload_0
+     121: iload         12
+     123: invokevirtual #34                 // Method g.c:(I)I
+     126: istore_2
+     127: aload_0
+     128: iload         12
+     130: invokevirtual #36                 // Method g.d:(I)I
+     133: istore_3
+     134: aload_0
+     135: iload         12
+     137: invokevirtual #37                 // Method g.e:(I)I
+     140: istore        4
+     142: iconst_0
+     143: istore        13
+     145: iload         13
+     147: invokestatic  #26                 // Method b.u:()I
+     150: if_icmpge     305
+     153: iload         13
+     155: invokestatic  #21                 // Method b.B:(I)I
+     158: istore        7
+     160: iload         13
+     162: invokestatic  #21                 // Method b.B:(I)I
+     165: istore        8
+     167: iload_3
+     168: iload         7
+     170: imul
+     171: bipush        100
+     173: idiv
+     174: istore        5
+     176: iload         4
+     178: iload         8
+     180: imul
+     181: bipush        100
+     183: idiv
+     184: istore        6
+     186: iload_1
+     187: iload_3
+     188: iadd
+     189: iload         7
+     191: imul
+     192: bipush        100
+     194: idiv
+     195: istore        7
+     197: iload_2
+     198: iload         4
+     200: iadd
+     201: iload         8
+     203: imul
+     204: bipush        100
+     206: idiv
+     207: istore        8
+     209: iload         7
+     211: iload         5
+     213: isub
+     214: istore        5
+     216: iload         8
+     218: iload         6
+     220: isub
+     221: istore        6
+     223: iload         5
+     225: ifeq          299
+     228: iload         6
+     230: ifeq          299
+     233: iload_1
+     234: invokestatic  #44                 // Method i.J:(I)I
+     237: iload         5
+     239: idiv
+     240: istore        7
+     242: iload_2
+     243: invokestatic  #44                 // Method i.J:(I)I
+     246: iload         6
+     248: idiv
+     249: istore        8
+     251: aload         9
+     253: aload         11
+     255: aload         10
+     257: iconst_0
+     258: iconst_0
+     259: iload_1
+     260: iload_2
+     261: iload         5
+     263: iload         6
+     265: iload         7
+     267: iload         8
+     269: iconst_0
+     270: iconst_0
+     271: invokestatic  #63                 // Method a:([I[B[IIIIIIIIIZZ)I
+     274: pop
+     275: aload_0
+     276: getfield      #19                 // Field t:[Lr;
+     279: iload         12
+     281: invokestatic  #26                 // Method b.u:()I
+     284: imul
+     285: iload         13
+     287: iadd
+     288: aload         9
+     290: iload         5
+     292: iload         6
+     294: iconst_1
+     295: invokestatic  #52                 // Method i.a:([IIIZ)Lr;
+     298: aastore
+     299: iinc          13, 1
+     302: goto          145
+     305: iinc          12, 1
+     308: goto          68
+     311: return
+
+  public final void d(javax.microedition.lcdui.Graphics, int, int, int, int, int);
+    Code:
+       0: iload         5
+       2: iflt          10
+       5: iload         6
+       7: ifge          11
+      10: return
+      11: iload         5
+      13: invokestatic  #22                 // Method b.C:(I)I
+      16: istore        5
+      18: iload_2
+      19: invokestatic  #26                 // Method b.u:()I
+      22: imul
+      23: iload         5
+      25: iadd
+      26: istore_2
+      27: iload_3
+      28: aload_0
+      29: getfield      #17                 // Field r:I
+      32: iload         5
+      34: invokestatic  #21                 // Method b.B:(I)I
+      37: imul
+      38: bipush        100
+      40: idiv
+      41: iadd
+      42: istore_3
+      43: iload         4
+      45: aload_0
+      46: getfield      #18                 // Field s:I
+      49: iload         5
+      51: invokestatic  #21                 // Method b.B:(I)I
+      54: imul
+      55: bipush        100
+      57: idiv
+      58: iadd
+      59: istore        4
+      61: aload_1
+      62: aload_0
+      63: getfield      #19                 // Field t:[Lr;
+      66: iload_2
+      67: aaload
+      68: iload_3
+      69: iload         4
+      71: bipush        20
+      73: iconst_0
+      74: invokestatic  #51                 // Method i.a:(Ljavax/microedition/lcdui/Graphics;Lr;IIIZ)V
+      77: return
+
+  public final void d(boolean);
+    Code:
+       0: aload_0
+       1: invokestatic  #27                 // Method b.v:()I
+       4: aload_0
+       5: invokevirtual #35                 // Method g.d:()I
+       8: imul
+       9: anewarray     #14                 // class r
+      12: putfield      #20                 // Field u:[Lr;
+      15: aload_0
+      16: invokevirtual #40                 // Method g.l:()I
+      19: istore_1
+      20: aconst_null
+      21: invokestatic  #32                 // Method g.a:([I)[I
+      24: astore        9
+      26: aload_0
+      27: iconst_0
+      28: iload_1
+      29: invokevirtual #38                 // Method g.g:(II)Ljava/lang/Object;
+      32: checkcast     #3                  // class "[I"
+      35: astore        10
+      37: aload_0
+      38: aload_0
+      39: aload_0
+      40: invokevirtual #35                 // Method g.d:()I
+      43: iconst_1
+      44: isub
+      45: invokevirtual #36                 // Method g.d:(I)I
+      48: putfield      #17                 // Field r:I
+      51: aload_0
+      52: aload_0
+      53: aload_0
+      54: invokevirtual #35                 // Method g.d:()I
+      57: iconst_1
+      58: isub
+      59: invokevirtual #37                 // Method g.e:(I)I
+      62: putfield      #18                 // Field s:I
+      65: new           #10                 // class java/lang/StringBuffer
+      68: dup
+      69: invokespecial #58                 // Method java/lang/StringBuffer."<init>":()V
+      72: ldc           #1                  // String _________________________
+      74: invokevirtual #60                 // Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+      77: aload_0
+      78: invokevirtual #35                 // Method g.d:()I
+      81: invokevirtual #59                 // Method java/lang/StringBuffer.append:(I)Ljava/lang/StringBuffer;
+      84: invokevirtual #61                 // Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+      87: invokestatic  #53                 // Method i.b:(Ljava/lang/String;)V
+      90: iconst_0
+      91: istore        12
+      93: iload         12
+      95: aload_0
+      96: invokevirtual #35                 // Method g.d:()I
+      99: iconst_1
+     100: isub
+     101: if_icmpge     336
+     104: aload_0
+     105: invokevirtual #42                 // Method g.n:()Z
+     108: ifeq          124
+     111: aload_0
+     112: iload         12
+     114: invokevirtual #41                 // Method g.m:(I)[B
+     117: ifnull        124
+     120: iconst_1
+     121: goto          125
+     124: iconst_0
+     125: dup
+     126: istore_1
+     127: ifeq          330
+     130: aload_0
+     131: iload         12
+     133: invokevirtual #41                 // Method g.m:(I)[B
+     136: astore        11
+     138: aload_0
+     139: iload         12
+     141: invokevirtual #33                 // Method g.b:(I)I
+     144: istore_1
+     145: aload_0
+     146: iload         12
+     148: invokevirtual #34                 // Method g.c:(I)I
+     151: istore_2
+     152: aload_0
+     153: iload         12
+     155: invokevirtual #36                 // Method g.d:(I)I
+     158: istore_3
+     159: aload_0
+     160: iload         12
+     162: invokevirtual #37                 // Method g.e:(I)I
+     165: istore        4
+     167: iconst_0
+     168: istore        13
+     170: iload         13
+     172: invokestatic  #27                 // Method b.v:()I
+     175: if_icmpge     330
+     178: iload         13
+     180: invokestatic  #23                 // Method b.E:(I)I
+     183: istore        7
+     185: iload         13
+     187: invokestatic  #23                 // Method b.E:(I)I
+     190: istore        8
+     192: iload_3
+     193: iload         7
+     195: imul
+     196: bipush        100
+     198: idiv
+     199: istore        5
+     201: iload         4
+     203: iload         8
+     205: imul
+     206: bipush        100
+     208: idiv
+     209: istore        6
+     211: iload_1
+     212: iload_3
+     213: iadd
+     214: iload         7
+     216: imul
+     217: bipush        100
+     219: idiv
+     220: istore        7
+     222: iload_2
+     223: iload         4
+     225: iadd
+     226: iload         8
+     228: imul
+     229: bipush        100
+     231: idiv
+     232: istore        8
+     234: iload         7
+     236: iload         5
+     238: isub
+     239: istore        5
+     241: iload         8
+     243: iload         6
+     245: isub
+     246: istore        6
+     248: iload         5
+     250: ifeq          324
+     253: iload         6
+     255: ifeq          324
+     258: iload_1
+     259: invokestatic  #44                 // Method i.J:(I)I
+     262: iload         5
+     264: idiv
+     265: istore        7
+     267: iload_2
+     268: invokestatic  #44                 // Method i.J:(I)I
+     271: iload         6
+     273: idiv
+     274: istore        8
+     276: aload         9
+     278: aload         11
+     280: aload         10
+     282: iconst_0
+     283: iconst_0
+     284: iload_1
+     285: iload_2
+     286: iload         5
+     288: iload         6
+     290: iload         7
+     292: iload         8
+     294: iconst_0
+     295: iconst_0
+     296: invokestatic  #63                 // Method a:([I[B[IIIIIIIIIZZ)I
+     299: pop
+     300: aload_0
+     301: getfield      #20                 // Field u:[Lr;
+     304: iload         12
+     306: invokestatic  #27                 // Method b.v:()I
+     309: imul
+     310: iload         13
+     312: iadd
+     313: aload         9
+     315: iload         5
+     317: iload         6
+     319: iconst_1
+     320: invokestatic  #52                 // Method i.a:([IIIZ)Lr;
+     323: aastore
+     324: iinc          13, 1
+     327: goto          170
+     330: iinc          12, 1
+     333: goto          93
+     336: return
+
+  public final void e(javax.microedition.lcdui.Graphics, int, int, int, int, int);
+    Code:
+       0: iload         5
+       2: iflt          10
+       5: iload         6
+       7: ifge          11
+      10: return
+      11: iload         5
+      13: invokestatic  #24                 // Method b.F:(I)I
+      16: istore        5
+      18: iload_2
+      19: invokestatic  #27                 // Method b.v:()I
+      22: imul
+      23: iload         5
+      25: iadd
+      26: istore_2
+      27: iload_3
+      28: aload_0
+      29: getfield      #17                 // Field r:I
+      32: iload         5
+      34: invokestatic  #23                 // Method b.E:(I)I
+      37: imul
+      38: bipush        100
+      40: idiv
+      41: iadd
+      42: istore_3
+      43: iload         4
+      45: aload_0
+      46: getfield      #18                 // Field s:I
+      49: iload         5
+      51: invokestatic  #23                 // Method b.E:(I)I
+      54: imul
+      55: bipush        100
+      57: idiv
+      58: iadd
+      59: istore        4
+      61: aload_1
+      62: aload_0
+      63: getfield      #20                 // Field u:[Lr;
+      66: iload_2
+      67: aaload
+      68: iload_3
+      69: iload         4
+      71: bipush        20
+      73: iconst_0
+      74: invokestatic  #51                 // Method i.a:(Ljavax/microedition/lcdui/Graphics;Lr;IIIZ)V
+      77: return
+}

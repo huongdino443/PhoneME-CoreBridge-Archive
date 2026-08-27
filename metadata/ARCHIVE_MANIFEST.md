@@ -28,6 +28,10 @@ The JAR fixtures include Majesty, Plants vs Zombies, and the HaiTac original/x4 
 
 The reports contain the cache audit, overlay failure findings, verification notes and handoff information. The retained logs are representative rather than a complete dump: one Majesty-pass log and one overlay-failure log are included so future analysis can start from the decisive evidence without duplicating every historical capture.
 
+## Danger Dash / Stable comparison addition
+
+The original Danger Dash fixture, Turbo Stable reference APK, CoreBridge r64/r65 checkpoints, private-renderer experimental JAR, decisive logs and the Stable/CoreBridge comparison reports are stored under the paths listed in `metadata/DANGERDASH_ARCHIVE_MANIFEST.md`. The user confirmed that Turbo Stable used the original Danger Dash JAR core; a filename change, if any, does not indicate changed contents. The r64 APK remains a Farm Frenzy 2 PASS baseline. The private-renderer JAR remains unverified because the recorded 21:16 device log used a different public-renderer artifact.
+
 ## Exclusions
 
 No private keys, keystores, tokens or credentials are included. Rejected network experiments, frame-pace/JNI tuner experiments and unrelated transient logs are not promoted as baselines. The withdrawn overlay is deliberately separated and labelled to prevent accidental reuse.

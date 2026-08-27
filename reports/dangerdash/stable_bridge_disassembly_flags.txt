@@ -1,0 +1,1983 @@
+DEX=/home/ubuntu/work/edge-menu-build/game_analysis/stable_apk_static/stable/classes.dex
+
+===== CLASS Lbe/preuveneers/phoneme/fpmidp/FrameBufferView; =====
+
+--- <clinit>()V flags=0x10008 ---
+const/4                  v1, 0
+const/4                  v0, 0
+sput                     v1, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->apiVersion I
+sput-boolean             v1, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->inputConnectionActive Z
+sput-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbHolder Landroid/view/SurfaceHolder;
+sput-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbBitmap Landroid/graphics/Bitmap;
+sput-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+sput-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbListener Lbe/preuveneers/phoneme/fpmidp/OnFrameBufferListener;
+sput-boolean             v1, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbCanvasReady Z
+sput-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbKeyboard Landroid/graphics/Bitmap;
+sput-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->bitmapBuffer Ljava/nio/ShortBuffer;
+sput-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->cameraBitmap Landroid/graphics/Bitmap;
+sput                     v1, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->cameraX I
+sput                     v1, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->cameraY I
+sput-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->txtCanvas Landroid/graphics/Canvas;
+sput-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->txtBitmap Landroid/graphics/Bitmap;
+sput                     v1, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->txtW I
+sput                     v1, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->txtH I
+return-void              
+
+--- <init>(Lbe/preuveneers/phoneme/fpmidp/FrameBufferActivity; Lbe/preuveneers/phoneme/fpmidp/OnFrameBufferListener;)V flags=0x10000 ---
+const/4                  v2, 1
+invoke-direct            v3, v4, Landroid/view/SurfaceView;-><init>(Landroid/content/Context;)V
+sput-object              v3, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->instance Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;
+invoke-virtual           v4, Lbe/preuveneers/phoneme/fpmidp/FrameBufferActivity;->getResources()Landroid/content/res/Resources;
+move-result-object       v0
+const                    v1, 2130837512
+invoke-static            v0, v1, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources; I)Landroid/graphics/Bitmap;
+move-result-object       v0
+sput-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbKeyboard Landroid/graphics/Bitmap;
+invoke-virtual           v3, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->initFrameBufferView()Z
+sput-object              v5, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbListener Lbe/preuveneers/phoneme/fpmidp/OnFrameBufferListener;
+const/4                  v0, 0
+sput-boolean             v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbCanvasReady Z
+invoke-virtual           v3, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->getHolder()Landroid/view/SurfaceHolder;
+move-result-object       v0
+sput-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbHolder Landroid/view/SurfaceHolder;
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbHolder Landroid/view/SurfaceHolder;
+invoke-interface         v0, v3, Landroid/view/SurfaceHolder;->addCallback(Landroid/view/SurfaceHolder$Callback;)V
+invoke-virtual           v3, v2, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->setFocusable(Z)V
+invoke-virtual           v3, v2, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->setFocusableInTouchMode(Z)V
+new-instance             v0, Landroid/graphics/Paint;
+invoke-direct            v0, Landroid/graphics/Paint;-><init>()V
+sput-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+invoke-virtual           v0, v2, Landroid/graphics/Paint;->setAntiAlias(Z)V
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+invoke-virtual           v0, v2, Landroid/graphics/Paint;->setSubpixelText(Z)V
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+sget-object              v1, Landroid/graphics/Paint$Align;->LEFT Landroid/graphics/Paint$Align;
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTextAlign(Landroid/graphics/Paint$Align;)V
+invoke-virtual           v3, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->getNativeAPIVersion()I
+move-result              v0
+sput                     v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->apiVersion I
+return-void              
+
+--- copyToBuffer(Ljava/nio/Buffer;)Z flags=0x109 ---
+[no code]
+
+--- getBitmapBufferForGL()Ljava/nio/ShortBuffer; flags=0x9 ---
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->bitmapBuffer Ljava/nio/ShortBuffer;
+return-object            v0
+
+--- getFbBitmapForGL()Landroid/graphics/Bitmap; flags=0x9 ---
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbBitmap Landroid/graphics/Bitmap;
+return-object            v0
+
+--- getInstance()Lbe/preuveneers/phoneme/fpmidp/FrameBufferView; flags=0x9 ---
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->instance Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;
+return-object            v0
+
+--- renderFrame(Landroid/graphics/Bitmap;)Z flags=0x109 ---
+[no code]
+
+--- resetInputConnectionState()V flags=0x9 ---
+invoke-static            Lcom/phoneme/crash/CrashLogger;->isLogEnabled()Z
+move-result              v1
+if-eqz                   v1, +00ch
+const-string             v0, "PhoneMEInput"
+const-string             v1, "resetInputConnectionState"
+invoke-static            v1, Lcom/phoneme/crash/CrashLogger;->appendInputTrace(Ljava/lang/String;)V
+invoke-static            v0, v1, Landroid/util/Log;->d(Ljava/lang/String; Ljava/lang/String;)I
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->activeInputConnection Lbe/preuveneers/phoneme/fpmidp/FrameBufferView$1;
+if-eqz                   v0, +005h
+invoke-virtual           v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView$1;->resetState()V
+return-void              
+
+--- restartInputMethod()V flags=0x9 ---
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->activeInputConnection Lbe/preuveneers/phoneme/fpmidp/FrameBufferView$1;
+if-eqz                   v0, +013h
+iget-object              v1, v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView$1;->this$0 Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;
+invoke-virtual           v1, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->getContext()Landroid/content/Context;
+move-result-object       v2
+const-string             v3, "input_method"
+invoke-virtual           v2, v3, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+move-result-object       v2
+check-cast               v2, Landroid/view/inputmethod/InputMethodManager;
+invoke-virtual           v2, v1, Landroid/view/inputmethod/InputMethodManager;->restartInput(Landroid/view/View;)V
+return-void              
+
+--- traceRawKey(C)V flags=0x9 ---
+invoke-static            Lcom/phoneme/crash/CrashLogger;->isLogEnabled()Z
+move-result              v0
+if-eqz                   v0, +068h
+new-instance             v0, Ljava/lang/StringBuilder;
+invoke-direct            v0, Ljava/lang/StringBuilder;-><init>()V
+const-string             v1, "rawKey cp=U+"
+invoke-virtual           v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v0
+invoke-static            v5, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
+move-result-object       v1
+invoke-virtual           v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v0
+const-string             v1, " dec="
+invoke-virtual           v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v0
+invoke-virtual           v0, v5, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+move-result-object       v0
+const-string             v1, " char="
+invoke-virtual           v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v0
+invoke-static            v5, Ljava/lang/Character;->toString(C)Ljava/lang/String;
+move-result-object       v1
+invoke-virtual           v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v0
+const-string             v1, " name="
+invoke-virtual           v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v0
+const/16                 v1, 13
+if-ne                    v5, v1, +005h
+const-string             v1, "ENTER"
+goto                     +1fh
+const/16                 v1, 27
+if-ne                    v5, v1, +005h
+const-string             v1, "DELETE"
+goto                     +18h
+const/16                 v1, 8
+if-ne                    v5, v1, +005h
+const-string             v1, "BACKSPACE"
+goto                     +11h
+const/16                 v1, 127
+if-ne                    v5, v1, +005h
+const-string             v1, "DEL"
+goto                     +ah
+const/16                 v1, 32
+if-ne                    v5, v1, +005h
+const-string             v1, "SPACE"
+goto                     +3h
+const-string             v1, "PRINTABLE"
+invoke-virtual           v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v0
+invoke-virtual           v0, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+move-result-object       v1
+invoke-static            v1, Lcom/phoneme/crash/CrashLogger;->appendInputTrace(Ljava/lang/String;)V
+const-string             v0, "PhoneMEInput"
+invoke-static            v0, v1, Landroid/util/Log;->d(Ljava/lang/String; Ljava/lang/String;)I
+return-void              
+
+--- dispatchKeyEvent(Landroid/view/KeyEvent;)Z flags=0x1 ---
+invoke-virtual           v3, Landroid/view/KeyEvent;->getAction()I
+move-result              v0
+const/4                  v1, 2
+if-ne                    v0, v1, +01bh
+invoke-virtual           v3, Landroid/view/KeyEvent;->getCharacters()Ljava/lang/String;
+move-result-object       v0
+if-eqz                   v0, +015h
+invoke-virtual           v0, Ljava/lang/String;->length()I
+move-result              v0
+const/4                  v1, 1
+if-ne                    v0, v1, +00eh
+invoke-virtual           v3, Landroid/view/KeyEvent;->getKeyCode()I
+move-result              v0
+if-nez                   v0, +008h
+sget-boolean             v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->inputConnectionActive Z
+if-eqz                   v0, +004h
+const/4                  v0, 1
+return                   v0
+invoke-super             v2, v3, Landroid/view/SurfaceView;->dispatchKeyEvent(Landroid/view/KeyEvent;)Z
+move-result              v0
+return                   v0
+
+--- doRepaint()V flags=0x0 ---
+const/4                  v6, 0
+sput-boolean             v6, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->renderPending Z
+sget-boolean             v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbCanvasReady Z
+if-eqz                   v0, +072h
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbHolder Landroid/view/SurfaceHolder;
+invoke-interface         v0, Landroid/view/SurfaceHolder;->getSurface()Landroid/view/Surface;
+move-result-object       v0
+invoke-virtual           v0, Landroid/view/Surface;->isValid()Z
+move-result              v0
+if-eqz                   v0, +066h
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbHolder Landroid/view/SurfaceHolder;
+invoke-interface         v0, Landroid/view/SurfaceHolder;->lockCanvas()Landroid/graphics/Canvas;
+move-result-object       v0
+if-eqz                   v0, +05eh
+invoke-virtual           v0, Landroid/graphics/Canvas;->save()I
+sget                     v2, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->dstX I
+int-to-float             v2, v2
+sget                     v3, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->dstY I
+int-to-float             v3, v3
+invoke-virtual           v0, v2, v3, Landroid/graphics/Canvas;->translate(F F)V
+sget                     v2, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->dstW I
+int-to-float             v2, v2
+sget                     v3, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->targetWidth I
+int-to-float             v3, v3
+div-float                v2, v2, v3
+sget                     v3, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->dstH I
+int-to-float             v3, v3
+sget                     v4, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->targetHeight I
+int-to-float             v4, v4
+div-float                v3, v3, v4
+invoke-virtual           v0, v2, v3, Landroid/graphics/Canvas;->scale(F F)V
+sget-object              v2, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbBitmap Landroid/graphics/Bitmap;
+const/4                  v3, 0
+const/4                  v4, 0
+const/4                  v5, 0
+invoke-virtual           v0, v2, v3, v4, v5, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap; F F Landroid/graphics/Paint;)V
+invoke-virtual           v0, Landroid/graphics/Canvas;->restore()V
+sget-object              v2, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->cameraBitmap Landroid/graphics/Bitmap;
+if-eqz                   v2, +00eh
+sget-object              v2, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->cameraBitmap Landroid/graphics/Bitmap;
+sget                     v3, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->cameraX I
+int-to-float             v3, v3
+sget                     v4, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->cameraY I
+int-to-float             v4, v4
+const/4                  v5, 0
+invoke-virtual           v0, v2, v3, v4, v5, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap; F F Landroid/graphics/Paint;)V
+invoke-static            Lbe/preuveneers/phoneme/fpmidp/FrameBufferActivity;->getInstance()Lbe/preuveneers/phoneme/fpmidp/FrameBufferActivity;
+sget-boolean             v2, Lbe/preuveneers/phoneme/fpmidp/FrameBufferActivity;->enableSIP Z
+if-eqz                   v2, +018h
+sget-object              v2, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbKeyboard Landroid/graphics/Bitmap;
+invoke-virtual           v7, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->getWidth()I
+move-result              v3
+sget-object              v4, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbKeyboard Landroid/graphics/Bitmap;
+invoke-virtual           v4, Landroid/graphics/Bitmap;->getWidth()I
+move-result              v4
+sub-int/2addr            v3, v4
+div-int/lit8             v3, v3, 2
+int-to-float             v3, v3
+const/4                  v4, 0
+int-to-float             v4, v4
+const/4                  v5, 0
+invoke-virtual           v0, v2, v3, v4, v5, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap; F F Landroid/graphics/Paint;)V
+sget-object              v2, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbHolder Landroid/view/SurfaceHolder;
+invoke-interface         v2, v0, Landroid/view/SurfaceHolder;->unlockCanvasAndPost(Landroid/graphics/Canvas;)V
+return-void              
+
+--- drawChars(I Landroid/graphics/Bitmap; I I I Ljava/lang/String; I)V flags=0x20001 ---
+monitor-enter            v4
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+int-to-float             v1, v9
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTextSize(F)V
+invoke-virtual           v0, Landroid/graphics/Paint;->getFontMetricsInt()Landroid/graphics/Paint$FontMetricsInt;
+move-result-object       v1
+iget                     v1, v1, Landroid/graphics/Paint$FontMetricsInt;->ascent I
+mul-int/lit8             v2, v9, 33
+div-int/lit8             v2, v2, 50
+int-to-float             v2, v2
+invoke-virtual           v0, v2, Landroid/graphics/Paint;->setTextSize(F)V
+invoke-virtual           v0, Landroid/graphics/Paint;->getFontMetricsInt()Landroid/graphics/Paint$FontMetricsInt;
+move-result-object       v2
+iget                     v2, v2, Landroid/graphics/Paint$FontMetricsInt;->ascent I
+sub-int                  v1, v2, v1
+sput                     v1, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->ascentOffset I
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+const/high16             v1, -16777216
+or-int/2addr             v1, v5
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setColor(I)V
+if-nez                   v8, +020h
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+const/4                  v1, 0
+invoke-static            v1, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
+move-result-object       v1
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->txtCanvas Landroid/graphics/Canvas;
+invoke-virtual           v0, v6, Landroid/graphics/Canvas;->setBitmap(Landroid/graphics/Bitmap;)V
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->txtCanvas Landroid/graphics/Canvas;
+const/4                  v1, 0
+sget                     v2, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->ascentOffset I
+sub-int                  v2, v11, v2
+int-to-float             v2, v2
+sget-object              v3, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+invoke-virtual           v0, v10, v1, v2, v3, Landroid/graphics/Canvas;->drawText(Ljava/lang/String; F F Landroid/graphics/Paint;)V
+monitor-exit             v4
+return-void              
+and-int/lit8             v0, v8, 1
+if-eqz                   v0, +014h
+and-int/lit8             v0, v8, 2
+if-eqz                   v0, +010h
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+const/4                  v1, 3
+invoke-static            v1, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
+move-result-object       v1
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+goto                     -26h
+move-exception           v0
+monitor-exit             v4
+throw                    v0
+and-int/lit8             v0, v8, 1
+if-eqz                   v0, +00dh
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+const/4                  v1, 1
+invoke-static            v1, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
+move-result-object       v1
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+goto                     -38h
+and-int/lit8             v0, v8, 2
+if-eqz                   v0, -03bh
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+const/4                  v1, 2
+invoke-static            v1, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
+move-result-object       v1
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+goto                     -47h
+
+--- drawChars(I Ljava/nio/Buffer; I I I I I Ljava/lang/String; I)V flags=0x20001 ---
+monitor-enter            v5
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+int-to-float             v1, v12
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTextSize(F)V
+invoke-virtual           v0, Landroid/graphics/Paint;->getFontMetricsInt()Landroid/graphics/Paint$FontMetricsInt;
+move-result-object       v1
+iget                     v1, v1, Landroid/graphics/Paint$FontMetricsInt;->ascent I
+mul-int/lit8             v2, v12, 33
+div-int/lit8             v2, v2, 50
+int-to-float             v2, v2
+invoke-virtual           v0, v2, Landroid/graphics/Paint;->setTextSize(F)V
+invoke-virtual           v0, Landroid/graphics/Paint;->getFontMetricsInt()Landroid/graphics/Paint$FontMetricsInt;
+move-result-object       v2
+iget                     v2, v2, Landroid/graphics/Paint$FontMetricsInt;->ascent I
+sub-int                  v1, v2, v1
+sput                     v1, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->ascentOffset I
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+const/high16             v1, -16777216
+or-int/2addr             v1, v6
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setColor(I)V
+if-nez                   v11, +02ch
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+const/4                  v1, 0
+invoke-static            v1, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
+move-result-object       v1
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+sget-object              v0, Landroid/graphics/Bitmap$Config;->RGB_565 Landroid/graphics/Bitmap$Config;
+invoke-static            v8, v9, v0, Landroid/graphics/Bitmap;->createBitmap(I I Landroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+move-result-object       v0
+invoke-virtual           v0, v7, Landroid/graphics/Bitmap;->copyPixelsFromBuffer(Ljava/nio/Buffer;)V
+sget-object              v1, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->txtCanvas Landroid/graphics/Canvas;
+invoke-virtual           v1, v0, Landroid/graphics/Canvas;->setBitmap(Landroid/graphics/Bitmap;)V
+sget-object              v1, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->txtCanvas Landroid/graphics/Canvas;
+const/4                  v2, 0
+sget                     v3, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->ascentOffset I
+sub-int                  v3, v14, v3
+int-to-float             v3, v3
+sget-object              v4, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+invoke-virtual           v1, v13, v2, v3, v4, Landroid/graphics/Canvas;->drawText(Ljava/lang/String; F F Landroid/graphics/Paint;)V
+invoke-virtual           v0, v7, Landroid/graphics/Bitmap;->copyPixelsToBuffer(Ljava/nio/Buffer;)V
+monitor-exit             v5
+return-void              
+and-int/lit8             v0, v11, 1
+if-eqz                   v0, +014h
+and-int/lit8             v0, v11, 2
+if-eqz                   v0, +010h
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+const/4                  v1, 3
+invoke-static            v1, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
+move-result-object       v1
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+goto                     -32h
+move-exception           v0
+monitor-exit             v5
+throw                    v0
+and-int/lit8             v0, v11, 1
+if-eqz                   v0, +00dh
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+const/4                  v1, 1
+invoke-static            v1, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
+move-result-object       v1
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+goto                     -44h
+and-int/lit8             v0, v11, 2
+if-eqz                   v0, -047h
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+const/4                  v1, 2
+invoke-static            v1, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
+move-result-object       v1
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+goto                     -53h
+
+--- drawChars(I [S I I I I I Ljava/lang/String; I)V flags=0x20001 ---
+monitor-enter            v6
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+int-to-float             v1, v13
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTextSize(F)V
+invoke-virtual           v0, Landroid/graphics/Paint;->getFontMetricsInt()Landroid/graphics/Paint$FontMetricsInt;
+move-result-object       v1
+iget                     v1, v1, Landroid/graphics/Paint$FontMetricsInt;->ascent I
+mul-int/lit8             v2, v13, 33
+div-int/lit8             v2, v2, 50
+int-to-float             v2, v2
+invoke-virtual           v0, v2, Landroid/graphics/Paint;->setTextSize(F)V
+invoke-virtual           v0, Landroid/graphics/Paint;->getFontMetricsInt()Landroid/graphics/Paint$FontMetricsInt;
+move-result-object       v2
+iget                     v2, v2, Landroid/graphics/Paint$FontMetricsInt;->ascent I
+sub-int                  v1, v2, v1
+sput                     v1, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->ascentOffset I
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+const/high16             v1, -16777216
+or-int/2addr             v1, v7
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setColor(I)V
+if-nez                   v12, +030h
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+const/4                  v1, 0
+invoke-static            v1, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
+move-result-object       v1
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+invoke-static            v8, Ljava/nio/ShortBuffer;->wrap([S)Ljava/nio/ShortBuffer;
+move-result-object       v0
+sget-object              v1, Landroid/graphics/Bitmap$Config;->RGB_565 Landroid/graphics/Bitmap$Config;
+invoke-static            v9, v10, v1, Landroid/graphics/Bitmap;->createBitmap(I I Landroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+move-result-object       v1
+invoke-virtual           v1, v0, Landroid/graphics/Bitmap;->copyPixelsFromBuffer(Ljava/nio/Buffer;)V
+sget-object              v2, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->txtCanvas Landroid/graphics/Canvas;
+invoke-virtual           v2, v1, Landroid/graphics/Canvas;->setBitmap(Landroid/graphics/Bitmap;)V
+sget-object              v2, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->txtCanvas Landroid/graphics/Canvas;
+const/4                  v3, 0
+sget                     v4, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->ascentOffset I
+sub-int                  v4, v15, v4
+int-to-float             v4, v4
+sget-object              v5, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+invoke-virtual           v2, v14, v3, v4, v5, Landroid/graphics/Canvas;->drawText(Ljava/lang/String; F F Landroid/graphics/Paint;)V
+invoke-virtual           v1, v0, Landroid/graphics/Bitmap;->copyPixelsToBuffer(Ljava/nio/Buffer;)V
+monitor-exit             v6
+return-void              
+and-int/lit8             v0, v12, 1
+if-eqz                   v0, +014h
+and-int/lit8             v0, v12, 2
+if-eqz                   v0, +010h
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+const/4                  v1, 3
+invoke-static            v1, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
+move-result-object       v1
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+goto                     -36h
+move-exception           v0
+monitor-exit             v6
+throw                    v0
+and-int/lit8             v0, v12, 1
+if-eqz                   v0, +00dh
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+const/4                  v1, 1
+invoke-static            v1, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
+move-result-object       v1
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+goto                     -48h
+and-int/lit8             v0, v12, 2
+if-eqz                   v0, -04bh
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+const/4                  v1, 2
+invoke-static            v1, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
+move-result-object       v1
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+goto                     -57h
+
+--- getCharsWidth(I I I Ljava/lang/String; I)I flags=0x1 ---
+const/4                  v2, 0
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+mul-int/lit8             v1, v6, 33
+div-int/lit8             v1, v1, 50
+int-to-float             v1, v1
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTextSize(F)V
+if-nez                   v5, +013h
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+invoke-static            v2, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
+move-result-object       v1
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+invoke-virtual           v0, v7, v2, v8, Landroid/graphics/Paint;->measureText(Ljava/lang/String; I I)F
+move-result              v0
+float-to-int             v0, v0
+return                   v0
+and-int/lit8             v0, v5, 1
+if-eqz                   v0, +011h
+and-int/lit8             v0, v5, 2
+if-eqz                   v0, +00dh
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+const/4                  v1, 3
+invoke-static            v1, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
+move-result-object       v1
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+goto                     -1ah
+and-int/lit8             v0, v5, 1
+if-eqz                   v0, +00dh
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+const/4                  v1, 1
+invoke-static            v1, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
+move-result-object       v1
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+goto                     -29h
+and-int/lit8             v0, v5, 2
+if-eqz                   v0, -02ch
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+const/4                  v1, 2
+invoke-static            v1, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
+move-result-object       v1
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+goto                     -38h
+
+--- getFontInfo(I I I [I)V flags=0x1 ---
+const/4                  v4, 2
+const/4                  v3, 1
+const/4                  v2, 0
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+mul-int/lit8             v1, v8, 33
+div-int/lit8             v1, v1, 50
+int-to-float             v1, v1
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTextSize(F)V
+if-nez                   v7, +022h
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+invoke-static            v2, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
+move-result-object       v1
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+invoke-virtual           v0, Landroid/graphics/Paint;->getFontMetricsInt()Landroid/graphics/Paint$FontMetricsInt;
+move-result-object       v0
+iget                     v1, v0, Landroid/graphics/Paint$FontMetricsInt;->ascent I
+invoke-static            v1, Ljava/lang/Math;->abs(I)I
+move-result              v1
+aput                     v1, v9, v2
+iget                     v1, v0, Landroid/graphics/Paint$FontMetricsInt;->descent I
+aput                     v1, v9, v3
+iget                     v0, v0, Landroid/graphics/Paint$FontMetricsInt;->leading I
+aput                     v0, v9, v4
+return-void              
+and-int/lit8             v0, v7, 1
+if-eqz                   v0, +011h
+and-int/lit8             v0, v7, 2
+if-eqz                   v0, +00dh
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+const/4                  v1, 3
+invoke-static            v1, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
+move-result-object       v1
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+goto                     -29h
+and-int/lit8             v0, v7, 1
+if-eqz                   v0, +00ch
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+invoke-static            v3, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
+move-result-object       v1
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+goto                     -37h
+and-int/lit8             v0, v7, 2
+if-eqz                   v0, -03ah
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbPaint Landroid/graphics/Paint;
+invoke-static            v4, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
+move-result-object       v1
+invoke-virtual           v0, v1, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+goto                     -45h
+
+--- getNativeAPIVersion()I flags=0x101 ---
+[no code]
+
+--- getTextBitmap(I I)Landroid/graphics/Bitmap; flags=0x1 ---
+sget                     v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->txtW I
+if-gt                    v2, v0, +009h
+sget                     v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->txtH I
+if-gt                    v3, v0, +005h
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->txtBitmap Landroid/graphics/Bitmap;
+return-object            v0
+sput                     v2, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->txtW I
+sput                     v3, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->txtH I
+sget-object              v0, Landroid/graphics/Bitmap$Config;->RGB_565 Landroid/graphics/Bitmap$Config;
+invoke-static            v2, v3, v0, Landroid/graphics/Bitmap;->createBitmap(I I Landroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+move-result-object       v0
+sput-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->txtBitmap Landroid/graphics/Bitmap;
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->txtBitmap Landroid/graphics/Bitmap;
+goto                     -fh
+
+--- initFrameBufferSize(I I Ljava/nio/ShortBuffer; I)Z flags=0x101 ---
+[no code]
+
+--- initFrameBufferView()Z flags=0x101 ---
+[no code]
+
+--- isReady()Z flags=0x1 ---
+sget-boolean             v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbCanvasReady Z
+return                   v0
+
+--- onCreateInputConnection(Landroid/view/inputmethod/EditorInfo;)Landroid/view/inputmethod/InputConnection; flags=0x1 ---
+new-instance             v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView$1;
+const/4                  v1, 0
+const/4                  v1, 1
+sput-boolean             v1, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->inputConnectionActive Z
+const/4                  v1, 0
+invoke-direct            v0, v2, v2, v1, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView$1;-><init>(Lbe/preuveneers/phoneme/fpmidp/FrameBufferView; Landroid/view/View; Z)V
+sput-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->activeInputConnection Lbe/preuveneers/phoneme/fpmidp/FrameBufferView$1;
+return-object            v0
+
+--- onKeyDown(I Landroid/view/KeyEvent;)Z flags=0x1 ---
+invoke-super             v1, v2, v3, Landroid/view/SurfaceView;->onKeyDown(I Landroid/view/KeyEvent;)Z
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbListener Lbe/preuveneers/phoneme/fpmidp/OnFrameBufferListener;
+invoke-interface         v0, v2, v3, Lbe/preuveneers/phoneme/fpmidp/OnFrameBufferListener;->onFrameBufferKeyDownEvent(I Landroid/view/KeyEvent;)Z
+move-result              v0
+return                   v0
+
+--- onKeyMultiple(I I Landroid/view/KeyEvent;)Z flags=0x1 ---
+invoke-super             v2, v3, v4, v5, Landroid/view/SurfaceView;->onKeyMultiple(I I Landroid/view/KeyEvent;)Z
+invoke-virtual           v5, Landroid/view/KeyEvent;->getAction()I
+move-result              v0
+const/4                  v1, 2
+if-ne                    v0, v1, +00bh
+if-nez                   v3, +009h
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbListener Lbe/preuveneers/phoneme/fpmidp/OnFrameBufferListener;
+invoke-interface         v0, v5, Lbe/preuveneers/phoneme/fpmidp/OnFrameBufferListener;->onFrameBufferMultipleKeyEvent(Landroid/view/KeyEvent;)Z
+move-result              v0
+return                   v0
+const/4                  v0, 1
+goto                     -2h
+
+--- onKeyUp(I Landroid/view/KeyEvent;)Z flags=0x1 ---
+invoke-super             v1, v2, v3, Landroid/view/SurfaceView;->onKeyUp(I Landroid/view/KeyEvent;)Z
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbListener Lbe/preuveneers/phoneme/fpmidp/OnFrameBufferListener;
+invoke-interface         v0, v2, v3, Lbe/preuveneers/phoneme/fpmidp/OnFrameBufferListener;->onFrameBufferKeyUpEvent(I Landroid/view/KeyEvent;)Z
+move-result              v0
+return                   v0
+
+--- onPause()V flags=0x1 ---
+return-void              
+
+--- onResume()V flags=0x1 ---
+return-void              
+
+--- onTouchEvent(Landroid/view/MotionEvent;)Z flags=0x1 ---
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbListener Lbe/preuveneers/phoneme/fpmidp/OnFrameBufferListener;
+invoke-interface         v0, v2, Lbe/preuveneers/phoneme/fpmidp/OnFrameBufferListener;->onFrameBufferMotionEvent(Landroid/view/MotionEvent;)Z
+const/4                  v0, 1
+return                   v0
+
+--- paintCameraPreview(Landroid/graphics/Bitmap; I I)V flags=0x1 ---
+sput-object              v1, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->cameraBitmap Landroid/graphics/Bitmap;
+sput                     v2, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->cameraX I
+sput                     v3, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->cameraY I
+invoke-virtual           v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->repaintView()V
+return-void              
+
+--- repaintView()V flags=0x1 ---
+invoke-static            Lcom/phoneme/gl/GLFramebufferView;->getInstance()Lcom/phoneme/gl/GLFramebufferView;
+move-result-object       v0
+if-nez                   v0, +021h
+const-string             v1, "FrameBufferView"
+const-string             v2, "repaintView: GL instance NULL -> Canvas fallback"
+invoke-static            v1, v2, Landroid/util/Log;->d(Ljava/lang/String; Ljava/lang/String;)I
+sget-boolean             v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->renderPending Z
+if-nez                   v0, +015h
+const/4                  v0, 1
+sput-boolean             v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->renderPending Z
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->renderTask Ljava/lang/Runnable;
+if-nez                   v0, +009h
+new-instance             v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView$2;
+invoke-direct            v0, v3, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView$2;-><init>(Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;)V
+sput-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->renderTask Ljava/lang/Runnable;
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->renderTask Ljava/lang/Runnable;
+invoke-virtual           v3, v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->post(Ljava/lang/Runnable;)Z
+return-void              
+const-string             v1, "FrameBufferView"
+const-string             v2, "repaintView: GL instance OK -> forwarding to GL"
+invoke-static            v1, v2, Landroid/util/Log;->d(Ljava/lang/String; Ljava/lang/String;)I
+invoke-static            Lcom/phoneme/gl/FrameBufferBridge;->forwardToGL()V
+return-void              
+move-exception           v0
+const-string             v1, "FrameBufferView"
+const-string             v2, "repaintView: GL path THREW -> Canvas fallback"
+invoke-static            v1, v2, v0, Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Throwable;)I
+sget-boolean             v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->renderPending Z
+if-nez                   v0, +015h
+const/4                  v0, 1
+sput-boolean             v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->renderPending Z
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->renderTask Ljava/lang/Runnable;
+if-nez                   v0, +009h
+new-instance             v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView$2;
+invoke-direct            v0, v3, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView$2;-><init>(Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;)V
+sput-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->renderTask Ljava/lang/Runnable;
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->renderTask Ljava/lang/Runnable;
+invoke-virtual           v3, v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->post(Ljava/lang/Runnable;)Z
+return-void              
+
+--- resizeFrameBuffer(I I Ljava/nio/ShortBuffer;)Z flags=0x101 ---
+[no code]
+
+--- setBitmapFonts(Z)V flags=0x101 ---
+[no code]
+
+--- setBusy(Z)V flags=0x101 ---
+[no code]
+
+--- surfaceChanged(Landroid/view/SurfaceHolder; I I I)V flags=0x1 ---
+if-le                    v10, v11, +007h
+const/16                 v5, 640
+const/16                 v6, 360
+goto                     +5h
+const/16                 v5, 360
+const/16                 v6, 640
+sput                     v5, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->targetWidth I
+sput                     v6, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->targetHeight I
+mul-int                  v0, v10, v6
+div-int                  v0, v0, v5
+if-le                    v0, v11, +00bh
+mul-int                  v1, v11, v5
+div-int                  v1, v1, v6
+sput                     v1, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->dstW I
+sput                     v11, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->dstH I
+goto                     +5h
+sput                     v10, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->dstW I
+sput                     v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->dstH I
+sget                     v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->dstW I
+sub-int                  v0, v10, v0
+div-int/lit8             v0, v0, 2
+sput                     v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->dstX I
+sget                     v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->dstH I
+sub-int                  v0, v11, v0
+div-int/lit8             v0, v0, 2
+sput                     v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->dstY I
+const/4                  v4, 1
+const/4                  v3, 0
+invoke-virtual           v7, v4, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->setBusy(Z)V
+sput-boolean             v3, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbCanvasReady Z
+sget-object              v0, Ljava/lang/System;->err Ljava/io/PrintStream;
+new-instance             v1, Ljava/lang/StringBuilder;
+invoke-direct            v1, Ljava/lang/StringBuilder;-><init>()V
+const-string             v2, "DEBUG: surfaceChanged(): "
+invoke-virtual           v1, v2, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v1
+invoke-virtual           v1, v10, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+move-result-object       v1
+const-string             v2, "x"
+invoke-virtual           v1, v2, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v1
+invoke-virtual           v1, v11, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+move-result-object       v1
+invoke-virtual           v1, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+move-result-object       v1
+invoke-virtual           v0, v1, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+sget-object              v1, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbBitmap Landroid/graphics/Bitmap;
+if-eqz                   v1, +02eh
+monitor-enter            v1
+sget-object              v0, Landroid/graphics/Bitmap$Config;->RGB_565 Landroid/graphics/Bitmap$Config;
+invoke-static            v5, v6, v0, Landroid/graphics/Bitmap;->createBitmap(I I Landroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+move-result-object       v0
+sput-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbBitmap Landroid/graphics/Bitmap;
+mul-int/lit8             v0, v5, 2
+mul-int/2addr            v0, v6
+invoke-static            v0, Ljava/nio/ByteBuffer;->allocateDirect(I)Ljava/nio/ByteBuffer;
+move-result-object       v0
+invoke-virtual           v0, Ljava/nio/ByteBuffer;->asShortBuffer()Ljava/nio/ShortBuffer;
+move-result-object       v0
+sput-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->bitmapBuffer Ljava/nio/ShortBuffer;
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->bitmapBuffer Ljava/nio/ShortBuffer;
+invoke-virtual           v7, v5, v6, v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->resizeFrameBuffer(I I Ljava/nio/ShortBuffer;)Z
+invoke-static            Lbe/preuveneers/phoneme/fpmidp/FrameBufferActivity;->getInstance()Lbe/preuveneers/phoneme/fpmidp/FrameBufferActivity;
+move-result-object       v0
+if-eqz                   v0, +007h
+const/16                 v2, 21
+invoke-virtual           v0, v2, Lbe/preuveneers/phoneme/fpmidp/FrameBufferActivity;->keyboardEvent(C)V
+monitor-exit             v1
+sput-boolean             v4, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbCanvasReady Z
+invoke-virtual           v7, v3, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->setBusy(Z)V
+return-void              
+move-exception           v0
+monitor-exit             v1
+throw                    v0
+
+--- surfaceCreated(Landroid/view/SurfaceHolder;)V flags=0x1 ---
+invoke-virtual           v6, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->getWidth()I
+move-result              v0
+invoke-virtual           v6, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->getHeight()I
+move-result              v1
+if-le                    v0, v1, +007h
+const/16                 v0, 640
+const/16                 v1, 360
+goto                     +5h
+const/16                 v0, 360
+const/16                 v1, 640
+sput                     v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->targetWidth I
+sput                     v1, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->targetHeight I
+invoke-virtual           v6, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->getWidth()I
+move-result              v2
+invoke-virtual           v6, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->getHeight()I
+move-result              v3
+mul-int                  v4, v2, v1
+div-int                  v4, v4, v0
+if-le                    v4, v3, +00bh
+mul-int                  v5, v3, v0
+div-int                  v5, v5, v1
+sput                     v5, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->dstW I
+sput                     v3, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->dstH I
+goto                     +5h
+sput                     v2, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->dstW I
+sput                     v4, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->dstH I
+sget                     v4, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->dstW I
+sub-int                  v4, v2, v4
+div-int/lit8             v4, v4, 2
+sput                     v4, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->dstX I
+sget                     v4, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->dstH I
+sub-int                  v4, v3, v4
+div-int/lit8             v4, v4, 2
+sput                     v4, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->dstY I
+sget-object              v2, Landroid/graphics/Bitmap$Config;->RGB_565 Landroid/graphics/Bitmap$Config;
+invoke-static            v0, v1, v2, Landroid/graphics/Bitmap;->createBitmap(I I Landroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+move-result-object       v0
+sput-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbBitmap Landroid/graphics/Bitmap;
+sget                     v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->targetWidth I
+mul-int/lit8             v0, v0, 2
+sget                     v1, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->targetHeight I
+mul-int/2addr            v0, v1
+invoke-static            v0, Ljava/nio/ByteBuffer;->allocateDirect(I)Ljava/nio/ByteBuffer;
+move-result-object       v0
+invoke-virtual           v0, Ljava/nio/ByteBuffer;->asShortBuffer()Ljava/nio/ShortBuffer;
+move-result-object       v0
+sput-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->bitmapBuffer Ljava/nio/ShortBuffer;
+new-instance             v0, Landroid/graphics/Canvas;
+invoke-direct            v0, Landroid/graphics/Canvas;-><init>()V
+sput-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->txtCanvas Landroid/graphics/Canvas;
+invoke-static            Lbe/preuveneers/phoneme/fpmidp/FrameBufferActivity;->getInstance()Lbe/preuveneers/phoneme/fpmidp/FrameBufferActivity;
+move-result-object       v0
+if-eqz                   v0, +03eh
+const-string             v1, "window"
+invoke-virtual           v0, v1, Lbe/preuveneers/phoneme/fpmidp/FrameBufferActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+move-result-object       v0
+check-cast               v0, Landroid/view/WindowManager;
+if-eqz                   v0, +034h
+invoke-interface         v0, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
+move-result-object       v0
+if-eqz                   v0, +02eh
+invoke-virtual           v0, Landroid/view/Display;->getWidth()I
+move-result              v1
+invoke-virtual           v0, Landroid/view/Display;->getHeight()I
+move-result              v2
+mul-int/2addr            v1, v2
+invoke-virtual           v0, Landroid/view/Display;->getWidth()I
+move-result              v1
+invoke-virtual           v0, Landroid/view/Display;->getHeight()I
+move-result              v2
+if-le                    v1, v2, +01ch
+invoke-virtual           v0, Landroid/view/Display;->getWidth()I
+move-result              v1
+invoke-virtual           v0, Landroid/view/Display;->getWidth()I
+move-result              v0
+mul-int/2addr            v0, v1
+sget                     v1, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->targetWidth I
+sget                     v2, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->targetHeight I
+sget-object              v3, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->bitmapBuffer Ljava/nio/ShortBuffer;
+invoke-virtual           v6, v1, v2, v3, v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->initFrameBufferSize(I I Ljava/nio/ShortBuffer; I)Z
+const/4                  v0, 1
+sput-boolean             v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbCanvasReady Z
+invoke-virtual           v6, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->updateView()V
+return-void              
+return-void              
+invoke-virtual           v0, Landroid/view/Display;->getHeight()I
+move-result              v1
+invoke-virtual           v0, Landroid/view/Display;->getHeight()I
+move-result              v0
+mul-int/2addr            v0, v1
+goto                     -1ah
+
+--- surfaceDestroyed(Landroid/view/SurfaceHolder;)V flags=0x1 ---
+const/4                  v0, 0
+sput-boolean             v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbCanvasReady Z
+return-void              
+
+--- toRGB565([B I I I I)V flags=0x101 ---
+[no code]
+
+--- updateView()V flags=0x1 ---
+const-string             v0, "FrameBufferView"
+const-string             v1, "updateView: called"
+invoke-static            v0, v1, Landroid/util/Log;->d(Ljava/lang/String; Ljava/lang/String;)I
+sget-boolean             v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbCanvasReady Z
+const-string             v2, "FrameBufferView"
+if-nez                   v0, +007h
+const-string             v3, "updateView: fbCanvasReady=FALSE -> return early"
+invoke-static            v2, v3, Landroid/util/Log;->d(Ljava/lang/String; Ljava/lang/String;)I
+if-eqz                   v0, +025h
+sget-object              v1, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbBitmap Landroid/graphics/Bitmap;
+monitor-enter            v1
+sget                     v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->apiVersion I
+const/16                 v2, 8
+if-lt                    v0, v2, +01dh
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbBitmap Landroid/graphics/Bitmap;
+invoke-static            v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->renderFrame(Landroid/graphics/Bitmap;)Z
+move-result              v0
+if-nez                   v0, +00ah
+const-string             v2, "FrameBufferView"
+const-string             v3, "updateView: renderFrame returned FALSE -> no repaint"
+invoke-static            v2, v3, Landroid/util/Log;->w(Ljava/lang/String; Ljava/lang/String;)I
+goto                     +8h
+const-string             v2, "FrameBufferView"
+const-string             v3, "updateView: renderFrame returned TRUE -> will repaint"
+invoke-static            v2, v3, Landroid/util/Log;->d(Ljava/lang/String; Ljava/lang/String;)I
+if-nez                   v0, +00bh
+monitor-exit             v1
+return-void              
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->fbBitmap Landroid/graphics/Bitmap;
+sget-object              v2, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->bitmapBuffer Ljava/nio/ShortBuffer;
+invoke-virtual           v0, v2, Landroid/graphics/Bitmap;->copyPixelsFromBuffer(Ljava/nio/Buffer;)V
+monitor-exit             v1
+invoke-virtual           v4, Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->repaintView()V
+goto                     -ch
+move-exception           v0
+monitor-exit             v1
+throw                    v0
+
+===== CLASS Lbe/preuveneers/phoneme/fpmidp/PhoneMECallbacks; =====
+
+--- <clinit>()V flags=0x10008 ---
+new-instance             v0, Ljava/util/HashMap;
+invoke-direct            v0, Ljava/util/HashMap;-><init>()V
+sput-object              v0, Lbe/preuveneers/phoneme/fpmidp/PhoneMECallbacks;->proxies Ljava/util/HashMap;
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/PhoneMECallbacks;->proxies Ljava/util/HashMap;
+const-string             v1, "android.media.MediaPlayer"
+new-instance             v2, Lbe/preuveneers/phoneme/fpmidp/MediaPlayerProxy;
+invoke-direct            v2, Lbe/preuveneers/phoneme/fpmidp/MediaPlayerProxy;-><init>()V
+invoke-virtual           v0, v1, v2, Ljava/util/HashMap;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/PhoneMECallbacks;->proxies Ljava/util/HashMap;
+const-string             v1, "android.location.LocationManager"
+new-instance             v2, Lbe/preuveneers/phoneme/fpmidp/LocationManagerProxy;
+invoke-direct            v2, Lbe/preuveneers/phoneme/fpmidp/LocationManagerProxy;-><init>()V
+invoke-virtual           v0, v1, v2, Ljava/util/HashMap;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/PhoneMECallbacks;->proxies Ljava/util/HashMap;
+const-string             v1, "android.hardware.Camera"
+new-instance             v2, Lbe/preuveneers/phoneme/fpmidp/CameraProxy;
+invoke-direct            v2, Lbe/preuveneers/phoneme/fpmidp/CameraProxy;-><init>()V
+invoke-virtual           v0, v1, v2, Ljava/util/HashMap;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+return-void              
+
+--- <init>()V flags=0x10001 ---
+invoke-direct            v0, Ljava/lang/Object;-><init>()V
+return-void              
+
+--- exitAndroid(Ljava/lang/String;)V flags=0x9 ---
+const-string             v0, "PhoneME"
+new-instance             v1, Ljava/lang/StringBuilder;
+invoke-direct            v1, Ljava/lang/StringBuilder;-><init>()V
+const-string             v2, "PhoneMECallbacks.exitAndroid: '"
+invoke-virtual           v1, v2, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v1
+invoke-virtual           v1, v3, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v1
+const-string             v2, "'"
+invoke-virtual           v1, v2, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v1
+invoke-virtual           v1, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+move-result-object       v1
+invoke-static            Lbe/preuveneers/phoneme/fpmidp/Utilities;->killVM()V
+return-void              
+
+--- finishProxies()V flags=0x9 ---
+const-string             v0, "PhoneME"
+const-string             v1, "PhoneMECallbacks.finishProxies: Stop proxy server."
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/PhoneMECallbacks;->proxies Ljava/util/HashMap;
+invoke-virtual           v0, Ljava/util/HashMap;->values()Ljava/util/Collection;
+move-result-object       v0
+invoke-interface         v0, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+move-result-object       v1
+invoke-interface         v1, Ljava/util/Iterator;->hasNext()Z
+move-result              v0
+if-eqz                   v0, +00dh
+invoke-interface         v1, Ljava/util/Iterator;->next()Ljava/lang/Object;
+move-result-object       v0
+check-cast               v0, Lbe/preuveneers/phoneme/fpmidp/AbstractProxy;
+invoke-virtual           v0, Lbe/preuveneers/phoneme/fpmidp/AbstractProxy;->finish()V
+goto                     -fh
+move-exception           v0
+return-void              
+
+--- getProxy(Ljava/lang/String;)Lbe/preuveneers/phoneme/fpmidp/AbstractProxy; flags=0x9 ---
+sget-object              v0, Lbe/preuveneers/phoneme/fpmidp/PhoneMECallbacks;->proxies Ljava/util/HashMap;
+invoke-virtual           v0, v1, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+move-result-object       v0
+check-cast               v0, Lbe/preuveneers/phoneme/fpmidp/AbstractProxy;
+return-object            v0
+
+--- init()V flags=0x109 ---
+[no code]
+
+--- invokeAndroid([Ljava/lang/String;)[Ljava/lang/String; flags=0x9 ---
+const/4                  v0, 0
+aget-object              v0, v1, v0
+invoke-static            v0, Lbe/preuveneers/phoneme/fpmidp/PhoneMECallbacks;->getProxy(Ljava/lang/String;)Lbe/preuveneers/phoneme/fpmidp/AbstractProxy;
+move-result-object       v0
+if-eqz                   v0, +007h
+invoke-virtual           v0, v1, Lbe/preuveneers/phoneme/fpmidp/AbstractProxy;->process([Ljava/lang/String;)[Ljava/lang/String;
+move-result-object       v0
+return-object            v0
+const/4                  v0, 0
+goto                     -2h
+
+===== CLASS Lcom/phoneme/gl/FrameBufferBridge; =====
+
+--- <init>()V flags=0x10002 ---
+invoke-direct            v0, Ljava/lang/Object;-><init>()V
+return-void              
+
+--- forwardBitmapToGL(Landroid/graphics/Bitmap;)V flags=0x9 ---
+invoke-static            Lcom/phoneme/gl/GLFramebufferView;->getInstance()Lcom/phoneme/gl/GLFramebufferView;
+move-result-object       v0
+if-eqz                   v0, +009h
+if-nez                   v2, +003h
+goto                     +5h
+invoke-virtual           v0, v2, Lcom/phoneme/gl/GLFramebufferView;->pushFrame(Landroid/graphics/Bitmap;)V
+goto                     +ah
+return-void              
+move-exception           v2
+const-string             v0, "FrameBufferBridge"
+const-string             v1, "forwardBitmapToGL failed"
+invoke-static            v0, v1, v2, Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Throwable;)I
+return-void              
+
+--- forwardToGL()V flags=0x9 ---
+invoke-static            Lcom/phoneme/gl/GLFramebufferView;->getInstance()Lcom/phoneme/gl/GLFramebufferView;
+move-result-object       v0
+if-nez                   v0, +00ah
+const-string             v1, "FrameBufferBridge"
+const-string             v2, "forwardToGL: glView is NULL, abort"
+invoke-static            v1, v2, Landroid/util/Log;->w(Ljava/lang/String; Ljava/lang/String;)I
+return-void              
+invoke-static            Lbe/preuveneers/phoneme/fpmidp/FrameBufferView;->getFbBitmapForGL()Landroid/graphics/Bitmap;
+move-result-object       v1
+if-eqz                   v1, +00ch
+const-string             v2, "FrameBufferBridge"
+const-string             v3, "forwardToGL: pushing fbBitmap frame to GL"
+invoke-static            v2, v3, Landroid/util/Log;->d(Ljava/lang/String; Ljava/lang/String;)I
+invoke-virtual           v0, v1, Lcom/phoneme/gl/GLFramebufferView;->pushFrame(Landroid/graphics/Bitmap;)V
+const-string             v0, "FrameBufferBridge"
+const-string             v1, "forwardToGL: bitmapBuffer is NULL, no frame to push"
+invoke-static            v0, v1, Landroid/util/Log;->w(Ljava/lang/String; Ljava/lang/String;)I
+goto                     +9h
+move-exception           v0
+const-string             v1, "FrameBufferBridge"
+const-string             v2, "forwardToGL failed"
+invoke-static            v1, v2, v0, Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Throwable;)I
+return-void              
+
+===== CLASS Lcom/phoneme/gl/GLFramebufferView; =====
+
+--- <init>(Landroid/content/Context; Landroid/util/AttributeSet;)V flags=0x10001 ---
+invoke-direct            v0, v1, v2, Landroid/opengl/GLSurfaceView;-><init>(Landroid/content/Context; Landroid/util/AttributeSet;)V
+const/4                  v2, 0
+iput                     v2, v0, Lcom/phoneme/gl/GLFramebufferView;->mLastMeasuredW I
+iput                     v2, v0, Lcom/phoneme/gl/GLFramebufferView;->mLastMeasuredH I
+iput                     v2, v0, Lcom/phoneme/gl/GLFramebufferView;->mLastSurfaceW I
+iput                     v2, v0, Lcom/phoneme/gl/GLFramebufferView;->mLastSurfaceH I
+invoke-direct            v0, v1, Lcom/phoneme/gl/GLFramebufferView;->commonInit(Landroid/content/Context;)V
+return-void              
+
+--- <init>(Landroid/content/Context; Lbe/preuveneers/phoneme/fpmidp/OnFrameBufferListener;)V flags=0x10001 ---
+invoke-direct            v2, v3, Landroid/opengl/GLSurfaceView;-><init>(Landroid/content/Context;)V
+const/4                  v0, 0
+iput                     v0, v2, Lcom/phoneme/gl/GLFramebufferView;->mLastMeasuredW I
+iput                     v0, v2, Lcom/phoneme/gl/GLFramebufferView;->mLastMeasuredH I
+iput                     v0, v2, Lcom/phoneme/gl/GLFramebufferView;->mLastSurfaceW I
+iput                     v0, v2, Lcom/phoneme/gl/GLFramebufferView;->mLastSurfaceH I
+const-string             v0, "GLFramebufferView"
+const-string             v1, "<init>(Context, Listener) constructor called"
+invoke-static            v0, v1, Landroid/util/Log;->i(Ljava/lang/String; Ljava/lang/String;)I
+iput-object              v4, v2, Lcom/phoneme/gl/GLFramebufferView;->mListener Lbe/preuveneers/phoneme/fpmidp/OnFrameBufferListener;
+invoke-direct            v2, v3, Lcom/phoneme/gl/GLFramebufferView;->commonInit(Landroid/content/Context;)V
+return-void              
+
+--- commonInit(Landroid/content/Context;)V flags=0x2 ---
+const/4                  v0, 1
+invoke-virtual           v9, v0, Lcom/phoneme/gl/GLFramebufferView;->setZOrderMediaOverlay(Z)V
+sput-object              v9, Lcom/phoneme/gl/GLFramebufferView;->sInstance Lcom/phoneme/gl/GLFramebufferView;
+const/4                  v1, 2
+invoke-virtual           v9, v1, Lcom/phoneme/gl/GLFramebufferView;->setEGLContextClientVersion(I)V
+const/16                 v3, 8
+const/16                 v4, 8
+const/16                 v5, 8
+const/16                 v6, 8
+const/4                  v7, 0
+const/4                  v8, 0
+move-object              v2, v9
+invoke-virtual/range     v2 ... v8, Lcom/phoneme/gl/GLFramebufferView;->setEGLConfigChooser(I I I I I I)V
+invoke-virtual           v9, v0, Lcom/phoneme/gl/GLFramebufferView;->setPreserveEGLContextOnPause(Z)V
+goto                     +2h
+move-exception           v1
+new-instance             v1, Lcom/phoneme/gl/GLRenderer;
+invoke-direct            v1, v10, Lcom/phoneme/gl/GLRenderer;-><init>(Landroid/content/Context;)V
+iput-object              v1, v9, Lcom/phoneme/gl/GLFramebufferView;->mRenderer Lcom/phoneme/gl/GLRenderer;
+invoke-virtual           v9, v1, Lcom/phoneme/gl/GLFramebufferView;->setRenderer(Landroid/opengl/GLSurfaceView$Renderer;)V
+const/4                  v10, 0
+invoke-virtual           v9, v10, Lcom/phoneme/gl/GLFramebufferView;->setRenderMode(I)V
+invoke-virtual           v9, v0, Lcom/phoneme/gl/GLFramebufferView;->setFocusable(Z)V
+invoke-virtual           v9, v0, Lcom/phoneme/gl/GLFramebufferView;->setFocusableInTouchMode(Z)V
+return-void              
+
+--- getInstance()Lcom/phoneme/gl/GLFramebufferView; flags=0x9 ---
+sget-object              v0, Lcom/phoneme/gl/GLFramebufferView;->sInstance Lcom/phoneme/gl/GLFramebufferView;
+if-nez                   v0, +009h
+const-string             v0, "GLFramebufferView"
+const-string             v1, "getInstance: sInstance is NULL!"
+invoke-static            v0, v1, Landroid/util/Log;->w(Ljava/lang/String; Ljava/lang/String;)I
+sget-object              v0, Lcom/phoneme/gl/GLFramebufferView;->sInstance Lcom/phoneme/gl/GLFramebufferView;
+return-object            v0
+
+--- getRenderer()Lcom/phoneme/gl/GLRenderer; flags=0x1 ---
+iget-object              v0, v1, Lcom/phoneme/gl/GLFramebufferView;->mRenderer Lcom/phoneme/gl/GLRenderer;
+return-object            v0
+
+--- onKeyDown(I Landroid/view/KeyEvent;)Z flags=0x1 ---
+invoke-super             v1, v2, v3, Landroid/opengl/GLSurfaceView;->onKeyDown(I Landroid/view/KeyEvent;)Z
+iget-object              v0, v1, Lcom/phoneme/gl/GLFramebufferView;->mListener Lbe/preuveneers/phoneme/fpmidp/OnFrameBufferListener;
+if-eqz                   v0, +00ah
+invoke-interface         v0, v2, v3, Lbe/preuveneers/phoneme/fpmidp/OnFrameBufferListener;->onFrameBufferKeyDownEvent(I Landroid/view/KeyEvent;)Z
+move-result              v2
+if-eqz                   v2, +004h
+const/4                  v2, 1
+return                   v2
+const/4                  v2, 0
+return                   v2
+
+--- onKeyMultiple(I I Landroid/view/KeyEvent;)Z flags=0x1 ---
+invoke-super             v2, v3, v4, v5, Landroid/opengl/GLSurfaceView;->onKeyMultiple(I I Landroid/view/KeyEvent;)Z
+invoke-virtual           v5, Landroid/view/KeyEvent;->getAction()I
+move-result              v4
+const/4                  v0, 2
+const/4                  v1, 1
+if-ne                    v4, v0, +011h
+if-nez                   v3, +00fh
+iget-object              v3, v2, Lcom/phoneme/gl/GLFramebufferView;->mListener Lbe/preuveneers/phoneme/fpmidp/OnFrameBufferListener;
+if-eqz                   v3, +009h
+invoke-interface         v3, v5, Lbe/preuveneers/phoneme/fpmidp/OnFrameBufferListener;->onFrameBufferMultipleKeyEvent(Landroid/view/KeyEvent;)Z
+move-result              v3
+if-eqz                   v3, +003h
+return                   v1
+const/4                  v3, 0
+return                   v3
+return                   v1
+
+--- onKeyUp(I Landroid/view/KeyEvent;)Z flags=0x1 ---
+invoke-super             v1, v2, v3, Landroid/opengl/GLSurfaceView;->onKeyUp(I Landroid/view/KeyEvent;)Z
+iget-object              v0, v1, Lcom/phoneme/gl/GLFramebufferView;->mListener Lbe/preuveneers/phoneme/fpmidp/OnFrameBufferListener;
+if-eqz                   v0, +00ah
+invoke-interface         v0, v2, v3, Lbe/preuveneers/phoneme/fpmidp/OnFrameBufferListener;->onFrameBufferKeyUpEvent(I Landroid/view/KeyEvent;)Z
+move-result              v2
+if-eqz                   v2, +004h
+const/4                  v2, 1
+return                   v2
+const/4                  v2, 0
+return                   v2
+
+--- onMeasure(I I)V flags=0x4 ---
+invoke-static            v10, Landroid/view/View$MeasureSpec;->getSize(I)I
+move-result              v0
+invoke-static            v11, Landroid/view/View$MeasureSpec;->getSize(I)I
+move-result              v1
+nop                      
+nop                      
+invoke-virtual           v9, Lcom/phoneme/gl/GLFramebufferView;->getContext()Landroid/content/Context;
+move-result-object       v2
+invoke-static            v2, Lcom/phoneme/gl/DisplayHelper;->getRealWidth(Landroid/content/Context;)I
+move-result              v2
+invoke-virtual           v9, Lcom/phoneme/gl/GLFramebufferView;->getContext()Landroid/content/Context;
+move-result-object       v3
+invoke-static            v3, Lcom/phoneme/gl/DisplayHelper;->getRealHeight(Landroid/content/Context;)I
+move-result              v3
+if-lez                   v2, +02dh
+if-lez                   v3, +02bh
+if-lez                   v0, +029h
+if-lez                   v1, +027h
+int-to-float             v4, v2
+int-to-float             v5, v0
+div-float/2addr          v4, v5
+int-to-float             v6, v3
+int-to-float             v7, v1
+div-float/2addr          v6, v7
+const                    v8, 1066611507
+cmpl-float               v8, v4, v8
+if-lez                   v8, +004h
+const/4                  v8, 1
+goto                     +2h
+const/4                  v8, 0
+if-eqz                   v8, +015h
+mul-float                v5, v5, v4
+invoke-static            v5, Ljava/lang/Math;->round(F)I
+move-result              v4
+mul-float                v7, v7, v6
+invoke-static            v7, Ljava/lang/Math;->round(F)I
+move-result              v5
+if-le                    v4, v2, +003h
+move                     v4, v2
+if-le                    v5, v3, +006h
+move                     v5, v3
+goto                     +3h
+move                     v4, v0
+move                     v5, v1
+const-string             v6, "x"
+const-string             v7, "PhoneME"
+if-lez                   v4, +08bh
+if-lez                   v5, +089h
+iget                     v10, v9, Lcom/phoneme/gl/GLFramebufferView;->mLastMeasuredW I
+if-ne                    v4, v10, +006h
+iget                     v10, v9, Lcom/phoneme/gl/GLFramebufferView;->mLastMeasuredH I
+if-eq                    v5, v10, +04eh
+new-instance             v10, Ljava/lang/StringBuilder;
+invoke-direct            v10, Ljava/lang/StringBuilder;-><init>()V
+const-string             v11, "GLFramebufferView.onMeasure: view size "
+invoke-virtual           v10, v11, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v10
+invoke-virtual           v10, v4, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+move-result-object       v10
+invoke-virtual           v10, v6, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v10
+invoke-virtual           v10, v5, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+move-result-object       v10
+const-string             v11, " (spec="
+invoke-virtual           v10, v11, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v10
+invoke-virtual           v10, v0, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+move-result-object       v10
+invoke-virtual           v10, v6, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v10
+invoke-virtual           v10, v1, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+move-result-object       v10
+const-string             v11, " phys="
+invoke-virtual           v10, v11, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v10
+invoke-virtual           v10, v2, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+move-result-object       v10
+invoke-virtual           v10, v6, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v10
+invoke-virtual           v10, v3, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+move-result-object       v10
+const-string             v11, ")"
+invoke-virtual           v10, v11, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v10
+invoke-virtual           v10, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+move-result-object       v10
+invoke-static            v7, v10, Landroid/util/Log;->i(Ljava/lang/String; Ljava/lang/String;)I
+iput                     v4, v9, Lcom/phoneme/gl/GLFramebufferView;->mLastMeasuredW I
+iput                     v5, v9, Lcom/phoneme/gl/GLFramebufferView;->mLastMeasuredH I
+invoke-virtual           v9, v4, v5, Lcom/phoneme/gl/GLFramebufferView;->setMeasuredDimension(I I)V
+iget                     v10, v9, Lcom/phoneme/gl/GLFramebufferView;->mLastSurfaceW I
+if-ne                    v10, v4, +006h
+iget                     v10, v9, Lcom/phoneme/gl/GLFramebufferView;->mLastSurfaceH I
+if-eq                    v10, v5, +064h
+invoke-virtual           v9, Lcom/phoneme/gl/GLFramebufferView;->getHolder()Landroid/view/SurfaceHolder;
+move-result-object       v10
+invoke-interface         v10, v4, v5, Landroid/view/SurfaceHolder;->setFixedSize(I I)V
+iput                     v4, v9, Lcom/phoneme/gl/GLFramebufferView;->mLastSurfaceW I
+iput                     v5, v9, Lcom/phoneme/gl/GLFramebufferView;->mLastSurfaceH I
+goto                     +1ch
+move-exception           v10
+new-instance             v11, Ljava/lang/StringBuilder;
+invoke-direct            v11, Ljava/lang/StringBuilder;-><init>()V
+const-string             v0, "GLFramebufferView.onMeasure: setFixedSize failed: "
+invoke-virtual           v11, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v11
+invoke-virtual           v10, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+move-result-object       v10
+invoke-virtual           v11, v10, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v10
+invoke-virtual           v10, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+move-result-object       v10
+invoke-static            v7, v10, Landroid/util/Log;->w(Ljava/lang/String; Ljava/lang/String;)I
+goto                     +3bh
+const-string             v0, "GLFramebufferView.onMeasure: DisplayHelper returned 0, using default measure"
+invoke-static            v7, v0, Landroid/util/Log;->w(Ljava/lang/String; Ljava/lang/String;)I
+invoke-super             v9, v10, v11, Landroid/opengl/GLSurfaceView;->onMeasure(I I)V
+invoke-virtual           v9, Lcom/phoneme/gl/GLFramebufferView;->getMeasuredWidth()I
+move-result              v10
+invoke-virtual           v9, Lcom/phoneme/gl/GLFramebufferView;->getMeasuredHeight()I
+move-result              v11
+iget                     v0, v9, Lcom/phoneme/gl/GLFramebufferView;->mLastMeasuredW I
+if-ne                    v10, v0, +006h
+iget                     v0, v9, Lcom/phoneme/gl/GLFramebufferView;->mLastMeasuredH I
+if-eq                    v11, v0, +024h
+new-instance             v0, Ljava/lang/StringBuilder;
+invoke-direct            v0, Ljava/lang/StringBuilder;-><init>()V
+const-string             v1, "GLFramebufferView.onMeasure: default measure = "
+invoke-virtual           v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v0
+invoke-virtual           v0, v10, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+move-result-object       v0
+invoke-virtual           v0, v6, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v0
+invoke-virtual           v0, v11, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+move-result-object       v0
+invoke-virtual           v0, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+move-result-object       v0
+invoke-static            v7, v0, Landroid/util/Log;->i(Ljava/lang/String; Ljava/lang/String;)I
+iput                     v10, v9, Lcom/phoneme/gl/GLFramebufferView;->mLastMeasuredW I
+iput                     v11, v9, Lcom/phoneme/gl/GLFramebufferView;->mLastMeasuredH I
+return-void              
+
+--- onPause()V flags=0x1 ---
+invoke-super             v0, Landroid/opengl/GLSurfaceView;->onPause()V
+return-void              
+
+--- onResume()V flags=0x1 ---
+invoke-super             v0, Landroid/opengl/GLSurfaceView;->onResume()V
+return-void              
+
+--- onTouchEvent(Landroid/view/MotionEvent;)Z flags=0x1 ---
+iget-object              v0, v1, Lcom/phoneme/gl/GLFramebufferView;->mListener Lbe/preuveneers/phoneme/fpmidp/OnFrameBufferListener;
+if-eqz                   v0, +005h
+invoke-interface         v0, v2, Lbe/preuveneers/phoneme/fpmidp/OnFrameBufferListener;->onFrameBufferMotionEvent(Landroid/view/MotionEvent;)Z
+const/4                  v2, 1
+return                   v2
+
+--- pushFrame(Landroid/graphics/Bitmap;)V flags=0x1 ---
+iget-object              v0, v2, Lcom/phoneme/gl/GLFramebufferView;->mRenderer Lcom/phoneme/gl/GLRenderer;
+if-eqz                   v0, +011h
+const-string             v0, "GLFramebufferView"
+const-string             v1, "pushFrame(Bitmap) -> submitFrame + requestRender"
+invoke-static            v0, v1, Landroid/util/Log;->d(Ljava/lang/String; Ljava/lang/String;)I
+iget-object              v0, v2, Lcom/phoneme/gl/GLFramebufferView;->mRenderer Lcom/phoneme/gl/GLRenderer;
+invoke-virtual           v0, v3, Lcom/phoneme/gl/GLRenderer;->submitFrame(Landroid/graphics/Bitmap;)V
+invoke-virtual           v2, Lcom/phoneme/gl/GLFramebufferView;->requestRender()V
+return-void              
+
+--- pushFrame(Ljava/nio/ShortBuffer;)V flags=0x1 ---
+iget-object              v0, v2, Lcom/phoneme/gl/GLFramebufferView;->mRenderer Lcom/phoneme/gl/GLRenderer;
+if-eqz                   v0, +011h
+const-string             v0, "GLFramebufferView"
+const-string             v1, "pushFrame(ShortBuffer) -> submitFrame + requestRender"
+invoke-static            v0, v1, Landroid/util/Log;->d(Ljava/lang/String; Ljava/lang/String;)I
+iget-object              v0, v2, Lcom/phoneme/gl/GLFramebufferView;->mRenderer Lcom/phoneme/gl/GLRenderer;
+invoke-virtual           v0, v3, Lcom/phoneme/gl/GLRenderer;->submitFrame(Ljava/nio/ShortBuffer;)V
+invoke-virtual           v2, Lcom/phoneme/gl/GLFramebufferView;->requestRender()V
+return-void              
+
+===== CLASS Lcom/phoneme/gl/GLRenderer; =====
+
+--- <clinit>()V flags=0x10008 ---
+const/16                 v0, 16
+new-array                v0, v0, [F
+fill-array-data          v0, +0000006h
+sput-object              v0, Lcom/phoneme/gl/GLRenderer;->QUAD_VERTICES [F
+return-void              
+fill-array-data-payload  b'\x00\x00\x80\xbf\x00\x00\x80\xbf\x00\x00\x00\x00\x00\x00\x80?\x00\x00\x80?\x00\x00\x80\xbf\x00\x00\x80?\x00\x00\x80?\x00\x00\x80\xbf\x00\x00\x80?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80?\x00\x00\x80?\x00\x00\x80?\x00\x00\x00\x00' | \x00\x00\x80\xbf\x00\x00\x80\xbf\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\xbf\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\xbf\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x00\x00
+
+--- <init>(Landroid/content/Context;)V flags=0x10001 ---
+invoke-direct            v2, Ljava/lang/Object;-><init>()V
+new-instance             v0, Ljava/lang/Object;
+invoke-direct            v0, Ljava/lang/Object;-><init>()V
+iput-object              v0, v2, Lcom/phoneme/gl/GLRenderer;->mFrameLock Ljava/lang/Object;
+const/16                 v0, 360
+iput                     v0, v2, Lcom/phoneme/gl/GLRenderer;->mSrcW I
+const/16                 v0, 640
+iput                     v0, v2, Lcom/phoneme/gl/GLRenderer;->mSrcH I
+invoke-virtual           v3, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+move-result-object       v3
+iput-object              v3, v2, Lcom/phoneme/gl/GLRenderer;->mContext Landroid/content/Context;
+sget-object              v3, Lcom/phoneme/gl/GLRenderer;->QUAD_VERTICES [F
+array-length             v0, v3
+mul-int/lit8             v0, v0, 4
+invoke-static            v0, Ljava/nio/ByteBuffer;->allocateDirect(I)Ljava/nio/ByteBuffer;
+move-result-object       v0
+invoke-static            Ljava/nio/ByteOrder;->nativeOrder()Ljava/nio/ByteOrder;
+move-result-object       v1
+invoke-virtual           v0, v1, Ljava/nio/ByteBuffer;->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
+invoke-virtual           v0, Ljava/nio/ByteBuffer;->asFloatBuffer()Ljava/nio/FloatBuffer;
+move-result-object       v0
+iput-object              v0, v2, Lcom/phoneme/gl/GLRenderer;->mQuadBuf Ljava/nio/FloatBuffer;
+invoke-virtual           v0, v3, Ljava/nio/FloatBuffer;->put([F)Ljava/nio/FloatBuffer;
+iget-object              v3, v2, Lcom/phoneme/gl/GLRenderer;->mQuadBuf Ljava/nio/FloatBuffer;
+const/4                  v0, 0
+invoke-virtual           v3, v0, Ljava/nio/FloatBuffer;->position(I)Ljava/nio/Buffer;
+move-result-object       v3
+check-cast               v3, Ljava/nio/FloatBuffer;
+return-void              
+
+--- cacheLocations()V flags=0x2 ---
+iget                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mProgramUpscale I
+const-string             v1, "aPosition"
+invoke-static            v0, v1, Landroid/opengl/GLES20;->glGetAttribLocation(I Ljava/lang/String;)I
+move-result              v0
+iput                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mAPosUp I
+iget                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mProgramUpscale I
+const-string             v2, "aTexCoord"
+invoke-static            v0, v2, Landroid/opengl/GLES20;->glGetAttribLocation(I Ljava/lang/String;)I
+move-result              v0
+iput                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mAUvUp I
+iget                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mProgramUpscale I
+const-string             v3, "uTexture"
+invoke-static            v0, v3, Landroid/opengl/GLES20;->glGetUniformLocation(I Ljava/lang/String;)I
+move-result              v0
+iput                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mUTexUp I
+iget                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mProgramUpscale I
+const-string             v4, "uOutputSize"
+invoke-static            v0, v4, Landroid/opengl/GLES20;->glGetUniformLocation(I Ljava/lang/String;)I
+move-result              v0
+iput                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mUOutSizeUp I
+iget                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mProgramUpscale I
+const-string             v5, "uScreenSize"
+invoke-static            v0, v5, Landroid/opengl/GLES20;->glGetUniformLocation(I Ljava/lang/String;)I
+move-result              v0
+iput                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mUScreenSizeUp I
+iget                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mProgramUpscale I
+const-string             v6, "uOutputOffset"
+invoke-static            v0, v6, Landroid/opengl/GLES20;->glGetUniformLocation(I Ljava/lang/String;)I
+move-result              v0
+iput                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mUOutOffsetUp I
+iget                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mProgramUpscale I
+const-string             v7, "uSrcSize"
+invoke-static            v0, v7, Landroid/opengl/GLES20;->glGetUniformLocation(I Ljava/lang/String;)I
+move-result              v0
+iput                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mUSrcSizeUp I
+iget                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mProgramLcd I
+invoke-static            v0, v1, Landroid/opengl/GLES20;->glGetAttribLocation(I Ljava/lang/String;)I
+move-result              v0
+iput                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mAPosLcd I
+iget                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mProgramLcd I
+invoke-static            v0, v2, Landroid/opengl/GLES20;->glGetAttribLocation(I Ljava/lang/String;)I
+move-result              v0
+iput                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mAUvLcd I
+iget                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mProgramLcd I
+invoke-static            v0, v3, Landroid/opengl/GLES20;->glGetUniformLocation(I Ljava/lang/String;)I
+move-result              v0
+iput                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mUTexLcd I
+iget                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mProgramLcd I
+invoke-static            v0, v5, Landroid/opengl/GLES20;->glGetUniformLocation(I Ljava/lang/String;)I
+move-result              v0
+iput                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mUScreenSize I
+iget                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mProgramLcd I
+invoke-static            v0, v4, Landroid/opengl/GLES20;->glGetUniformLocation(I Ljava/lang/String;)I
+move-result              v0
+iput                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mUOutputSize I
+iget                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mProgramLcd I
+invoke-static            v0, v6, Landroid/opengl/GLES20;->glGetUniformLocation(I Ljava/lang/String;)I
+move-result              v0
+iput                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mUOutputOffset I
+iget                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mProgramLcd I
+invoke-static            v0, v7, Landroid/opengl/GLES20;->glGetUniformLocation(I Ljava/lang/String;)I
+move-result              v0
+iput                     v0, v8, Lcom/phoneme/gl/GLRenderer;->mUSrcSizeLcd I
+return-void              
+
+--- computeIntegerScale()V flags=0x2 ---
+iget                     v0, v4, Lcom/phoneme/gl/GLRenderer;->mViewportW I
+iget                     v1, v4, Lcom/phoneme/gl/GLRenderer;->mViewportH I
+iget                     v2, v4, Lcom/phoneme/gl/GLRenderer;->mSrcW I
+iget                     v3, v4, Lcom/phoneme/gl/GLRenderer;->mSrcH I
+invoke-static            v0, v1, v2, v3, Lcom/phoneme/gl/ScaleHelper;->computeAspectFill(I I I I)F
+sget                     v0, Lcom/phoneme/gl/ScaleHelper;->sOutW I
+iput                     v0, v4, Lcom/phoneme/gl/GLRenderer;->mOutW I
+sget                     v0, Lcom/phoneme/gl/ScaleHelper;->sOutH I
+iput                     v0, v4, Lcom/phoneme/gl/GLRenderer;->mOutH I
+sget                     v0, Lcom/phoneme/gl/ScaleHelper;->sOutX I
+iput                     v0, v4, Lcom/phoneme/gl/GLRenderer;->mOutX I
+sget                     v0, Lcom/phoneme/gl/ScaleHelper;->sOutY I
+iput                     v0, v4, Lcom/phoneme/gl/GLRenderer;->mOutY I
+return-void              
+
+--- createTexture(I I Z)I flags=0x2 ---
+const/4                  v0, 1
+new-array                v1, v0, [I
+const/4                  v2, 0
+invoke-static            v0, v1, v2, Landroid/opengl/GLES20;->glGenTextures(I [I I)V
+aget                     v0, v1, v2
+const/16                 v1, 3553
+invoke-static            v1, v0, Landroid/opengl/GLES20;->glBindTexture(I I)V
+const/16                 v3, 3553
+const/4                  v4, 0
+const/16                 v5, 6407
+const/4                  v8, 0
+const/16                 v9, 6407
+const                    v10, 33635
+const/4                  v11, 0
+move                     v6, v13
+move                     v7, v14
+invoke-static/range      v3 ... v11, Landroid/opengl/GLES20;->glTexImage2D(I I I I I I I I Ljava/nio/Buffer;)V
+if-eqz                   v15, +005h
+const/16                 v13, 9728
+goto                     +3h
+const/16                 v13, 9729
+const/16                 v14, 10241
+invoke-static            v1, v14, v13, Landroid/opengl/GLES20;->glTexParameteri(I I I)V
+const/16                 v14, 10240
+invoke-static            v1, v14, v13, Landroid/opengl/GLES20;->glTexParameteri(I I I)V
+const/16                 v13, 10242
+const                    v14, 33071
+invoke-static            v1, v13, v14, Landroid/opengl/GLES20;->glTexParameteri(I I I)V
+const/16                 v13, 10243
+invoke-static            v1, v13, v14, Landroid/opengl/GLES20;->glTexParameteri(I I I)V
+invoke-static            v1, v2, Landroid/opengl/GLES20;->glBindTexture(I I)V
+return                   v0
+
+--- drawQuad(I I)V flags=0x2 ---
+iget-object              v0, v8, Lcom/phoneme/gl/GLRenderer;->mQuadBuf Ljava/nio/FloatBuffer;
+const/4                  v1, 0
+invoke-virtual           v0, v1, Ljava/nio/FloatBuffer;->position(I)Ljava/nio/Buffer;
+move-result-object       v0
+check-cast               v0, Ljava/nio/FloatBuffer;
+invoke-static            v9, Landroid/opengl/GLES20;->glEnableVertexAttribArray(I)V
+const/4                  v3, 2
+const/16                 v4, 5126
+const/4                  v5, 0
+const/16                 v6, 16
+iget-object              v7, v8, Lcom/phoneme/gl/GLRenderer;->mQuadBuf Ljava/nio/FloatBuffer;
+move                     v2, v9
+invoke-static/range      v2 ... v7, Landroid/opengl/GLES20;->glVertexAttribPointer(I I I Z I Ljava/nio/Buffer;)V
+iget-object              v0, v8, Lcom/phoneme/gl/GLRenderer;->mQuadBuf Ljava/nio/FloatBuffer;
+const/4                  v2, 2
+invoke-virtual           v0, v2, Ljava/nio/FloatBuffer;->position(I)Ljava/nio/Buffer;
+move-result-object       v0
+check-cast               v0, Ljava/nio/FloatBuffer;
+invoke-static            v10, Landroid/opengl/GLES20;->glEnableVertexAttribArray(I)V
+iget-object              v7, v8, Lcom/phoneme/gl/GLRenderer;->mQuadBuf Ljava/nio/FloatBuffer;
+move                     v2, v10
+invoke-static/range      v2 ... v7, Landroid/opengl/GLES20;->glVertexAttribPointer(I I I Z I Ljava/nio/Buffer;)V
+const/4                  v0, 5
+const/4                  v2, 4
+invoke-static            v0, v1, v2, Landroid/opengl/GLES20;->glDrawArrays(I I I)V
+invoke-static            v9, Landroid/opengl/GLES20;->glDisableVertexAttribArray(I)V
+invoke-static            v10, Landroid/opengl/GLES20;->glDisableVertexAttribArray(I)V
+return-void              
+
+--- rebuildUpscaleFBO()V flags=0x2 ---
+iget                     v0, v14, Lcom/phoneme/gl/GLRenderer;->mFboUpscale I
+const/4                  v1, 1
+const/4                  v2, 0
+if-eqz                   v0, +016h
+filled-new-array         v0, [I
+move-result-object       v0
+invoke-static            v1, v0, v2, Landroid/opengl/GLES20;->glDeleteFramebuffers(I [I I)V
+iget                     v0, v14, Lcom/phoneme/gl/GLRenderer;->mUpscaleTexture I
+filled-new-array         v0, [I
+move-result-object       v0
+invoke-static            v1, v0, v2, Landroid/opengl/GLES20;->glDeleteTextures(I [I I)V
+iput                     v2, v14, Lcom/phoneme/gl/GLRenderer;->mFboUpscale I
+iput                     v2, v14, Lcom/phoneme/gl/GLRenderer;->mUpscaleTexture I
+new-array                v0, v1, [I
+invoke-static            v1, v0, v2, Landroid/opengl/GLES20;->glGenTextures(I [I I)V
+aget                     v3, v0, v2
+iput                     v3, v14, Lcom/phoneme/gl/GLRenderer;->mUpscaleTexture I
+const/16                 v4, 3553
+invoke-static            v4, v3, Landroid/opengl/GLES20;->glBindTexture(I I)V
+const/16                 v5, 3553
+const/4                  v6, 0
+const/16                 v7, 6408
+iget                     v8, v14, Lcom/phoneme/gl/GLRenderer;->mOutW I
+iget                     v9, v14, Lcom/phoneme/gl/GLRenderer;->mOutH I
+const/4                  v10, 0
+const/16                 v11, 6408
+const/16                 v12, 5121
+const/4                  v13, 0
+invoke-static/range      v5 ... v13, Landroid/opengl/GLES20;->glTexImage2D(I I I I I I I I Ljava/nio/Buffer;)V
+const/16                 v3, 10241
+const/16                 v5, 9729
+invoke-static            v4, v3, v5, Landroid/opengl/GLES20;->glTexParameteri(I I I)V
+const/16                 v3, 10240
+invoke-static            v4, v3, v5, Landroid/opengl/GLES20;->glTexParameteri(I I I)V
+const/16                 v3, 10242
+const                    v5, 33071
+invoke-static            v4, v3, v5, Landroid/opengl/GLES20;->glTexParameteri(I I I)V
+const/16                 v3, 10243
+invoke-static            v4, v3, v5, Landroid/opengl/GLES20;->glTexParameteri(I I I)V
+invoke-static            v4, v2, Landroid/opengl/GLES20;->glBindTexture(I I)V
+invoke-static            v1, v0, v2, Landroid/opengl/GLES20;->glGenFramebuffers(I [I I)V
+aget                     v0, v0, v2
+iput                     v0, v14, Lcom/phoneme/gl/GLRenderer;->mFboUpscale I
+const                    v1, 36160
+invoke-static            v1, v0, Landroid/opengl/GLES20;->glBindFramebuffer(I I)V
+const                    v0, 36064
+iget                     v3, v14, Lcom/phoneme/gl/GLRenderer;->mUpscaleTexture I
+invoke-static            v1, v0, v4, v3, v2, Landroid/opengl/GLES20;->glFramebufferTexture2D(I I I I I)V
+invoke-static            v1, Landroid/opengl/GLES20;->glCheckFramebufferStatus(I)I
+move-result              v0
+const                    v3, 36053
+if-eq                    v0, v3, +01eh
+new-instance             v3, Ljava/lang/StringBuilder;
+invoke-direct            v3, Ljava/lang/StringBuilder;-><init>()V
+const-string             v4, "FBO incomplete: 0x"
+invoke-virtual           v3, v4, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v3
+invoke-static            v0, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
+move-result-object       v0
+invoke-virtual           v3, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v0
+invoke-virtual           v0, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+move-result-object       v0
+const-string             v3, "GLRenderer"
+invoke-static            v3, v0, Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String;)I
+invoke-static            v1, v2, Landroid/opengl/GLES20;->glBindFramebuffer(I I)V
+return-void              
+
+--- recreateSourceTexture()V flags=0x2 ---
+iget                     v0, v3, Lcom/phoneme/gl/GLRenderer;->mSrcTexture I
+const/4                  v1, 1
+if-eqz                   v0, +00ch
+filled-new-array         v0, [I
+move-result-object       v0
+const/4                  v2, 0
+invoke-static            v1, v0, v2, Landroid/opengl/GLES20;->glDeleteTextures(I [I I)V
+iput                     v2, v3, Lcom/phoneme/gl/GLRenderer;->mSrcTexture I
+iget                     v0, v3, Lcom/phoneme/gl/GLRenderer;->mSrcW I
+iget                     v2, v3, Lcom/phoneme/gl/GLRenderer;->mSrcH I
+invoke-direct            v3, v0, v2, v1, Lcom/phoneme/gl/GLRenderer;->createTexture(I I Z)I
+move-result              v0
+iput                     v0, v3, Lcom/phoneme/gl/GLRenderer;->mSrcTexture I
+new-instance             v0, Ljava/lang/StringBuilder;
+invoke-direct            v0, Ljava/lang/StringBuilder;-><init>()V
+const-string             v1, "recreated source texture "
+invoke-virtual           v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v0
+iget                     v1, v3, Lcom/phoneme/gl/GLRenderer;->mSrcW I
+invoke-virtual           v0, v1, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+move-result-object       v0
+const-string             v1, "x"
+invoke-virtual           v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v0
+iget                     v1, v3, Lcom/phoneme/gl/GLRenderer;->mSrcH I
+invoke-virtual           v0, v1, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+move-result-object       v0
+const-string             v1, " id="
+invoke-virtual           v0, v1, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v0
+iget                     v1, v3, Lcom/phoneme/gl/GLRenderer;->mSrcTexture I
+invoke-virtual           v0, v1, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+move-result-object       v0
+invoke-virtual           v0, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+move-result-object       v0
+const-string             v1, "GLRenderer"
+invoke-static            v1, v0, Landroid/util/Log;->i(Ljava/lang/String; Ljava/lang/String;)I
+return-void              
+
+--- releaseGL()V flags=0x2 ---
+iget                     v0, v3, Lcom/phoneme/gl/GLRenderer;->mSrcTexture I
+const/4                  v1, 1
+const/4                  v2, 0
+if-eqz                   v0, +00bh
+filled-new-array         v0, [I
+move-result-object       v0
+invoke-static            v1, v0, v2, Landroid/opengl/GLES20;->glDeleteTextures(I [I I)V
+iput                     v2, v3, Lcom/phoneme/gl/GLRenderer;->mSrcTexture I
+iget                     v0, v3, Lcom/phoneme/gl/GLRenderer;->mUpscaleTexture I
+if-eqz                   v0, +00bh
+filled-new-array         v0, [I
+move-result-object       v0
+invoke-static            v1, v0, v2, Landroid/opengl/GLES20;->glDeleteTextures(I [I I)V
+iput                     v2, v3, Lcom/phoneme/gl/GLRenderer;->mUpscaleTexture I
+iget                     v0, v3, Lcom/phoneme/gl/GLRenderer;->mFboUpscale I
+if-eqz                   v0, +00bh
+filled-new-array         v0, [I
+move-result-object       v0
+invoke-static            v1, v0, v2, Landroid/opengl/GLES20;->glDeleteFramebuffers(I [I I)V
+iput                     v2, v3, Lcom/phoneme/gl/GLRenderer;->mFboUpscale I
+iget                     v0, v3, Lcom/phoneme/gl/GLRenderer;->mProgramUpscale I
+if-eqz                   v0, +007h
+invoke-static            v0, Landroid/opengl/GLES20;->glDeleteProgram(I)V
+iput                     v2, v3, Lcom/phoneme/gl/GLRenderer;->mProgramUpscale I
+iget                     v0, v3, Lcom/phoneme/gl/GLRenderer;->mProgramLcd I
+if-eqz                   v0, +007h
+invoke-static            v0, Landroid/opengl/GLES20;->glDeleteProgram(I)V
+iput                     v2, v3, Lcom/phoneme/gl/GLRenderer;->mProgramLcd I
+return-void              
+
+--- uploadBitmap(Landroid/graphics/Bitmap;)V flags=0x2 ---
+iget                     v0, v2, Lcom/phoneme/gl/GLRenderer;->mSrcTexture I
+const/16                 v1, 3553
+invoke-static            v1, v0, Landroid/opengl/GLES20;->glBindTexture(I I)V
+const/4                  v0, 0
+invoke-static            v1, v0, v0, v0, v3, Landroid/opengl/GLUtils;->texSubImage2D(I I I I Landroid/graphics/Bitmap;)V
+invoke-static            v1, v0, Landroid/opengl/GLES20;->glBindTexture(I I)V
+return-void              
+
+--- uploadShortBuffer(Ljava/nio/ShortBuffer;)V flags=0x2 ---
+const/4                  v0, 0
+invoke-virtual           v13, v0, Ljava/nio/ShortBuffer;->position(I)Ljava/nio/Buffer;
+move-result-object       v1
+check-cast               v1, Ljava/nio/ShortBuffer;
+iget                     v1, v12, Lcom/phoneme/gl/GLRenderer;->mSrcTexture I
+const/16                 v2, 3553
+invoke-static            v2, v1, Landroid/opengl/GLES20;->glBindTexture(I I)V
+const/16                 v3, 3553
+const/4                  v4, 0
+const/4                  v5, 0
+const/4                  v6, 0
+iget                     v7, v12, Lcom/phoneme/gl/GLRenderer;->mSrcW I
+iget                     v8, v12, Lcom/phoneme/gl/GLRenderer;->mSrcH I
+const/16                 v9, 6407
+const                    v10, 33635
+move-object              v11, v13
+invoke-static/range      v3 ... v11, Landroid/opengl/GLES20;->glTexSubImage2D(I I I I I I I I Ljava/nio/Buffer;)V
+invoke-static            v2, v0, Landroid/opengl/GLES20;->glBindTexture(I I)V
+return-void              
+
+--- onDrawFrame(Ljavax/microedition/khronos/opengles/GL10;)V flags=0x1 ---
+nop                      
+nop                      
+iget-object              v10, v9, Lcom/phoneme/gl/GLRenderer;->mFrameLock Ljava/lang/Object;
+monitor-enter            v10
+iget-boolean             v0, v9, Lcom/phoneme/gl/GLRenderer;->mFrameQueued Z
+const/4                  v1, 0
+if-eqz                   v0, +009h
+iget-object              v0, v9, Lcom/phoneme/gl/GLRenderer;->mPendingPixels Ljava/nio/ShortBuffer;
+iget-object              v2, v9, Lcom/phoneme/gl/GLRenderer;->mPendingBitmap Landroid/graphics/Bitmap;
+iput-boolean             v1, v9, Lcom/phoneme/gl/GLRenderer;->mFrameQueued Z
+goto                     +3h
+const/4                  v0, 0
+move-object              v2, v0
+monitor-exit             v10
+iget-boolean             v10, v9, Lcom/phoneme/gl/GLRenderer;->mSrcDirty Z
+if-eqz                   v10, +00dh
+invoke-direct            v9, Lcom/phoneme/gl/GLRenderer;->recreateSourceTexture()V
+invoke-direct            v9, Lcom/phoneme/gl/GLRenderer;->computeIntegerScale()V
+invoke-direct            v9, Lcom/phoneme/gl/GLRenderer;->rebuildUpscaleFBO()V
+iput-boolean             v1, v9, Lcom/phoneme/gl/GLRenderer;->mSrcDirty Z
+if-eqz                   v0, +006h
+invoke-direct            v9, v0, Lcom/phoneme/gl/GLRenderer;->uploadShortBuffer(Ljava/nio/ShortBuffer;)V
+goto                     +6h
+if-eqz                   v2, +005h
+invoke-direct            v9, v2, Lcom/phoneme/gl/GLRenderer;->uploadBitmap(Landroid/graphics/Bitmap;)V
+iget-boolean             v10, v9, Lcom/phoneme/gl/GLRenderer;->mInitialised Z
+const/16                 v0, 16384
+const/high16             v2, 1065353216
+const/4                  v3, 0
+if-nez                   v10, +009h
+invoke-static            v3, v3, v3, v2, Landroid/opengl/GLES20;->glClearColor(F F F F)V
+invoke-static            v0, Landroid/opengl/GLES20;->glClear(I)V
+return-void              
+iget                     v10, v9, Lcom/phoneme/gl/GLRenderer;->mFboUpscale I
+const                    v4, 36160
+invoke-static            v4, v10, Landroid/opengl/GLES20;->glBindFramebuffer(I I)V
+iget                     v10, v9, Lcom/phoneme/gl/GLRenderer;->mOutW I
+iget                     v5, v9, Lcom/phoneme/gl/GLRenderer;->mOutH I
+invoke-static            v1, v1, v10, v5, Landroid/opengl/GLES20;->glViewport(I I I I)V
+invoke-static            v3, v3, v3, v2, Landroid/opengl/GLES20;->glClearColor(F F F F)V
+invoke-static            v0, Landroid/opengl/GLES20;->glClear(I)V
+iget                     v10, v9, Lcom/phoneme/gl/GLRenderer;->mProgramUpscale I
+invoke-static            v10, Landroid/opengl/GLES20;->glUseProgram(I)V
+const                    v10, 33984
+invoke-static            v10, Landroid/opengl/GLES20;->glActiveTexture(I)V
+iget                     v5, v9, Lcom/phoneme/gl/GLRenderer;->mSrcTexture I
+const/16                 v6, 3553
+invoke-static            v6, v5, Landroid/opengl/GLES20;->glBindTexture(I I)V
+iget                     v5, v9, Lcom/phoneme/gl/GLRenderer;->mUTexUp I
+invoke-static            v5, v1, Landroid/opengl/GLES20;->glUniform1i(I I)V
+iget                     v5, v9, Lcom/phoneme/gl/GLRenderer;->mUOutSizeUp I
+iget                     v7, v9, Lcom/phoneme/gl/GLRenderer;->mOutW I
+int-to-float             v7, v7
+iget                     v8, v9, Lcom/phoneme/gl/GLRenderer;->mOutH I
+int-to-float             v8, v8
+invoke-static            v5, v7, v8, Landroid/opengl/GLES20;->glUniform2f(I F F)V
+iget                     v5, v9, Lcom/phoneme/gl/GLRenderer;->mUScreenSizeUp I
+iget                     v7, v9, Lcom/phoneme/gl/GLRenderer;->mOutW I
+int-to-float             v7, v7
+iget                     v8, v9, Lcom/phoneme/gl/GLRenderer;->mOutH I
+int-to-float             v8, v8
+invoke-static            v5, v7, v8, Landroid/opengl/GLES20;->glUniform2f(I F F)V
+iget                     v5, v9, Lcom/phoneme/gl/GLRenderer;->mUOutOffsetUp I
+invoke-static            v5, v3, v3, Landroid/opengl/GLES20;->glUniform2f(I F F)V
+iget                     v5, v9, Lcom/phoneme/gl/GLRenderer;->mUSrcSizeUp I
+iget                     v7, v9, Lcom/phoneme/gl/GLRenderer;->mSrcW I
+int-to-float             v7, v7
+iget                     v8, v9, Lcom/phoneme/gl/GLRenderer;->mSrcH I
+int-to-float             v8, v8
+invoke-static            v5, v7, v8, Landroid/opengl/GLES20;->glUniform2f(I F F)V
+iget                     v5, v9, Lcom/phoneme/gl/GLRenderer;->mAPosUp I
+iget                     v7, v9, Lcom/phoneme/gl/GLRenderer;->mAUvUp I
+invoke-direct            v9, v5, v7, Lcom/phoneme/gl/GLRenderer;->drawQuad(I I)V
+invoke-static            v4, v1, Landroid/opengl/GLES20;->glBindFramebuffer(I I)V
+iget                     v5, v9, Lcom/phoneme/gl/GLRenderer;->mViewportW I
+iget                     v7, v9, Lcom/phoneme/gl/GLRenderer;->mViewportH I
+invoke-static            v1, v1, v5, v7, Landroid/opengl/GLES20;->glViewport(I I I I)V
+invoke-static            v3, v3, v3, v2, Landroid/opengl/GLES20;->glClearColor(F F F F)V
+invoke-static            v0, Landroid/opengl/GLES20;->glClear(I)V
+iget                     v0, v9, Lcom/phoneme/gl/GLRenderer;->mProgramLcd I
+invoke-static            v0, Landroid/opengl/GLES20;->glUseProgram(I)V
+invoke-static            v10, Landroid/opengl/GLES20;->glActiveTexture(I)V
+iget                     v10, v9, Lcom/phoneme/gl/GLRenderer;->mUpscaleTexture I
+invoke-static            v6, v10, Landroid/opengl/GLES20;->glBindTexture(I I)V
+iget                     v10, v9, Lcom/phoneme/gl/GLRenderer;->mUTexLcd I
+invoke-static            v10, v1, Landroid/opengl/GLES20;->glUniform1i(I I)V
+iget                     v10, v9, Lcom/phoneme/gl/GLRenderer;->mUScreenSize I
+iget                     v0, v9, Lcom/phoneme/gl/GLRenderer;->mViewportW I
+int-to-float             v0, v0
+iget                     v2, v9, Lcom/phoneme/gl/GLRenderer;->mViewportH I
+int-to-float             v2, v2
+invoke-static            v10, v0, v2, Landroid/opengl/GLES20;->glUniform2f(I F F)V
+iget                     v10, v9, Lcom/phoneme/gl/GLRenderer;->mUOutputSize I
+iget                     v0, v9, Lcom/phoneme/gl/GLRenderer;->mOutW I
+int-to-float             v0, v0
+iget                     v2, v9, Lcom/phoneme/gl/GLRenderer;->mOutH I
+int-to-float             v2, v2
+invoke-static            v10, v0, v2, Landroid/opengl/GLES20;->glUniform2f(I F F)V
+iget                     v10, v9, Lcom/phoneme/gl/GLRenderer;->mUOutputOffset I
+iget                     v0, v9, Lcom/phoneme/gl/GLRenderer;->mOutX I
+int-to-float             v0, v0
+iget                     v2, v9, Lcom/phoneme/gl/GLRenderer;->mOutY I
+int-to-float             v2, v2
+invoke-static            v10, v0, v2, Landroid/opengl/GLES20;->glUniform2f(I F F)V
+iget                     v10, v9, Lcom/phoneme/gl/GLRenderer;->mUSrcSizeLcd I
+iget                     v0, v9, Lcom/phoneme/gl/GLRenderer;->mSrcW I
+int-to-float             v0, v0
+iget                     v2, v9, Lcom/phoneme/gl/GLRenderer;->mSrcH I
+int-to-float             v2, v2
+invoke-static            v10, v0, v2, Landroid/opengl/GLES20;->glUniform2f(I F F)V
+iget                     v10, v9, Lcom/phoneme/gl/GLRenderer;->mAPosLcd I
+iget                     v0, v9, Lcom/phoneme/gl/GLRenderer;->mAUvLcd I
+invoke-direct            v9, v10, v0, Lcom/phoneme/gl/GLRenderer;->drawQuad(I I)V
+invoke-static            v6, v1, Landroid/opengl/GLES20;->glBindTexture(I I)V
+invoke-static            v4, v1, Landroid/opengl/GLES20;->glBindFramebuffer(I I)V
+return-void              
+move-exception           v0
+monitor-exit             v10
+throw                    v0
+
+--- onSurfaceChanged(Ljavax/microedition/khronos/opengles/GL10; I I)V flags=0x1 ---
+new-instance             v2, Ljava/lang/StringBuilder;
+invoke-direct            v2, Ljava/lang/StringBuilder;-><init>()V
+const-string             v0, "onSurfaceChanged "
+invoke-virtual           v2, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v2
+invoke-virtual           v2, v3, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+move-result-object       v2
+const-string             v0, "x"
+invoke-virtual           v2, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v2
+invoke-virtual           v2, v4, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+move-result-object       v2
+invoke-virtual           v2, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+move-result-object       v2
+const-string             v0, "GLRenderer"
+invoke-static            v0, v2, Landroid/util/Log;->i(Ljava/lang/String; Ljava/lang/String;)I
+iput                     v3, v1, Lcom/phoneme/gl/GLRenderer;->mViewportW I
+iput                     v4, v1, Lcom/phoneme/gl/GLRenderer;->mViewportH I
+const/4                  v2, 0
+invoke-static            v2, v2, v3, v4, Landroid/opengl/GLES20;->glViewport(I I I I)V
+invoke-direct            v1, Lcom/phoneme/gl/GLRenderer;->computeIntegerScale()V
+invoke-direct            v1, Lcom/phoneme/gl/GLRenderer;->rebuildUpscaleFBO()V
+return-void              
+
+--- onSurfaceCreated(Ljavax/microedition/khronos/opengles/GL10; Ljavax/microedition/khronos/egl/EGLConfig;)V flags=0x1 ---
+const-string             v5, "onSurfaceCreated"
+const-string             v6, "GLRenderer"
+invoke-static            v6, v5, Landroid/util/Log;->i(Ljava/lang/String; Ljava/lang/String;)I
+invoke-direct            v4, Lcom/phoneme/gl/GLRenderer;->releaseGL()V
+const/16                 v5, 360
+iput                     v5, v4, Lcom/phoneme/gl/GLRenderer;->mSrcW I
+const/16                 v0, 640
+iput                     v0, v4, Lcom/phoneme/gl/GLRenderer;->mSrcH I
+const/4                  v1, 1
+invoke-direct            v4, v5, v0, v1, Lcom/phoneme/gl/GLRenderer;->createTexture(I I Z)I
+move-result              v5
+iput                     v5, v4, Lcom/phoneme/gl/GLRenderer;->mSrcTexture I
+const/4                  v5, 0
+iput-boolean             v5, v4, Lcom/phoneme/gl/GLRenderer;->mSrcDirty Z
+iget-object              v0, v4, Lcom/phoneme/gl/GLRenderer;->mContext Landroid/content/Context;
+const-string             v2, "shaders/xbrz_bicubic.frag"
+const-string             v3, "shaders/vertex.vert"
+invoke-static            v0, v3, v2, Lcom/phoneme/gl/ShaderUtils;->createProgram(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)I
+move-result              v0
+iput                     v0, v4, Lcom/phoneme/gl/GLRenderer;->mProgramUpscale I
+iget-object              v0, v4, Lcom/phoneme/gl/GLRenderer;->mContext Landroid/content/Context;
+const-string             v2, "shaders/lcd_grid.frag"
+invoke-static            v0, v3, v2, Lcom/phoneme/gl/ShaderUtils;->createProgram(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)I
+move-result              v0
+iput                     v0, v4, Lcom/phoneme/gl/GLRenderer;->mProgramLcd I
+invoke-direct            v4, Lcom/phoneme/gl/GLRenderer;->cacheLocations()V
+const/16                 v0, 2929
+invoke-static            v0, Landroid/opengl/GLES20;->glDisable(I)V
+const/16                 v0, 2884
+invoke-static            v0, Landroid/opengl/GLES20;->glDisable(I)V
+const/16                 v0, 3042
+invoke-static            v0, Landroid/opengl/GLES20;->glEnable(I)V
+const/16                 v0, 770
+const/16                 v2, 771
+invoke-static            v0, v2, Landroid/opengl/GLES20;->glBlendFunc(I I)V
+iget                     v0, v4, Lcom/phoneme/gl/GLRenderer;->mProgramUpscale I
+if-eqz                   v0, +007h
+iget                     v0, v4, Lcom/phoneme/gl/GLRenderer;->mProgramLcd I
+if-eqz                   v0, +003h
+goto                     +2h
+const/4                  v1, 0
+iput-boolean             v1, v4, Lcom/phoneme/gl/GLRenderer;->mInitialised Z
+new-instance             v5, Ljava/lang/StringBuilder;
+invoke-direct            v5, Ljava/lang/StringBuilder;-><init>()V
+const-string             v0, "onSurfaceCreated: mProgramUpscale="
+invoke-virtual           v5, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v5
+iget                     v0, v4, Lcom/phoneme/gl/GLRenderer;->mProgramUpscale I
+invoke-virtual           v5, v0, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+move-result-object       v5
+const-string             v0, " mProgramLcd="
+invoke-virtual           v5, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v5
+iget                     v0, v4, Lcom/phoneme/gl/GLRenderer;->mProgramLcd I
+invoke-virtual           v5, v0, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+move-result-object       v5
+const-string             v0, " mInitialised="
+invoke-virtual           v5, v0, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v5
+iget-boolean             v0, v4, Lcom/phoneme/gl/GLRenderer;->mInitialised Z
+invoke-virtual           v5, v0, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+move-result-object       v5
+invoke-virtual           v5, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+move-result-object       v5
+invoke-static            v6, v5, Landroid/util/Log;->i(Ljava/lang/String; Ljava/lang/String;)I
+iget-boolean             v5, v4, Lcom/phoneme/gl/GLRenderer;->mInitialised Z
+if-nez                   v5, +007h
+const-string             v5, "Shader programs failed to compile - falling back to passthrough"
+invoke-static            v6, v5, Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String;)I
+return-void              
+
+--- submitFrame(Landroid/graphics/Bitmap;)V flags=0x1 ---
+if-nez                   v7, +003h
+return-void              
+invoke-virtual           v7, Landroid/graphics/Bitmap;->getWidth()I
+move-result              v0
+invoke-virtual           v7, Landroid/graphics/Bitmap;->getHeight()I
+move-result              v1
+const/4                  v2, 1
+if-lez                   v0, +04ch
+if-lez                   v1, +04ah
+iget                     v3, v6, Lcom/phoneme/gl/GLRenderer;->mSrcW I
+if-ne                    v0, v3, +006h
+iget                     v3, v6, Lcom/phoneme/gl/GLRenderer;->mSrcH I
+if-eq                    v1, v3, +042h
+const-string             v3, "GLRenderer"
+new-instance             v4, Ljava/lang/StringBuilder;
+invoke-direct            v4, Ljava/lang/StringBuilder;-><init>()V
+const-string             v5, "source size changed: "
+invoke-virtual           v4, v5, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v4
+iget                     v5, v6, Lcom/phoneme/gl/GLRenderer;->mSrcW I
+invoke-virtual           v4, v5, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+move-result-object       v4
+const-string             v5, "x"
+invoke-virtual           v4, v5, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v4
+iget                     v5, v6, Lcom/phoneme/gl/GLRenderer;->mSrcH I
+invoke-virtual           v4, v5, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+move-result-object       v4
+const-string             v5, " -> "
+invoke-virtual           v4, v5, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v4
+invoke-virtual           v4, v0, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+move-result-object       v4
+const-string             v5, "x"
+invoke-virtual           v4, v5, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object       v4
+invoke-virtual           v4, v1, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+move-result-object       v4
+invoke-virtual           v4, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+move-result-object       v4
+invoke-static            v3, v4, Landroid/util/Log;->i(Ljava/lang/String; Ljava/lang/String;)I
+iput                     v0, v6, Lcom/phoneme/gl/GLRenderer;->mSrcW I
+iput                     v1, v6, Lcom/phoneme/gl/GLRenderer;->mSrcH I
+iput-boolean             v2, v6, Lcom/phoneme/gl/GLRenderer;->mSrcDirty Z
+iget-object              v0, v6, Lcom/phoneme/gl/GLRenderer;->mFrameLock Ljava/lang/Object;
+monitor-enter            v0
+iput-object              v7, v6, Lcom/phoneme/gl/GLRenderer;->mPendingBitmap Landroid/graphics/Bitmap;
+const/4                  v7, 0
+iput-object              v7, v6, Lcom/phoneme/gl/GLRenderer;->mPendingPixels Ljava/nio/ShortBuffer;
+iput-boolean             v2, v6, Lcom/phoneme/gl/GLRenderer;->mFrameQueued Z
+monitor-exit             v0
+return-void              
+move-exception           v7
+monitor-exit             v0
+throw                    v7
+
+--- submitFrame(Ljava/nio/ShortBuffer;)V flags=0x1 ---
+if-nez                   v2, +003h
+return-void              
+iget-object              v0, v1, Lcom/phoneme/gl/GLRenderer;->mFrameLock Ljava/lang/Object;
+monitor-enter            v0
+iput-object              v2, v1, Lcom/phoneme/gl/GLRenderer;->mPendingPixels Ljava/nio/ShortBuffer;
+const/4                  v2, 0
+iput-object              v2, v1, Lcom/phoneme/gl/GLRenderer;->mPendingBitmap Landroid/graphics/Bitmap;
+const/4                  v2, 1
+iput-boolean             v2, v1, Lcom/phoneme/gl/GLRenderer;->mFrameQueued Z
+monitor-exit             v0
+return-void              
+move-exception           v2
+monitor-exit             v0
+throw                    v2

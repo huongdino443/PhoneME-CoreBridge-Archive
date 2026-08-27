@@ -29,7 +29,10 @@ Bản `artifacts/apk/baseline/PhoneME-CoreBridge-0.1.163-guard-cleanup-recovery.
 | `source/build-scripts/` | Script phục hồi, build và verification có thể dùng lại. |
 | `fixtures/jars/` | Majesty, Plants vs Zombies và các JAR test tốc độ/clone. |
 | `logs/` | Hai log đại diện: Majesty pass và overlay failure. |
+| `logs/dangerdash/` | Log Stable/CoreBridge/r65 dùng cho điều tra Danger Dash. |
 | `reports/` | Audit, verification, failure findings và handoff notes. |
+| `reports/dangerdash/` | Memo so sánh Stable/CoreBridge, disassembly và probe design. |
+| `source/dangerdash/` | Bytecode extract và ASM transformer thử nghiệm; không phải source game gốc. |
 | `metadata/` | Manifest/hash/provenance của snapshot. |
 
 ## Cảnh báo kỹ thuật

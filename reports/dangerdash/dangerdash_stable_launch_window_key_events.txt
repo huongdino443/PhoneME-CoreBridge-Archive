@@ -1,0 +1,179 @@
+08-27 21:23:54.516  8053  8616 I HWUI    : [destroy] CanvasContext will be destroyed.
+08-27 21:23:56.215 28680 28720 I HWUI    : [destroy] CanvasContext will be destroyed.
+08-27 21:23:56.219 28680 28720 I HWUI    : [setStopped] CanvasContext will be destroyed.
+08-27 21:23:56.560  3163  5626 I wm_set_resumed_activity: [0,be.preuveneers.phoneme.fpmidp/.PhoneMEActivity,resumeTopActivity - onActivityStateChanged]
+08-27 21:23:56.560  3163  5626 I wm_resume_activity: [0,246808395,19,be.preuveneers.phoneme.fpmidp/.PhoneMEActivity]
+08-27 21:23:56.566 31840 31840 I wm_on_restart_called: [246808395,be.preuveneers.phoneme.fpmidp.PhoneMEActivity,performRestart,0]
+08-27 21:23:56.566 31840 31840 I wm_on_start_called: [246808395,be.preuveneers.phoneme.fpmidp.PhoneMEActivity,handleStartActivity,0]
+08-27 21:23:56.573 31840 31840 I wm_on_resume_called: [246808395,be.preuveneers.phoneme.fpmidp.PhoneMEActivity,RESUME_ACTIVITY,6]
+08-27 21:23:56.580  3163  3299 I input_focus: [Focus request Window:ea74dc type=1 be.preuveneers.phoneme.fpmidp/be.preuveneers.phoneme.fpmidp.PhoneMEActivity,reason=UpdateInputWindows]
+08-27 21:23:56.597 31840 31840 W HWUI    : Image decoding logging dropped!
+08-27 21:23:56.600 31840 31840 W HWUI    : Image decoding logging dropped!
+08-27 21:23:56.622 31840 31840 W HWUI    : Image decoding logging dropped!
+08-27 21:23:56.625 31840 31840 I viewroot_draw_event: [VRI[PhoneMEActivity,type=1],Start draw after previous draw not visible]
+08-27 21:23:56.652 31840 31840 I viewroot_draw_event: [VRI[PhoneMEActivity,type=1],reportDrawFinished seqId=0 mAppVisible = true mStopped = false]
+08-27 21:23:56.653 31840 31840 I wm_on_top_resumed_gained_called: [246808395,be.preuveneers.phoneme.fpmidp.PhoneMEActivity,topStateChangedWhenResumed]
+08-27 21:23:56.666  3163  3295 I sysui_multi_action: [319,10,322,98,325,1803,757,761,758,9,759,2,806,be.preuveneers.phoneme.fpmidp,871,be.preuveneers.phoneme.fpmidp.PhoneMEActivity,904,com.bbk.launcher2,905,0,1320,4,1321,4]
+08-27 21:23:56.667  3163  3163 I sysui_multi_action: [757,907,758,4,806,be.preuveneers.phoneme.fpmidp,871,,908,com.vivo.cipherchain,1454,1,1456,430469759]
+08-27 21:23:56.667  3163  3163 I sysui_multi_action: [757,907,758,10,806,be.preuveneers.phoneme.fpmidp,871,,908,com.vivo.cipherchain,909,-1,1454,2,1456,430469759]
+08-27 21:23:56.667  3163  3163 I sysui_multi_action: [757,919,758,4,806,be.preuveneers.phoneme.fpmidp,871,,908,com.vivo.cipherchain,1455,2,1456,430469759]
+08-27 21:23:56.675 31840 31840 I viewroot_draw_event: [VRI[PhoneMEActivity,type=1],reportDrawFinished seqId=0 mAppVisible = true mStopped = false]
+08-27 21:23:56.713  3163  3889 I input_focus: [Focus entering Window:ea74dc type=1 be.preuveneers.phoneme.fpmidp/be.preuveneers.phoneme.fpmidp.PhoneMEActivity,reason=Window became focusable. Previous reason: NOT_VISIBLE]
+08-27 21:23:56.718  8053  8053 D InlineSuggestionSessionController: notifyOnStartInput: be.preuveneers.phoneme.fpmidp, 1073741824
+08-27 21:23:56.718  8053  8053 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1446 onStartInput(EditorInfo{EditorInfo{packageName=be.preuveneers.phoneme.fpmidp, inputType=1, inputTypeString=Normal[], enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=6, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=0, label=null, fieldId=2131230737, fieldName=null, extras=Bundle[mParcelledData.dataSize=168], hintText=non-empty, hintLocales=[]}}, false)
+08-27 21:23:56.817 31840 32084 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=be.preuveneers.phoneme.fpmidp
+08-27 21:23:56.985  3163  3889 I input_interaction: Interaction with: Window:ea74dc type=1 be.preuveneers.phoneme.fpmidp/be.preuveneers.phoneme.fpmidp.PhoneMEActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 21:23:57.101  3163  5093 I wm_create_activity: [0,64933305,19,be.preuveneers.phoneme.fpmidp/.MidletActivity,NULL,NULL,file:///...,0]
+08-27 21:23:57.101  3163  5093 I wm_pause_activity: [0,246808395,be.preuveneers.phoneme.fpmidp/.PhoneMEActivity,userLeaving=true,resumeTopActivity]
+08-27 21:23:57.105 31840 31840 I wm_on_top_resumed_lost_called: [246808395,be.preuveneers.phoneme.fpmidp.PhoneMEActivity,topStateChangedWhenResumed]
+08-27 21:23:57.106 31840 31840 I wm_on_paused_called: [246808395,be.preuveneers.phoneme.fpmidp.PhoneMEActivity,performPause,0]
+08-27 21:23:57.108  3163  4324 I wm_add_to_stopping: [0,246808395,be.preuveneers.phoneme.fpmidp/.PhoneMEActivity,makeInvisible]
+08-27 21:23:57.109  3163  4324 I wm_restart_activity: [0,64933305,19,be.preuveneers.phoneme.fpmidp/.MidletActivity]
+08-27 21:23:57.109  3163  4324 I wm_set_resumed_activity: [0,be.preuveneers.phoneme.fpmidp/.MidletActivity,realStartActivityLocked - onActivityStateChanged]
+08-27 21:23:57.118 31840 31840 W HWUI    : Image decoding logging dropped!
+08-27 21:23:57.124 31840 31840 W HWUI    : Image decoding logging dropped!
+08-27 21:23:57.125  3163  3889 I input_focus: [Focus leaving Window:ea74dc type=1 be.preuveneers.phoneme.fpmidp/be.preuveneers.phoneme.fpmidp.PhoneMEActivity,reason=Waiting for window because NO_WINDOW]
+08-27 21:23:57.129 31840 31840 D PhoneME : PhoneME VM is up to date (build.revision 1397617930).
+08-27 21:23:57.130 31840 31840 I wm_on_create_called: [64933305,be.preuveneers.phoneme.fpmidp.MidletActivity,performCreate,15]
+08-27 21:23:57.130 31840 31840 I wm_on_start_called: [64933305,be.preuveneers.phoneme.fpmidp.MidletActivity,handleStartActivity,0]
+08-27 21:23:57.131 31840 31840 I wm_on_resume_called: [64933305,be.preuveneers.phoneme.fpmidp.MidletActivity,RESUME_ACTIVITY,0]
+08-27 21:23:57.139 31840 31840 I wm_on_top_resumed_gained_called: [64933305,be.preuveneers.phoneme.fpmidp.MidletActivity,topStateChangedWhenResumed]
+08-27 21:23:57.145  3163  3299 I input_focus: [Focus request Window:95c1044 type=1 be.preuveneers.phoneme.fpmidp/be.preuveneers.phoneme.fpmidp.MidletActivity,reason=UpdateInputWindows]
+08-27 21:23:57.152 31840 31840 I viewroot_draw_event: [VRI[MidletActivity,type=1],reportDrawFinished seqId=0 mAppVisible = true mStopped = false]
+08-27 21:23:57.155  3163  3295 I wm_activity_launch_time: [0,64933305,be.preuveneers.phoneme.fpmidp/.MidletActivity,59]
+08-27 21:23:57.155  3163  3295 I ActivityTaskManager: Displayed be.preuveneers.phoneme.fpmidp/.MidletActivity for user 0: +59ms
+08-27 21:23:57.175  3163  3889 I input_focus: [Focus entering Window:95c1044 type=1 be.preuveneers.phoneme.fpmidp/be.preuveneers.phoneme.fpmidp.MidletActivity,reason=Window became focusable. Previous reason: NOT_VISIBLE]
+08-27 21:23:57.180 31840 31840 I ImeTracker: be.preuveneers.phoneme.fpmidp:2a6cbe5: onRequestHide at ORIGIN_CLIENT reason HIDE_WINDOW_LOST_FOCUS fromUser false
+08-27 21:23:57.180 31840 31840 I ImeTracker: be.preuveneers.phoneme.fpmidp:2a6cbe5: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+08-27 21:23:57.183  8053  8053 D InlineSuggestionSessionController: notifyOnStartInput: be.preuveneers.phoneme.fpmidp, 1073741824
+08-27 21:23:57.183  8053  8053 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1446 onStartInput(EditorInfo{EditorInfo{packageName=be.preuveneers.phoneme.fpmidp, inputType=20001, inputTypeString=Normal[MultiLine], enableLearning=true, autoCorrection=true, autoComplete=true, imeOptions=40000006, privateImeOptions=null, actionName=DONE, actionLabel=null, initialSelStart=0, initialSelEnd=0, initialCapsMode=0, label=null, fieldId=2131230730, fieldName=null, extras=Bundle[mParcelledData.dataSize=168], hintText=null, hintLocales=[]}}, false)
+08-27 21:23:57.353 31840 31840 D VRI[PhoneMEActivity,type=1]: visibilityChanged oldVisibility=true newVisibility=false
+08-27 21:23:57.354  3163  3298 I wm_stop_activity: [0,246808395,be.preuveneers.phoneme.fpmidp/.PhoneMEActivity]
+08-27 21:23:57.362 31840 31862 I HWUI    : [destroy] CanvasContext will be destroyed.
+08-27 21:23:57.365 31840 31840 I viewroot_draw_event: [VRI[PhoneMEActivity,type=1],Not drawing due to not visible. Reason=!mAppVisible && !mForceDecorViewVisibility]
+08-27 21:23:57.366 31840 31862 I HWUI    : [setStopped] CanvasContext will be destroyed.
+08-27 21:23:57.366 31840 31840 I wm_on_stop_called: [246808395,be.preuveneers.phoneme.fpmidp.PhoneMEActivity,STOP_ACTIVITY_ITEM,0]
+08-27 21:23:57.664  3163  5095 I wm_create_activity: [0,236864833,19,be.preuveneers.phoneme.fpmidp/.FrameBufferActivity,NULL,NULL,NULL,131072]
+08-27 21:23:57.665  3163  5095 I wm_pause_activity: [0,64933305,be.preuveneers.phoneme.fpmidp/.MidletActivity,userLeaving=true,resumeTopActivity]
+08-27 21:23:57.666 31840 31840 I wm_on_top_resumed_lost_called: [64933305,be.preuveneers.phoneme.fpmidp.MidletActivity,topStateChangedWhenResumed]
+08-27 21:23:57.667 31840 31840 I wm_on_paused_called: [64933305,be.preuveneers.phoneme.fpmidp.MidletActivity,performPause,0]
+08-27 21:23:57.667  3163  5095 I wm_finish_activity: [0,64933305,19,be.preuveneers.phoneme.fpmidp/.MidletActivity,app-request]
+08-27 21:23:57.669  3163  5626 I wm_add_to_stopping: [0,64933305,be.preuveneers.phoneme.fpmidp/.MidletActivity,completeFinishing]
+08-27 21:23:57.671  3163  5626 I wm_restart_activity: [0,236864833,19,be.preuveneers.phoneme.fpmidp/.FrameBufferActivity]
+08-27 21:23:57.671  3163  5626 I wm_set_resumed_activity: [0,be.preuveneers.phoneme.fpmidp/.FrameBufferActivity,realStartActivityLocked - onActivityStateChanged]
+08-27 21:23:57.676 31840 31840 D PhoneME : Trying to load libjniphoneme.so
+08-27 21:23:57.678 31840 31840 W linker  : Warning: "/data/app/~~7hHpd_ig6u-ks_C7jzY1jw==/be.preuveneers.phoneme.fpmidp-4d25WOVXr9ht3nmvctv_dg==/lib/arm/libjniphoneme.so" has text relocations and will not work when the app moves to targetSdkVersion 23 or later (see https://android.googlesource.com/platform/bionic/+/main/android-changes-for-ndk-developers.md); allowing for now because this app's targetSdkVersion is still 22
+08-27 21:23:57.679 31840 31840 D nativeloader: Load /data/app/~~7hHpd_ig6u-ks_C7jzY1jw==/be.preuveneers.phoneme.fpmidp-4d25WOVXr9ht3nmvctv_dg==/lib/arm/libjniphoneme.so using class loader ns clns-9 (caller=/data/app/~~7hHpd_ig6u-ks_C7jzY1jw==/be.preuveneers.phoneme.fpmidp-4d25WOVXr9ht3nmvctv_dg==/base.apk): ok
+08-27 21:23:57.680 31840 31840 E PhoneME : JNI_OnLoad: loading libjniphoneme.so library ...
+08-27 21:23:57.680 31840 31840 D PhoneME : FrameBufferActivity.onCreate
+08-27 21:23:57.681  3163  3889 I input_focus: [Focus leaving Window:95c1044 type=1 be.preuveneers.phoneme.fpmidp/be.preuveneers.phoneme.fpmidp.MidletActivity,reason=Waiting for window because NO_WINDOW]
+08-27 21:23:57.686 31840 31840 W HWUI    : Image decoding logging dropped!
+08-27 21:23:57.688 31840 31840 I PhoneME : GLFramebufferView created and added to layout OK
+08-27 21:23:57.689 31840 31840 I PhoneME : SIPOverlayView created and added to layout OK
+08-27 21:23:57.692 31840 31840 I wm_on_create_called: [236864833,be.preuveneers.phoneme.fpmidp.FrameBufferActivity,performCreate,12]
+08-27 21:23:57.692 31840 31840 D PhoneME : FrameBufferActivity.onStart
+08-27 21:23:57.693 31840 31840 D PhoneME : Start monitor service.
+08-27 21:23:57.699 31840 31840 I wm_on_start_called: [236864833,be.preuveneers.phoneme.fpmidp.FrameBufferActivity,handleStartActivity,6]
+08-27 21:23:57.699 31840 31840 D PhoneME : FrameBufferActivity.onResume
+08-27 21:23:57.699 31840 31840 I wm_on_resume_called: [236864833,be.preuveneers.phoneme.fpmidp.FrameBufferActivity,RESUME_ACTIVITY,1]
+08-27 21:23:57.704 31840 31840 I wm_on_top_resumed_gained_called: [236864833,be.preuveneers.phoneme.fpmidp.FrameBufferActivity,topStateChangedWhenResumed]
+08-27 21:23:57.705 31840 31840 D PhoneME : PhoneMEMonitorService.onCreate
+08-27 21:23:57.707  3163  5093 I am_foreground_service_start: [0,be.preuveneers.phoneme.fpmidp/.PhoneMEMonitorService,1,PROC_STATE_TOP,22,22,0,0,0,1,UNKNOWN,0]
+08-27 21:23:57.708 31840 31840 D PhoneME : PhoneMEMonitorService.onStartCommand
+08-27 21:23:57.708 31840 31840 D PhoneME : PhoneMEMonitorService.onStart
+08-27 21:23:57.711 31840 31840 I PhoneME : DisplayHelper: real display = 1080x2358 (via getRealSize)
+08-27 21:23:57.711 31840 31840 I PhoneME : DisplayHelper: content area = 1080x2358 (getCurrentWindowMetrics)
+08-27 21:23:57.711 31840 31840 I PhoneME : GLFramebufferView.onMeasure: view size 1080x2087 (spec=1080x2087 phys=1080x2358)
+08-27 21:23:57.715  3163  3299 I input_focus: [Focus request Window:e673635 type=1 be.preuveneers.phoneme.fpmidp/be.preuveneers.phoneme.fpmidp.FrameBufferActivity,reason=UpdateInputWindows]
+08-27 21:23:57.726 31840 31840 E PhoneME : initFrameBufferSize: surface area is 360x640
+08-27 21:23:57.727  3163  5095 D BatteryStatsService: noteVideoSurfaceChanged  noteWhich: 49,arg1: 1080, arg2: 2087, arg3: 31840, arg4: 72194345796632695, name: be.preuveneers.phoneme.fpmidp
+08-27 21:23:57.727 31840 31840 E PhoneME : resizeFrameBuffer: surface area is 360x640
+08-27 21:23:57.727 31840 31840 D PhoneME : FrameBufferActivity.keyboardEvent: Keyboard output stream is null
+08-27 21:23:57.729  3163  5095 D BatteryStatsService: noteVideoSurfaceChanged  noteWhich: 49,arg1: 1080, arg2: 2087, arg3: 31840, arg4: 72194345796632696, name: be.preuveneers.phoneme.fpmidp
+08-27 21:23:57.815 31840 32109 I AdrenoGLES-0: Process Name                     : be.preuveneers.phoneme.fpmidp
+08-27 21:23:57.841  3163  3232 D BatteryStatsService: noteVideoSurfaceChanged  noteWhich: 49,arg1: 1080, arg2: 2087, arg3: 31840, arg4: 72194345796632695, name: be.preuveneers.phoneme.fpmidp
+08-27 21:23:57.842  3163  3232 D BatteryStatsService: noteVideoSurfaceChanged  noteWhich: 49,arg1: 1080, arg2: 2087, arg3: 31840, arg4: 72194345796632696, name: be.preuveneers.phoneme.fpmidp
+08-27 21:23:57.862  3163  3295 I wm_activity_launch_time: [0,236864833,be.preuveneers.phoneme.fpmidp/.FrameBufferActivity,201]
+08-27 21:23:57.862  3163  3295 I ActivityTaskManager: Displayed be.preuveneers.phoneme.fpmidp/.FrameBufferActivity for user 0: +201ms
+08-27 21:23:57.881  3163  3889 I input_focus: [Focus entering Window:e673635 type=1 be.preuveneers.phoneme.fpmidp/be.preuveneers.phoneme.fpmidp.FrameBufferActivity,reason=Window became focusable. Previous reason: NOT_VISIBLE]
+08-27 21:23:57.883 31840 31840 I ImeTracker: be.preuveneers.phoneme.fpmidp:cc9daac6: onRequestHide at ORIGIN_CLIENT reason HIDE_WINDOW_LOST_FOCUS fromUser false
+08-27 21:23:57.883 31840 31840 I ImeTracker: be.preuveneers.phoneme.fpmidp:cc9daac6: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+08-27 21:23:57.884 31840 31840 V ImeFocusController: onWindowFocus: be.preuveneers.phoneme.fpmidp.FrameBufferView{a68225f VFE...... .F...... 0,0-1080,2087} softInputMode=STATE_ALWAYS_HIDDEN|ADJUST_PAN|IS_FORWARD_NAVIGATION
+08-27 21:23:57.887  8053  8053 D InlineSuggestionSessionController: notifyOnStartInput: be.preuveneers.phoneme.fpmidp, 1073741824
+08-27 21:23:57.887  8053  8053 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1446 onStartInput(EditorInfo{EditorInfo{packageName=be.preuveneers.phoneme.fpmidp, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+08-27 21:23:57.943 31840 32111 E PhoneME : callCVM: Not redirecting stdout and stderr handles
+08-27 21:23:57.939 31840 31840 I auditd  : type=1400 audit(0.0:6183): avc:  granted  { execute } for  comm="Thread-7" path="/data/data/be.preuveneers.phoneme.fpmidp/foundation/bin/libcvm.so" dev="dm-63" ino=656306 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file app=be.preuveneers.phoneme.fpmidp
+08-27 21:23:57.939 31840 31840 W Thread-7: type=1400 audit(0.0:6183): avc:  granted  { execute } for  path="/data/data/be.preuveneers.phoneme.fpmidp/foundation/bin/libcvm.so" dev="dm-63" ino=656306 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file app=be.preuveneers.phoneme.fpmidp
+08-27 21:23:57.945 31840 32111 W linker  : Warning: "/data/data/be.preuveneers.phoneme.fpmidp/foundation/bin/libcvm.so" has text relocations and will not work when the app moves to targetSdkVersion 23 or later (see https://android.googlesource.com/platform/bionic/+/main/android-changes-for-ndk-developers.md); allowing for now because this app's targetSdkVersion is still 22
+08-27 21:23:57.947 31840 31840 I auditd  : type=1400 audit(0.0:6184): avc:  granted  { execute } for  comm="Thread-7" path="/data/data/be.preuveneers.phoneme.fpmidp/foundation/bin/libcvm.so" dev="dm-63" ino=656306 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file app=be.preuveneers.phoneme.fpmidp
+08-27 21:23:57.947 31840 31840 W Thread-7: type=1400 audit(0.0:6184): avc:  granted  { execute } for  path="/data/data/be.preuveneers.phoneme.fpmidp/foundation/bin/libcvm.so" dev="dm-63" ino=656306 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=file app=be.preuveneers.phoneme.fpmidp
+08-27 21:23:57.952 31840 32111 E PhoneME : loadCVMLibrary: surface view callback initialized
+08-27 21:23:57.953 31840 32111 E PhoneME : loadCVMLibrary: draw chars callback initialized
+08-27 21:23:57.954 31840 32111 E PhoneME : /data/data/be.preuveneers.phoneme.fpmidp/foundation/bin/cvm 
+08-27 21:23:57.954 31840 32111 E PhoneME : -Xjit:compile=none 
+08-27 21:23:57.954 31840 32111 E PhoneME : -Xmx64m 
+08-27 21:23:57.954 31840 32111 E PhoneME : -Duser.timezone=GMT+7:00 
+08-27 21:23:57.954 31840 32111 E PhoneME : -Dmicroedition.location.version=1.0 
+08-27 21:23:57.954 31840 32111 E PhoneME : -Dmicroedition.profiles=MIDP-2.1 
+08-27 21:23:57.954 31840 32111 E PhoneME : -Dsun.midp.library.name=midp 
+08-27 21:23:57.954 31840 32111 E PhoneME : -Dsun.midp.home.path=/data/data/be.preuveneers.phoneme.fpmidp/foundation/midp/midp_linux_fb_gcc 
+08-27 21:23:57.954 31840 32111 E PhoneME : -Dcom.sun.midp.mainClass.name=com.sun.midp.main.CdcMIDletSuiteLoader 
+08-27 21:23:57.954 31840 32111 E PhoneME : sun.misc.MIDPLauncher 
+08-27 21:23:57.954 31840 32111 E PhoneME : -jadpath 
+08-27 21:23:57.954 31840 32111 E PhoneME : /data/user/0/be.preuveneers.phoneme.fpmidp/DangerDash_Nokia_5800_EN_IGP_IAP_EU_TS_109.jad 
+08-27 21:23:57.954 31840 32111 E PhoneME : -suitepath 
+08-27 21:23:57.954 31840 32111 E PhoneME : /data/user/0/be.preuveneers.phoneme.fpmidp/DangerDash_Nokia_5800_EN_IGP_IAP_EU_TS_109.jar 
+08-27 21:23:57.955 31840 32111 E PhoneME : -1 
+08-27 21:23:57.955 31840 32111 E PhoneME : GloftJDMP 
+08-27 21:23:57.955 31840 32111 E PhoneME : 
+08-27 21:23:58.058  3163  3298 I wm_destroy_activity: [0,64933305,19,be.preuveneers.phoneme.fpmidp/.MidletActivity,finish-imm:idle]
+08-27 21:23:58.068 31840 31862 I HWUI    : [destroy] CanvasContext will be destroyed.
+08-27 21:23:58.071 31840 31840 I viewroot_draw_event: [VRI[MidletActivity,type=1],Not drawing due to not visible. Reason=!mAppVisible && !mForceDecorViewVisibility]
+08-27 21:23:58.072 31840 31862 I HWUI    : [setStopped] CanvasContext will be destroyed.
+08-27 21:23:58.072 31840 31840 I wm_on_stop_called: [64933305,be.preuveneers.phoneme.fpmidp.MidletActivity,LIFECYCLER_STOP_ACTIVITY,0]
+08-27 21:23:58.075 31840 31840 I wm_on_destroy_called: [64933305,be.preuveneers.phoneme.fpmidp.MidletActivity,performDestroy,0]
+08-27 21:23:58.092 31840 31862 I HWUI    : [destroy] CanvasContext will be destroyed.
+08-27 21:23:59.334 28680 28720 I HWUI    : [destroy] CanvasContext will be destroyed.
+08-27 21:23:59.342 28680 28720 I HWUI    : [destroy] CanvasContext will be destroyed.
+08-27 21:24:00.710 31840 31840 I PhoneME : PhoneMEMonitorService: PhoneME running in foreground (3 sec)
+08-27 21:24:01.696 31840 32123 D PhoneME : CameraProxy.process: method call: 'getVideoSnapshotEncodings'
+08-27 21:24:01.698 31840 32123 I PhoneME : Audio cmd: 'create' mapSize=0 paths=0
+08-27 21:24:01.698 31840 32123 I PhoneME : Audio create: path=/data/data/be.preuveneers.phoneme.fpmidp/tmp/517878.mp3
+08-27 21:24:01.698 31840 32123 I PhoneME : Audio create: stored path, key=851195953 pathCount now=1
+08-27 21:24:03.048  3163  3889 I input_interaction: Interaction with: Window:e673635 type=1 be.preuveneers.phoneme.fpmidp/be.preuveneers.phoneme.fpmidp.FrameBufferActivity, [Gesture Monitor] global_gesture_monitor, PointerEventDispatcher0, 
+08-27 21:24:03.053 31840 31840 I PhoneME : SIPOverlay: edge bar zone = [0..48] x [316..632]  display=1080x2111
+08-27 21:24:03.051 31840 31840 I auditd  : type=1400 audit(0.0:6185): avc:  denied  { read } for  comm="support-thread" name="u:object_r:vendor_feature_prop:s0" dev="tmpfs" ino=517 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:vendor_feature_prop:s0 tclass=file permissive=0 app=be.preuveneers.phoneme.fpmidp
+08-27 21:24:03.051 31840 31840 W support-thread: type=1400 audit(0.0:6185): avc:  denied  { read } for  name="u:object_r:vendor_feature_prop:s0" dev="tmpfs" ino=517 scontext=u:r:untrusted_app_25:s0:c512,c768 tcontext=u:object_r:vendor_feature_prop:s0 tclass=file permissive=0 app=be.preuveneers.phoneme.fpmidp
+08-27 21:24:03.120 31840 32146 I PhoneME : Audio cmd: 'create' mapSize=0 paths=1
+08-27 21:24:03.120 31840 32146 I PhoneME : Audio create: path=/data/data/be.preuveneers.phoneme.fpmidp/tmp/478074.wav
+08-27 21:24:03.120 31840 32146 I PhoneME : Audio create: stored path, key=2021947879 pathCount now=2
+08-27 21:24:03.120 31840 32146 I PhoneME : Audio cmd: 'prepare' mapSize=0 paths=2
+08-27 21:24:03.120 31840 32146 I PhoneME : Audio prepare: deferred (lazy) key=2021947879
+08-27 21:24:04.825 31840 32146 I PhoneME : Audio cmd: 'stop' mapSize=0 paths=2
+08-27 21:24:04.825 31840 32146 I PhoneME : Audio stop: no live player key=2021947879 (already released)
+08-27 21:24:04.826 31840 32146 I PhoneME : Audio cmd: 'release' mapSize=0 paths=2
+08-27 21:24:04.827 31840 32146 I PhoneME : Audio cmd: 'create' mapSize=0 paths=2
+08-27 21:24:04.827 31840 32146 I PhoneME : Audio create: path=/data/data/be.preuveneers.phoneme.fpmidp/tmp/431315.midi
+08-27 21:24:04.827 31840 32146 I PhoneME : Audio create: stored path, key=888439225 pathCount now=3
+08-27 21:24:04.827 31840 32146 I PhoneME : Audio cmd: 'prepare' mapSize=0 paths=3
+08-27 21:24:04.827 31840 32146 I PhoneME : Audio prepare: deferred (lazy) key=888439225
+08-27 21:24:07.712  3163  3163 I notification_enqueue: [11025,31840,be.preuveneers.phoneme.fpmidp,9,NULL,0,Notification(channel=null shortcut=null contentView=be.preuveneers.phoneme.fpmidp/0x3030070 vibrate=null sound=null tick defaults=0 flags=FOREGROUND_SERVICE color=0x00000000 vis=PRIVATE internalType=0 internalPriority=0 internalGroupPriority=0 internalFlag=0),0,1]
+08-27 21:24:07.915  3163  3163 I sysui_multi_action: [757,1501,758,1,793,205,794,0,795,205,796,9,806,be.preuveneers.phoneme.fpmidp,858,2,947,0,1500,0,1688,5]
+08-27 21:24:21.630 31840 31840 I wm_on_top_resumed_lost_called: [236864833,be.preuveneers.phoneme.fpmidp.FrameBufferActivity,topStateChangedWhenResumed]
+08-27 21:24:21.683  3163  3333 I am_pss  : [31840,11025,be.preuveneers.phoneme.fpmidp,0,0,0,336539648,0,2,1]
+08-27 21:24:22.078  3163  5093 I wm_add_to_stopping: [0,236864833,be.preuveneers.phoneme.fpmidp/.FrameBufferActivity,makeInvisible]
+08-27 21:24:22.079  3163  5093 I wm_pause_activity: [0,236864833,be.preuveneers.phoneme.fpmidp/.FrameBufferActivity,userLeaving=true,finishTransition]
+08-27 21:24:22.081 31840 31840 D PhoneME : FrameBufferActivity.onPause
+08-27 21:24:22.083  3163  3298 I wm_stop_activity: [0,236864833,be.preuveneers.phoneme.fpmidp/.FrameBufferActivity]
+08-27 21:24:22.085 31840 31840 I wm_on_paused_called: [236864833,be.preuveneers.phoneme.fpmidp.FrameBufferActivity,performPause,5]
+08-27 21:24:22.085  3163  3889 I input_focus: [Focus leaving Window:e673635 type=1 be.preuveneers.phoneme.fpmidp/be.preuveneers.phoneme.fpmidp.FrameBufferActivity,reason=NOT_VISIBLE]
+08-27 21:24:22.087 31840 31862 I HWUI    : [setStopped] CanvasContext will be destroyed.
+08-27 21:24:22.094  3163  5095 D BatteryStatsService: noteVideoSurfaceChanged  noteWhich: 49,arg1: -1, arg2: -1, arg3: 31840, arg4: 72194345796632695, name: be.preuveneers.phoneme.fpmidp
+08-27 21:24:22.097  3163  3232 D BatteryStatsService: noteVideoSurfaceChanged  noteWhich: 49,arg1: -1, arg2: -1, arg3: 31840, arg4: 72194345796632696, name: be.preuveneers.phoneme.fpmidp
+08-27 21:24:22.100 31840 31840 D PhoneME : FrameBufferActivity.onStop
+08-27 21:24:22.100 31840 31840 I wm_on_stop_called: [236864833,be.preuveneers.phoneme.fpmidp.FrameBufferActivity,STOP_ACTIVITY_ITEM,0]
+08-27 21:24:22.104 31840 31862 I HWUI    : [destroy] CanvasContext will be destroyed.
+08-27 21:24:22.111 31840 31840 I ImeTracker: be.preuveneers.phoneme.fpmidp:c25e9aff: onRequestHide at ORIGIN_CLIENT reason HIDE_WINDOW_LOST_FOCUS fromUser false
+08-27 21:24:22.111 31840 31840 I ImeTracker: be.preuveneers.phoneme.fpmidp:c25e9aff: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+08-27 21:24:23.816 28680 28720 I HWUI    : [destroy] CanvasContext will be destroyed.
+08-27 21:24:25.520  8053  8053 W HWUI    : Image decoding logging dropped!

@@ -1,0 +1,65 @@
+range=21:23:57.600..21:24:22.200
+8759 /home/ubuntu/work/edge-menu-build/game_analysis/dangerdash_stable_final_session_raw.txt
+FrameBufferView: updateView: called     1406
+fbCanvasReady=FALSE                     7
+renderFrame returned TRUE               1398
+renderFrame returned FALSE              1
+bitmapBuffer is NULL                    1398
+forwardToGL                             2796
+pushFrame(Bitmap)                       1398
+surfaceview_callback                    9
+surfaceview_layout                      5
+PhoneME :                               58
+PhoneME:                                0
+--- first 50 key events ---
+08-27 21:23:57.664  3163  5095 I wm_create_activity: [0,236864833,19,be.preuveneers.phoneme.fpmidp/.FrameBufferActivity,NULL,NULL,NULL,131072]
+08-27 21:23:57.665  3163  5095 I wm_pause_activity: [0,64933305,be.preuveneers.phoneme.fpmidp/.MidletActivity,userLeaving=true,resumeTopActivity]
+08-27 21:23:57.671  3163  5626 I wm_restart_activity: [0,236864833,19,be.preuveneers.phoneme.fpmidp/.FrameBufferActivity]
+08-27 21:23:57.676 31840 31840 D PhoneME : Trying to load libjniphoneme.so
+08-27 21:23:57.680 31840 31840 E PhoneME : JNI_OnLoad: loading libjniphoneme.so library ...
+08-27 21:23:57.680 31840 31840 D PhoneME : FrameBufferActivity.onCreate
+08-27 21:23:57.686 31840 31840 W HWUI    : Image decoding logging dropped!
+08-27 21:23:57.687 31840 31840 I GLFramebufferView: <init>(Context, Listener) constructor called
+08-27 21:23:57.688 31840 31840 I PhoneME : GLFramebufferView created and added to layout OK
+08-27 21:23:57.689 31840 31840 I PhoneME : SIPOverlayView created and added to layout OK
+08-27 21:23:57.692 31840 31840 D PhoneME : FrameBufferActivity.onStart
+08-27 21:23:57.693 31840 31840 D PhoneME : Start monitor service.
+08-27 21:23:57.699 31840 31840 D PhoneME : FrameBufferActivity.onResume
+08-27 21:23:57.705 31840 31840 D PhoneME : PhoneMEMonitorService.onCreate
+08-27 21:23:57.708 31840 31840 D PhoneME : PhoneMEMonitorService.onStartCommand
+08-27 21:23:57.708 31840 31840 D PhoneME : PhoneMEMonitorService.onStart
+08-27 21:23:57.711 31840 31840 I PhoneME : DisplayHelper: real display = 1080x2358 (via getRealSize)
+08-27 21:23:57.711 31840 31840 I PhoneME : DisplayHelper: content area = 1080x2358 (getCurrentWindowMetrics)
+08-27 21:23:57.711 31840 31840 I PhoneME : GLFramebufferView.onMeasure: view size 1080x2087 (spec=1080x2087 phys=1080x2358)
+08-27 21:23:57.717 31840 31840 I surfaceview_layout: [SV[174596703 FrameBufferActivity],4,1080,2087,-2,layout,1,0,1]
+08-27 21:23:57.725 31840 31840 I surfaceview_callback: [SV[174596703 FrameBufferActivity],surfaceCreated]
+08-27 21:23:57.726 31840 31840 E PhoneME : initFrameBufferSize: surface area is 360x640
+08-27 21:23:57.726 31840 31840 D FrameBufferView: updateView: called
+08-27 21:23:57.726 31840 31840 W FrameBufferView: updateView: renderFrame returned FALSE -> no repaint
+08-27 21:23:57.726 31840 31840 I surfaceview_callback: [SV[174596703 FrameBufferActivity],surfaceChanged -- format=4 w=1080 h=2087]
+08-27 21:23:57.727 31840 31840 E PhoneME : resizeFrameBuffer: surface area is 360x640
+08-27 21:23:57.727 31840 31840 D PhoneME : FrameBufferActivity.keyboardEvent: Keyboard output stream is null
+08-27 21:23:57.727 31840 31840 I surfaceview_callback: [SV[174596703 FrameBufferActivity],surfaceRedrawNeeded]
+08-27 21:23:57.728 31840 31840 I surfaceview_layout: [SV[222938284 FrameBufferActivity],4,1080,2087,-1,setFixedSize,1,0,1]
+08-27 21:23:57.729 31840 31840 I surfaceview_callback: [SV[222938284 FrameBufferActivity],surfaceCreated]
+08-27 21:23:57.729 31840 31840 I surfaceview_callback: [SV[222938284 FrameBufferActivity],surfaceChanged -- format=4 w=1080 h=2087]
+08-27 21:23:57.729 31840 31840 I surfaceview_callback: [SV[222938284 FrameBufferActivity],surfaceRedrawNeeded]
+08-27 21:23:57.834 31840 31840 I surfaceview_layout: [SV[190666101 FrameBufferActivity],4,1080,2011,-2,layout,1,0,0]
+08-27 21:23:57.859 31840 31840 I viewroot_draw_event: [VRI[FrameBufferActivity,type=1],reportDrawFinished seqId=0 mAppVisible = true mStopped = false]
+08-27 21:23:57.884 31840 31840 V ImeFocusController: onWindowFocus: be.preuveneers.phoneme.fpmidp.FrameBufferView{a68225f VFE...... .F...... 0,0-1080,2087} softInputMode=STATE_ALWAYS_HIDDEN|ADJUST_PAN|IS_FORWARD_NAVIGATION
+08-27 21:23:57.943 31840 32111 E PhoneME : callCVM: Not redirecting stdout and stderr handles
+08-27 21:23:57.952 31840 32111 E PhoneME : loadCVMLibrary: surface view callback initialized
+08-27 21:23:57.953 31840 32111 E PhoneME : loadCVMLibrary: draw chars callback initialized
+08-27 21:23:57.954 31840 32111 E PhoneME : /data/data/be.preuveneers.phoneme.fpmidp/foundation/bin/cvm 
+08-27 21:23:57.954 31840 32111 E PhoneME : -Xjit:compile=none 
+08-27 21:23:57.954 31840 32111 E PhoneME : -Xmx64m 
+08-27 21:23:57.954 31840 32111 E PhoneME : -Duser.timezone=GMT+7:00 
+08-27 21:23:57.954 31840 32111 E PhoneME : -Dmicroedition.location.version=1.0 
+08-27 21:23:57.954 31840 32111 E PhoneME : -Dmicroedition.profiles=MIDP-2.1 
+08-27 21:23:57.954 31840 32111 E PhoneME : -Dsun.midp.library.name=midp 
+08-27 21:23:57.954 31840 32111 E PhoneME : -Dsun.midp.home.path=/data/data/be.preuveneers.phoneme.fpmidp/foundation/midp/midp_linux_fb_gcc 
+08-27 21:23:57.954 31840 32111 E PhoneME : -Dcom.sun.midp.mainClass.name=com.sun.midp.main.CdcMIDletSuiteLoader 
+08-27 21:23:57.954 31840 32111 E PhoneME : sun.misc.MIDPLauncher 
+08-27 21:23:57.954 31840 32111 E PhoneME : -jadpath 
+08-27 21:23:57.954 31840 32111 E PhoneME : /data/user/0/be.preuveneers.phoneme.fpmidp/DangerDash_Nokia_5800_EN_IGP_IAP_EU_TS_109.jad 
+--- last 30 key events ---
