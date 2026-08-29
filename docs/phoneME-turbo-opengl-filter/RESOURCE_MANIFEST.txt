@@ -1,0 +1,8 @@
+PhoneME-Turbo OpenGL Filter Resource Pack
+Source artifact: PhoneME-Turbo-nHD-1.1.2.apk
+Shader format: GLES 2.0 / GLSL ES 1.00
+
+1c98b9b7d040ab4e520d134461fda7d4ebee5efa832dc2f1eb939ffbe035df0f  /home/ubuntu/phoneme-work/corebridge-filter-resource/shaders/lcd_grid.frag
+371aeef8e2a0fa11ba56fbc1810d929ae6475553580b53514b3eb818871bcb82  /home/ubuntu/phoneme-work/corebridge-filter-resource/shaders/passthrough.frag
+587c9a9442b80069efc2a046b8d026e740d742112eab1c76e66d61ec8266ab6d  /home/ubuntu/phoneme-work/corebridge-filter-resource/shaders/vertex.vert
+a624b118b49074fab658264bf66966c40ae659e5aa83bf91faaea5760f0170d1  /home/ubuntu/phoneme-work/corebridge-filter-resource/shaders/xbrz_bicubic.frag
